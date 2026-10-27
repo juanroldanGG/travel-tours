@@ -119,21 +119,29 @@
       "kind": "walk",
       "lat": 6.20857,
       "lng": -75.57113,
-      "text": "Walk south along the sidewalk of Carrera 43A, Avenida El Poblado, for about two blocks, until Calle 8."
+      "text": "Walk south along the sidewalk of Carrera 43A, Avenida El Poblado, for about two blocks, then turn left onto Calle 8."
     },
     {
-      "name": "Left onto Calle 8",
-      "kind": "walk",
+      "name": "Café Zorba",
+      "kind": "stop",
       "lat": 6.2084,
       "lng": -75.57063,
-      "text": "Turn left onto Calle 8, away from the traffic."
+      "text": "Here on Calle 8, right by the park, is Café Zorba, one of our favourite spots in El Poblado. It's a lovely place for a coffee or a bite before the green part of the walk. When you're ready, keep following Calle 8 as it turns into a path and goes down into the park.",
+      "place": "Café Zorba Medellín"
     },
     {
-      "name": "Right onto Carrera 42",
+      "name": "Down into the park",
+      "kind": "walk",
+      "lat": 6.20801,
+      "lng": -75.57034,
+      "text": "Follow the path down into the park, toward the stream."
+    },
+    {
+      "name": "Left along the stream",
       "kind": "walk",
       "lat": 6.20774,
       "lng": -75.57034,
-      "text": "Turn right onto Carrera 42 and look for the trees and the path by the stream. It's suddenly much quieter here."
+      "text": "At the bottom, turn left onto the path along the stream. It's suddenly much quieter here."
     },
     {
       "name": "La Presidenta Linear Park",
@@ -141,24 +149,45 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "This green strip follows the La Presidenta stream down the hill, the same stream you crossed near the metro. Medellín is crossed by hundreds of streams like this one, all flowing into the river at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down, and it won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now follow the path east, along the stream.",
-      "photo": "photos/medellin-poblado/16.jpg",
+      "photo": "photos/medellin-poblado/17.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
     },
     {
-      "name": "To Carrera 39",
+      "name": "Along the stream",
+      "kind": "walk",
+      "lat": 6.20769,
+      "lng": -75.56938,
+      "text": "Keep following the path east, along the stream. Medellín's streams flood fast in heavy rain, which is why many of them run in deep channels like this one."
+    },
+    {
+      "name": "Path turns right",
       "kind": "walk",
       "lat": 6.2079,
       "lng": -75.56887,
-      "text": "Follow the path along the stream until you reach Carrera 39. Medellín's streams flood fast in heavy rain, which is why many run in deep channels like this one."
+      "text": "Here the path turns right. Follow it down to the end of the park."
     },
     {
-      "name": "Left onto Calle 8",
+      "name": "Out of the park",
       "kind": "walk",
       "lat": 6.20741,
       "lng": -75.5689,
-      "text": "Walk down Carrera 39 to Calle 8 and turn left, walking east. Look for a bar on this street."
+      "text": "At the end of the park, turn left and walk out to Carrera 39."
+    },
+    {
+      "name": "Left onto Carrera 39",
+      "kind": "walk",
+      "lat": 6.20737,
+      "lng": -75.56859,
+      "text": "Turn left onto Carrera 39 and walk up half a block."
+    },
+    {
+      "name": "Right onto Calle 8",
+      "kind": "walk",
+      "lat": 6.20786,
+      "lng": -75.5684,
+      "text": "At Calle 8, turn sharp right and walk downhill. Look for a bar on this street."
     },
     {
       "name": "La Octava",
@@ -181,7 +210,7 @@
       "lat": 6.20897,
       "lng": -75.56786,
       "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants, and on weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere. The city is often called the capital of reggaetón: stars like J Balvin, Karol G and Maluma all come from Medellín. But you'll also hear salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk up Carrera 38, toward Calle 10.",
-      "photo": "photos/medellin-poblado/21.jpg",
+      "photo": "photos/medellin-poblado/25.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -199,7 +228,7 @@
       "lat": 6.20898,
       "lng": -75.5666,
       "text": "Welcome to Provenza, the trendiest corner of Medellín. These leafy streets are full of small boutiques, restaurants, rooftop bars and cafés. Look into the shops and you'll find many Colombian designers. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. Keep walking east to Carrera 35, the street with the most trees of all.",
-      "photo": "photos/medellin-poblado/23.jpg",
+      "photo": "photos/medellin-poblado/27.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "Provenza Medellín"
@@ -217,7 +246,7 @@
       "lat": 6.2081,
       "lng": -75.56566,
       "text": "This stretch of Carrera 35 is the heart of Provenza: a street shaded by big trees, lined with terraces and restaurants. This is a great place to stop for a while. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Many cafés here serve speciality coffee from small farms; ask where it comes from. Or order a tinto, the small black coffee Colombians drink all day long. And try the fruit juices: lulo is tangy and green inside, maracuyá is passion fruit, guanábana is creamy and sweet.",
-      "photo": "photos/medellin-poblado/25.jpg",
+      "photo": "photos/medellin-poblado/29.jpg",
       "credit": "José Luiz, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Carrera_35_-_Provenza_-_Medell%C3%ADn_-_Colombia_2024_(2).jpg",
       "place": "Carrera 35 Provenza Medellín"

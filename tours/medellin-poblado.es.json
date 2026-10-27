@@ -119,21 +119,29 @@
       "kind": "walk",
       "lat": 6.20857,
       "lng": -75.57113,
-      "text": "Camina hacia el sur por el andén de la Carrera 43A, la Avenida El Poblado, unas dos cuadras, hasta la Calle 8."
+      "text": "Camina hacia el sur por el andén de la Carrera 43A, la Avenida El Poblado, unas dos cuadras, y gira a la izquierda por la Calle 8."
     },
     {
-      "name": "A la izquierda por la Calle 8",
-      "kind": "walk",
+      "name": "Café Zorba",
+      "kind": "stop",
       "lat": 6.2084,
       "lng": -75.57063,
-      "text": "Gira a la izquierda por la Calle 8, alejándote del tráfico."
+      "text": "Aquí en la Calle 8, junto al parque, está Café Zorba, uno de nuestros lugares favoritos de El Poblado. Es un sitio muy agradable para tomarse un café o comer algo antes de la parte verde del paseo. Cuando estés listo, sigue la Calle 8, que se vuelve un sendero y baja hacia el parque.",
+      "place": "Café Zorba Medellín"
     },
     {
-      "name": "A la derecha por la Carrera 42",
+      "name": "Bajando al parque",
+      "kind": "walk",
+      "lat": 6.20801,
+      "lng": -75.57034,
+      "text": "Sigue el sendero que baja al parque, hacia la quebrada."
+    },
+    {
+      "name": "A la izquierda junto a la quebrada",
       "kind": "walk",
       "lat": 6.20774,
       "lng": -75.57034,
-      "text": "Gira a la derecha por la Carrera 42 y busca los árboles y el sendero junto a la quebrada. De repente todo está mucho más tranquilo."
+      "text": "Abajo, gira a la izquierda por el sendero junto a la quebrada. De repente todo está mucho más tranquilo."
     },
     {
       "name": "Parque Lineal La Presidenta",
@@ -141,24 +149,45 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "Esta franja verde sigue la quebrada La Presidenta colina abajo, la misma que cruzaste cerca del metro. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad, y hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sigue el sendero hacia el oriente, junto a la quebrada.",
-      "photo": "photos/medellin-poblado/16.jpg",
+      "photo": "photos/medellin-poblado/17.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
     },
     {
-      "name": "Hasta la Carrera 39",
+      "name": "Junto a la quebrada",
+      "kind": "walk",
+      "lat": 6.20769,
+      "lng": -75.56938,
+      "text": "Sigue el sendero hacia el oriente, junto a la quebrada. Las quebradas de Medellín crecen rápido con los aguaceros, por eso muchas corren por canales hondos como este."
+    },
+    {
+      "name": "El sendero gira a la derecha",
       "kind": "walk",
       "lat": 6.2079,
       "lng": -75.56887,
-      "text": "Sigue el sendero junto a la quebrada hasta la Carrera 39. Las quebradas de Medellín crecen rápido con los aguaceros, por eso muchas corren por canales hondos como este."
+      "text": "Aquí el sendero gira a la derecha. Síguelo hasta el final del parque."
     },
     {
-      "name": "A la izquierda por la Calle 8",
+      "name": "Saliendo del parque",
       "kind": "walk",
       "lat": 6.20741,
       "lng": -75.5689,
-      "text": "Baja por la Carrera 39 hasta la Calle 8 y gira a la izquierda, hacia el oriente. Busca un bar en esta calle."
+      "text": "Al final del parque, gira a la izquierda y sal hasta la Carrera 39."
+    },
+    {
+      "name": "A la izquierda por la Carrera 39",
+      "kind": "walk",
+      "lat": 6.20737,
+      "lng": -75.56859,
+      "text": "Gira a la izquierda por la Carrera 39 y sube media cuadra."
+    },
+    {
+      "name": "A la derecha por la Calle 8",
+      "kind": "walk",
+      "lat": 6.20786,
+      "lng": -75.5684,
+      "text": "En la Calle 8, gira bien a la derecha y baja. Busca un bar en esta calle."
     },
     {
       "name": "La Octava",
@@ -181,7 +210,7 @@
       "lat": 6.20897,
       "lng": -75.56786,
       "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes, y los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes. A esta ciudad le dicen la capital del reguetón: estrellas como J Balvin, Karol G y Maluma son de Medellín. Pero también vas a oír salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora sube por la Carrera 38, hacia la Calle 10.",
-      "photo": "photos/medellin-poblado/21.jpg",
+      "photo": "photos/medellin-poblado/25.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -199,7 +228,7 @@
       "lat": 6.20898,
       "lng": -75.5666,
       "text": "Bienvenido a Provenza, el rincón más de moda de Medellín. Estas calles llenas de árboles tienen pequeñas tiendas, restaurantes, terrazas y cafés. Entra a las tiendas y vas a encontrar muchos diseñadores colombianos. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el recorrido del Centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Sigue caminando hacia el oriente hasta la Carrera 35, la calle con más árboles de todas.",
-      "photo": "photos/medellin-poblado/23.jpg",
+      "photo": "photos/medellin-poblado/27.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "Provenza Medellín"
@@ -217,7 +246,7 @@
       "lat": 6.2081,
       "lng": -75.56566,
       "text": "Este tramo de la Carrera 35 es el corazón de Provenza: una calle a la sombra de árboles grandes, llena de terrazas y restaurantes. Es un buen lugar para quedarse un rato. Colombia es uno de los grandes países cafeteros del mundo, y las montañas alrededor de Medellín también son tierra de café. Muchos cafés aquí sirven café de especialidad de fincas pequeñas; pregunta de dónde viene. O pide un tinto, el café negro pequeño que los colombianos toman todo el día. Y prueba los jugos: el lulo es ácido y verde por dentro, el maracuyá es fruta de la pasión, y la guanábana es cremosa y dulce.",
-      "photo": "photos/medellin-poblado/25.jpg",
+      "photo": "photos/medellin-poblado/29.jpg",
       "credit": "José Luiz, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Carrera_35_-_Provenza_-_Medell%C3%ADn_-_Colombia_2024_(2).jpg",
       "place": "Carrera 35 Provenza Medellín"
