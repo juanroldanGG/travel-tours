@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paseo · Tour</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#aaa; --card:#232323; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg);
+         display:flex; flex-direction:column; height:100dvh; }
+  header { padding:10px 16px; display:flex; gap:12px; align-items:flex-start; }
+  header > div { flex:1; min-width:0; }
+  h1 { font-size:18px; margin:0; }
+  a { color:inherit; }
+  .back { font-size:14px; color:var(--muted); text-decoration:none; }
+  #status { color:var(--muted); font-size:14px; margin-top:2px; }
+  select { font:inherit; font-size:14px; padding:6px; border-radius:8px; background:var(--bg); color:var(--fg); }
+  #map { flex:1; min-height:140px; }
+  .sheet { padding:12px 16px; background:var(--card); display:flex; flex-direction:column; gap:10px; }
+  .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  #now { flex:1; font-size:15px; font-weight:600; min-width:0; }
+  button, .btn { font:inherit; border:0; border-radius:999px; padding:11px 18px; background:var(--accent); color:#fff;
+                 cursor:pointer; text-decoration:none; display:inline-block; text-align:center; }
+  .small { background:transparent; color:var(--fg); border:1px solid var(--muted); padding:8px 12px; font-size:14px; }
+  .grow { flex:1; }
+  .meta { color:var(--muted); font-size:14px; }
+  #photo { display:none; gap:10px; align-items:flex-start; }
+  #photo img { width:110px; height:80px; object-fit:cover; border-radius:10px; flex:none; }
+  #photo .credit { font-size:11px; color:var(--muted); }
+  #photo.big { flex-direction:column; }
+  #photo.big img { width:100%; height:30vh; }
+  #photo.big > div { display:flex; gap:8px; align-items:center; justify-content:space-between; width:100%; }
+  #txt { font-size:14px; color:var(--muted); max-height:22vh; overflow:auto; }
+  .num { background:var(--accent); color:#fff; border-radius:50%; width:28px; height:28px;
+         display:grid; place-items:center; font-weight:700; border:2px solid #fff; }
+  .dot { background:var(--accent); width:12px; height:12px; border-radius:50%; border:2px solid #fff; }
+  .done { background:#888; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <a class="back" href="./" id="back">← All tours</a>
+    <h1 id="title">Loading…</h1>
+    <div id="status"></div>
+  </div>
+  <select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option></select>
+</header>
+<div id="map"></div>
+
+<!-- Before the tour starts -->
+<section class="sheet" id="startSheet">
+  <div class="meta" id="facts"></div>
+  <div id="summary"></div>
+  <div class="row">
+    <button id="walk" class="grow"></button>
+    <button id="home" class="grow small"></button>
+  </div>
+  <div class="row">
+    <a id="directions" class="btn small grow" target="_blank" rel="noopener"></a>
+    <button id="download" class="small grow"></button>
+  </div>
+</section>
+
+<!-- During the tour -->
+<section class="sheet" id="playSheet" hidden>
+  <div id="photo">
+    <img alt="">
+    <div><div class="credit"></div><a class="small btn" id="streetview" target="_blank" rel="noopener"></a></div>
+  </div>
+  <div class="row">
+    <div id="now"></div>
+    <button id="speed" class="small">1x</button>
+  </div>
+  <div class="row">
+    <button id="btn" class="grow"></button>
+    <button id="next" class="small grow"></button>
+    <button id="pause" class="small grow"></button>
+  </div>
+  <details id="txt"><summary id="readAlong"></summary><p id="words"></p></details>
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const RADIUS = 30; // metres from a stop before its audio plays
+const T = { // screen text per language; the tour text itself lives in tours/<tour>.<lang>.json
+  en: { all: '← All tours', hint: 'Walk the route, or listen from home.', walk: '▶ Start walking', home: '🏠 Play at home', dir: '📍 Directions to start',
+        dl: '⬇ Download for offline', dling: 'Downloading…', dled: '✓ Saved on this phone', dlfail: 'Download failed, try again',
+        pause: 'Pause', play: 'Play', next: 'Next stop ▶', brk: '☕ Take a break', resume: '▶ Resume tour',
+        onBreak: 'On a break. Your place is saved, come back any time.', look: 'Look around',
+        read: 'Read along', intro: 'Introduction', done: 'Tour finished. Obrigado!', next_: (n, d) => `Next stop: ${n}, ${d} m away`,
+        noGps: 'Turn on location to follow the tour.', demo: 'Test mode: move the mouse (or tap) on the map to "walk".',
+        athome: 'Playing at home: stops play one after another.',
+        facts: (m, k, n) => `${Math.floor(m / 60)} h ${m % 60 ? m % 60 + ' min' : ''} · ${k} km · ${n} stops`,
+        back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over', walkBack: '▶ Resume walking', homeBack: '🏠 Resume at home' },
+  es: { all: '← Todos los recorridos', hint: 'Camina la ruta, o escúchala desde casa.', walk: '▶ Empezar a caminar', home: '🏠 Escuchar en casa', dir: '📍 Cómo llegar al inicio',
+        dl: '⬇ Descargar sin internet', dling: 'Descargando…', dled: '✓ Guardado en este celular', dlfail: 'Falló la descarga, intenta otra vez',
+        pause: 'Pausa', play: 'Seguir', next: 'Siguiente ▶', brk: '☕ Tomar un descanso', resume: '▶ Seguir el recorrido',
+        onBreak: 'En descanso. Tu lugar quedó guardado, vuelve cuando quieras.', look: 'Mirar alrededor',
+        read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado. Obrigado!', next_: (n, d) => `Próxima parada: ${n}, a ${d} m`,
+        noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: mueve el mouse (o toca) el mapa para "caminar".',
+        athome: 'En casa: las paradas suenan una tras otra.',
+        facts: (m, k, n) => `${Math.floor(m / 60)} h ${m % 60 ? m % 60 + ' min' : ''} · ${k} km · ${n} paradas`,
+        back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo', walkBack: '▶ Seguir caminando', homeBack: '🏠 Seguir en casa' },
+};
+const params = new URLSearchParams(location.search);
+const demo = params.has('demo'); // move the mouse on the map to fake your location
+const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
+const t = T[lang];
+const tourId = ['lisbon', 'porto'].includes(params.get('tour')) ? params.get('tour') : 'lisbon';
+const audio = new Audio();
+const $ = id => document.getElementById(id);
+let tour, markers = [], played = new Set(), started = false, atHome = false, onBreak = false, me, last, nums = [], current = null;
+const key = k => `${k}:${tourId}:${lang}`;
+const store = (k, v) => { try { localStorage.setItem(key(k), JSON.stringify(v)); } catch {} };
+const recall = k => { try { return JSON.parse(localStorage.getItem(key(k))); } catch { return null; } };
+const save = () => store('played', [...played]);
+
+const map = L.map('map');
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', // ponytail: OSM tiles only for testing; switch to MapTiler before selling
+  { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
+
+function dist(a, b) { // metres between two lat/lng points
+  const R = 6371000, r = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+  const h = Math.sin(dLat/2)**2 + Math.cos(a.lat*r) * Math.cos(b.lat*r) * Math.sin(dLng/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+function icon(i) { // numbered circle for a stop, small dot for walking directions
+  const done = played.has(i) ? 'done' : '';
+  return tour.stops[i].kind === 'walk'
+    ? L.divIcon({ className: '', iconSize: [12, 12], html: `<div class="dot ${done}"></div>` })
+    : L.divIcon({ className: '', iconSize: [28, 28], html: `<div class="num ${done}">${nums[i]}</div>` });
+}
+
+function showMe(pos) {
+  me ? me.setLatLng(pos) : me = L.circleMarker(pos, { radius: 8, color: '#1a73e8', fillOpacity: 1 }).addTo(map);
+}
+
+function play(i) { // i = -1 is the intro
+  current = i;
+  audio.src = `${tour.audio}/${i + 1}.mp3`;
+  audio.play().catch(() => {});
+  const s = tour.stops[i];
+  $('now').textContent = i < 0 ? t.intro : s.kind === 'walk' ? `🚶 ${s.name}` : `${nums[i]}. ${s.name}`;
+  $('words').textContent = i < 0 ? tour.intro : s.text;
+  $('btn').textContent = t.pause;
+  const ph = $('photo'), p = i >= 0 && s.photo ? s : null;
+  ph.style.display = p ? 'flex' : 'none';
+  if (p) {
+    ph.querySelector('img').src = p.photo;
+    ph.querySelector('.credit').innerHTML = `📷 <a href="${p.source}" target="_blank" rel="noopener">${p.credit}</a>`;
+    $('streetview').href = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${p.lat},${p.lng}`;
+  }
+  if (i >= 0) {
+    played.add(i); markers[i].setIcon(icon(i)); save();
+    if (atHome) { showMe(s); map.panTo([s.lat, s.lng]); }
+  }
+  updateStatus();
+}
+
+const nextIndex = () => tour.stops.findIndex((_, i) => !played.has(i));
+
+function updateStatus() {
+  if (onBreak) return $('status').textContent = t.onBreak;
+  const next = tour.stops.findIndex((s, i) => !played.has(i) && s.kind !== 'walk');
+  if (next < 0) return $('status').textContent = t.done;
+  if (atHome) return $('status').textContent = t.athome;
+  if (last) $('status').textContent = t.next_(tour.stops[next].name, Math.round(dist(last, tour.stops[next])));
+}
+
+function onMove(pos) {
+  last = pos;
+  showMe(pos);
+  if (onBreak || atHome) return;
+  // ponytail: plays any unplayed stop in range, not only the next one; fine for a linear walk
+  const hit = tour.stops.findIndex((s, i) => !played.has(i) && dist(pos, s) < RADIUS);
+  if (hit >= 0 && audio.paused) play(hit);
+  updateStatus();
+}
+
+async function start(home) {
+  started = true; atHome = home; store('mode', home ? 'home' : 'walk');
+  $('photo').classList.toggle('big', home); // at home the photo is what you look at
+  $('startSheet').hidden = true; $('playSheet').hidden = false;
+  if (!played.size) play(-1); // first play inside a tap, so phones allow audio later
+  else if (home) play(nextIndex());
+  else { audio.src = ''; $('now').textContent = t.back(played.size, tour.stops.length); $('btn').textContent = t.play; }
+  try { await navigator.wakeLock?.request('screen'); } catch {} // GPS stops when the screen locks
+  if (!home && !demo) navigator.geolocation.watchPosition(
+    p => onMove({ lat: p.coords.latitude, lng: p.coords.longitude }),
+    () => $('status').textContent = t.noGps,
+    { enableHighAccuracy: true });
+  updateStatus();
+}
+
+$('walk').onclick = () => start(false);
+$('home').onclick = () => start(true);
+$('btn').onclick = () => {
+  if (!audio.src || audio.ended) return play(nextIndex()); // nothing loaded yet: play the next stop
+  if (audio.paused) { audio.play(); $('btn').textContent = t.pause; }
+  else { audio.pause(); $('btn').textContent = t.play; }
+};
+$('next').onclick = () => { if (nextIndex() >= 0) play(nextIndex()); }; // "I'm here": for when GPS is off or wrong
+$('pause').onclick = () => {
+  onBreak = !onBreak;
+  $('pause').textContent = onBreak ? t.resume : t.brk;
+  if (onBreak) { audio.pause(); $('btn').textContent = t.play; }
+  else if (audio.src && !audio.ended && audio.currentTime) { audio.play(); $('btn').textContent = t.pause; }
+  else if (atHome) play(nextIndex());
+  else if (last) onMove(last);
+  updateStatus();
+};
+audio.onended = () => {
+  $('btn').textContent = t.play;
+  if (onBreak) return;
+  if (atHome) { const n = nextIndex(); if (n >= 0) setTimeout(() => !onBreak && audio.ended && play(n), 1500); else updateStatus(); }
+  else if (last) onMove(last); // play anything reached while talking
+};
+$('speed').onclick = () => { // 1x → 1.25x → 1.5x → 1x
+  audio.playbackRate = audio.playbackRate >= 1.5 ? 1 : audio.playbackRate + 0.25;
+  $('speed').textContent = audio.playbackRate + 'x';
+};
+audio.onplay = () => audio.playbackRate = parseFloat($('speed').textContent); // new src resets the speed
+
+// Download for offline: the service worker saves the page, tour text, audio and photos on the phone.
+// ponytail: map tiles aren't saved (OSM rules forbid bulk download), so the map may be blank offline; add with MapTiler offline packs later.
+async function download() {
+  $('download').textContent = t.dling;
+  try {
+    const reg = await navigator.serviceWorker.ready;
+    const files = [location.pathname.replace(/[^/]*$/, '') + 'tour.html', `tours/${tourId}.${lang}.json`,
+      'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js',
+      ...[-1, ...tour.stops.keys()].map(i => `${tour.audio}/${i + 1}.mp3`),
+      ...tour.stops.filter(s => s.photo).map(s => s.photo)];
+    const ok = await new Promise(res => {
+      navigator.serviceWorker.onmessage = e => res(e.data.downloaded);
+      reg.active.postMessage({ download: files });
+    });
+    if (!ok) throw 0;
+    store('offline', true); $('download').textContent = t.dled;
+  } catch { $('download').textContent = t.dlfail; }
+}
+$('download').onclick = download;
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+
+$('lang').value = lang;
+$('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
+$('back').href = `./?lang=${lang}`; $('back').textContent = t.all;
+$('status').textContent = demo ? t.demo : t.hint;
+$('walk').textContent = t.walk; $('home').textContent = t.home;
+$('directions').textContent = t.dir; $('download').textContent = recall('offline') ? t.dled : t.dl;
+$('next').textContent = t.next; $('pause').textContent = t.brk; $('btn').textContent = t.play;
+$('readAlong').textContent = t.read; $('streetview').textContent = t.look;
+
+fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
+  tour = tr;
+  document.title = `Paseo · ${tour.title}`;
+  $('title').textContent = tour.title;
+  $('summary').textContent = tour.summary;
+  let n = 0; nums = tour.stops.map(s => s.kind === 'walk' ? 0 : ++n);
+  $('facts').textContent = t.facts(tour.minutes, tour.km, n);
+  const s0 = tour.stops[0];
+  $('directions').href = `https://www.google.com/maps/dir/?api=1&destination=${s0.lat},${s0.lng}&travelmode=walking`;
+  (recall('played') || []).forEach(i => played.add(i)); // pick up where you left off
+  if (played.size) {
+    $('facts').innerHTML += `<br>${t.back(played.size, tour.stops.length)} <button id="reset" class="small">${t.over}</button>`;
+    $('reset').onclick = () => { played.clear(); save(); location.reload(); };
+    $('walk').textContent = t.walkBack; $('home').textContent = t.homeBack;
+  }
+  const pts = tour.stops.map(s => [s.lat, s.lng]);
+  L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);
+  markers = tour.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
+    .addTo(map).bindTooltip(s.name).on('click', () => started && play(i)));
+  map.fitBounds(pts, { padding: [30, 30] });
+  if (demo) map.on('click mousemove', e => started && !atHome && onMove(e.latlng)); // mouse on computer, tap on phone
+});
+</script>
+</body>
+</html>

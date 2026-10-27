@@ -3,158 +3,208 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Walking Tours</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<title>Paseo · Audio walking tours</title>
+<meta name="description" content="Self-guided audio walking tours with clear, natural voices in English and Spanish. Walk at your own pace, stop for coffee, and listen offline.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- ponytail: Tailwind from its CDN keeps this a single file; switch to a build step before launch -->
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+  tailwind.config = { darkMode: 'media', theme: { extend: {
+    fontFamily: { serif: ['"Instrument Serif"', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
+    colors: { brand: '#c8102e' } } } };
+</script>
 <style>
-  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#aaa; --card:#232323; } }
-  * { box-sizing:border-box; }
-  body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg);
-         display:flex; flex-direction:column; height:100dvh; }
-  header { padding:12px 16px; display:flex; gap:12px; align-items:flex-start; }
-  header > div:first-child { flex:1; }
-  .pick { display:flex; flex-direction:column; gap:6px; }
-  select { font:inherit; font-size:14px; padding:6px; border-radius:8px; background:var(--bg); color:var(--fg); }
-  h1 { font-size:18px; margin:0; }
-  #status { color:var(--muted); font-size:14px; margin-top:2px; }
-  #map { flex:1; }
-  footer { padding:12px 16px; background:var(--card); display:flex; gap:12px; align-items:center; }
-  #now { flex:1; font-size:15px; }
-  button { font:inherit; border:0; border-radius:999px; padding:12px 20px; background:var(--accent); color:#fff; cursor:pointer; }
-  .num { background:var(--accent); color:#fff; border-radius:50%; width:28px; height:28px;
-         display:grid; place-items:center; font-weight:700; border:2px solid #fff; }
-  .num.done { background:#888; }
-  .dot { background:var(--accent); width:12px; height:12px; border-radius:50%; border:2px solid #fff; }
-  .dot.done { background:#888; }
-  footer { flex-wrap:wrap; }
-  #txt { flex-basis:100%; font-size:14px; color:var(--muted); max-height:30vh; overflow:auto; }
-  .small { background:transparent; color:var(--fg); border:1px solid var(--muted); padding:8px 12px; font-size:14px; }
+  @keyframes fadeSlideIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+  .fade-1 { animation: fadeSlideIn .7s .05s both; } .fade-2 { animation: fadeSlideIn .7s .15s both; }
+  .fade-3 { animation: fadeSlideIn .7s .25s both; } .fade-4 { animation: fadeSlideIn .7s .35s both; }
+  @media (prefers-reduced-motion: reduce) { [class*="fade-"] { animation: none; } }
 </style>
 </head>
-<body>
-<header>
-  <div><h1 id="title">Loading…</h1><div id="status"></div></div>
-  <div class="pick">
-    <select id="tour" aria-label="Tour"><option value="lisbon">Lisboa</option><option value="porto">Porto</option></select>
-    <select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option></select>
+<body class="bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 font-sans antialiased">
+
+<!-- Hero (adapted from 21st.dev "Responsive Hero Banner") -->
+<section class="w-full isolate min-h-[100svh] overflow-hidden relative">
+  <img src="photos/hero.jpg" alt="Alfama rooftops and the river Tagus from the Santa Luzia viewpoint, Lisbon" class="w-full h-full object-cover absolute inset-0">
+  <div class="absolute inset-0 bg-gradient-to-b from-black/65 via-black/45 to-black/75"></div>
+
+  <header class="z-10 relative">
+    <div class="mx-4 sm:mx-6 flex items-center justify-between pt-4">
+      <a href="./" class="inline-flex items-center gap-2 text-white" aria-label="Paseo home">
+        <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+          <path d="M17 3c-5.5 0-10 4.3-10 9.8C7 20 17 31 17 31s10-11 10-18.2C27 7.3 22.5 3 17 3z" fill="#c8102e"/>
+          <path d="M13 11.5a5 5 0 0 1 0 5M16 9.5a8 8 0 0 1 0 9M19.5 8a10.5 10.5 0 0 1 0 12" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="font-serif text-2xl">Paseo</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-1 rounded-full bg-white/5 px-1 py-1 ring-1 ring-white/10 backdrop-blur">
+        <a href="#tours" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navTours">Tours</a>
+        <a href="#how" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navHow">How it works</a>
+        <a href="#why" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navWhy">Why Paseo</a>
+        <button class="lang px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="other">Español</button>
+        <a href="#tours" class="ml-1 inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-2 text-sm font-medium text-neutral-900 hover:bg-white/90">
+          <span data-i18n="cta">Try a tour</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="h-4 w-4"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </a>
+      </nav>
+      <button id="menuBtn" class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 ring-1 ring-white/15 backdrop-blur" aria-expanded="false" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="h-5 w-5 text-white/90"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+      </button>
+    </div>
+    <div id="menu" class="md:hidden hidden mx-4 mt-2 rounded-2xl bg-black/60 backdrop-blur ring-1 ring-white/10 p-2 text-white">
+      <a href="#tours" class="block px-3 py-2" data-i18n="navTours">Tours</a>
+      <a href="#how" class="block px-3 py-2" data-i18n="navHow">How it works</a>
+      <a href="#why" class="block px-3 py-2" data-i18n="navWhy">Why Paseo</a>
+      <button class="lang block w-full text-left px-3 py-2" data-i18n="other">Español</button>
+    </div>
+  </header>
+
+  <div class="z-10 relative max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-32 lg:pt-40 pb-16">
+    <div class="mx-auto max-w-3xl text-center">
+      <div class="mb-6 inline-flex items-center gap-3 rounded-full bg-white/10 px-2.5 py-2 ring-1 ring-white/15 backdrop-blur fade-1">
+        <span class="text-xs font-medium text-neutral-900 bg-white/90 rounded-full py-0.5 px-2" data-i18n="badge">New</span>
+        <span class="text-sm font-medium text-white/90" data-i18n="badgeText">Lisbon and Porto tours are live</span>
+      </div>
+      <h1 class="font-serif font-normal text-white tracking-tight leading-tight text-5xl sm:text-6xl lg:text-7xl fade-2">
+        <span data-i18n="title1">Walk the city.</span><br><span data-i18n="title2">Hear its stories.</span>
+      </h1>
+      <p class="text-white/85 text-base sm:text-lg max-w-2xl mt-6 mx-auto fade-3" data-i18n="lead">
+        Self-guided audio tours that play on their own as you reach each place. Clear, natural voices in English and Spanish. Stop for coffee whenever you like.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-10 items-center justify-center fade-4">
+        <a href="#tours" class="inline-flex items-center gap-2 rounded-full bg-brand hover:bg-brand/90 text-white text-sm font-medium py-3 px-5">
+          <span data-i18n="browse">Browse tours</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="h-4 w-4"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <a id="sample" href="tour.html?tour=lisbon" class="inline-flex items-center gap-2 rounded-full bg-white/10 hover:bg-white/15 ring-1 ring-white/15 text-white text-sm font-medium py-3 px-5">
+          <span data-i18n="listen">Listen from home</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="w-4 h-4"><path d="M5 5a2 2 0 0 1 3-1.7l12 7a2 2 0 0 1 0 3.4l-12 7A2 2 0 0 1 5 19z"/></svg>
+        </a>
+      </div>
+    </div>
+    <ul class="mx-auto mt-16 max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-3 text-center text-sm text-white/85 fade-4">
+      <li class="rounded-full bg-white/10 ring-1 ring-white/15 backdrop-blur py-2 px-3" data-i18n="chip1">🎧 Clear AI voices</li>
+      <li class="rounded-full bg-white/10 ring-1 ring-white/15 backdrop-blur py-2 px-3" data-i18n="chip2">🌎 English &amp; Español</li>
+      <li class="rounded-full bg-white/10 ring-1 ring-white/15 backdrop-blur py-2 px-3" data-i18n="chip3">📶 Works offline</li>
+      <li class="rounded-full bg-white/10 ring-1 ring-white/15 backdrop-blur py-2 px-3" data-i18n="chip4">☕ Stop any time</li>
+    </ul>
   </div>
-</header>
-<div id="map"></div>
-<footer>
-  <div id="now"></div>
-  <button id="speed" class="small">1x</button>
-  <button id="btn">Start</button>
-  <details id="txt"><summary id="readAlong"></summary><p id="words"></p></details>
+</section>
+
+<!-- Tours (adapted from 21st.dev "Shop by Category Grid") -->
+<section id="tours" class="py-16 md:py-24">
+  <div class="mx-auto max-w-6xl px-4 md:px-6">
+    <div class="mx-auto mb-8 md:mb-12 max-w-3xl text-center">
+      <span class="inline-flex rounded-full bg-brand text-white px-2.5 py-0.5 text-xs font-semibold" data-i18n="toursBadge">Tours</span>
+      <h2 class="mt-4 font-serif text-4xl md:text-5xl" data-i18n="toursTitle">Pick a city, press play</h2>
+      <p class="mt-4 text-lg text-neutral-600 dark:text-neutral-400" data-i18n="toursLead">Each tour is 2 hours or less, with stories at every stop and directions in between.</p>
+    </div>
+    <div id="cards" class="grid gap-6 sm:grid-cols-2"></div>
+  </div>
+</section>
+
+<!-- How it works -->
+<section id="how" class="py-16 md:py-24 bg-neutral-100 dark:bg-neutral-900">
+  <div class="mx-auto max-w-6xl px-4 md:px-6">
+    <h2 class="text-center font-serif text-4xl md:text-5xl" data-i18n="howTitle">How it works</h2>
+    <ol class="mt-12 grid gap-6 md:grid-cols-3">
+      <li class="rounded-2xl bg-white dark:bg-neutral-950 p-6"><div class="text-3xl">📍</div><h3 class="mt-3 text-xl font-semibold" data-i18n="how1t">Go to the start</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="how1">One tap opens Google Maps with walking directions to the first stop.</p></li>
+      <li class="rounded-2xl bg-white dark:bg-neutral-950 p-6"><div class="text-3xl">🎧</div><h3 class="mt-3 text-xl font-semibold" data-i18n="how2t">Put your headphones in</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="how2">The story starts on its own at each place, and tells you where to turn next.</p></li>
+      <li class="rounded-2xl bg-white dark:bg-neutral-950 p-6"><div class="text-3xl">☕</div><h3 class="mt-3 text-xl font-semibold" data-i18n="how3t">Go at your own pace</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="how3">Take a break for lunch and pick up exactly where you left off, today or tomorrow.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Why -->
+<section id="why" class="py-16 md:py-24">
+  <div class="mx-auto max-w-6xl px-4 md:px-6">
+    <h2 class="text-center font-serif text-4xl md:text-5xl" data-i18n="whyTitle">Why Paseo</h2>
+    <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w1t">Voices you can understand</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w1">Clear, natural narration in your language. No strong accents, no mumbling.</p></div>
+      <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w2t">Free while in preview</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w2">Try every tour free while we're in preview. Later, a fraction of the price of other audio tours.</p></div>
+      <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w3t">No data needed</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w3">Download the tour on Wi-Fi and walk without roaming charges.</p></div>
+      <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w4t">Tour from your sofa</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w4">Play any tour at home with photos of every stop. Great for planning a trip.</p></div>
+      <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w5t">Read along</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w5">Every stop's words on screen, and play speed from 1x to 1.5x.</p></div>
+      <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w6t">GPS acting up?</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w6">Tap "Next stop" any time. You're always in control.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-neutral-200 dark:border-neutral-800 py-8 text-sm text-neutral-500">
+  <div class="mx-auto max-w-6xl px-4 md:px-6 flex flex-col sm:flex-row gap-2 justify-between">
+    <span>© 2026 Paseo</span>
+    <span><span data-i18n="photos">Photos</span>: <a class="underline" href="https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg" target="_blank" rel="noopener">Jakub Hałun, CC BY 4.0</a> <span data-i18n="andOthers">and Wikimedia Commons contributors (credited in each tour)</span>.</span>
+  </div>
 </footer>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script>
-const RADIUS = 30; // metres from a stop before its audio plays
+const TXT = {
+  en: { other: 'Español', navTours: 'Tours', navHow: 'How it works', navWhy: 'Why Paseo', cta: 'Try a tour', badge: 'New',
+        badgeText: 'Lisbon and Porto tours are live', title1: 'Walk the city.', title2: 'Hear its stories.',
+        lead: 'Self-guided audio tours that play on their own as you reach each place. Clear, natural voices in English and Spanish. Stop for coffee whenever you like.',
+        browse: 'Browse tours', listen: 'Listen from home', chip1: '🎧 Clear AI voices', chip2: '🌎 English & Español', chip3: '📶 Works offline', chip4: '☕ Stop any time',
+        toursBadge: 'Tours', toursTitle: 'Pick a city, press play', toursLead: 'Each tour is 2 hours or less, with stories at every stop and directions in between.',
+        howTitle: 'How it works', how1t: 'Go to the start', how1: 'One tap opens Google Maps with walking directions to the first stop.',
+        how2t: 'Put your headphones in', how2: 'The story starts on its own at each place, and tells you where to turn next.',
+        how3t: 'Go at your own pace', how3: 'Take a break for lunch and pick up exactly where you left off, today or tomorrow.',
+        whyTitle: 'Why Paseo', w1t: 'Voices you can understand', w1: 'Clear, natural narration in your language. No strong accents, no mumbling.',
+        w2t: 'Free while in preview', w2: "Try every tour free while we're in preview. Later, a fraction of the price of other audio tours.",
+        w3t: 'No data needed', w3: 'Download the tour on Wi-Fi and walk without roaming charges.',
+        w4t: 'Tour from your sofa', w4: 'Play any tour at home with photos of every stop. Great for planning a trip.',
+        w5t: 'Read along', w5: "Every stop's words on screen, and play speed from 1x to 1.5x.",
+        w6t: 'GPS acting up?', w6: 'Tap "Next stop" any time. You\'re always in control.',
+        photos: 'Photos', andOthers: 'and Wikimedia Commons contributors (credited in each tour)',
+        stops: 'stops', start: 'Start tour', new: 'New' },
+  es: { other: 'English', navTours: 'Recorridos', navHow: 'Cómo funciona', navWhy: 'Por qué Paseo', cta: 'Prueba un recorrido', badge: 'Nuevo',
+        badgeText: 'Ya están Lisboa y Oporto', title1: 'Camina la ciudad.', title2: 'Escucha sus historias.',
+        lead: 'Recorridos de audio que suenan solos cuando llegas a cada lugar. Voces claras y naturales en español e inglés. Para a tomar un café cuando quieras.',
+        browse: 'Ver recorridos', listen: 'Escuchar desde casa', chip1: '🎧 Voces claras con IA', chip2: '🌎 Español e inglés', chip3: '📶 Funciona sin internet', chip4: '☕ Para cuando quieras',
+        toursBadge: 'Recorridos', toursTitle: 'Elige una ciudad y dale play', toursLead: 'Cada recorrido dura 2 horas o menos, con historias en cada parada e indicaciones entre ellas.',
+        howTitle: 'Cómo funciona', how1t: 'Llega al inicio', how1: 'Con un toque se abre Google Maps con la ruta a pie hasta la primera parada.',
+        how2t: 'Ponte los audífonos', how2: 'La historia empieza sola en cada lugar, y te dice por dónde seguir.',
+        how3t: 'A tu ritmo', how3: 'Para a almorzar y sigue exactamente donde quedaste, hoy o mañana.',
+        whyTitle: 'Por qué Paseo', w1t: 'Voces que se entienden', w1: 'Narración clara y natural en tu idioma. Sin acentos difíciles.',
+        w2t: 'Gratis durante la versión de prueba', w2: 'Prueba todos los recorridos gratis por ahora. Después, a una fracción del precio de otros recorridos de audio.',
+        w3t: 'Sin gastar datos', w3: 'Descarga el recorrido con Wi-Fi y camina sin roaming.',
+        w4t: 'Recorre desde el sofá', w4: 'Escucha cualquier recorrido en casa, con fotos de cada parada. Ideal para planear el viaje.',
+        w5t: 'Lee mientras escuchas', w5: 'El texto de cada parada en pantalla, y velocidad de 1x a 1.5x.',
+        w6t: '¿Falla el GPS?', w6: 'Toca "Siguiente" cuando quieras. Siempre tienes el control.',
+        photos: 'Fotos', andOthers: 'y colaboradores de Wikimedia Commons (con crédito en cada recorrido)',
+        stops: 'paradas', start: 'Empezar', new: 'Nuevo' },
+};
 const params = new URLSearchParams(location.search);
-const demo = params.has('demo'); // tap the map to fake your location
-const audio = new Audio();
-const T = { // screen text per language; the tour text itself lives in tours/<tour>.<lang>.json
-  en: { hint: 'Tap Start, then walk. Audio plays at each stop.', idle: 'Not started', start: 'Start', pause: 'Pause', play: 'Play',
-        read: 'Read along', intro: 'Introduction', done: 'Tour finished. Obrigado!', next: (n, d) => `Next stop: ${n}, ${d} m away`,
-        noGps: 'Turn on location to follow the tour.', demo: 'Test mode: tap Start, then move the mouse (or tap) on the map to "walk".',
-        back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over' },
-  es: { hint: 'Toca Empezar y camina. El audio suena en cada parada.', idle: 'Sin empezar', start: 'Empezar', pause: 'Pausa', play: 'Seguir',
-        read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado. Obrigado!', next: (n, d) => `Próxima parada: ${n}, a ${d} m`,
-        noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: toca Empezar y mueve el mouse (o toca) el mapa para "caminar".',
-        back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo' },
-};
-const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
-const t = T[lang];
-const tourId = ['lisbon', 'porto'].includes(params.get('tour')) ? params.get('tour') : 'lisbon';
-const $ = id => document.getElementById(id);
-let tour, markers = [], played = new Set(), started = false, me, last, nums = [];
-const save = () => { try { localStorage.setItem('played:' + tour.title, JSON.stringify([...played])); } catch {} };
-const load = () => { try { return JSON.parse(localStorage.getItem('played:' + tour.title)) || []; } catch { return []; } };
+const lang = TXT[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
+const tx = TXT[lang];
+document.documentElement.lang = lang;
+document.querySelectorAll('[data-i18n]').forEach(el => { if (tx[el.dataset.i18n]) el.textContent = tx[el.dataset.i18n]; });
+document.querySelectorAll('.lang').forEach(b => b.onclick = () => { params.set('lang', lang === 'es' ? 'en' : 'es'); location.search = params; });
+document.getElementById('sample').href = `tour.html?tour=lisbon&lang=${lang}`;
+const menuBtn = document.getElementById('menuBtn'), menu = document.getElementById('menu');
+menuBtn.onclick = () => { menu.classList.toggle('hidden'); menuBtn.setAttribute('aria-expanded', !menu.classList.contains('hidden')); };
 
-const map = L.map('map');
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-  { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
-
-function dist(a, b) { // metres between two lat/lng points
-  const R = 6371000, r = Math.PI / 180;
-  const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
-  const h = Math.sin(dLat/2)**2 + Math.cos(a.lat*r) * Math.cos(b.lat*r) * Math.sin(dLng/2)**2;
-  return 2 * R * Math.asin(Math.sqrt(h));
-}
-
-function icon(i) { // numbered circle for a stop, small dot for walking directions
-  const done = played.has(i) ? 'done' : '';
-  return tour.stops[i].kind === 'walk'
-    ? L.divIcon({ className: '', iconSize: [12, 12], html: `<div class="dot ${done}"></div>` })
-    : L.divIcon({ className: '', iconSize: [28, 28], html: `<div class="num ${done}">${nums[i]}</div>` });
-}
-
-function play(i) { // i = -1 is the intro
-  audio.src = `${tour.audio || 'audio'}/${i + 1}.mp3`;
-  audio.play();
-  const s = tour.stops[i];
-  $('now').textContent = i < 0 ? t.intro : s.kind === 'walk' ? `🚶 ${s.name}` : `${nums[i]}. ${s.name}`;
-  $('words').textContent = i < 0 ? tour.intro : s.text;
-  $('btn').textContent = t.pause;
-  if (i >= 0) { played.add(i); markers[i].setIcon(icon(i)); save(); }
-}
-
-function onMove(pos) {
-  last = pos;
-  me ? me.setLatLng(pos) : me = L.circleMarker(pos, { radius: 8, color: '#1a73e8', fillOpacity: 1 }).addTo(map);
-  // ponytail: plays any unplayed stop in range, not only the next one; fine for a linear walk
-  const hit = tour.stops.findIndex((s, i) => !played.has(i) && dist(pos, s) < RADIUS);
-  if (hit >= 0 && audio.paused) play(hit);
-  const next = tour.stops.findIndex((s, i) => !played.has(i) && s.kind !== 'walk');
-  if (next < 0) { $('status').textContent = t.done; return; }
-  const d = Math.round(dist(pos, tour.stops[next]));
-  $('status').textContent = t.next(tour.stops[next].name, d);
-}
-
-$('btn').onclick = async () => {
-  if (!started) {
-    started = true;
-    play(-1); // first play inside a tap, so phones allow audio later
-    try { await navigator.wakeLock?.request('screen'); } catch {} // GPS stops when the screen locks
-    if (!demo) navigator.geolocation.watchPosition(
-      p => onMove({ lat: p.coords.latitude, lng: p.coords.longitude }),
-      () => $('status').textContent = t.noGps,
-      { enableHighAccuracy: true });
-    return;
-  }
-  if (audio.paused) { audio.play(); $('btn').textContent = t.pause; }
-  else { audio.pause(); $('btn').textContent = t.play; }
-};
-audio.onended = () => { $('btn').textContent = t.play; if (last) onMove(last); }; // play anything reached while talking
-$('speed').onclick = () => { // 1x → 1.25x → 1.5x → 1x
-  audio.playbackRate = audio.playbackRate >= 1.5 ? 1 : audio.playbackRate + 0.25;
-  $('speed').textContent = audio.playbackRate + 'x';
-};
-audio.onplay = () => audio.playbackRate = parseFloat($('speed').textContent); // new src resets the speed
-
-$('lang').value = lang;
-$('tour').value = tourId;
-$('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
-$('tour').onchange = e => { params.set('tour', e.target.value); location.search = params; };
-$('status').textContent = demo ? t.demo : t.hint;
-$('now').textContent = t.idle;
-$('btn').textContent = t.start;
-$('readAlong').textContent = t.read;
-
-fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
-  tour = tr;
-  $('title').textContent = tour.title;
-  let n = 0; nums = tour.stops.map(s => s.kind === 'walk' ? 0 : ++n);
-  load().forEach(i => played.add(i)); // pick up where you left off
-  if (played.size) {
-    $('now').innerHTML = `${t.back(played.size, tour.stops.length)} <button id="reset" class="small">${t.over}</button>`;
-    $('reset').onclick = () => { played.clear(); save(); location.reload(); };
-  }
-  const pts = tour.stops.map(s => [s.lat, s.lng]);
-  L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);
-  markers = tour.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
-    .addTo(map).bindTooltip(s.name).on('click', () => started && play(i)));
-  map.fitBounds(pts, { padding: [30, 30] });
-  if (demo) map.on('click mousemove', e => started && onMove(e.latlng)); // mouse on computer, tap on phone
+// Tour cards come straight from the tour files, so a new tour only needs its JSON.
+const TOURS = ['lisbon', 'porto'];
+Promise.all(TOURS.map(id => fetch(`tours/${id}.${lang}.json`).then(r => r.json()).then(t => ({ id, ...t })))).then(list => {
+  document.getElementById('cards').innerHTML = list.map(t => {
+    const stops = t.stops.filter(s => s.kind !== 'walk').length;
+    const time = `${Math.floor(t.minutes / 60)} h${t.minutes % 60 ? ' ' + t.minutes % 60 + ' min' : ''}`;
+    return `<a href="tour.html?tour=${t.id}&lang=${lang}" class="group relative overflow-hidden rounded-2xl">
+      <div class="aspect-[4/3] overflow-hidden bg-neutral-200">
+        <img src="${t.cover}" alt="" class="size-full h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+      </div>
+      <div class="absolute inset-x-0 bottom-0 p-4 md:p-6">
+        <span class="mb-2 inline-flex rounded-full bg-white/90 text-neutral-900 px-2.5 py-0.5 text-xs font-semibold">${tx.new}</span>
+        <h3 class="text-xl md:text-2xl font-semibold text-white">${t.title}</h3>
+        <p class="mt-1 text-sm text-white/80 line-clamp-2">${t.summary}</p>
+        <div class="mt-3 flex items-center gap-2 text-sm text-white/90">
+          <span>${time} · ${t.km} km · ${stops} ${tx.stops}</span>
+          <span class="ml-auto inline-flex items-center gap-1 font-medium">${tx.start}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="h-4 w-4 transition-transform group-hover:translate-x-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </div>
+    </a>`;
+  }).join('');
 });
 </script>
 </body>
