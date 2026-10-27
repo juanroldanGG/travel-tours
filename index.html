@@ -95,12 +95,13 @@ audio.onended = () => $('btn').textContent = 'Play';
 fetch('tour.json').then(r => r.json()).then(t => {
   tour = t;
   $('title').textContent = t.title;
+  if (demo) $('status').textContent = 'Test mode: tap Start, then move the mouse (or tap) on the map to "walk".';
   const pts = t.stops.map(s => [s.lat, s.lng]);
   L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);
   markers = t.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
     .addTo(map).bindTooltip(s.name).on('click', () => started && play(i)));
   map.fitBounds(pts, { padding: [30, 30] });
-  if (demo) map.on('click', e => started && onMove(e.latlng));
+  if (demo) map.on('click mousemove', e => started && onMove(e.latlng)); // mouse on computer, tap on phone
 });
 </script>
 </body>
