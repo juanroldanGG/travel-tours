@@ -1,11 +1,12 @@
-# Makes one mp3 per stop from tour.json, using Microsoft's free neural voices (edge-tts).
+# Makes one mp3 per stop from a tour file, using Microsoft's free neural voices (edge-tts).
+# Usage: python make_audio.py [tour.json | tour.es.json]
 # ponytail: free voice for testing; swap for ElevenLabs once the concept is proven.
-import asyncio, json, pathlib
+import asyncio, json, pathlib, sys
 import edge_tts
 
 here = pathlib.Path(__file__).parent
-tour = json.loads((here / "tour.json").read_text(encoding="utf-8"))
-out = here / "audio"
+tour = json.loads((here / (sys.argv[1] if len(sys.argv) > 1 else "tour.json")).read_text(encoding="utf-8"))
+out = here / tour.get("audio", "audio")
 out.mkdir(exist_ok=True)
 
 async def main():

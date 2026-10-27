@@ -11,7 +11,9 @@
   * { box-sizing:border-box; }
   body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg);
          display:flex; flex-direction:column; height:100dvh; }
-  header { padding:12px 16px; }
+  header { padding:12px 16px; display:flex; gap:12px; align-items:flex-start; }
+  header > div { flex:1; }
+  select { font:inherit; font-size:14px; padding:6px; border-radius:8px; background:var(--bg); color:var(--fg); }
   h1 { font-size:18px; margin:0; }
   #status { color:var(--muted); font-size:14px; margin-top:2px; }
   #map { flex:1; }
@@ -30,21 +32,34 @@
 </head>
 <body>
 <header>
-  <h1 id="title">Loading…</h1>
-  <div id="status">Tap Start, then walk. Audio plays at each stop.</div>
+  <div><h1 id="title">Loading…</h1><div id="status"></div></div>
+  <select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option></select>
 </header>
 <div id="map"></div>
 <footer>
-  <div id="now">Not started</div>
+  <div id="now"></div>
   <button id="speed" class="small">1x</button>
   <button id="btn">Start</button>
-  <details id="txt"><summary>Read along</summary><p id="words"></p></details>
+  <details id="txt"><summary id="readAlong"></summary><p id="words"></p></details>
 </footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const RADIUS = 30; // metres from a stop before its audio plays
-const demo = new URLSearchParams(location.search).has('demo'); // tap the map to fake your location
+const params = new URLSearchParams(location.search);
+const demo = params.has('demo'); // tap the map to fake your location
 const audio = new Audio();
+const T = { // screen text per language; the tour text itself lives in tour.json / tour.es.json
+  en: { file: 'tour.json', hint: 'Tap Start, then walk. Audio plays at each stop.', idle: 'Not started', start: 'Start', pause: 'Pause', play: 'Play',
+        read: 'Read along', intro: 'Introduction', done: 'Tour finished. Obrigado!', next: (n, d) => `Next stop: ${n}, ${d} m away`,
+        noGps: 'Turn on location to follow the tour.', demo: 'Test mode: tap Start, then move the mouse (or tap) on the map to "walk".',
+        back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over' },
+  es: { file: 'tour.es.json', hint: 'Toca Empezar y camina. El audio suena en cada parada.', idle: 'Sin empezar', start: 'Empezar', pause: 'Pausa', play: 'Seguir',
+        read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado. Obrigado!', next: (n, d) => `Próxima parada: ${n}, a ${d} m`,
+        noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: toca Empezar y mueve el mouse (o toca) el mapa para "caminar".',
+        back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo' },
+};
+const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
+const t = T[lang];
 const $ = id => document.getElementById(id);
 let tour, markers = [], played = new Set(), started = false, me, last, nums = [];
 const save = () => { try { localStorage.setItem('played:' + tour.title, JSON.stringify([...played])); } catch {} };
@@ -69,12 +84,12 @@ function icon(i) { // numbered circle for a stop, small dot for walking directio
 }
 
 function play(i) { // i = -1 is the intro
-  audio.src = `audio/${i + 1}.mp3`;
+  audio.src = `${tour.audio || 'audio'}/${i + 1}.mp3`;
   audio.play();
   const s = tour.stops[i];
-  $('now').textContent = i < 0 ? 'Introduction' : s.kind === 'walk' ? `🚶 ${s.name}` : `${nums[i]}. ${s.name}`;
+  $('now').textContent = i < 0 ? t.intro : s.kind === 'walk' ? `🚶 ${s.name}` : `${nums[i]}. ${s.name}`;
   $('words').textContent = i < 0 ? tour.intro : s.text;
-  $('btn').textContent = 'Pause';
+  $('btn').textContent = t.pause;
   if (i >= 0) { played.add(i); markers[i].setIcon(icon(i)); save(); }
 }
 
@@ -85,9 +100,9 @@ function onMove(pos) {
   const hit = tour.stops.findIndex((s, i) => !played.has(i) && dist(pos, s) < RADIUS);
   if (hit >= 0 && audio.paused) play(hit);
   const next = tour.stops.findIndex((s, i) => !played.has(i) && s.kind !== 'walk');
-  if (next < 0) { $('status').textContent = 'Tour finished. Obrigado!'; return; }
+  if (next < 0) { $('status').textContent = t.done; return; }
   const d = Math.round(dist(pos, tour.stops[next]));
-  $('status').textContent = `Next stop: ${tour.stops[next].name}, ${d} m away`;
+  $('status').textContent = t.next(tour.stops[next].name, d);
 }
 
 $('btn').onclick = async () => {
@@ -97,33 +112,39 @@ $('btn').onclick = async () => {
     try { await navigator.wakeLock?.request('screen'); } catch {} // GPS stops when the screen locks
     if (!demo) navigator.geolocation.watchPosition(
       p => onMove({ lat: p.coords.latitude, lng: p.coords.longitude }),
-      () => $('status').textContent = 'Turn on location to follow the tour.',
+      () => $('status').textContent = t.noGps,
       { enableHighAccuracy: true });
     return;
   }
-  if (audio.paused) { audio.play(); $('btn').textContent = 'Pause'; }
-  else { audio.pause(); $('btn').textContent = 'Play'; }
+  if (audio.paused) { audio.play(); $('btn').textContent = t.pause; }
+  else { audio.pause(); $('btn').textContent = t.play; }
 };
-audio.onended = () => { $('btn').textContent = 'Play'; if (last) onMove(last); }; // play anything reached while talking
+audio.onended = () => { $('btn').textContent = t.play; if (last) onMove(last); }; // play anything reached while talking
 $('speed').onclick = () => { // 1x → 1.25x → 1.5x → 1x
   audio.playbackRate = audio.playbackRate >= 1.5 ? 1 : audio.playbackRate + 0.25;
   $('speed').textContent = audio.playbackRate + 'x';
 };
 audio.onplay = () => audio.playbackRate = parseFloat($('speed').textContent); // new src resets the speed
 
-fetch('tour.json').then(r => r.json()).then(t => {
-  tour = t;
-  $('title').textContent = t.title;
-  if (demo) $('status').textContent = 'Test mode: tap Start, then move the mouse (or tap) on the map to "walk".';
-  let n = 0; nums = t.stops.map(s => s.kind === 'walk' ? 0 : ++n);
+$('lang').value = lang;
+$('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
+$('status').textContent = demo ? t.demo : t.hint;
+$('now').textContent = t.idle;
+$('btn').textContent = t.start;
+$('readAlong').textContent = t.read;
+
+fetch(t.file).then(r => r.json()).then(tr => {
+  tour = tr;
+  $('title').textContent = tour.title;
+  let n = 0; nums = tour.stops.map(s => s.kind === 'walk' ? 0 : ++n);
   load().forEach(i => played.add(i)); // pick up where you left off
   if (played.size) {
-    $('now').innerHTML = `Welcome back: ${played.size} of ${t.stops.length} heard. <button id="reset" class="small">Start over</button>`;
+    $('now').innerHTML = `${t.back(played.size, tour.stops.length)} <button id="reset" class="small">${t.over}</button>`;
     $('reset').onclick = () => { played.clear(); save(); location.reload(); };
   }
-  const pts = t.stops.map(s => [s.lat, s.lng]);
+  const pts = tour.stops.map(s => [s.lat, s.lng]);
   L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);
-  markers = t.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
+  markers = tour.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
     .addTo(map).bindTooltip(s.name).on('click', () => started && play(i)));
   map.fitBounds(pts, { padding: [30, 30] });
   if (demo) map.on('click mousemove', e => started && onMove(e.latlng)); // mouse on computer, tap on phone

@@ -1,0 +1,118 @@
+{
+  "title": "Lisboa: del Rossio al Castillo",
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio-es",
+  "intro": "¡Bienvenido a Lisboa! Voy a ser tu guía durante la próxima hora y media, más o menos. Vamos a caminar desde la plaza del Rossio hasta el río, y luego subiremos por el viejo barrio de Alfama hasta el castillo en lo alto de la colina. Mantén la pantalla del celular encendida y los audífonos puestos. Cuando llegues a cada lugar, empezaré a hablar solo, y entre parada y parada te diré por dónde girar. ¿Quieres oír algo otra vez? Solo tócalo en el mapa. ¿Zapatos cómodos? Muy bien. Lisboa es la ciudad de las siete colinas, y vamos a subir una de ellas. ¡Vamos!",
+  "stops": [
+    {
+      "name": "Plaza del Rossio", "kind": "stop",
+      "lat": 38.71395, "lng": -9.13940,
+      "text": "Estás en el Rossio, la sala de estar de Lisboa desde hace más de ochocientos años. Su nombre oficial es Plaza Don Pedro Cuarto, por el rey que está en lo alto de esa columna, pero nadie la llama así. Mira el suelo. Esas olas blancas y negras son el empedrado portugués, la calçada, hecha a mano, piedra por piedra. El diseño de olas es un homenaje al mar que hizo rico a este país. Esta plaza no siempre fue un lugar alegre. El gran teatro del lado norte se construyó donde estaba el palacio de la Inquisición, y aquí mismo se hacían juicios y ejecuciones públicas. Hoy es lugar de café, palomas y gente mirando gente. Prueba una ginjinha, un licor pequeñito de guinda, en uno de los bares diminutos junto a la plaza."
+    },
+    {
+      "name": "Camino al elevador", "kind": "walk",
+      "lat": 38.71320, "lng": -9.13925,
+      "text": "Ahora sal de la plaza por el lado sur, el lado opuesto al teatro, y baja por la Rua do Ouro. Con la plaza a tus espaldas, busca una torre alta de hierro a tu derecha, al final de una calle lateral. Para allá vamos."
+    },
+    {
+      "name": "Elevador de Santa Justa", "kind": "stop",
+      "lat": 38.71213, "lng": -9.13942,
+      "text": "Mira hacia arriba, a la torre de hierro. Es el Elevador de Santa Justa, inaugurado en 1902. Mucha gente dice que lo construyó Gustave Eiffel, porque se parece a su obra, pero lo diseñó Raoul Mesnier du Ponsard, un ingeniero nacido en Oporto. Al principio funcionaba con vapor, y pocos años después pasó a la electricidad. Mide unos cuarenta y cinco metros y conecta el centro, abajo, con los barrios del Chiado y del Carmo, arriba en la colina. Las colinas de Lisboa son tan empinadas que los elevadores, funiculares y tranvías no son para turistas: son la forma en que la gente vuelve a casa. La fila puede ser larga, así que un consejo: puedes llegar a la plataforma de arriba sin hacer fila, subiendo a pie por el Carmo."
+    },
+    {
+      "name": "Gira por la Rua Augusta", "kind": "walk",
+      "lat": 38.71190, "lng": -9.13790,
+      "text": "Con el elevador a tus espaldas, camina por la Rua de Santa Justa, alejándote de la torre. Después de dos cuadras llegarás a una calle peatonal ancha, llena de tiendas y cafés. Es la Rua Augusta. Gira a la derecha, hacia el río. Fíjate en los artistas callejeros, y lleva tu bolso adelante cuando haya mucha gente."
+    },
+    {
+      "name": "La cuadrícula de la Baixa", "kind": "stop",
+      "lat": 38.71050, "lng": -9.13760,
+      "text": "Fíjate en lo rectas que son estas calles. Eso es raro en una ciudad europea antigua, y hay una razón triste. La mañana del primero de noviembre de 1755, Día de Todos los Santos, un terremoto enorme sacudió Lisboa. Después vinieron los incendios, y luego un tsunami desde el río. Gran parte del centro quedó destruido y murieron decenas de miles de personas. El primer ministro del rey, el Marqués de Pombal, reconstruyó esta zona como una cuadrícula ordenada. Dentro de muchos de estos edificios hay una estructura escondida de madera, como una jaula, pensada para doblarse con los temblores. Fue uno de los primeros sistemas de construcción antisísmica de Europa. Los nombres de las calles todavía dicen quién trabajaba dónde: Rua do Ouro, para los orfebres del oro, y Rua da Prata, para los plateros."
+    },
+    {
+      "name": "Los túneles romanos bajo tus pies", "kind": "walk",
+      "lat": 38.70975, "lng": -9.13720,
+      "text": "Sigue caminando hacia el arco. Aquí va algo que la mayoría de visitantes nunca descubre. A pocos metros bajo tus pies, debajo de la Rua da Prata, hay galerías romanas de casi dos mil años, de cuando esta ciudad se llamaba Olisipo. Casi siempre están inundadas, así que solo abren al público unos pocos días al año, por una tapa en medio de la calle. Si algún día ves una fila alrededor de un hueco en la calle, ya sabes por qué."
+    },
+    {
+      "name": "Arco de la Rua Augusta", "kind": "stop",
+      "lat": 38.70880, "lng": -9.13660,
+      "text": "Este es el Arco de la Rua Augusta, la gran puerta entre la ciudad y el río. Se planeó justo después del terremoto, pero solo se terminó en 1873, más de cien años después. Arriba, una figura de la Gloria corona al Genio y al Valor. Debajo hay héroes portugueses, entre ellos el explorador Vasco da Gama, que llegó a la India por mar, y el propio Marqués de Pombal. Las palabras en latín dicen, más o menos, a las virtudes de nuestros antepasados. Por unos pocos euros puedes subir en ascensor y por unas escaleras hasta arriba, y la vista de la Rua Augusta desde lo alto vale la pena. Ahora cruza el arco y entra a la enorme plaza del otro lado."
+    },
+    {
+      "name": "Plaza del Comercio", "kind": "stop",
+      "lat": 38.70750, "lng": -9.13640,
+      "text": "Bienvenido a la Plaza del Comercio. La gente de aquí todavía la llama Terreiro do Paço, el patio del palacio, porque aquí estuvo el Palacio Real de la Ribeira durante más de doscientos años, hasta que el terremoto de 1755 se lo llevó. El rey a caballo en el centro es José Primero, que gobernaba durante la tragedia. Barcos de Brasil, África y Asia descargaban justo en esta orilla, por eso la plaza mira al río como una puerta de entrada. Esta plaza también vio un día oscuro en 1908, cuando al rey Carlos y a su hijo mayor les dispararon aquí, dentro de su carruaje. Dos años después, Portugal se volvió república. Sigue caminando derecho, hasta el agua."
+    },
+    {
+      "name": "Muelle de las Columnas", "kind": "stop",
+      "lat": 38.70645, "lng": -9.13640,
+      "text": "Estos escalones de mármol que bajan hasta el río, con una columna a cada lado, son el Cais das Colunas, el Muelle de las Columnas. Durante siglos fue la puerta principal de la ciudad, por donde desembarcaban reyes, embajadores y visitantes importantes. Mira a tu derecha y verás un largo puente colgante rojo. Es el Puente 25 de Abril, llamado así por el día de 1974 en que una revolución pacífica acabó con casi cincuenta años de dictadura. Mucha gente lo compara con el Golden Gate de San Francisco. En la colina del otro lado, la estatua con los brazos abiertos es el Cristo Rei, inspirado en el famoso Cristo de Río de Janeiro. Tómate un momento en los escalones. Luego date la vuelta y ve hacia la esquina izquierda del fondo de la plaza."
+    },
+    {
+      "name": "Camino a la Casa dos Bicos", "kind": "walk",
+      "lat": 38.70860, "lng": -9.13460,
+      "text": "Sal de la plaza por la esquina del fondo, la más cercana a la colina del castillo. Con el río a tu derecha, camina unos doscientos metros por la Rua da Alfândega. Busca un edificio extraño a tu izquierda, cubierto de piedras en punta, como un rallador de queso gigante."
+    },
+    {
+      "name": "Casa dos Bicos", "kind": "stop",
+      "lat": 38.70870, "lng": -9.13270,
+      "text": "Esta es la Casa dos Bicos, la Casa de las Puntas, construida a comienzos del siglo dieciséis. Su dueño era hijo de Afonso de Albuquerque, uno de los comandantes que construyeron el imperio portugués en el océano Índico, y copió este estilo de piedras talladas como diamantes que había visto en Italia. Los pisos de arriba se perdieron con el terremoto y solo se reconstruyeron en el siglo veinte, a partir de dibujos antiguos. Hoy aquí funciona la Fundación José Saramago. Saramago ganó el Premio Nobel de Literatura en 1998, y sus cenizas descansan bajo el olivo frente a la casa. Ahora dale la espalda al río y sube, siguiendo las señales hacia la Sé, la catedral."
+    },
+    {
+      "name": "Subida a la catedral", "kind": "walk",
+      "lat": 38.70925, "lng": -9.13310,
+      "text": "Aquí empieza la subida. Tómalo con calma. Estas calles angostas siguen el trazado de la vieja ciudad medieval, así que dan muchas vueltas. Tú solo sigue subiendo. En un minuto verás dos grandes torres de piedra frente a ti."
+    },
+    {
+      "name": "Catedral de Lisboa", "kind": "stop",
+      "lat": 38.70980, "lng": -9.13340,
+      "text": "Esta iglesia con aspecto de fortaleza es la Sé, la catedral de Lisboa. Sus muros gruesos y sus torres parecen más de un castillo que de una iglesia, y no es casualidad. Se empezó en 1147, justo después de que el primer rey de Portugal, Afonso Henriques, le quitara Lisboa a los moros, con la ayuda de cruzados que iban de paso hacia Tierra Santa. Ha sobrevivido a varios terremotos, incluido el de 1755, aunque no sin daños. La entrada a la iglesia principal suele ser gratis, así que entra si quieres. Después mira al otro lado de la calle, hacia la iglesia más pequeña, un poco más abajo."
+    },
+    {
+      "name": "Iglesia de San Antonio", "kind": "stop",
+      "lat": 38.70995, "lng": -9.13395,
+      "text": "Esta pequeña iglesia está construida en el lugar donde nació San Antonio, en el siglo doce. El mundo entero lo conoce como San Antonio de Padua, porque murió en Italia, pero para Lisboa es simplemente Santo António, el santo favorito de la ciudad. Es conocido como el santo casamentero. Cada junio, Lisboa le hace una enorme fiesta en la calle, con sardinas asadas, música y adornos de papel colgando sobre los callejones, y la ciudad hasta organiza bodas colectivas para parejas, las llamadas novias de San Antonio. Ahora vuelve a pasar frente a la catedral y sigue subiendo junto a los rieles del tranvía."
+    },
+    {
+      "name": "La cárcel del Aljube", "kind": "stop",
+      "lat": 38.71030, "lng": -9.13290,
+      "text": "A tu izquierda, justo después de la catedral, hay un edificio que parece común, pero tiene un pasado oscuro. Esto era el Aljube, una cárcel que usó la dictadura portuguesa para encerrar presos políticos, personas detenidas solo por no estar de acuerdo con el gobierno. A algunos los tenían en celdas diminutas, apenas más grandes que un armario. Hoy es el Museo de la Resistencia y la Libertad. Cuenta la historia de la dictadura y de la Revolución de los Claveles de 1974, cuando los soldados pusieron claveles rojos en sus fusiles y el régimen cayó casi sin un solo disparo."
+    },
+    {
+      "name": "El tranvía 28", "kind": "walk",
+      "lat": 38.71100, "lng": -9.13170,
+      "text": "Sigue subiendo, y quédate en el andén, porque el tranvía amarillo número 28 pasa por aquí con apenas unos centímetros de espacio. Estos tranvías de madera llevan cerca de un siglo subiendo las colinas de Lisboa. Es un paseo buenísimo, pero se llena muchísimo, y a los carteristas les encanta. Consejo: súbete temprano en la mañana o tarde en la noche. El mirador está justo adelante, a tu derecha."
+    },
+    {
+      "name": "Mirador de Santa Luzia", "kind": "stop",
+      "lat": 38.71180, "lng": -9.13010,
+      "text": "Respira un momento. Este es el Miradouro de Santa Luzia, una de las vistas más bonitas de la ciudad. Abajo están los techos rojos de Alfama, el barrio más antiguo de Lisboa, y detrás el ancho río Tajo. Alfama resistió el terremoto de 1755 mejor que el centro, porque está sobre roca firme, así que sus calles siguen siendo un enredo de callejones medievales. Mira los paneles de azulejos azules y blancos en la pared de la iglesia. Uno muestra la Plaza del Comercio como era antes del terremoto, con palacio y todo. Otro muestra a caballeros cristianos atacando el castillo en 1147. A pocos pasos está nuestra siguiente parada."
+    },
+    {
+      "name": "Portas do Sol", "kind": "stop",
+      "lat": 38.71240, "lng": -9.12970,
+      "text": "Portas do Sol significa Puertas del Sol. Aquí estaba una de las puertas de la antigua muralla musulmana. Busca la estatua de San Vicente, el patrono de Lisboa, que sostiene un pequeño barco con dos cuervos. La leyenda dice que cuando su cuerpo fue traído a Lisboa en barco, dos cuervos lo cuidaron durante todo el viaje. Ese barco y esos cuervos siguen en el escudo de la ciudad, y los verás en postes de luz y canecas de basura por toda la ciudad. Al otro lado de los techos verás una gran cúpula blanca. Es el Panteón Nacional. Tardó tanto en terminarse, casi trescientos años, que los portugueses todavía dicen que un trabajo que nunca acaba es como las obras de Santa Engrácia."
+    },
+    {
+      "name": "Subiendo por Alfama", "kind": "walk",
+      "lat": 38.71290, "lng": -9.13090,
+      "text": "Última subida. Busca las señales cafés que dicen Castelo y síguelas cuesta arriba, alejándote del mirador. El nombre Alfama probablemente viene del árabe, de una palabra para baños o manantiales, por las fuentes de agua tibia que los moros encontraron aquí. Escucha mientras caminas: en las noches, a veces se oye el fado, la canción popular de Lisboa, triste y hermosa, saliendo de pequeños restaurantes."
+    },
+    {
+      "name": "Dentro de las murallas", "kind": "walk",
+      "lat": 38.71310, "lng": -9.13240,
+      "text": "Acabas de cruzar las murallas exteriores y entrar al Bairro do Castelo, un barrio pequeñito que vive dentro de las defensas del castillo. Aquí todavía vive gente, así que habla bajito en los callejones. La entrada al castillo y la taquilla están justo adelante."
+    },
+    {
+      "name": "Castillo de San Jorge", "kind": "stop",
+      "lat": 38.71390, "lng": -9.13350,
+      "text": "Llegaste a la cima. La gente ha vivido en esta colina desde hace mucho más de dos mil años, porque es el mejor punto para vigilar el río. Las murallas que ves las construyeron sobre todo los moros, que gobernaron Lisboa unos cuatrocientos años. En 1147 Afonso Henriques la conquistó. La leyenda dice que un caballero llamado Martim Moniz se lanzó con su propio cuerpo contra una puerta que se estaba cerrando, manteniéndola abierta justo lo suficiente para que entrara el ejército. No sobrevivió, pero una plaza colina abajo todavía lleva su nombre. Durante siglos esto fue el palacio real, hasta que los reyes se mudaron junto al río. Hoy es un lugar tranquilo, con pavos reales paseando entre los árboles viejos. Necesitas boleto para entrar, y el atardecer desde las murallas es el mejor de Lisboa."
+    },
+    {
+      "name": "El final del recorrido", "kind": "stop",
+      "lat": 38.71345, "lng": -9.13420,
+      "text": "Desde aquí arriba puedes ver casi todo el recorrido. Abajo está la cuadrícula de la Baixa por la que caminaste, el arco y la plaza junto al río. Al otro lado del valle está el Bairro Alto, el barrio de la vida nocturna, que se despierta después de las diez de la noche. Antes de irte, unos consejos. Prueba un pastel de nata, la tarta de crema, tibio y con canela encima. Para un almuerzo barato, pide una bifana, un sánduche de cerdo con ajo. Para bajar, puedes caminar por donde viniste o tomar el tranvía 28 cerca de la catedral. Gracias por caminar conmigo. Obrigado, y disfruta Lisboa."
+    }
+  ]
+}
