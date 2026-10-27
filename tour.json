@@ -1,52 +1,117 @@
 {
   "title": "Lisbon: From Rossio to the Castle",
   "voice": "en-GB-RyanNeural",
-  "intro": "Welcome to Lisbon! I'm your guide for the next hour or so. We'll walk from Rossio Square down to the river, then climb up through the old Alfama neighbourhood to the castle on the hill. Keep your phone screen on and your headphones in. When you reach each stop, I'll start talking on my own. If you ever want to hear a stop again, just tap it on the map. Comfortable shoes? Good. Lisbon is a city of seven hills, and we're going to climb one of them. Let's go.",
+  "intro": "Welcome to Lisbon! I'm your guide for the next ninety minutes or so. We'll walk from Rossio Square down to the river, then climb up through the old Alfama neighbourhood to the castle on the hill. Keep your phone screen on and your headphones in. When you reach each place, I'll start talking on my own, and between stops I'll tell you where to turn. Want to hear something again? Just tap it on the map. Comfortable shoes? Good. Lisbon is a city of seven hills, and we're going to climb one of them. Let's go.",
   "stops": [
     {
-      "name": "Rossio Square",
+      "name": "Rossio Square", "kind": "stop",
       "lat": 38.71395, "lng": -9.13940,
-      "text": "You're standing in Rossio, Lisbon's living room for more than eight hundred years. Its official name is Praça Dom Pedro the Fourth, after the king on top of that tall column, but nobody calls it that. Look down at your feet. Those black and white waves are Portuguese pavement, calçada, made by hand, stone by stone. The wave pattern is a nod to the sea that made this country rich. The square hasn't always been a happy place. The grand theatre at the north end was built where the palace of the Inquisition once stood, and public trials and executions were held right here. Today it's coffee, pigeons and people watching. Try a ginjinha, a small cherry liqueur, from one of the tiny bars just off the square. Now head south, toward the river."
+      "text": "You're standing in Rossio, Lisbon's living room for more than eight hundred years. Its official name is Praça Dom Pedro the Fourth, after the king on top of that tall column, but nobody calls it that. Look down at your feet. Those black and white waves are Portuguese pavement, calçada, made by hand, stone by stone. The wave pattern is a nod to the sea that made this country rich. The square hasn't always been a happy place. The grand theatre at the north end was built where the palace of the Inquisition once stood, and public trials and executions were held right here. Today it's coffee, pigeons and people watching. Try a ginjinha, a small cherry liqueur, from one of the tiny bars just off the square."
     },
     {
-      "name": "Santa Justa Lift",
+      "name": "Walk to the lift", "kind": "walk",
+      "lat": 38.71320, "lng": -9.13925,
+      "text": "Now leave the square from its south side, the end away from the theatre, and walk down Rua do Ouro. Keep the square behind you and look out for a tall iron tower on your right, at the end of a side street. That's where we're going."
+    },
+    {
+      "name": "Santa Justa Lift", "kind": "stop",
       "lat": 38.71213, "lng": -9.13942,
-      "text": "Look up at the iron tower on your right. That's the Santa Justa Lift, opened in 1902. People often say Gustave Eiffel built it, because it looks like his work, but it was designed by Raoul Mesnier du Ponsard, an engineer born in Porto. It first ran on steam, then switched to electricity a few years later. It's about forty five metres tall and connects the low downtown with the Chiado and Carmo neighbourhood up the hill. Lisbon's hills are so steep that lifts, funiculars and trams aren't for tourists. They're how locals get home. The queue can be long, so here's a tip: you can reach the top platform for free by walking up through Carmo instead. For now, keep going toward the river."
+      "text": "Look up at the iron tower. That's the Santa Justa Lift, opened in 1902. People often say Gustave Eiffel built it, because it looks like his work, but it was designed by Raoul Mesnier du Ponsard, an engineer born in Porto. It first ran on steam, then switched to electricity a few years later. It's about forty five metres tall and connects the low downtown with the Chiado and Carmo neighbourhood up the hill. Lisbon's hills are so steep that lifts, funiculars and trams aren't for tourists. They're how locals get home. The queue can be long, so here's a tip: you can reach the top platform without the queue by walking up through Carmo instead."
     },
     {
-      "name": "Rua Augusta and the Baixa grid",
+      "name": "Turn onto Rua Augusta", "kind": "walk",
+      "lat": 38.71190, "lng": -9.13790,
+      "text": "With the lift behind you, walk along Rua de Santa Justa, away from the tower. After two blocks you'll reach a wide pedestrian street full of shops and cafés. That's Rua Augusta. Turn right onto it, toward the river. Watch out for street performers, and keep your bag in front of you in the crowds."
+    },
+    {
+      "name": "The Baixa grid", "kind": "stop",
       "lat": 38.71050, "lng": -9.13760,
-      "text": "Notice how straight these streets are. That's unusual for an old European city, and there's a sad reason for it. On the morning of the first of November, 1755, All Saints' Day, a huge earthquake hit Lisbon. Then came fires, and then a tsunami from the river. Much of downtown was destroyed and tens of thousands of people died. The king's chief minister, the Marquis of Pombal, rebuilt this area as a tidy grid. Inside many of these buildings is a hidden wooden cage frame, designed to flex in an earthquake, one of the first quake-resistant building systems in Europe. The street names still tell you who worked where: Rua do Ouro for goldsmiths, Rua da Prata for silversmiths. Walk on to the big arch ahead."
+      "text": "Notice how straight these streets are. That's unusual for an old European city, and there's a sad reason for it. On the morning of the first of November, 1755, All Saints' Day, a huge earthquake hit Lisbon. Then came fires, and then a tsunami from the river. Much of downtown was destroyed and tens of thousands of people died. The king's chief minister, the Marquis of Pombal, rebuilt this area as a tidy grid. Inside many of these buildings is a hidden wooden cage frame, designed to flex in an earthquake, one of the first quake-resistant building systems in Europe. The street names still tell you who worked where: Rua do Ouro for goldsmiths, Rua da Prata for silversmiths."
     },
     {
-      "name": "Rua Augusta Arch",
+      "name": "The Roman tunnels below you", "kind": "walk",
+      "lat": 38.70975, "lng": -9.13720,
+      "text": "Keep walking toward the arch. Here's something most visitors never find out. A few metres under your feet, below Rua da Prata, are Roman galleries, nearly two thousand years old, from when this city was called Olisipo. They're usually flooded, so they only open to the public a few days a year, through a hatch in the middle of the street. If you ever see a queue around a hole in the road, now you know why."
+    },
+    {
+      "name": "Rua Augusta Arch", "kind": "stop",
       "lat": 38.70880, "lng": -9.13660,
       "text": "This is the Rua Augusta Arch, the grand gateway between the city and the river. It was planned right after the earthquake, but it was only finished in 1873, more than a hundred years later. On top, a figure of Glory crowns Genius and Valour. Below them stand Portuguese heroes, including the explorer Vasco da Gama, who reached India by sea, and the Marquis of Pombal himself. The Latin words say, roughly, to the virtues of our ancestors. For a few euros you can take a lift and some stairs to the top, and the view straight down Rua Augusta is worth it. Now walk through the arch and into the huge square on the other side."
     },
     {
-      "name": "Praça do Comércio",
+      "name": "Praça do Comércio", "kind": "stop",
       "lat": 38.70750, "lng": -9.13640,
-      "text": "Welcome to Commerce Square. Locals still call it Terreiro do Paço, the Palace Yard, because the royal Ribeira Palace stood here for over two hundred years, until the 1755 earthquake swept it away. The king on horseback in the middle is José the First, who ruled during the disaster. Ships from Brazil, Africa and Asia once unloaded right at this waterfront, which is why the square faces the river like a front door. This square also saw a dark day in 1908, when King Carlos and his eldest son were shot here in their carriage. Two years later, Portugal became a republic. Walk down to the river steps, the Cais das Colunas, to see the Tagus. Then we'll turn left and start climbing toward the cathedral."
+      "text": "Welcome to Commerce Square. Locals still call it Terreiro do Paço, the Palace Yard, because the royal Ribeira Palace stood here for over two hundred years, until the 1755 earthquake swept it away. The king on horseback in the middle is José the First, who ruled during the disaster. Ships from Brazil, Africa and Asia once unloaded right at this waterfront, which is why the square faces the river like a front door. This square also saw a dark day in 1908, when King Carlos and his eldest son were shot here in their carriage. Two years later, Portugal became a republic. Keep walking straight ahead, all the way to the water."
     },
     {
-      "name": "Lisbon Cathedral",
+      "name": "Cais das Colunas", "kind": "stop",
+      "lat": 38.70645, "lng": -9.13640,
+      "text": "These marble steps going down into the river, with a column on each side, are the Cais das Colunas, the Quay of the Columns. For centuries this was the city's front door, where kings, ambassadors and important visitors stepped ashore. Look to your right, and you'll see a long red suspension bridge. That's the 25th of April Bridge, named after the day in 1974 when a peaceful revolution ended almost fifty years of dictatorship. People often compare it to San Francisco's Golden Gate. On the far hill, the statue with open arms is Cristo Rei, inspired by the famous statue in Rio de Janeiro. Take a moment on the steps. Then turn around and head for the far left corner of the square."
+    },
+    {
+      "name": "Walk to Casa dos Bicos", "kind": "walk",
+      "lat": 38.70860, "lng": -9.13460,
+      "text": "Leave the square at its far corner, the one closest to the hill with the castle. Keep the river on your right and walk along Rua da Alfândega for about two hundred metres. Look out for a strange building on your left, covered in pointed stones, like a giant cheese grater."
+    },
+    {
+      "name": "Casa dos Bicos", "kind": "stop",
+      "lat": 38.70870, "lng": -9.13270,
+      "text": "This is the Casa dos Bicos, the House of Points, built in the early fifteen hundreds. Its owner was the son of Afonso de Albuquerque, one of the commanders who built Portugal's empire in the Indian Ocean, and he copied the diamond-cut stone style he'd seen in Italy. The top floors were lost in the earthquake and only rebuilt in the twentieth century, from old drawings. Today it's home to the José Saramago Foundation. Saramago won the Nobel Prize for Literature in 1998, and his ashes lie under the olive tree in front of the house. Now turn your back to the river and head uphill, following the signs for the Sé, the cathedral."
+    },
+    {
+      "name": "Climb to the cathedral", "kind": "walk",
+      "lat": 38.70925, "lng": -9.13310,
+      "text": "This is where the climbing starts. Take it slowly. The narrow streets here follow the lines of the old medieval city, so they twist and turn. Just keep going uphill. In a minute you'll see two big stone towers in front of you."
+    },
+    {
+      "name": "Lisbon Cathedral", "kind": "stop",
       "lat": 38.70980, "lng": -9.13340,
-      "text": "This fortress-like church is the Sé, Lisbon's cathedral. Its thick walls and towers look more like a castle than a church, and that's no accident. It was started in 1147, right after Portugal's first king, Afonso Henriques, took Lisbon from the Moors with the help of crusaders passing by on their way to the Holy Land. It has survived several earthquakes, including the one in 1755, though not without damage. Saint Anthony, Lisbon's favourite saint, was born just around the corner and baptised here. Every June the whole city throws him a party with grilled sardines. Watch out for the yellow number 28 tram squeezing past. Now follow the tram tracks uphill, to a viewpoint."
+      "text": "This fortress-like church is the Sé, Lisbon's cathedral. Its thick walls and towers look more like a castle than a church, and that's no accident. It was started in 1147, right after Portugal's first king, Afonso Henriques, took Lisbon from the Moors with the help of crusaders passing by on their way to the Holy Land. It has survived several earthquakes, including the one in 1755, though not without damage. Entry to the main church is usually free, so pop inside if you'd like. Then look across the street, toward the smaller church just downhill."
     },
     {
-      "name": "Santa Luzia Viewpoint",
+      "name": "Church of Saint Anthony", "kind": "stop",
+      "lat": 38.70995, "lng": -9.13395,
+      "text": "This small church is built on the spot where Saint Anthony was born, in the twelfth century. The whole world knows him as Anthony of Padua, because he died in Italy, but for Lisbon he's simply Santo António, the city's favourite saint. He's known as the matchmaker saint. Every June, Lisbon throws him a huge street party, with grilled sardines, music and paper decorations hanging across the alleys, and the city even holds group weddings for couples, known as the Saint Anthony brides. Now go back past the cathedral and keep climbing uphill along the tram tracks."
+    },
+    {
+      "name": "The Aljube prison", "kind": "stop",
+      "lat": 38.71030, "lng": -9.13290,
+      "text": "On your left, just past the cathedral, is a building that looks ordinary but has a dark past. This was the Aljube, a prison used by Portugal's dictatorship to hold political prisoners, people arrested simply for disagreeing with the government. Some were kept in tiny cells barely bigger than a cupboard. Today it's the Museum of Resistance and Freedom. It tells the story of the dictatorship and the Carnation Revolution of 1974, when soldiers put red carnations in their rifles and the regime fell almost without a shot."
+    },
+    {
+      "name": "Tram 28", "kind": "walk",
+      "lat": 38.71100, "lng": -9.13170,
+      "text": "Keep going uphill, and stay on the pavement, because the yellow number 28 tram squeezes through here with barely centimetres to spare. These little wooden trams have been climbing Lisbon's hills for about a century. It's a great ride, but it gets very crowded, and pickpockets love it. Tip: ride it early in the morning or late in the evening. The viewpoint is just ahead, on your right."
+    },
+    {
+      "name": "Santa Luzia Viewpoint", "kind": "stop",
       "lat": 38.71180, "lng": -9.13010,
-      "text": "Catch your breath. This is the Miradouro de Santa Luzia, one of the prettiest views in the city. Below you are the red roofs of Alfama, the oldest neighbourhood in Lisbon, and beyond them the wide river Tagus. Alfama survived the 1755 earthquake better than downtown because it sits on solid rock, so its streets are still a tangle of medieval alleys. Look at the blue and white tile panels on the church wall. Tiles like these are called azulejos. One panel shows Commerce Square as it looked before the earthquake, palace and all. Another shows Christian knights attacking the castle in 1147. Evenings around here, you may hear fado, Lisbon's sad and beautiful folk song, drifting out of small restaurants. Just a few steps further is our next stop."
+      "text": "Catch your breath. This is the Miradouro de Santa Luzia, one of the prettiest views in the city. Below you are the red roofs of Alfama, the oldest neighbourhood in Lisbon, and beyond them the wide river Tagus. Alfama survived the 1755 earthquake better than downtown because it sits on solid rock, so its streets are still a tangle of medieval alleys. Look at the blue and white tile panels on the church wall. Tiles like these are called azulejos. One panel shows Commerce Square as it looked before the earthquake, palace and all. Another shows Christian knights attacking the castle in 1147. Just a few steps further is our next stop."
     },
     {
-      "name": "Portas do Sol",
+      "name": "Portas do Sol", "kind": "stop",
       "lat": 38.71240, "lng": -9.12970,
-      "text": "Portas do Sol means Gates of the Sun. One of the gates of the old Moorish city walls stood here. Find the statue of Saint Vincent, Lisbon's patron saint, holding a little boat with two ravens. The legend says that when his body was carried to Lisbon by ship, two ravens guarded it the whole way. That boat and those ravens are still on the city's coat of arms today, and you'll spot them on lamp posts and rubbish bins around town. Across the rooftops you'll see a big white dome. That's the National Pantheon. It took so long to finish, almost three hundred years, that the Portuguese still say a never-ending job is like the works of Santa Engrácia. Last climb now: follow the signs up to the castle."
+      "text": "Portas do Sol means Gates of the Sun. One of the gates of the old Moorish city walls stood here. Find the statue of Saint Vincent, Lisbon's patron saint, holding a little boat with two ravens. The legend says that when his body was carried to Lisbon by ship, two ravens guarded it the whole way. That boat and those ravens are still on the city's coat of arms today, and you'll spot them on lamp posts and rubbish bins around town. Across the rooftops you'll see a big white dome. That's the National Pantheon. It took so long to finish, almost three hundred years, that the Portuguese still say a never-ending job is like the works of Santa Engrácia."
     },
     {
-      "name": "São Jorge Castle",
+      "name": "Up through Alfama", "kind": "walk",
+      "lat": 38.71290, "lng": -9.13090,
+      "text": "Last climb now. Look for the brown signs that say Castelo and follow them uphill, away from the viewpoint. The name Alfama probably comes from Arabic, from a word for baths or springs, because of the warm water springs the Moors found here. Listen as you walk: in the evenings, you may hear fado, Lisbon's sad and beautiful folk song, drifting out of small restaurants."
+    },
+    {
+      "name": "Inside the old walls", "kind": "walk",
+      "lat": 38.71310, "lng": -9.13240,
+      "text": "You've just walked through the outer walls into Bairro do Castelo, a tiny neighbourhood that lives inside the castle's defences. People still live here, so keep your voice down in the little lanes. The castle entrance and ticket office are just ahead."
+    },
+    {
+      "name": "São Jorge Castle", "kind": "stop",
       "lat": 38.71390, "lng": -9.13350,
-      "text": "You made it to the top. People have lived on this hill for well over two thousand years, because it's the best lookout over the river. The walls you see were built mostly by the Moors, who ruled Lisbon for about four hundred years. In 1147 Afonso Henriques captured it. Legend says a knight named Martim Moniz threw his own body into a closing gate, keeping it open just long enough for the army to get in. He didn't survive, but a square down the hill still carries his name. For centuries this was the royal palace, until the kings moved down to the river. Today it's peaceful, with peacocks wandering between the old trees. You'll need a ticket to go inside, and the sunset from the walls is the best in Lisbon. Thank you for walking with me. Obrigado, and enjoy the city."
+      "text": "You made it to the top. People have lived on this hill for well over two thousand years, because it's the best lookout over the river. The walls you see were built mostly by the Moors, who ruled Lisbon for about four hundred years. In 1147 Afonso Henriques captured it. Legend says a knight named Martim Moniz threw his own body into a closing gate, keeping it open just long enough for the army to get in. He didn't survive, but a square down the hill still carries his name. For centuries this was the royal palace, until the kings moved down to the river. Today it's peaceful, with peacocks wandering between the old trees. You'll need a ticket to go inside, and the sunset from the walls is the best in Lisbon."
+    },
+    {
+      "name": "The end of the walk", "kind": "stop",
+      "lat": 38.71345, "lng": -9.13420,
+      "text": "From up here you can see almost the whole walk. Down below is the grid of the Baixa you walked through, the arch, and the square by the river. Across the valley is Bairro Alto, the nightlife neighbourhood, which comes alive after ten at night. Before you go, some tips. Try a pastel de nata, the custard tart, warm with cinnamon on top. For a cheap lunch, ask for a bifana, a garlicky pork sandwich. To get back down, you can walk the way you came or catch tram 28 near the cathedral. Thank you for walking with me. Obrigado, and enjoy Lisbon."
     }
   ]
 }
