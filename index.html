@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lisbon Walk</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#aaa; --card:#232323; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg);
+         display:flex; flex-direction:column; height:100dvh; }
+  header { padding:12px 16px; }
+  h1 { font-size:18px; margin:0; }
+  #status { color:var(--muted); font-size:14px; margin-top:2px; }
+  #map { flex:1; }
+  footer { padding:12px 16px; background:var(--card); display:flex; gap:12px; align-items:center; }
+  #now { flex:1; font-size:15px; }
+  button { font:inherit; border:0; border-radius:999px; padding:12px 20px; background:var(--accent); color:#fff; cursor:pointer; }
+  .num { background:var(--accent); color:#fff; border-radius:50%; width:28px; height:28px;
+         display:grid; place-items:center; font-weight:700; border:2px solid #fff; }
+  .num.done { background:#888; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Loading…</h1>
+  <div id="status">Tap Start, then walk. Audio plays at each stop.</div>
+</header>
+<div id="map"></div>
+<footer>
+  <div id="now">Not started</div>
+  <button id="btn">Start</button>
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const RADIUS = 30; // metres from a stop before its audio plays
+const demo = new URLSearchParams(location.search).has('demo'); // tap the map to fake your location
+const audio = new Audio();
+const $ = id => document.getElementById(id);
+let tour, markers = [], played = new Set(), started = false, me;
+
+const map = L.map('map');
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+  { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
+
+function dist(a, b) { // metres between two lat/lng points
+  const R = 6371000, r = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
+  const h = Math.sin(dLat/2)**2 + Math.cos(a.lat*r) * Math.cos(b.lat*r) * Math.sin(dLng/2)**2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+function icon(i) {
+  return L.divIcon({ className: '', iconSize: [28, 28],
+    html: `<div class="num ${played.has(i) ? 'done' : ''}">${i + 1}</div>` });
+}
+
+function play(i) { // i = -1 is the intro
+  audio.src = `audio/${i + 1}.mp3`;
+  audio.play();
+  $('now').textContent = i < 0 ? 'Introduction' : `${i + 1}. ${tour.stops[i].name}`;
+  $('btn').textContent = 'Pause';
+  if (i >= 0) { played.add(i); markers[i].setIcon(icon(i)); }
+}
+
+function onMove(pos) {
+  me ? me.setLatLng(pos) : me = L.circleMarker(pos, { radius: 8, color: '#1a73e8', fillOpacity: 1 }).addTo(map);
+  // ponytail: plays any unplayed stop in range, not only the next one; fine for a linear walk
+  const hit = tour.stops.findIndex((s, i) => !played.has(i) && dist(pos, s) < RADIUS);
+  if (hit >= 0 && audio.paused) play(hit);
+  const next = tour.stops.findIndex((_, i) => !played.has(i));
+  if (next < 0) { $('status').textContent = 'Tour finished. Obrigado!'; return; }
+  const d = Math.round(dist(pos, tour.stops[next]));
+  $('status').textContent = `Next: ${tour.stops[next].name}, ${d} m away`;
+}
+
+$('btn').onclick = async () => {
+  if (!started) {
+    started = true;
+    play(-1); // first play inside a tap, so phones allow audio later
+    try { await navigator.wakeLock?.request('screen'); } catch {} // GPS stops when the screen locks
+    if (!demo) navigator.geolocation.watchPosition(
+      p => onMove({ lat: p.coords.latitude, lng: p.coords.longitude }),
+      () => $('status').textContent = 'Turn on location to follow the tour.',
+      { enableHighAccuracy: true });
+    return;
+  }
+  if (audio.paused) { audio.play(); $('btn').textContent = 'Pause'; }
+  else { audio.pause(); $('btn').textContent = 'Play'; }
+};
+audio.onended = () => $('btn').textContent = 'Play';
+
+fetch('tour.json').then(r => r.json()).then(t => {
+  tour = t;
+  $('title').textContent = t.title;
+  const pts = t.stops.map(s => [s.lat, s.lng]);
+  L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);
+  markers = t.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
+    .addTo(map).bindTooltip(s.name).on('click', () => started && play(i)));
+  map.fitBounds(pts, { padding: [30, 30] });
+  if (demo) map.on('click', e => started && onMove(e.latlng));
+});
+</script>
+</body>
+</html>
