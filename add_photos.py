@@ -15,6 +15,12 @@ QUERIES = {  # stop index -> search words; stops left out get no photo
               9: "Porto City Hall Avenida dos Aliados", 10: "Praça da Liberdade Porto", 11: "Hotel Infante Sagres Porto",
               12: "Livraria Lello", 13: "Igreja do Carmo Porto", 14: "Jardim da Cordoaria", 15: "Cadeia da Relação Porto",
               16: "Torre dos Clérigos"},
+    "medellin-centro": {0: "Catedral Metropolitana de Medellín", 2: "Edificio Coltejer Medellín", 3: "Parque Berrío Medellín",
+                        4: "Plaza Botero Medellín", 5: "Palacio de la Cultura Rafael Uribe Uribe", 7: "Edificio Vásquez Medellín",
+                        8: "Plaza Cisneros Medellín postes de luz", 9: "Biblioteca EPM Medellín",
+                        10: "Estación Medellín Ferrocarril de Antioquia", 12: "Parque San Antonio Medellín pájaro Botero"},
+    "medellin-poblado": {0: "Parque El Poblado Medellín", 2: "Parque lineal La Presidenta Medellín",
+                         4: "Parque Lleras Medellín", 6: "Provenza Medellín"},
 }
 UA = {"User-Agent": "TravelApp-prototype/0.1 (juan@groundgamesales.com)"}  # Wikimedia asks for a contact
 

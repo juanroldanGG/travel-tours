@@ -92,26 +92,26 @@ const T = { // screen text per language; the tour text itself lives in tours/<to
         dl: '⬇ Download for offline', dling: 'Downloading…', dled: '✓ Saved on this phone', dlfail: 'Download failed, try again',
         pause: 'Pause', play: 'Play', next: 'Next stop ▶', brk: '☕ Take a break', resume: '▶ Resume tour',
         onBreak: 'On a break. Your place is saved, come back any time.', look: 'Look around',
-        read: 'Read along', intro: 'Introduction', done: 'Tour finished. Obrigado!', next_: (n, d) => `Next stop: ${n}, ${d} m away`,
+        read: 'Read along', intro: 'Introduction', done: 'Tour finished. Enjoy the city!', next_: (n, d) => `Next stop: ${n}, ${d} m away`,
         noGps: 'Turn on location to follow the tour.', demo: 'Test mode: move the mouse (or tap) on the map to "walk".',
         athome: 'Playing at home: stops play one after another.',
-        facts: (m, k, n) => `${Math.floor(m / 60)} h ${m % 60 ? m % 60 + ' min' : ''} · ${k} km · ${n} stops`,
+        facts: (m, k, n) => `${Math.floor(m / 60)} h${m % 60 ? ' ' + m % 60 + ' min' : ''} · ${k} km · ${n} stops`,
         back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over', walkBack: '▶ Resume walking', homeBack: '🏠 Resume at home' },
   es: { all: '← Todos los recorridos', hint: 'Camina la ruta, o escúchala desde casa.', walk: '▶ Empezar a caminar', home: '🏠 Escuchar en casa', dir: '📍 Cómo llegar al inicio',
         dl: '⬇ Descargar sin internet', dling: 'Descargando…', dled: '✓ Guardado en este celular', dlfail: 'Falló la descarga, intenta otra vez',
         pause: 'Pausa', play: 'Seguir', next: 'Siguiente ▶', brk: '☕ Tomar un descanso', resume: '▶ Seguir el recorrido',
         onBreak: 'En descanso. Tu lugar quedó guardado, vuelve cuando quieras.', look: 'Mirar alrededor',
-        read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado. Obrigado!', next_: (n, d) => `Próxima parada: ${n}, a ${d} m`,
+        read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado! Disfruta la ciudad.', next_: (n, d) => `Próxima parada: ${n}, a ${d} m`,
         noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: mueve el mouse (o toca) el mapa para "caminar".',
         athome: 'En casa: las paradas suenan una tras otra.',
-        facts: (m, k, n) => `${Math.floor(m / 60)} h ${m % 60 ? m % 60 + ' min' : ''} · ${k} km · ${n} paradas`,
+        facts: (m, k, n) => `${Math.floor(m / 60)} h${m % 60 ? ' ' + m % 60 + ' min' : ''} · ${k} km · ${n} paradas`,
         back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo', walkBack: '▶ Seguir caminando', homeBack: '🏠 Seguir en casa' },
 };
 const params = new URLSearchParams(location.search);
 const demo = params.has('demo'); // move the mouse on the map to fake your location
 const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
 const t = T[lang];
-const tourId = ['lisbon', 'porto'].includes(params.get('tour')) ? params.get('tour') : 'lisbon';
+const tourId = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado'].includes(params.get('tour')) ? params.get('tour') : 'lisbon';
 const audio = new Audio();
 const $ = id => document.getElementById(id);
 let tour, markers = [], played = new Set(), started = false, atHome = false, onBreak = false, me, last, nums = [], current = null;

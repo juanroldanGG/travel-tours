@@ -1,0 +1,81 @@
+{
+  "title": "Medellín: El Poblado and Provenza",
+  "summary": "Where Medellín began, and where it eats and dances today: a relaxed walk from the old founding square to the cafés, food and nightlife of Provenza.",
+  "cover": "photos/medellin-poblado/6.jpg",
+  "minutes": 90,
+  "km": 1.5,
+  "voice": "en-GB-RyanNeural",
+  "audio": "audio/medellin-poblado-en",
+  "intro": "Welcome to El Poblado! Today this is Medellín's most international neighbourhood, full of trees, cafés, restaurants and bars. But it's also where the story of the city began, more than four hundred years ago. This is a relaxed walk of about an hour and a half, with plenty of chances to stop for a coffee, a juice or something to eat. Take your time. Keep your phone in your pocket between stops, and let's start in the main square.",
+  "stops": [
+    {
+      "name": "El Poblado Park",
+      "kind": "stop",
+      "lat": 6.21035,
+      "lng": -75.57097,
+      "text": "You're standing where Medellín began. In 1616, the Spanish set up a settlement for the indigenous people of the valley right here, called San Lorenzo de Aburrá. That's why this neighbourhood is called El Poblado, the settlement. The town of Medellín itself grew up later, further north, where the Centro is today. The church on the square is San José del Poblado. Look around at the mountains on every side. Medellín sits in a long, narrow valley, at about fifteen hundred metres, and the temperature stays pleasant all year. That's why it's called the City of Eternal Spring. Now walk east, uphill, along Calle 10.",
+      "photo": "photos/medellin-poblado/0.jpg",
+      "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_canal_parque_Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg"
+    },
+    {
+      "name": "Up Calle 10",
+      "kind": "walk",
+      "lat": 6.2095,
+      "lng": -75.5695,
+      "text": "For most of the twentieth century, El Poblado was countryside: big country houses, called fincas, where wealthy families from downtown came to escape the city. As Medellín grew, the fincas were replaced by apartment towers, offices and shopping centres, and the main avenue below became known as the Milla de Oro, the Golden Mile, for its banks and businesses. Keep going, and turn right when you see a green park running along a stream."
+    },
+    {
+      "name": "La Presidenta linear park",
+      "kind": "stop",
+      "lat": 6.20782,
+      "lng": -75.56996,
+      "text": "This little green strip follows the La Presidenta stream down the hill. Medellín is crossed by hundreds of streams like this one, all flowing into the Medellín River at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down. It even won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now head up to Calle 9, toward the music and the crowds."
+    },
+    {
+      "name": "Toward Parque Lleras",
+      "kind": "walk",
+      "lat": 6.2083,
+      "lng": -75.569,
+      "text": "We're heading into the Zona Rosa, the nightlife district. By day it's calm, with people having lunch and working in cafés. By night it's packed. A few honest tips for going out in Medellín. Use ride apps or taxis that a restaurant or bar calls for you. Never leave your drink alone, and don't accept drinks from strangers. And be careful when meeting people from dating apps. Medellín is a friendly city, and a little caution keeps it that way."
+    },
+    {
+      "name": "Parque Lleras",
+      "kind": "stop",
+      "lat": 6.2087,
+      "lng": -75.568,
+      "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants. On weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere. This city is often called the capital of reggaetón: stars like J Balvin, Karol G and Maluma all come from Medellín. But you'll also hear salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk east, a block or two, to the street called Vía Primavera."
+    },
+    {
+      "name": "What to eat",
+      "kind": "walk",
+      "lat": 6.2086,
+      "lng": -75.5674,
+      "text": "Time to talk about food. The classic dish of this region is the bandeja paisa, a huge plate with beans, rice, ground beef, crispy pork belly called chicharrón, a fried egg, sweet plantain, avocado, a little arepa and chorizo. It's a farmer's meal, so share it, or skip dinner. For something smaller, try an arepa, the corn cake Colombians eat with almost everything, or an empanada with spicy ají sauce. And for breakfast, buñuelos, round cheese fritters, with a coffee."
+    },
+    {
+      "name": "Provenza",
+      "kind": "stop",
+      "lat": 6.20854,
+      "lng": -75.56683,
+      "text": "Welcome to Provenza, the trendiest corner of Medellín. These leafy streets are full of small boutiques, restaurants, rooftop bars and cafés. Look into the shops and you'll find many Colombian designers. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. This is a great place to stop for a while. Find a café, sit down, and order a tinto, a small black coffee, the way Colombians drink it all day long.",
+      "photo": "photos/medellin-poblado/6.jpg",
+      "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg"
+    },
+    {
+      "name": "Coffee and fruit",
+      "kind": "walk",
+      "lat": 6.2091,
+      "lng": -75.5664,
+      "text": "Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Many cafés here serve speciality coffee from small local farms. Ask where it comes from. And don't leave without trying Colombian fruit. Lulo is tangy and green inside. Maracuyá is passion fruit. Guanábana is creamy and sweet. Order them as fresh juice, en agua or en leche, with water or with milk."
+    },
+    {
+      "name": "End of the walk",
+      "kind": "stop",
+      "lat": 6.2095,
+      "lng": -75.566,
+      "text": "This is the end of our walk. In about an hour and a half you've gone from the square where the city was born four hundred years ago, to the streets where it eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín transformed itself from one of the most dangerous cities in the world into one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce."
+    }
+  ]
+}

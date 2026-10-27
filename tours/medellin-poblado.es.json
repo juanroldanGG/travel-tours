@@ -1,0 +1,81 @@
+{
+  "title": "Medellín: El Poblado y Provenza",
+  "summary": "Donde empezó Medellín, y donde hoy come y baila: un paseo tranquilo desde la plaza de la fundación hasta los cafés, la comida y la rumba de Provenza.",
+  "cover": "photos/medellin-poblado/6.jpg",
+  "minutes": 90,
+  "km": 1.5,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/medellin-poblado-es",
+  "intro": "¡Bienvenido a El Poblado! Hoy es el barrio más internacional de Medellín, lleno de árboles, cafés, restaurantes y bares. Pero también es donde empezó la historia de la ciudad, hace más de cuatrocientos años. Es un paseo tranquilo de una hora y media, con muchas oportunidades para parar a tomar un café, un jugo o algo de comer. Tómatelo con calma. Guarda el celular en el bolsillo entre parada y parada, y empecemos en la plaza principal.",
+  "stops": [
+    {
+      "name": "Parque de El Poblado",
+      "kind": "stop",
+      "lat": 6.21035,
+      "lng": -75.57097,
+      "text": "Estás donde empezó Medellín. En 1616, los españoles crearon aquí mismo un poblado para los indígenas del valle, llamado San Lorenzo de Aburrá. Por eso este barrio se llama El Poblado. El pueblo de Medellín como tal creció después, más al norte, donde hoy está el Centro. La iglesia de la plaza es San José del Poblado. Mira alrededor las montañas por todos lados. Medellín está en un valle largo y angosto, a unos mil quinientos metros de altura, y el clima es agradable todo el año. Por eso le dicen la Ciudad de la Eterna Primavera. Ahora camina hacia el oriente, subiendo por la Calle 10.",
+      "photo": "photos/medellin-poblado/0.jpg",
+      "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_canal_parque_Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg"
+    },
+    {
+      "name": "Subiendo por la Calle 10",
+      "kind": "walk",
+      "lat": 6.2095,
+      "lng": -75.5695,
+      "text": "Durante casi todo el siglo veinte, El Poblado era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, oficinas y centros comerciales, y la avenida principal, abajo, se ganó el nombre de la Milla de Oro, por sus bancos y empresas. Sigue caminando, y gira a la derecha cuando veas un parque verde junto a una quebrada."
+    },
+    {
+      "name": "Parque Lineal La Presidenta",
+      "kind": "stop",
+      "lat": 6.20782,
+      "lng": -75.56996,
+      "text": "Esta franja verde sigue la quebrada La Presidenta, colina abajo. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río Medellín, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad. Hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sube hacia la Calle 9, hacia la música y la gente."
+    },
+    {
+      "name": "Hacia el Parque Lleras",
+      "kind": "walk",
+      "lat": 6.2083,
+      "lng": -75.569,
+      "text": "Vamos entrando a la Zona Rosa, el sector de la rumba. De día es tranquila, con gente almorzando y trabajando en los cafés. De noche se llena. Unos consejos sinceros para salir en Medellín. Usa aplicaciones de transporte o taxis que te pida el restaurante o el bar. Nunca dejes tu trago solo, y no aceptes tragos de desconocidos. Y ten cuidado al encontrarte con gente de aplicaciones de citas. Medellín es una ciudad amable, y un poco de cuidado la mantiene así."
+    },
+    {
+      "name": "Parque Lleras",
+      "kind": "stop",
+      "lat": 6.2087,
+      "lng": -75.568,
+      "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes. Los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes. A esta ciudad le dicen la capital del reguetón: estrellas como J Balvin, Karol G y Maluma son de Medellín. Pero también vas a oír salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora camina hacia el oriente, una o dos cuadras, hasta la calle llamada Vía Primavera."
+    },
+    {
+      "name": "Qué comer",
+      "kind": "walk",
+      "lat": 6.2086,
+      "lng": -75.5674,
+      "text": "Hablemos de comida. El plato clásico de esta región es la bandeja paisa, un plato enorme con frijoles, arroz, carne molida, chicharrón, huevo frito, maduro, aguacate, una arepita y chorizo. Es comida de campesino, así que compártela, o no comas en la noche. Para algo más pequeño, prueba una arepa, que los colombianos comen con casi todo, o una empanada con ají. Y al desayuno, buñuelos con un café."
+    },
+    {
+      "name": "Provenza",
+      "kind": "stop",
+      "lat": 6.20854,
+      "lng": -75.56683,
+      "text": "Bienvenido a Provenza, el rincón más de moda de Medellín. Estas calles llenas de árboles tienen pequeñas tiendas, restaurantes, terrazas y cafés. Entra a las tiendas y vas a encontrar muchos diseñadores colombianos. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Este es un buen lugar para quedarse un rato. Busca un café, siéntate y pide un tinto, el café negro pequeño que los colombianos toman todo el día.",
+      "photo": "photos/medellin-poblado/6.jpg",
+      "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg"
+    },
+    {
+      "name": "Café y frutas",
+      "kind": "walk",
+      "lat": 6.2091,
+      "lng": -75.5664,
+      "text": "Colombia es uno de los grandes países cafeteros del mundo, y las montañas alrededor de Medellín también son tierra de café. Muchos cafés aquí sirven café de especialidad de pequeñas fincas locales. Pregunta de dónde viene. Y no te vayas sin probar las frutas colombianas. El lulo es ácido y verde por dentro. El maracuyá es fruta de la pasión. La guanábana es cremosa y dulce. Pídelas en jugo, en agua o en leche."
+    },
+    {
+      "name": "Final del recorrido",
+      "kind": "stop",
+      "lat": 6.2095,
+      "lng": -75.566,
+      "text": "Este es el final de nuestro paseo. En hora y media pasaste de la plaza donde nació la ciudad hace cuatrocientos años, a las calles donde hoy come, compra y baila. Si todavía no lo has hecho, el recorrido del Centro cuenta la otra mitad de la historia: cómo Medellín pasó de ser una de las ciudades más peligrosas del mundo a una de las más innovadoras. Gracias por caminar conmigo. Disfruta tu café, y disfruta Medellín. Gracias, parce."
+    }
+  ]
+}

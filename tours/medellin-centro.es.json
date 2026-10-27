@@ -1,0 +1,130 @@
+{
+  "title": "Medellín: el corazón del Centro",
+  "summary": "De la gigantesca catedral de ladrillo a la plaza de Botero y el Parque de las Luces: cómo un pequeño pueblo colonial se volvió la ciudad que se reinventó.",
+  "cover": "photos/medellin-centro/4.jpg",
+  "minutes": 120,
+  "km": 2.5,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/medellin-centro-es",
+  "intro": "Bienvenido al centro de Medellín. En las próximas dos horas vamos a caminar desde la catedral, por las viejas calles comerciales, pasando por las famosas esculturas de Botero, hasta el Parque de las Luces, y terminaremos en una plaza con una historia muy poderosa sobre la paz. Unos consejos antes de empezar. Haz este recorrido de día, ojalá entre semana, cuando las calles están llenas de vida. Guarda el celular en el bolsillo entre parada y parada, y lleva el bolso adelante. Ya sabes lo que dicen aquí: no dar papaya. Ahora sí, vamos.",
+  "stops": [
+    {
+      "name": "Catedral Metropolitana",
+      "kind": "stop",
+      "lat": 6.2537,
+      "lng": -75.5635,
+      "text": "Mira hacia arriba esta iglesia enorme. Es la Catedral Metropolitana de Medellín, una de las iglesias más grandes del mundo hechas casi totalmente en ladrillo, más de un millón de ladrillos. La diseñó el arquitecto francés Charles Émile Carré, y tardaron unos cincuenta años en construirla, hasta terminarla en 1931. Al frente está el Parque Bolívar, en honor a Simón Bolívar, el general que llevó a gran parte de Suramérica a la independencia de España. Ese es él, a caballo. Ahora camina hasta la esquina del parque y sigue hacia el sur por la calle peatonal llamada Junín.",
+      "photo": "photos/medellin-centro/0.jpg",
+      "credit": "Nelsonc, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_de_Medell%C3%ADn_11.JPG"
+    },
+    {
+      "name": "Bajando por Junín",
+      "kind": "walk",
+      "lat": 6.252,
+      "lng": -75.5652,
+      "text": "Este es el Pasaje Junín. Hace cien años, caminar de arriba abajo por esta calle con la mejor ropa era lo que estaba de moda. La gente hasta inventó un verbo: juniniar, salir a pasear por Junín. Fíjate en las panaderías y cafés antiguos del camino. Algunos llevan generaciones sirviendo pasteles y chocolate caliente. Sigue caminando hacia el sur. Pronto verás un edificio muy alto con forma de aguja."
+    },
+    {
+      "name": "Edificio Coltejer",
+      "kind": "stop",
+      "lat": 6.25013,
+      "lng": -75.56609,
+      "text": "Esta torre con forma de aguja es el edificio Coltejer, terminado en 1972, y todavía el edificio más alto de Medellín. Su forma es un guiño a la empresa que lo construyó, Coltejer, un gigante de los textiles. En el siglo veinte, Medellín se volvió la capital industrial de Colombia, y los textiles eran su motor. Miles de personas, muchas de ellas mujeres, trabajaban en las fábricas de tela. Ese espíritu trabajador es algo de lo que los paisas están muy orgullosos. Ahora gira a la derecha, hacia el oeste, y camina una cuadra hasta la plaza que tiene el metro pasando por encima.",
+      "photo": "photos/medellin-centro/2.jpg",
+      "credit": "laloking97 [2], CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Coltejer-Medellin.jpg"
+    },
+    {
+      "name": "Parque Berrío",
+      "kind": "stop",
+      "lat": 6.25,
+      "lng": -75.5683,
+      "text": "Bienvenido al Parque Berrío, la plaza más antigua de la ciudad. Medellín se fundó oficialmente por aquí en 1675, con el nombre de Villa de Nuestra Señora de la Candelaria. Por eso la iglesia blanca a un lado de la plaza es la iglesia de La Candelaria, dedicada a la patrona de la ciudad. Por encima pasa el metro. El metro de Medellín se inauguró en 1995, y sigue siendo el único metro de Colombia. La gente está tan orgullosa de él que habla de la cultura metro: nada de grafitis, nada de basura, todo impecable. Busca la gran mujer de bronce junto al banco. Es un Botero, y la gente le dice La Gorda. Ahora camina una cuadra al norte, hasta una plaza llena de más esculturas suyas.",
+      "photo": "photos/medellin-centro/3.jpg",
+      "credit": "José Luiz, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Statue_of_Pedro_Justo_Berrio_-_Parque_Berr%C3%ADo_-_Medell%C3%ADn_-_Colombia_2024.jpg"
+    },
+    {
+      "name": "Plaza Botero",
+      "kind": "stop",
+      "lat": 6.25185,
+      "lng": -75.56864,
+      "text": "Esta es la Plaza Botero. Fernando Botero nació en Medellín en 1932 y se volvió uno de los artistas más famosos del mundo, conocido por sus personas y animales redondos y voluminosos. Le regaló a la ciudad estas veintitrés esculturas de bronce, y la plaza se abrió en 2002. Recórrela y encuentra tu favorita: el caballo, el gato, Adán y Eva. Botero siempre decía que sus figuras no eran gordas, que se trataba del volumen y la sensualidad. El gran edificio de atrás es el Museo de Antioquia, que antes fue la alcaldía, y adentro hay muchas más obras suyas, además de obras de otros artistas que él donó. Botero murió en 2023, y esta plaza es su regalo a su ciudad natal.",
+      "photo": "photos/medellin-centro/4.jpg",
+      "credit": "Steffen Schmitz (more photos), CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Medell%C3%ADn,_Plaza_Botero,_2023-07_CN-01.jpg"
+    },
+    {
+      "name": "Palacio de la Cultura",
+      "kind": "stop",
+      "lat": 6.2517,
+      "lng": -75.56806,
+      "text": "Ahora mira el edificio a cuadros blancos y negros que parece un castillo. Es el Palacio de la Cultura Rafael Uribe Uribe. Lo diseñó en los años veinte un arquitecto belga, Agustín Goovaerts, en estilo neogótico. Iba a ser la sede del gobierno departamental, pero nunca se terminó como estaba planeado, y años después el gobierno se fue a otra sede. Hoy es un centro cultural, con exposiciones y archivos, y muchas veces la entrada es gratis, así que asómate si está abierto. Desde aquí, sigue hacia el sur por Carabobo, la larga calle peatonal. Pilas entre la multitud.",
+      "photo": "photos/medellin-centro/5.jpg",
+      "credit": "Kamilokardona, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_la_Cultura_Rafael_Uribe_Uribe,_vista_desde_estaci%C3%B3n_del_metro_Parque_Berr%C3%ADo..jpg"
+    },
+    {
+      "name": "Por Carabobo",
+      "kind": "walk",
+      "lat": 6.2493,
+      "lng": -75.5701,
+      "text": "Esta es Carabobo, una de las calles más movidas del centro, llena de vendedores ambulantes, tiendas pequeñas y música. Es el Medellín real, el de todos los días. Si tienes hambre, busca un carrito de frutas. Prueba el mango biche, mango verde con limón y sal, o un vaso de jugo fresco de lulo o maracuyá. Sigue caminando unas cuadras hacia el sur. Vamos hacia un viejo edificio de ladrillo con arcos."
+    },
+    {
+      "name": "Edificios Vásquez y Carré",
+      "kind": "stop",
+      "lat": 6.2473,
+      "lng": -75.5713,
+      "text": "Estos dos bonitos edificios de ladrillo con arcos son los edificios Vásquez y Carré, de finales del siglo diecinueve. ¿Te acuerdas de Charles Carré, el arquitecto de la catedral? También diseñó estos. En esa época, esto era el borde de Guayaquil, el agitado barrio comercial de la ciudad, lleno de mercados, bodegas y viajeros que llegaban en tren. Con los años la zona se deterioró, pero estos edificios se rescataron y restauraron como parte de la renovación de la ciudad. Justo adelante verás un bosque de postes blancos y altos."
+    },
+    {
+      "name": "Parque de las Luces",
+      "kind": "stop",
+      "lat": 6.24605,
+      "lng": -75.5723,
+      "text": "Bienvenido al Parque de las Luces. Esos trescientos postes altos se encienden de noche, como un bosque de luz. Esta plaza antes se llamaba Plaza Cisneros, el corazón de la vieja zona de mercado de Guayaquil. Durante años tuvo fama de peligrosa. A comienzos de los dos mil, la ciudad la transformó, con este parque y la biblioteca que ves al lado. Esa fue la gran idea detrás de la famosa transformación de Medellín: poner los edificios públicos más bonitos en los lugares que más los necesitaban. Mira la biblioteca a tu derecha.",
+      "photo": "photos/medellin-centro/8.jpg",
+      "credit": "Jorge Láscar from Australia, CC BY 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:EPM%C2%B4s_library_and_La_Plaza_de_Cisneros_(Cisneros_Square)_AKA._Plaza_de_la_Luz_(Light_Square)_(5083063362).jpg"
+    },
+    {
+      "name": "Biblioteca EPM",
+      "kind": "stop",
+      "lat": 6.24655,
+      "lng": -75.57308,
+      "text": "Este edificio impactante, con forma de pirámide invertida, es la Biblioteca EPM, inaugurada en 2005. EPM es la empresa de servicios públicos de la ciudad, y pertenece al propio municipio, algo poco común. Sus ganancias ayudan a pagar bibliotecas, parques y colegios en todo Medellín. Bibliotecas como esta se volvieron símbolos del cambio de la ciudad. Medellín pasó de ser llamada una de las ciudades más peligrosas del mundo, a comienzos de los noventa, a ganar premios como una de las más innovadoras. La biblioteca es gratis, así que entra a refrescarte si quieres. Luego mira al otro lado de la calle, hacia la antigua estación del tren.",
+      "photo": "photos/medellin-centro/9.jpg",
+      "credit": "SajoR, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_EPM-Ventanal-Medellin.JPG"
+    },
+    {
+      "name": "Antigua estación del Ferrocarril",
+      "kind": "stop",
+      "lat": 6.2448,
+      "lng": -75.57215,
+      "text": "Este edificio elegante era la estación principal del Ferrocarril de Antioquia. A finales del siglo diecinueve, un ingeniero cubano, Francisco Javier Cisneros, empezó a construir un ferrocarril para conectar a Medellín, en lo alto de las montañas, con el río Magdalena, y de ahí con el mar. Antes del tren, la carga subía en recuas de mulas por caminos empinados. El tren sacó el café y trajo el mundo moderno, y ayudó a convertir a Medellín en una ciudad industrial. La vieja Plaza Cisneros que acabas de ver lleva su nombre. Los trenes ya no están, pero la estación se conservó. Ahora camina hacia el oriente, unas cinco cuadras, hasta nuestra última parada, el Parque San Antonio.",
+      "photo": "photos/medellin-centro/10.jpg",
+      "credit": "Kamilokardona, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Vag%C3%B3n_del_ferrocarril_de_antioquia_en_la_Estaci%C3%B3n_del_Ferrocarril_Medell%C3%ADn_-Cisneros.JPG"
+    },
+    {
+      "name": "Camino a San Antonio",
+      "kind": "walk",
+      "lat": 6.2456,
+      "lng": -75.57,
+      "text": "Mientras caminas, unas palabras sobre los paisas, la gente de esta región. En toda Colombia son conocidos por emprendedores, conversadores y muy orgullosos de su tierra. Vas a oír palabras como parce, que significa amigo, y qué más, que significa cómo estás. Si alguien te ayuda, di muchas gracias, y seguro te responderán con mucho gusto. Sigue hacia el oriente. El gran parque abierto está justo adelante."
+    },
+    {
+      "name": "Parque San Antonio y los pájaros",
+      "kind": "stop",
+      "lat": 6.2454,
+      "lng": -75.56814,
+      "text": "Busca los dos pájaros de bronce de Botero, uno al lado del otro. En junio de 1995, durante un concierto gratuito aquí, explotó una bomba escondida bajo el primer pájaro, y murieron más de veinte personas. Botero le pidió a la ciudad que no quitara el pájaro destruido. Quería que se quedara como recuerdo de la violencia. Unos años después, puso un pájaro nuevo, completo, justo al lado, y lo llamó el Pájaro de la Paz. Desde aquí puedes ver la historia de Medellín en dos esculturas: la herida y la esperanza. Gracias por caminar conmigo por el Centro. Para un merecido descanso, el recorrido de El Poblado es el siguiente paso perfecto. Gracias, y disfruta Medellín.",
+      "photo": "photos/medellin-centro/12.jpg",
+      "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_parque_San_Antonio,_El_P%C3%A1jaro_de_Fernando_Botero.jpg"
+    }
+  ]
+}

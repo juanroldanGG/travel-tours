@@ -63,7 +63,7 @@
     <div class="mx-auto max-w-3xl text-center">
       <div class="mb-6 inline-flex items-center gap-3 rounded-full bg-white/10 px-2.5 py-2 ring-1 ring-white/15 backdrop-blur fade-1">
         <span class="text-xs font-medium text-neutral-900 bg-white/90 rounded-full py-0.5 px-2" data-i18n="badge">New</span>
-        <span class="text-sm font-medium text-white/90" data-i18n="badgeText">Lisbon and Porto tours are live</span>
+        <span class="text-sm font-medium text-white/90" data-i18n="badgeText">Lisbon, Porto and Medellín tours are live</span>
       </div>
       <h1 class="font-serif font-normal text-white tracking-tight leading-tight text-5xl sm:text-6xl lg:text-7xl fade-2">
         <span data-i18n="title1">Walk the city.</span><br><span data-i18n="title2">Hear its stories.</span>
@@ -140,7 +140,7 @@
 <script>
 const TXT = {
   en: { other: 'Español', navTours: 'Tours', navHow: 'How it works', navWhy: 'Why Paseo', cta: 'Try a tour', badge: 'New',
-        badgeText: 'Lisbon and Porto tours are live', title1: 'Walk the city.', title2: 'Hear its stories.',
+        badgeText: 'Lisbon, Porto and Medellín tours are live', title1: 'Walk the city.', title2: 'Hear its stories.',
         lead: 'Self-guided audio tours that play on their own as you reach each place. Clear, natural voices in English and Spanish. Stop for coffee whenever you like.',
         browse: 'Browse tours', listen: 'Listen from home', chip1: '🎧 Clear AI voices', chip2: '🌎 English & Español', chip3: '📶 Works offline', chip4: '☕ Stop any time',
         toursBadge: 'Tours', toursTitle: 'Pick a city, press play', toursLead: 'Each tour is 2 hours or less, with stories at every stop and directions in between.',
@@ -156,7 +156,7 @@ const TXT = {
         photos: 'Photos', andOthers: 'and Wikimedia Commons contributors (credited in each tour)',
         stops: 'stops', start: 'Start tour', new: 'New' },
   es: { other: 'English', navTours: 'Recorridos', navHow: 'Cómo funciona', navWhy: 'Por qué Paseo', cta: 'Prueba un recorrido', badge: 'Nuevo',
-        badgeText: 'Ya están Lisboa y Oporto', title1: 'Camina la ciudad.', title2: 'Escucha sus historias.',
+        badgeText: 'Ya están Lisboa, Oporto y Medellín', title1: 'Camina la ciudad.', title2: 'Escucha sus historias.',
         lead: 'Recorridos de audio que suenan solos cuando llegas a cada lugar. Voces claras y naturales en español e inglés. Para a tomar un café cuando quieras.',
         browse: 'Ver recorridos', listen: 'Escuchar desde casa', chip1: '🎧 Voces claras con IA', chip2: '🌎 Español e inglés', chip3: '📶 Funciona sin internet', chip4: '☕ Para cuando quieras',
         toursBadge: 'Recorridos', toursTitle: 'Elige una ciudad y dale play', toursLead: 'Cada recorrido dura 2 horas o menos, con historias en cada parada e indicaciones entre ellas.',
@@ -183,7 +183,7 @@ const menuBtn = document.getElementById('menuBtn'), menu = document.getElementBy
 menuBtn.onclick = () => { menu.classList.toggle('hidden'); menuBtn.setAttribute('aria-expanded', !menu.classList.contains('hidden')); };
 
 // Tour cards come straight from the tour files, so a new tour only needs its JSON.
-const TOURS = ['lisbon', 'porto'];
+const TOURS = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado'];
 Promise.all(TOURS.map(id => fetch(`tours/${id}.${lang}.json`).then(r => r.json()).then(t => ({ id, ...t })))).then(list => {
   document.getElementById('cards').innerHTML = list.map(t => {
     const stops = t.stops.filter(s => s.kind !== 'walk').length;
