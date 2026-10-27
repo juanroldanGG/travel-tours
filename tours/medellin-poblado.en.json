@@ -1,58 +1,19 @@
 {
   "title": "Medellín: El Poblado and Provenza",
-  "summary": "From the metro by the river, through old Manila and the square where El Poblado began, to Parque Lleras, the La Octava ball-pit bar, El Social and the designer shops and cafés of Vía Primavera.",
-  "cover": "photos/medellin-poblado/30.jpg",
-  "minutes": 135,
-  "km": 3,
+  "summary": "From old Manila and the square where El Poblado began, to Parque Lleras, the La Octava ball-pit bar, El Social and the designer shops and cafés of Vía Primavera.",
+  "cover": "photos/medellin-poblado/25.jpg",
+  "minutes": 120,
+  "km": 2.5,
   "voice": "en-GB-RyanNeural",
   "audio": "audio/medellin-poblado-en",
-  "intro": "Welcome to El Poblado! Today this is Medellín's most international neighbourhood, full of trees, cafés, restaurants and bars. But it's also where the story of the city began, more than four hundred years ago. This walk takes about two hours, starting at the Poblado metro station and climbing gently through the neighbourhood to Provenza. There are plenty of chances to stop for a coffee, a juice or something to eat, so take your time. Keep your phone in your pocket between stops, and let's go.",
+  "intro": "Welcome to El Poblado! Today this is Medellín's most international neighbourhood, full of trees, cafés, restaurants and bars. But it's also where the story of the city began, more than four hundred years ago. This walk takes about two hours, starting in Manila and climbing gently through the neighbourhood. If you're coming by metro, get off at Poblado station: Manila is about a ten-minute walk uphill along Calle 10, or a short taxi ride. There are plenty of chances to stop for a coffee, a juice or something to eat, so take your time. Keep your phone in your pocket between stops, and let's go.",
   "stops": [
-    {
-      "name": "Poblado Metro Station",
-      "kind": "stop",
-      "lat": 6.21296,
-      "lng": -75.57794,
-      "text": "We start at the corner of Poblado station, on Line A of the Medellín Metro. Opened in 1995, it is still the only metro in Colombia, and people here are very proud of it. Notice how clean it is: no graffiti, no litter. Locals call this respect for shared spaces cultura metro, metro culture. Line A runs along the Medellín River, right at the bottom of the valley. From here we walk uphill, east, toward the mountains. Across Calle 10, to your left, is the Centro Comercial Monterrey, Medellín's famous tech mall: floor after floor of small shops selling, and fixing, computers, phones and gadgets. It has been here for decades, and locals still go there to hunt for a good deal. Now walk east along Calle 10, and cross the big avenues only at the traffic lights.",
-      "photo": "photos/medellin-poblado/0.jpg",
-      "credit": "Bernard Gagnon, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Poblado,_Medell%C3%ADn_02.jpg",
-      "place": "Estación Poblado Metro de Medellín"
-    },
-    {
-      "name": "Across Avenida Las Vegas",
-      "kind": "walk",
-      "lat": 6.21277,
-      "lng": -75.57615,
-      "text": "At Avenida Las Vegas, cross at the lights, then bear left toward Calle 11. Somewhere under your feet, the La Presidenta stream is finishing its trip down the hill into the river. We'll meet the same stream later, up in a green park."
-    },
-    {
-      "name": "Onto Calle 11",
-      "kind": "walk",
-      "lat": 6.21335,
-      "lng": -75.57546,
-      "text": "Keep going east along Calle 11. The flat valley floor behind you is a tangle of avenues, rails and the river; from here the city starts to climb. On your right, across Calle 10, is the Éxito of El Poblado, another place that has been here for decades. Éxito is Colombia's biggest supermarket chain, and it was born right here in Medellín, in 1949."
-    },
-    {
-      "name": "Left onto Carrera 43F",
-      "kind": "walk",
-      "lat": 6.21294,
-      "lng": -75.57386,
-      "text": "Turn left onto Carrera 43F, a quiet street of low houses. You're entering Manila."
-    },
-    {
-      "name": "Right onto Calle 11A",
-      "kind": "walk",
-      "lat": 6.21359,
-      "lng": -75.57347,
-      "text": "Turn right onto Calle 11A and walk a few steps."
-    },
     {
       "name": "Manila",
       "kind": "stop",
       "lat": 6.21345,
       "lng": -75.573,
-      "text": "Welcome to Manila, one of the oldest residential corners of El Poblado. Look at the scale of it: two- and three-storey houses, a tight grid of streets, trees, and almost no towers. Many of these old family homes are now cafés, small restaurants, hostels and co-working spaces, which gives the neighbourhood a young, relaxed feel. Nearby there's even a public skate park, busy in the afternoons. It's a good place to see how El Poblado looked before the high-rises arrived. Now keep walking east along Calle 11A.",
+      "text": "Welcome to Manila, one of the oldest residential corners of El Poblado. Look at the scale of it: two- and three-storey houses, a tight grid of streets, trees, and almost no towers. Many of these old family homes are now cafés, small restaurants, hostels and co-working spaces, which gives the neighbourhood a young, relaxed feel. Nearby there's even a public skate park, busy in the afternoons. It's a good place to see how El Poblado looked before the high-rises arrived. A few blocks downhill, toward the river, are two landmarks that have been there for decades. One is the Centro Comercial Monterrey, Medellín's famous tech mall: floor after floor of small shops selling, and fixing, computers, phones and gadgets, where locals still go to hunt for a good deal. The other is the Éxito of El Poblado. Éxito is Colombia's biggest supermarket chain, and it was born right here in Medellín, in 1949. Now walk east along Calle 11A.",
       "place": "Manila El Poblado Medellín"
     },
     {
@@ -90,7 +51,7 @@
       "lat": 6.21093,
       "lng": -75.57119,
       "text": "One block ahead runs Avenida El Poblado, also called Carrera 43A. For most of the twentieth century this area was countryside: big country houses, called fincas, where wealthy families from downtown came to escape the city. As Medellín grew, the fincas were replaced by apartment towers, hotels and offices, and the stretch of the avenue further south became known as the Milla de Oro, the Golden Mile, for its banks and business headquarters. Now cross Calle 10 at the crosswalk and walk down Carrera 43B, beside the park, to its lower corner.",
-      "photo": "photos/medellin-poblado/10.jpg",
+      "photo": "photos/medellin-poblado/5.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
       "place": "Avenida El Poblado Medellín"
@@ -123,7 +84,7 @@
       "lat": 6.21013,
       "lng": -75.57057,
       "text": "This is the church of San José del Poblado, the parish church of the neighbourhood. Look up at its tall brick tower with the clock. Like in almost every Colombian town, the square and the church go together: for centuries this was where people met after Sunday mass, did business and caught up on news. El Poblado has changed completely around it, but the plaza and its church are still the heart of the old village. If the doors are open, step inside for a quiet moment. Next to the church, along Carrera 43A, look for the little hot dog stands. Perritos calientes are a classic of this park: they're tiny, so you can easily eat a few. Then, staying on this side of the avenue, walk south along Carrera 43A, past the hot dog stands, toward the green park by the stream.",
-      "photo": "photos/medellin-poblado/14.jpg",
+      "photo": "photos/medellin-poblado/9.jpg",
       "credit": "XalD, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Jos%C3%A9_del_Poblado-fachada.jpg",
       "place": "Parroquia San José del Poblado Medellín"
@@ -163,7 +124,7 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "This green strip follows the La Presidenta stream down the hill, the same stream you crossed near the metro. Medellín is crossed by hundreds of streams like this one, all flowing into the river at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down, and it won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now follow the path east, along the stream.",
-      "photo": "photos/medellin-poblado/19.jpg",
+      "photo": "photos/medellin-poblado/14.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
@@ -224,7 +185,7 @@
       "lat": 6.20888,
       "lng": -75.56765,
       "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants, and on weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere: reggaetón, of course, but also salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk up Carrera 38, toward Calle 10.",
-      "photo": "photos/medellin-poblado/27.jpg",
+      "photo": "photos/medellin-poblado/22.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -249,7 +210,7 @@
       "lat": 6.20783,
       "lng": -75.56578,
       "text": "On this corner is El Social, a tienda mixta, the old-style neighbourhood corner shop, open since 1969. The streets around it filled up with trendy restaurants and bars, but El Social kept its simple tables and its cold beers, and it's a favourite of locals and travellers alike. Stop for a beer and some people-watching: it's a taste of what this neighbourhood was like before. Right next door is Coyotaco, and it comes with a funny story. Coyo Taco started in Miami, created by Colombians, and grew into a chain with places around the world. But it only came to Colombia later, so for years Colombia didn't have Coyotaco, even though its creators were Colombian. When you're ready, keep walking down Carrera 35 to Calle 8.",
-      "photo": "photos/medellin-poblado/30.jpg",
+      "photo": "photos/medellin-poblado/25.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "El Social Tienda Mixta Medellín"
@@ -296,7 +257,7 @@
       "kind": "stop",
       "lat": 6.2083,
       "lng": -75.56705,
-      "text": "Carrera 37, Vía Primavera, is the perfect end to our walk. It's lined with small speciality shops, many run by local Colombian designers: clothes, shoes, jewellery and accessories you won't find anywhere else. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. And right here is Pergamino, one of Medellín's best-known speciality coffee shops. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Sit down, order a coffee, or a tinto, the small black coffee Colombians drink all day long, and rest your feet. In a couple of hours you've gone from the metro by the river, through old Manila, to the square where El Poblado was born four hundred years ago, and up to the streets where Medellín eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín went from one of the most dangerous cities in the world to one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce.",
+      "text": "Carrera 37, Vía Primavera, is the perfect end to our walk. It's lined with small speciality shops, many run by local Colombian designers: clothes, shoes, jewellery and accessories you won't find anywhere else. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. And right here is Pergamino, one of Medellín's best-known speciality coffee shops. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Sit down, order a coffee, or a tinto, the small black coffee Colombians drink all day long, and rest your feet. In a couple of hours you've gone from the old streets of Manila to the square where El Poblado was born four hundred years ago, and up to the streets where Medellín eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín went from one of the most dangerous cities in the world to one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce.",
       "place": "Pergamino Coffee Via Primavera Medellín"
     }
   ]

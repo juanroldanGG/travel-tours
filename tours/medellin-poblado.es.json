@@ -1,58 +1,19 @@
 {
   "title": "Medellín: El Poblado y Provenza",
-  "summary": "Del metro junto al río, por el viejo Manila y la plaza donde nació El Poblado, hasta el Parque Lleras, el bar de la piscina de pelotas La Octava, El Social y las tiendas de diseño y cafés de la Vía Primavera.",
-  "cover": "photos/medellin-poblado/30.jpg",
-  "minutes": 135,
-  "km": 3,
+  "summary": "Del viejo Manila y la plaza donde nació El Poblado, hasta el Parque Lleras, el bar de la piscina de pelotas La Octava, El Social y las tiendas de diseño y cafés de la Vía Primavera.",
+  "cover": "photos/medellin-poblado/25.jpg",
+  "minutes": 120,
+  "km": 2.5,
   "voice": "es-CO-GonzaloNeural",
   "audio": "audio/medellin-poblado-es",
-  "intro": "¡Bienvenido a El Poblado! Hoy es el barrio más internacional de Medellín, lleno de árboles, cafés, restaurantes y bares. Pero también es donde empezó la historia de la ciudad, hace más de cuatrocientos años. Este paseo dura unas dos horas: empieza en la estación Poblado del metro y sube suave por el barrio hasta Provenza. Hay muchas oportunidades para parar a tomar un café, un jugo o algo de comer, así que tómatelo con calma. Guarda el celular en el bolsillo entre parada y parada, y vamos.",
+  "intro": "¡Bienvenido a El Poblado! Hoy es el barrio más internacional de Medellín, lleno de árboles, cafés, restaurantes y bares. Pero también es donde empezó la historia de la ciudad, hace más de cuatrocientos años. Este paseo dura unas dos horas: empieza en Manila y sube suave por el barrio. Si vienes en metro, bájate en la estación Poblado: Manila queda a unos diez minutos caminando cuesta arriba por la Calle 10, o a un taxi corto. Hay muchas oportunidades para parar a tomar un café, un jugo o algo de comer, así que tómatelo con calma. Guarda el celular en el bolsillo entre parada y parada, y vamos.",
   "stops": [
-    {
-      "name": "Estación Poblado del Metro",
-      "kind": "stop",
-      "lat": 6.21296,
-      "lng": -75.57794,
-      "text": "Empezamos en la esquina de la estación Poblado, en la Línea A del Metro de Medellín. Se inauguró en 1995 y sigue siendo el único metro de Colombia, y aquí la gente lo quiere mucho. Fíjate qué limpio está: sin grafitis, sin basura. A ese respeto por lo de todos le dicen cultura metro. La Línea A corre junto al río Medellín, en el fondo del valle. Desde aquí caminamos cuesta arriba, hacia el oriente, hacia las montañas. Al otro lado de la Calle 10, a tu izquierda, está el Centro Comercial Monterrey, el famoso centro comercial de tecnología de Medellín: piso tras piso de locales pequeños que venden, y arreglan, computadores, celulares y aparatos. Lleva décadas aquí, y la gente todavía va a buscar buenos precios. Ahora camina hacia el oriente por la Calle 10, y cruza las avenidas grandes solo por los semáforos.",
-      "photo": "photos/medellin-poblado/0.jpg",
-      "credit": "Bernard Gagnon, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Poblado,_Medell%C3%ADn_02.jpg",
-      "place": "Estación Poblado Metro de Medellín"
-    },
-    {
-      "name": "Cruzando la Avenida Las Vegas",
-      "kind": "walk",
-      "lat": 6.21277,
-      "lng": -75.57615,
-      "text": "En la Avenida Las Vegas, cruza por el semáforo y luego sigue en diagonal a la izquierda, hacia la Calle 11. En algún lugar bajo tus pies, la quebrada La Presidenta termina su viaje cuesta abajo hacia el río. Más adelante nos vamos a encontrar con la misma quebrada, en un parque verde."
-    },
-    {
-      "name": "Por la Calle 11",
-      "kind": "walk",
-      "lat": 6.21335,
-      "lng": -75.57546,
-      "text": "Sigue hacia el oriente por la Calle 11. El fondo plano del valle que dejas atrás es un enredo de avenidas, rieles y el río; desde aquí la ciudad empieza a subir. A tu derecha, al otro lado de la Calle 10, está el Éxito del Poblado, otro lugar que lleva décadas aquí. Éxito es la cadena de supermercados más grande de Colombia, y nació aquí mismo, en Medellín, en 1949."
-    },
-    {
-      "name": "A la izquierda por la Carrera 43F",
-      "kind": "walk",
-      "lat": 6.21294,
-      "lng": -75.57386,
-      "text": "Gira a la izquierda por la Carrera 43F, una calle tranquila de casas bajas. Estás entrando a Manila."
-    },
-    {
-      "name": "A la derecha por la Calle 11A",
-      "kind": "walk",
-      "lat": 6.21359,
-      "lng": -75.57347,
-      "text": "Gira a la derecha por la Calle 11A y camina unos pasos."
-    },
     {
       "name": "Manila",
       "kind": "stop",
       "lat": 6.21345,
       "lng": -75.573,
-      "text": "Bienvenido a Manila, uno de los rincones residenciales más antiguos de El Poblado. Mira la escala: casas de dos y tres pisos, cuadras pequeñas, árboles, y casi ninguna torre. Muchas de estas casas de familia hoy son cafés, restaurantes pequeños, hostales y espacios de coworking, y eso le da al barrio un ambiente joven y relajado. Cerca hay hasta un parque de patinaje público, que se llena en las tardes. Es un buen lugar para ver cómo era El Poblado antes de los edificios altos. Ahora sigue caminando hacia el oriente por la Calle 11A.",
+      "text": "Bienvenido a Manila, uno de los rincones residenciales más antiguos de El Poblado. Mira la escala: casas de dos y tres pisos, cuadras pequeñas, árboles, y casi ninguna torre. Muchas de estas casas de familia hoy son cafés, restaurantes pequeños, hostales y espacios de coworking, y eso le da al barrio un ambiente joven y relajado. Cerca hay hasta un parque de patinaje público, que se llena en las tardes. Es un buen lugar para ver cómo era El Poblado antes de los edificios altos. Unas cuadras más abajo, hacia el río, hay dos lugares que llevan décadas ahí. Uno es el Centro Comercial Monterrey, el famoso centro comercial de tecnología de Medellín: piso tras piso de locales pequeños que venden, y arreglan, computadores, celulares y aparatos, a donde la gente todavía va a buscar buenos precios. El otro es el Éxito del Poblado. Éxito es la cadena de supermercados más grande de Colombia, y nació aquí mismo, en Medellín, en 1949. Ahora camina hacia el oriente por la Calle 11A.",
       "place": "Manila El Poblado Medellín"
     },
     {
@@ -90,7 +51,7 @@
       "lat": 6.21093,
       "lng": -75.57119,
       "text": "Una cuadra adelante va la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de la avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Ahora cruza la Calle 10 por la cebra y baja por la Carrera 43B, junto al parque, hasta la esquina de abajo.",
-      "photo": "photos/medellin-poblado/10.jpg",
+      "photo": "photos/medellin-poblado/5.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
       "place": "Avenida El Poblado Medellín"
@@ -123,7 +84,7 @@
       "lat": 6.21013,
       "lng": -75.57057,
       "text": "Esta es la iglesia San José del Poblado, la parroquia del barrio. Mira hacia arriba su torre alta de ladrillo, con el reloj. Como en casi todos los pueblos de Colombia, la plaza y la iglesia van juntas: durante siglos aquí se encontraba la gente después de la misa del domingo, a hacer negocios y a ponerse al día. El Poblado cambió por completo a su alrededor, pero la plaza y su iglesia siguen siendo el corazón del pueblo viejo. Si las puertas están abiertas, entra un momento a descansar. Al lado de la iglesia, sobre la Carrera 43A, busca los puestos de perritos calientes, un clásico de este parque: son pequeñitos, así que te puedes comer varios. Después, sin cruzar la avenida, camina hacia el sur por la Carrera 43A, pasando por los perritos, hacia el parque verde de la quebrada.",
-      "photo": "photos/medellin-poblado/14.jpg",
+      "photo": "photos/medellin-poblado/9.jpg",
       "credit": "XalD, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Jos%C3%A9_del_Poblado-fachada.jpg",
       "place": "Parroquia San José del Poblado Medellín"
@@ -163,7 +124,7 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "Esta franja verde sigue la quebrada La Presidenta colina abajo, la misma que cruzaste cerca del metro. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad, y hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sigue el sendero hacia el oriente, junto a la quebrada.",
-      "photo": "photos/medellin-poblado/19.jpg",
+      "photo": "photos/medellin-poblado/14.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
@@ -224,7 +185,7 @@
       "lat": 6.20888,
       "lng": -75.56765,
       "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes, y los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes: reguetón, claro, pero también salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora sube por la Carrera 38, hacia la Calle 10.",
-      "photo": "photos/medellin-poblado/27.jpg",
+      "photo": "photos/medellin-poblado/22.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -249,7 +210,7 @@
       "lat": 6.20783,
       "lng": -75.56578,
       "text": "En esta esquina está El Social, una tienda mixta, la tienda de barrio de toda la vida, abierta desde 1969. Las calles alrededor se llenaron de restaurantes y bares de moda, pero El Social siguió con sus mesas sencillas y su cerveza fría, y es un favorito de locales y viajeros. Para a tomarte una cerveza y ver pasar la gente: es una probadita de cómo era este barrio antes. Aquí al lado está Coyotaco, y tiene una historia curiosa. Coyo Taco nació en Miami, creado por colombianos, y se volvió una cadena con locales en varias partes del mundo. Pero a Colombia llegó después, así que durante años en Colombia no había Coyotaco, aunque sus creadores eran colombianos. Cuando estés listo, sigue bajando por la Carrera 35 hasta la Calle 8.",
-      "photo": "photos/medellin-poblado/30.jpg",
+      "photo": "photos/medellin-poblado/25.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "El Social Tienda Mixta Medellín"
@@ -296,7 +257,7 @@
       "kind": "stop",
       "lat": 6.2083,
       "lng": -75.56705,
-      "text": "La Carrera 37, la Vía Primavera, es el final perfecto para nuestro paseo. Está llena de tiendas pequeñas de especialidad, muchas de diseñadores colombianos locales: ropa, zapatos, joyas y accesorios que no vas a encontrar en otra parte. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el recorrido del Centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Y aquí mismo está Pergamino, uno de los cafés de especialidad más conocidos de Medellín. Colombia es uno de los grandes países cafeteros del mundo, y las montañas alrededor de Medellín también son tierra de café. Siéntate, pide un café, o un tinto, el café negro pequeño que los colombianos toman todo el día, y descansa los pies. En un par de horas pasaste del metro junto al río, por el viejo Manila, a la plaza donde nació El Poblado hace cuatrocientos años, y subiste hasta las calles donde Medellín come, compra y baila hoy. Si todavía no lo has hecho, el recorrido del Centro cuenta la otra mitad de la historia: cómo Medellín pasó de ser una de las ciudades más peligrosas del mundo a una de las más innovadoras. Gracias por caminar conmigo. Disfruta tu café, y disfruta Medellín. Gracias, parce.",
+      "text": "La Carrera 37, la Vía Primavera, es el final perfecto para nuestro paseo. Está llena de tiendas pequeñas de especialidad, muchas de diseñadores colombianos locales: ropa, zapatos, joyas y accesorios que no vas a encontrar en otra parte. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el recorrido del Centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Y aquí mismo está Pergamino, uno de los cafés de especialidad más conocidos de Medellín. Colombia es uno de los grandes países cafeteros del mundo, y las montañas alrededor de Medellín también son tierra de café. Siéntate, pide un café, o un tinto, el café negro pequeño que los colombianos toman todo el día, y descansa los pies. En un par de horas pasaste de las calles viejas de Manila a la plaza donde nació El Poblado hace cuatrocientos años, y subiste hasta las calles donde Medellín come, compra y baila hoy. Si todavía no lo has hecho, el recorrido del Centro cuenta la otra mitad de la historia: cómo Medellín pasó de ser una de las ciudades más peligrosas del mundo a una de las más innovadoras. Gracias por caminar conmigo. Disfruta tu café, y disfruta Medellín. Gracias, parce.",
       "place": "Pergamino Coffee Via Primavera Medellín"
     }
   ]
