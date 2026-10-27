@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f766e">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paseo · Travel wallet</title>
+<title>RutaMundo · Travel wallet</title>
 <style>
-  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; --line:#ddd; }
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#0f766e; --card:#f4f1ec; --line:#ddd; }
   @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#aaa; --card:#232323; --line:#333; } }
   * { box-sizing:border-box; }
   body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg); overflow-x:hidden; }
@@ -439,7 +441,7 @@ $('lang').value = lang;
 $('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
 $('back').href = `./?lang=${lang}`; $('back').textContent = t.all;
 $('title').textContent = t.title; $('private').textContent = t.private;
-document.title = 'Paseo · ' + t.title;
+document.title = 'RutaMundo · ' + t.title;
 $('add').textContent = t.add; $('typeL').textContent = t.type; $('fileL').textContent = t.file;
 $('pasteL').textContent = t.paste; $('read').textContent = t.read; $('notesL').textContent = t.notes;
 $('save').textContent = t.save; $('cancel').textContent = t.cancel; $('search').placeholder = t.search;

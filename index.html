@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f766e">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paseo · Audio walking tours</title>
+<title>RutaMundo · Audio walking tours</title>
 <meta name="description" content="Self-guided audio walking tours with clear, natural voices in English and Spanish. Walk at your own pace, stop for coffee, and listen offline.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,7 +14,7 @@
 <script>
   tailwind.config = { darkMode: 'media', theme: { extend: {
     fontFamily: { serif: ['"Instrument Serif"', 'serif'], sans: ['Inter', 'system-ui', 'sans-serif'] },
-    colors: { brand: '#c8102e' } } } };
+    colors: { brand: '#0f766e' } } } };
 </script>
 <style>
   @keyframes fadeSlideIn { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
@@ -30,17 +32,14 @@
 
   <header class="z-10 relative">
     <div class="mx-4 sm:mx-6 flex items-center justify-between pt-4">
-      <a href="./" class="inline-flex items-center gap-2 text-white" aria-label="Paseo home">
-        <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
-          <path d="M17 3c-5.5 0-10 4.3-10 9.8C7 20 17 31 17 31s10-11 10-18.2C27 7.3 22.5 3 17 3z" fill="#c8102e"/>
-          <path d="M13 11.5a5 5 0 0 1 0 5M16 9.5a8 8 0 0 1 0 9M19.5 8a10.5 10.5 0 0 1 0 12" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-        </svg>
-        <span class="font-serif text-2xl">Paseo</span>
+      <a href="./" class="inline-flex items-center gap-2 text-white" aria-label="RutaMundo home">
+        <img src="icon.svg" width="34" height="34" alt="">
+        <span class="text-xl font-extrabold tracking-tight">Ruta<span class="font-medium">Mundo</span></span>
       </a>
       <nav class="hidden md:flex items-center gap-1 rounded-full bg-white/5 px-1 py-1 ring-1 ring-white/10 backdrop-blur">
         <a href="#tours" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navTours">Tours</a>
         <a href="#how" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navHow">How it works</a>
-        <a href="#why" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navWhy">Why Paseo</a>
+        <a href="#why" class="px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navWhy">Why RutaMundo</a>
         <a href="wallet.html" class="wallet px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="navWallet">Travel wallet</a>
         <button class="lang px-3 py-2 text-sm font-medium text-white/80 hover:text-white" data-i18n="other">Español</button>
         <a href="#tours" class="ml-1 inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-2 text-sm font-medium text-neutral-900 hover:bg-white/90">
@@ -55,7 +54,7 @@
     <div id="menu" class="md:hidden hidden mx-4 mt-2 rounded-2xl bg-black/60 backdrop-blur ring-1 ring-white/10 p-2 text-white">
       <a href="#tours" class="block px-3 py-2" data-i18n="navTours">Tours</a>
       <a href="#how" class="block px-3 py-2" data-i18n="navHow">How it works</a>
-      <a href="#why" class="block px-3 py-2" data-i18n="navWhy">Why Paseo</a>
+      <a href="#why" class="block px-3 py-2" data-i18n="navWhy">Why RutaMundo</a>
       <a href="wallet.html" class="wallet block px-3 py-2" data-i18n="navWallet">Travel wallet</a>
       <button class="lang block w-full text-left px-3 py-2" data-i18n="other">Español</button>
     </div>
@@ -134,7 +133,7 @@
 <!-- Why -->
 <section id="why" class="py-16 md:py-24">
   <div class="mx-auto max-w-6xl px-4 md:px-6">
-    <h2 class="text-center font-serif text-4xl md:text-5xl" data-i18n="whyTitle">Why Paseo</h2>
+    <h2 class="text-center font-serif text-4xl md:text-5xl" data-i18n="whyTitle">Why RutaMundo</h2>
     <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w1t">Voices you can understand</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w1">Clear, natural narration in your language. No strong accents, no mumbling.</p></div>
       <div class="rounded-2xl ring-1 ring-neutral-200 dark:ring-neutral-800 p-6"><h3 class="font-semibold text-lg" data-i18n="w2t">Free while in preview</h3><p class="mt-2 text-neutral-600 dark:text-neutral-400" data-i18n="w2">Try every tour free while we're in preview. Later, a fraction of the price of other audio tours.</p></div>
@@ -148,14 +147,14 @@
 
 <footer class="border-t border-neutral-200 dark:border-neutral-800 py-8 text-sm text-neutral-500">
   <div class="mx-auto max-w-6xl px-4 md:px-6 flex flex-col sm:flex-row gap-2 justify-between">
-    <span>© 2026 Paseo</span>
+    <span>© 2026 RutaMundo</span>
     <span><span data-i18n="photos">Photos</span>: <a class="underline" href="https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg" target="_blank" rel="noopener">Jakub Hałun, CC BY 4.0</a> <span data-i18n="andOthers">and Wikimedia Commons contributors (credited in each tour)</span>.</span>
   </div>
 </footer>
 
 <script>
 const TXT = {
-  en: { other: 'Español', navTours: 'Tours', navHow: 'How it works', navWhy: 'Why Paseo', navWallet: 'Travel wallet', walletTitle: 'All your bookings in one place', walletLead: "Flights, hotels, car rentals and door codes. Upload the airline's PDF or paste the email and the booking code fills in by itself. It stays on your phone only.", walletCta: 'Open my wallet', cta: 'Try a tour', badge: 'New',
+  en: { other: 'Español', navTours: 'Tours', navHow: 'How it works', navWhy: 'Why RutaMundo', navWallet: 'Travel wallet', walletTitle: 'All your bookings in one place', walletLead: "Flights, hotels, car rentals and door codes. Upload the airline's PDF or paste the email and the booking code fills in by itself. It stays on your phone only.", walletCta: 'Open my wallet', cta: 'Try a tour', badge: 'New',
         badgeText: 'Tours in Portugal, Colombia and California', title1: 'Walk the city.', title2: 'Hear its stories.',
         lead: 'Self-guided audio tours that play on their own as you reach each place. Clear, natural voices in English and Spanish. Stop for coffee whenever you like.',
         browse: 'Browse tours', listen: 'Listen from home', chip1: '🎧 Clear AI voices', chip2: '🌎 English & Español', chip3: '📶 Works offline', chip4: '☕ Stop any time',
@@ -163,7 +162,7 @@ const TXT = {
         howTitle: 'How it works', how1t: 'Go to the start', how1: 'One tap opens Google Maps with walking directions to the first stop.',
         how2t: 'Put your headphones in', how2: 'The story starts on its own at each place, and tells you where to turn next.',
         how3t: 'Go at your own pace', how3: 'Take a break for lunch and pick up exactly where you left off, today or tomorrow.',
-        whyTitle: 'Why Paseo', w1t: 'Voices you can understand', w1: 'Clear, natural narration in your language. No strong accents, no mumbling.',
+        whyTitle: 'Why RutaMundo', w1t: 'Voices you can understand', w1: 'Clear, natural narration in your language. No strong accents, no mumbling.',
         w2t: 'Free while in preview', w2: "Try every tour free while we're in preview. Later, a fraction of the price of other audio tours.",
         w3t: 'No data needed', w3: 'Download the tour on Wi-Fi and walk without roaming charges.',
         w4t: 'Tour from your sofa', w4: 'Play any tour at home with photos of every stop. Great for planning a trip.',
@@ -171,7 +170,7 @@ const TXT = {
         w6t: 'GPS acting up?', w6: 'Tap "Next stop" any time. You\'re always in control.',
         photos: 'Photos', andOthers: 'and Wikimedia Commons contributors (credited in each tour)',
         stops: 'stops', start: 'Start tour', mode: { walk: '🚶 Walking tour', bike: '🚲 Bike tour', drive: '🚗 Driving tour' } },
-  es: { other: 'English', navTours: 'Recorridos', navHow: 'Cómo funciona', navWhy: 'Por qué Paseo', navWallet: 'Billetera de viaje', walletTitle: 'Todas tus reservas en un solo lugar', walletLead: 'Vuelos, hoteles, carros alquilados y códigos de puertas. Sube el PDF de la aerolínea o pega el correo y el código de reserva se llena solo. Todo queda solo en tu celular.', walletCta: 'Abrir mi billetera', cta: 'Prueba un recorrido', badge: 'Nuevo',
+  es: { other: 'English', navTours: 'Recorridos', navHow: 'Cómo funciona', navWhy: 'Por qué RutaMundo', navWallet: 'Billetera de viaje', walletTitle: 'Todas tus reservas en un solo lugar', walletLead: 'Vuelos, hoteles, carros alquilados y códigos de puertas. Sube el PDF de la aerolínea o pega el correo y el código de reserva se llena solo. Todo queda solo en tu celular.', walletCta: 'Abrir mi billetera', cta: 'Prueba un recorrido', badge: 'Nuevo',
         badgeText: 'Recorridos en Portugal, Colombia y California', title1: 'Camina la ciudad.', title2: 'Escucha sus historias.',
         lead: 'Recorridos de audio que suenan solos cuando llegas a cada lugar. Voces claras y naturales en español e inglés. Para a tomar un café cuando quieras.',
         browse: 'Ver recorridos', listen: 'Escuchar desde casa', chip1: '🎧 Voces claras con IA', chip2: '🌎 Español e inglés', chip3: '📶 Funciona sin internet', chip4: '☕ Para cuando quieras',
@@ -179,7 +178,7 @@ const TXT = {
         howTitle: 'Cómo funciona', how1t: 'Llega al inicio', how1: 'Con un toque se abre Google Maps con la ruta a pie hasta la primera parada.',
         how2t: 'Ponte los audífonos', how2: 'La historia empieza sola en cada lugar, y te dice por dónde seguir.',
         how3t: 'A tu ritmo', how3: 'Para a almorzar y sigue exactamente donde quedaste, hoy o mañana.',
-        whyTitle: 'Por qué Paseo', w1t: 'Voces que se entienden', w1: 'Narración clara y natural en tu idioma. Sin acentos difíciles.',
+        whyTitle: 'Por qué RutaMundo', w1t: 'Voces que se entienden', w1: 'Narración clara y natural en tu idioma. Sin acentos difíciles.',
         w2t: 'Gratis durante la versión de prueba', w2: 'Prueba todos los recorridos gratis por ahora. Después, a una fracción del precio de otros recorridos de audio.',
         w3t: 'Sin gastar datos', w3: 'Descarga el recorrido con Wi-Fi y camina sin roaming.',
         w4t: 'Recorre desde el sofá', w4: 'Escucha cualquier recorrido en casa, con fotos de cada parada. Ideal para planear el viaje.',

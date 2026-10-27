@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f766e">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Paseo · Tour</title>
+<title>RutaMundo · Tour</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
-  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; }
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#0f766e; --card:#f4f1ec; }
   @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#aaa; --card:#232323; } }
   * { box-sizing:border-box; }
   body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg);
@@ -271,7 +273,7 @@ fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
   tour = tr;
   M = MODES[tour.mode] || MODES.walk;
   $('walk').textContent = t.go[tour.mode || 'walk'];
-  document.title = `Paseo · ${tour.title}`;
+  document.title = `RutaMundo · ${tour.title}`;
   $('title').textContent = tour.title;
   $('summary').textContent = tour.summary;
   if (t.safe[tour.mode]) $('summary').innerHTML += `<br><b>⚠ ${t.safe[tour.mode]}</b>`;
@@ -286,7 +288,7 @@ fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
     $('walk').textContent = t.goBack[tour.mode || 'walk']; $('home').textContent = t.homeBack;
   }
   const pts = tour.stops.map(s => [s.lat, s.lng]);
-  L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);
+  L.polyline(pts, { color: '#0f766e', dashArray: '6 8' }).addTo(map);
   markers = tour.stops.map((s, i) => L.marker([s.lat, s.lng], { icon: icon(i) })
     .addTo(map).bindTooltip(s.name).on('click', () => started && play(i)));
   map.fitBounds(pts, { padding: [30, 30] });
