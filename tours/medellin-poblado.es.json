@@ -56,26 +56,41 @@
       "place": "Manila El Poblado Medellín"
     },
     {
-      "name": "A la derecha por la Carrera 43B",
+      "name": "Por la Calle 11",
       "kind": "walk",
-      "lat": 6.21261,
-      "lng": -75.57074,
-      "text": "En la Carrera 43B, gira a la derecha y baja hacia el sur."
+      "lat": 6.21299,
+      "lng": -75.57178,
+      "text": "Donde termina la Calle 11A, sigue por la derecha hacia la Calle 11 y camina una cuadra corta hacia el oriente."
     },
     {
-      "name": "Cruzando la Calle 10A",
+      "name": "A la derecha por la Carrera 43C",
       "kind": "walk",
-      "lat": 6.21193,
-      "lng": -75.57079,
-      "text": "Cruza la Calle 10A con cuidado y sigue derecho bajando por la Carrera 43B."
+      "lat": 6.21247,
+      "lng": -75.57149,
+      "text": "Gira a la derecha por la Carrera 43C y baja."
+    },
+    {
+      "name": "Bares de la Carrera 43C",
+      "kind": "stop",
+      "lat": 6.2117,
+      "lng": -75.57168,
+      "text": "Esta callecita, la Carrera 43C, tiene dos lugares que nos gustan mucho, casi uno al lado del otro: Siete Pulgadas, un listening bar, y Mad Records Café. Los dos nombres hablan de música: siete pulgadas es el tamaño de un disco sencillo de vinilo. Un listening bar es un bar pensado alrededor de un muy buen equipo de sonido, a donde la gente va a escuchar música de verdad mientras se toma algo. Si es de noche, vale la pena volver. Por ahora, sigue bajando por la Carrera 43C hasta la Calle 10.",
+      "place": "Siete Pulgadas Listening Bar Medellín"
+    },
+    {
+      "name": "A la izquierda por la Calle 10",
+      "kind": "walk",
+      "lat": 6.21126,
+      "lng": -75.57192,
+      "text": "Al final, gira a la izquierda por la Calle 10 y camina una cuadra hacia el oriente."
     },
     {
       "name": "Milla de Oro",
       "kind": "stop",
-      "lat": 6.21098,
-      "lng": -75.57117,
-      "text": "Una cuadra a tu izquierda va la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de la avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Cruza la Calle 10 por el semáforo; la plaza de la iglesia está ahí al frente.",
-      "photo": "photos/medellin-poblado/8.jpg",
+      "lat": 6.21093,
+      "lng": -75.57119,
+      "text": "Una cuadra adelante va la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de la avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Ahora gira a la derecha y baja por la Carrera 43B, junto al parque, hasta la esquina de abajo.",
+      "photo": "photos/medellin-poblado/10.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
       "place": "Avenida El Poblado Medellín"
@@ -83,9 +98,9 @@
     {
       "name": "Parque de El Poblado",
       "kind": "stop",
-      "lat": 6.21035,
-      "lng": -75.57097,
-      "text": "Estás donde empezó Medellín. En 1616, un funcionario español, el oidor Francisco de Herrera Campuzano, creó aquí mismo un poblado para los indígenas del valle, llamado San Lorenzo de Aburrá. Por eso este barrio se llama El Poblado. El pueblo de Medellín como tal creció después, más al norte, donde hoy está el Centro. Mira alrededor las montañas por todos lados. Medellín está en un valle largo y angosto, a unos mil quinientos metros de altura, y el clima es agradable todo el año. Por eso le dicen la Ciudad de la Eterna Primavera.",
+      "lat": 6.21013,
+      "lng": -75.57142,
+      "text": "Estás donde empezó Medellín. En 1616, un funcionario español, el oidor Francisco de Herrera Campuzano, creó aquí mismo un poblado para los indígenas del valle, llamado San Lorenzo de Aburrá. Por eso este barrio se llama El Poblado. El pueblo de Medellín como tal creció después, más al norte, donde hoy está el Centro. Mira alrededor las montañas por todos lados. Medellín está en un valle largo y angosto, a unos mil quinientos metros de altura, y el clima es agradable todo el año. Por eso le dicen la Ciudad de la Eterna Primavera. Desde esta esquina de abajo, mira la Carrera 43B: una calle peatonal llena de bares y restaurantes, con ambiente desde el almuerzo hasta tarde en la noche. Y aquí mismo, en el parque, está Alambique, un restaurante que nos encanta. Pide el ceviche de chicharrón, una versión nueva y fusión del ceviche. Cuando estés listo, camina hacia el oriente por la Calle 9, por la parte de abajo del parque, hasta la iglesia.",
       "place": "Parque El Poblado Medellín"
     },
     {
@@ -93,8 +108,8 @@
       "kind": "stop",
       "lat": 6.21001,
       "lng": -75.57024,
-      "text": "Esta es la iglesia San José del Poblado, la parroquia del barrio. Mira hacia arriba su torre alta de ladrillo, con el reloj. Como en casi todos los pueblos de Colombia, la plaza y la iglesia van juntas: durante siglos aquí se encontraba la gente después de la misa del domingo, a hacer negocios y a ponerse al día. El Poblado cambió por completo a su alrededor, pero la plaza y su iglesia siguen siendo el corazón del pueblo viejo. Si las puertas están abiertas, entra un momento a descansar. Después camina hacia el sur por la Carrera 43A, hacia el parque verde de la quebrada.",
-      "photo": "photos/medellin-poblado/10.jpg",
+      "text": "Esta es la iglesia San José del Poblado, la parroquia del barrio. Mira hacia arriba su torre alta de ladrillo, con el reloj. Como en casi todos los pueblos de Colombia, la plaza y la iglesia van juntas: durante siglos aquí se encontraba la gente después de la misa del domingo, a hacer negocios y a ponerse al día. El Poblado cambió por completo a su alrededor, pero la plaza y su iglesia siguen siendo el corazón del pueblo viejo. Si las puertas están abiertas, entra un momento a descansar. Al lado de la iglesia, sobre la Carrera 43A, busca los puestos de perritos calientes, un clásico de este parque: son pequeñitos, así que te puedes comer varios. Después camina hacia el sur por la Carrera 43A, hacia el parque verde de la quebrada.",
+      "photo": "photos/medellin-poblado/12.jpg",
       "credit": "XalD, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Jos%C3%A9_del_Poblado-fachada.jpg",
       "place": "Parroquia San José del Poblado Medellín"
@@ -126,7 +141,7 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "Esta franja verde sigue la quebrada La Presidenta colina abajo, la misma que cruzaste cerca del metro. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad, y hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sigue el sendero hacia el oriente, junto a la quebrada.",
-      "photo": "photos/medellin-poblado/14.jpg",
+      "photo": "photos/medellin-poblado/16.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
@@ -166,7 +181,7 @@
       "lat": 6.20897,
       "lng": -75.56786,
       "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes, y los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes. A esta ciudad le dicen la capital del reguetón: estrellas como J Balvin, Karol G y Maluma son de Medellín. Pero también vas a oír salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora sube por la Carrera 38, hacia la Calle 10.",
-      "photo": "photos/medellin-poblado/19.jpg",
+      "photo": "photos/medellin-poblado/21.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -184,7 +199,7 @@
       "lat": 6.20898,
       "lng": -75.5666,
       "text": "Bienvenido a Provenza, el rincón más de moda de Medellín. Estas calles llenas de árboles tienen pequeñas tiendas, restaurantes, terrazas y cafés. Entra a las tiendas y vas a encontrar muchos diseñadores colombianos. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el recorrido del Centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Sigue caminando hacia el oriente hasta la Carrera 35, la calle con más árboles de todas.",
-      "photo": "photos/medellin-poblado/21.jpg",
+      "photo": "photos/medellin-poblado/23.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "Provenza Medellín"
@@ -202,7 +217,7 @@
       "lat": 6.2081,
       "lng": -75.56566,
       "text": "Este tramo de la Carrera 35 es el corazón de Provenza: una calle a la sombra de árboles grandes, llena de terrazas y restaurantes. Es un buen lugar para quedarse un rato. Colombia es uno de los grandes países cafeteros del mundo, y las montañas alrededor de Medellín también son tierra de café. Muchos cafés aquí sirven café de especialidad de fincas pequeñas; pregunta de dónde viene. O pide un tinto, el café negro pequeño que los colombianos toman todo el día. Y prueba los jugos: el lulo es ácido y verde por dentro, el maracuyá es fruta de la pasión, y la guanábana es cremosa y dulce.",
-      "photo": "photos/medellin-poblado/23.jpg",
+      "photo": "photos/medellin-poblado/25.jpg",
       "credit": "José Luiz, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Carrera_35_-_Provenza_-_Medell%C3%ADn_-_Colombia_2024_(2).jpg",
       "place": "Carrera 35 Provenza Medellín"
