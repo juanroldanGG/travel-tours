@@ -1,0 +1,131 @@
+{
+  "title": "Santa Cruz: The Wharf, the Boardwalk and West Cliff",
+  "summary": "A seaside walk from California's oldest amusement park and its wooden roller coaster, out to the sea lions under the wharf, then along the cliffs to Steamer Lane and the surfing lighthouse.",
+  "cover": "photos/santacruz-westcliff/0.jpg",
+  "mode": "walk",
+  "minutes": 120,
+  "km": 3.9,
+  "voice": "en-US-AndrewNeural",
+  "audio": "audio/santacruz-westcliff-en",
+  "intro": "Welcome to Santa Cruz! I'm your guide for the next two hours or so. We'll start at the Beach Boardwalk, with its century old roller coaster and carousel, walk out on the long wooden wharf to meet the sea lions, then follow West Cliff Drive along the ocean to the lighthouse and its surfing museum. It's about four kilometres, mostly flat, with one gentle climb. Keep your phone screen on and your headphones in. When you reach each place, I'll start talking on my own. Bring a jacket, because the ocean breeze can be cool even on sunny days. Let's go.",
+  "stops": [
+    {
+      "name": "Santa Cruz Beach Boardwalk",
+      "kind": "stop",
+      "lat": 36.96526,
+      "lng": -122.01471,
+      "text": "You're standing on Beach Street, in front of the Santa Cruz Beach Boardwalk. This is the oldest surviving amusement park in California. It goes back to 1907, when a businessman named Fred Swanton opened a grand casino and bathhouse right on the sand. He dreamed of a Coney Island of the West. More than a century later, the park is still here, and it's still free to walk in. You only pay for the rides. Listen for the screams, the clatter of wooden tracks and the gulls fighting over dropped fries. Behind the park, the San Lorenzo River meets the ocean. Remember that river, because it comes back later in our story. Now walk into the park and look for the huge white wooden roller coaster. It's just a few steps away.",
+      "photo": "photos/santacruz-westcliff/0.jpg",
+      "credit": "Josta Photo, CC BY 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Beach_Boardwalk_-_4652510977.jpg"
+    },
+    {
+      "name": "The Giant Dipper",
+      "kind": "stop",
+      "lat": 36.96471,
+      "lng": -122.01533,
+      "text": "This is the Giant Dipper, one of the most famous wooden roller coasters in the world. It opened in 1924, and it was built in only about seven weeks by Arthur Looff, the son of a master carousel maker. The ride starts in a pitch dark tunnel, then climbs and drops along the edge of the beach. Its wooden frame is checked and repaired constantly, piece by piece, which is why it still runs after a hundred years. In 1987, the Giant Dipper and the carousel we're about to see were named National Historic Landmarks, a rare honour for amusement rides. You might recognise this place from movies too. The vampire film The Lost Boys was shot here in the eighties. Next, turn toward the ocean and walk west along the beachfront promenade.",
+      "photo": "photos/santacruz-westcliff/1.jpg",
+      "credit": "Larry Pieniazek, User:Lar,  (primary), CC BY 2.5, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:SantaCruz_BeachBoardwalk_GiantDipper_trackDSCN9382.JPG"
+    },
+    {
+      "name": "Along the promenade",
+      "kind": "walk",
+      "lat": 36.9641,
+      "lng": -122.0163,
+      "text": "Keep the beach on your left and walk west along the promenade, past the games and food stands. Out there is Monterey Bay, one of the richest stretches of ocean in the world. It's a protected marine sanctuary, home to whales, dolphins and sea otters. On a clear day you can see the far side of the bay. Keep walking until you hear organ music. That's our next stop."
+    },
+    {
+      "name": "The Looff Carousel",
+      "kind": "stop",
+      "lat": 36.96438,
+      "lng": -122.01744,
+      "text": "Here's the Looff Carousel, built in 1911 by Charles Looff, a Danish born craftsman and one of the great carousel makers in America. His son built the Giant Dipper. Almost all the horses are hand carved wood, and they've been carrying riders for more than a century. Listen to the music. It comes from a band organ made in Germany in the eighteen nineties, older than the carousel itself. Now watch the riders on the outside horses. As they go around, they reach out and grab metal rings from a dispenser and try to throw them at a target. This is one of the very few carousels in the world where people still play the old ring game. When you're ready, leave the park back toward Beach Street and head left, toward the long wooden pier.",
+      "photo": "photos/santacruz-westcliff/3.jpg",
+      "credit": "Mliu92, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Looff_Carousel_2.jpg"
+    },
+    {
+      "name": "Down Beach Street",
+      "kind": "walk",
+      "lat": 36.96385,
+      "lng": -122.02108,
+      "text": "Walk west along Beach Street with the Boardwalk on your left. The long pier ahead of you is the Santa Cruz Wharf. Notice the surfers in the water to its right. That's Cowell Beach, and we'll come back to it. Watch for bikes on the path, and cross the street carefully at the roundabout. Head for the start of the wharf."
+    },
+    {
+      "name": "The Santa Cruz Wharf",
+      "kind": "stop",
+      "lat": 36.96255,
+      "lng": -122.0236,
+      "text": "You're at the start of the Santa Cruz Wharf. It opened in 1914, and it stretches about half a mile out into the bay, making it one of the longest wooden piers on the West Coast. It wasn't built for tourists. It was built for ships. Steamers tied up here to load and unload goods, and later it became home to a busy fishing fleet. Today it's lined with restaurants, fish markets and souvenir shops, and yes, you can drive a car out on it. Look down between the boards and you'll see the ocean below your feet. Walk out along the wharf now, toward the far end. Keep your ears open. Before you see our next stop, you'll probably hear it.",
+      "photo": "photos/santacruz-westcliff/5.jpg",
+      "credit": "Intothewoods29 (talk), CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Under_the_Santa_Cruz_Wharf.JPG"
+    },
+    {
+      "name": "Out on the wharf",
+      "kind": "walk",
+      "lat": 36.9603,
+      "lng": -122.0206,
+      "text": "Keep walking toward the end of the wharf. Look back over your shoulder for one of the best views of the Boardwalk and the Giant Dipper. You'll pass people fishing over the rail. Watch for pelicans gliding just above the water, and for gulls with an eye on your snack. Hear that loud barking? Follow it."
+    },
+    {
+      "name": "Sea lions under the wharf",
+      "kind": "stop",
+      "lat": 36.9586,
+      "lng": -122.0183,
+      "text": "Look for the openings in the deck near the end of the wharf, and peek down. Those big brown animals piled on the beams below are California sea lions. They come here to rest, sleep and sunbathe out of the water, and they bark, grunt and push each other around for the best spot. The biggest ones, with the thick necks, are usually males. Sea lions are not seals. Look for their small ear flaps, and the way they use their front flippers to walk. They're wild animals, protected by law, so please don't feed them or throw anything down. Take your time here. Then walk all the way back along the wharf, and at the end turn left onto West Cliff Drive, where the path climbs above the beach.",
+      "photo": "photos/santacruz-westcliff/7.jpg",
+      "credit": "Intothewoods29 (talk), CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_Lions_next_to_Santa_Cruz_Wharf.JPG"
+    },
+    {
+      "name": "Cowell Beach",
+      "kind": "stop",
+      "lat": 36.96119,
+      "lng": -122.0255,
+      "text": "Below you is Cowell Beach. The cliffs and the curve of the point shelter it from the biggest swells, so the waves here are usually small and gentle. That makes it one of the favourite spots in California to learn to surf. Those rows of people wobbling on long boards are probably beginners. Now for a piece of history. In 1885, three young Hawaiian princes were studying in California. Historians say they surfed near the mouth of the San Lorenzo River, by the Boardwalk, on boards made from local redwood. It's widely seen as the first recorded surfing on the American mainland. One of them, Prince Kuhio, later represented Hawaii in the United States Congress. From here, follow the West Cliff path uphill, with the ocean on your left.",
+      "photo": "photos/santacruz-westcliff/8.jpg",
+      "credit": "Pimlico27, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_387.JPG"
+    },
+    {
+      "name": "Up West Cliff Drive",
+      "kind": "walk",
+      "lat": 36.958,
+      "lng": -122.0254,
+      "text": "Stay on the wide path along the cliff top, with the ocean on your left. This path is shared by walkers, runners, skaters and cyclists, so keep to one side. Look down at the rocks. You might spot sea otters floating on their backs in the kelp, or cormorants drying their wings. Ahead of you, on the cliff edge, a bronze surfer is waiting."
+    },
+    {
+      "name": "The surfer statue",
+      "kind": "stop",
+      "lat": 36.95473,
+      "lng": -122.02479,
+      "text": "This bronze statue of a surfer holding his board is called To Honor Surfing. It looks out over the water, toward the most famous waves in town. The statue is dedicated to all surfers, past, present and future. Santa Cruz takes surfing seriously. Many people here call it Surf City, and the waves along this cliff are cold, powerful and crowded. That's why one local name matters so much here. Jack O'Neill opened one of the first surf shops in Santa Cruz, and he helped make the wetsuit popular. Without it, surfing in water this cold would be a short and miserable experience. Keep following the path toward the small brick lighthouse on the point. Stop at the rail overlooking the waves.",
+      "photo": "photos/santacruz-westcliff/10.jpg",
+      "credit": "Noah_Loverbear, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Surfing_Monument_In_Santa_Cruz_California_-_panoramio_(1).jpg"
+    },
+    {
+      "name": "Steamer Lane",
+      "kind": "stop",
+      "lat": 36.953,
+      "lng": -122.0259,
+      "text": "Now look at the water between the point and the cliffs. This is Steamer Lane, one of the best known surf spots in the world. Its name comes from the steam ships that once passed close to this point on their way in and out of the bay. When a big swell rolls in, waves wrap around the point and break in long lines, and surfers line up at different spots along it. Big surf contests have been held here for decades. Watch for a few minutes. You'll see surfers paddling hard, waiting their turn, and riding right below the cliff. Out by the lighthouse is Seal Rock, often covered with sea lions and birds. Walk out to the lighthouse now. It's our last stop.",
+      "photo": "photos/santacruz-westcliff/11.jpg",
+      "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Surfer_in_Santa_cruz_11-8-9_-1.jpg"
+    },
+    {
+      "name": "Lighthouse and Surfing Museum",
+      "kind": "stop",
+      "lat": 36.95149,
+      "lng": -122.02674,
+      "text": "You made it to the Mark Abbott Memorial Lighthouse. A lighthouse has stood on this point since the eighteen sixties, but this brick one has a sad and loving story. Mark Abbott was a young local surfer who drowned near here in 1965. His parents built this lighthouse in his memory. Today it houses the Santa Cruz Surfing Museum, a small museum full of old redwood boards, photos and stories from a century of surfing in this town. Check the opening hours before you go in. That's the end of our tour. Thanks for walking with me! If you still have energy, keep following West Cliff Drive for about three kilometres to Natural Bridges State Beach, on foot or by bike. From roughly October to February, thousands of monarch butterflies spend the winter in its eucalyptus grove. Enjoy!",
+      "photo": "photos/santacruz-westcliff/12.jpg",
+      "credit": "MC BSU, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Surfing_Museum.jpg"
+    }
+  ]
+}

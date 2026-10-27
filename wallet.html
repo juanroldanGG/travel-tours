@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paseo · Travel wallet</title>
+<style>
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; --line:#ddd; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#aaa; --card:#232323; --line:#333; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg); overflow-x:hidden; }
+  header { padding:10px 16px; display:flex; gap:12px; align-items:flex-start; }
+  header > div { flex:1; min-width:0; }
+  h1 { font-size:20px; margin:0; }
+  h2 { font-size:14px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:18px 0 8px; }
+  a { color:inherit; }
+  main { padding:0 16px 40px; max-width:640px; margin:0 auto; }
+  .back { font-size:14px; color:var(--muted); text-decoration:none; }
+  .meta { color:var(--muted); font-size:14px; }
+  select, input, textarea { font:inherit; font-size:16px; padding:9px; border-radius:8px; border:1px solid var(--line);
+                            background:var(--bg); color:var(--fg); width:100%; min-width:0; }
+  header select { width:auto; font-size:14px; padding:6px; }
+  textarea { min-height:70px; resize:vertical; }
+  label { display:block; font-size:13px; color:var(--muted); margin-top:8px; }
+  button, .btn { font:inherit; border:0; border-radius:999px; padding:11px 18px; background:var(--accent); color:#fff;
+                 cursor:pointer; text-decoration:none; display:inline-block; text-align:center; }
+  .small { background:transparent; color:var(--fg); border:1px solid var(--muted); padding:8px 12px; font-size:14px; }
+  .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .grow { flex:1; }
+  .card { background:var(--card); border-radius:14px; padding:12px 14px; margin-bottom:10px; overflow-wrap:anywhere; }
+  .card .top { display:flex; gap:10px; align-items:baseline; }
+  .card .ttl { font-weight:600; flex:1; min-width:0; }
+  .code { font:700 26px/1.2 ui-monospace, monospace; letter-spacing:.06em; margin:6px 0; overflow-wrap:anywhere; }
+  .card dl { margin:6px 0 0; font-size:14px; display:grid; grid-template-columns:auto 1fr; gap:2px 10px; }
+  .card dt { color:var(--muted); }
+  .card dd { margin:0; min-width:0; }
+  .card .notes { font-size:14px; white-space:pre-wrap; margin-top:6px; }
+  .card .row { margin-top:10px; }
+  .past { opacity:.65; }
+  .mono { font-family:ui-monospace, monospace; font-weight:600; }
+  .tiny { padding:2px 8px; font-size:12px; }
+  .card dd a { text-decoration:none; }
+  #form { background:var(--card); border-radius:14px; padding:14px; margin-top:12px; }
+  .grid { display:grid; grid-template-columns:minmax(0, 1fr) minmax(0, 1fr); gap:0 10px; }
+  .grid .wide { grid-column:1 / -1; }
+  .msg { padding:10px 12px; border-radius:10px; background:#fde8e8; color:#8a1020; font-size:14px; margin-top:10px; }
+  .ok { background:#e6f4ea; color:#14532d; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <a class="back" href="./" id="back"></a>
+    <h1 id="title"></h1>
+    <div class="meta" id="private"></div>
+  </div>
+  <select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option></select>
+</header>
+<main>
+  <div id="error" class="msg" hidden></div>
+  <div class="row">
+    <button id="add" class="grow"></button>
+  </div>
+
+  <!-- Add / edit -->
+  <form id="form" hidden>
+    <label for="type" id="typeL"></label>
+    <select id="type"></select>
+    <label for="file" id="fileL"></label>
+    <input type="file" id="file" accept="application/pdf,image/*">
+    <label for="paste" id="pasteL"></label>
+    <textarea id="paste"></textarea>
+    <div class="row" style="margin-top:8px"><button type="button" id="read" class="small"></button></div>
+    <div id="readMsg" class="msg ok" hidden></div>
+    <div id="current" class="meta" style="margin-top:8px"></div>
+    <div class="grid" id="fields"></div>
+    <label for="notes" id="notesL"></label>
+    <textarea id="notes"></textarea>
+    <div class="row" style="margin-top:12px">
+      <button type="submit" id="save" class="grow"></button>
+      <button type="button" id="cancel" class="small grow"></button>
+    </div>
+  </form>
+
+  <input type="search" id="search" style="margin-top:12px">
+  <div id="list"></div>
+
+  <h2 id="backupH"></h2>
+  <div class="row">
+    <button id="export" class="small grow"></button>
+    <button id="import" class="small grow"></button>
+    <input type="file" id="importFile" accept="application/json,.json" hidden>
+  </div>
+  <div id="backupMsg" class="msg ok" hidden></div>
+</main>
+
+<script>
+const ICON = { flight: '✈️', stay: '🏨', car: '🚗', train: '🚆', parking: '🅿️', activity: '🎟️', food: '🍽️', insurance: '🛟', code: '🔑' };
+const FIELDS = { // per type: field name, or name:inputType. "start" sorts the list; "code" is shown big.
+  flight: ['airline', 'flight', 'code', 'seat', 'from', 'to', 'start:datetime-local', 'end:datetime-local', 'gate', 'code2'],
+  stay: ['name', 'code', 'start:date', 'end:date', 'address', 'phone', 'door', 'wifi', 'code2'],
+  car: ['company', 'code', 'from', 'start:datetime-local', 'to', 'end:datetime-local', 'phone', 'code2'],
+  train: ['company', 'number', 'code', 'seat', 'from', 'to', 'start:datetime-local', 'end:datetime-local'],
+  parking: ['name', 'code', 'start:datetime-local', 'end:datetime-local', 'address'],
+  activity: ['name', 'code', 'start:datetime-local', 'address', 'phone'],
+  food: ['name', 'code', 'start:datetime-local', 'address', 'phone'],
+  insurance: ['name', 'code', 'phone', 'address'],
+  code: ['name', 'code', 'address'],
+};
+const T = { // screen text per language
+  en: { all: '← All tours', title: 'Travel wallet', private: '🔒 Everything stays on this phone. Nothing is sent anywhere.',
+        add: '+ Add a booking or code', type: 'What is it?', file: 'Upload what they sent you (PDF, photo or screenshot)',
+        paste: 'Or paste the email text', read: '✨ Fill in from the text', notes: 'Notes', save: 'Save', cancel: 'Cancel',
+        search: 'Search…', upcoming: 'Upcoming', nodate: 'Always handy', past: 'Past', empty: 'Nothing saved yet. Add your first flight, stay or code.',
+        copy: 'Copy', copied: '✓ Copied', open: '📎 Open file', edit: 'Edit', del: 'Delete', ask: 'Delete this item? This cannot be undone.',
+        attached: n => `Attached: ${n} (choose another file to replace it)`, pasted: 'pasted text',
+        found: n => n ? `✓ Filled ${n} field${n > 1 ? 's' : ''}. Please check them.` : 'Could not find anything to fill. Please type the details.',
+        reading: 'Reading the file…', image: 'Photo saved. Please type the booking code and dates from it.',
+        pdfFail: 'Could not read this PDF (no internet?). The file is attached; please type the details.',
+        backup: 'Backup', export: '⬇ Export backup', import: '⬆ Import backup',
+        exported: 'Backup file downloaded. Keep it somewhere safe; it has your codes.',
+        imported: n => `✓ Imported ${n} item${n === 1 ? '' : 's'}.`, badBackup: 'This is not a wallet backup file.',
+        noStore: 'This browser is blocking storage (private mode?), so nothing can be saved here. Open the page in a normal window.',
+        saveFail: 'Could not save. Your phone may be out of space.',
+        types: { flight: 'Flight', stay: 'Hotel / stay', car: 'Car rental', train: 'Train / bus', parking: 'Parking', activity: 'Activity / ticket',
+                 food: 'Restaurant', insurance: 'Insurance / assistance', code: 'Code or note' },
+        f: { airline: 'Airline', flight: 'Flight number', code: 'Booking code', seat: 'Seat', from: 'From', to: 'To',
+             start: 'Departure', end: 'Arrival', gate: 'Terminal / gate', name: 'Name', address: 'Address', phone: 'Phone',
+             company: 'Company', number: 'Train / bus number', door: 'Door code', wifi: 'Wi-Fi (name / password)',
+             code2: 'Other code (e.g. Booking.com)', 'car.phone': 'Counter phone', 'parking.name': 'Parking',
+             'parking.start': 'From', 'parking.end': 'Until', 'parking.code': 'Parking code', 'food.name': 'Restaurant',
+             'food.start': 'Table at', 'insurance.name': 'Company / plan', 'insurance.code': 'Policy number',
+             'insurance.address': 'How to claim (web, steps)',
+             'stay.name': 'Hotel / place', 'stay.start': 'Check-in', 'stay.end': 'Check-out',
+             'car.from': 'Pick-up place', 'car.to': 'Drop-off place', 'car.start': 'Pick-up', 'car.end': 'Drop-off',
+             'activity.name': 'Activity', 'activity.start': 'Date and time', 'activity.address': 'Meeting point',
+             'code.name': 'What is it (door, Wi-Fi, locker…)', 'code.code': 'Code / password', 'code.address': 'Place' } },
+  es: { all: '← Todos los recorridos', title: 'Billetera de viaje', private: '🔒 Todo queda en este celular. No se envía nada a ningún lado.',
+        add: '+ Agregar una reserva o código', type: '¿Qué es?', file: 'Sube lo que te enviaron (PDF, foto o captura)',
+        paste: 'O pega el texto del correo', read: '✨ Llenar desde el texto', notes: 'Notas', save: 'Guardar', cancel: 'Cancelar',
+        search: 'Buscar…', upcoming: 'Próximos', nodate: 'Siempre a mano', past: 'Pasados', empty: 'Aún no hay nada. Agrega tu primer vuelo, hotel o código.',
+        copy: 'Copiar', copied: '✓ Copiado', open: '📎 Abrir archivo', edit: 'Editar', del: 'Borrar', ask: '¿Borrar esto? No se puede deshacer.',
+        attached: n => `Adjunto: ${n} (elige otro archivo para cambiarlo)`, pasted: 'texto pegado',
+        found: n => n ? `✓ Se llenaron ${n} campo${n > 1 ? 's' : ''}. Revísalos, por favor.` : 'No encontré nada para llenar. Escribe los datos, por favor.',
+        reading: 'Leyendo el archivo…', image: 'Foto guardada. Escribe el código de reserva y las fechas que aparecen.',
+        pdfFail: 'No pude leer este PDF (¿sin internet?). El archivo quedó adjunto; escribe los datos, por favor.',
+        backup: 'Copia de seguridad', export: '⬇ Exportar copia', import: '⬆ Importar copia',
+        exported: 'Copia descargada. Guárdala en un lugar seguro; tiene tus códigos.',
+        imported: n => `✓ Se importaron ${n} elemento${n === 1 ? '' : 's'}.`, badBackup: 'Este no es un archivo de copia de la billetera.',
+        noStore: 'Este navegador bloquea el almacenamiento (¿modo privado?), así que no se puede guardar nada. Abre la página en una ventana normal.',
+        saveFail: 'No se pudo guardar. Puede que el celular no tenga espacio.',
+        types: { flight: 'Vuelo', stay: 'Hotel / alojamiento', car: 'Alquiler de carro', train: 'Tren / bus', parking: 'Parqueadero', activity: 'Actividad / entrada',
+                 food: 'Restaurante', insurance: 'Seguro / asistencia', code: 'Código o nota' },
+        f: { airline: 'Aerolínea', flight: 'Número de vuelo', code: 'Código de reserva', seat: 'Asiento', from: 'Desde', to: 'Hasta',
+             start: 'Salida', end: 'Llegada', gate: 'Terminal / puerta', name: 'Nombre', address: 'Dirección', phone: 'Teléfono',
+             company: 'Empresa', number: 'Número de tren / bus', door: 'Código de la puerta', wifi: 'Wi-Fi (nombre / clave)',
+             code2: 'Otro código (ej. Booking.com)', 'car.phone': 'Teléfono del mostrador', 'parking.name': 'Parqueadero',
+             'parking.start': 'Desde', 'parking.end': 'Hasta', 'parking.code': 'Código del parqueadero', 'food.name': 'Restaurante',
+             'food.start': 'Mesa a las', 'insurance.name': 'Empresa / plan', 'insurance.code': 'Número de póliza',
+             'insurance.address': 'Cómo reclamar (web, pasos)',
+             'stay.name': 'Hotel / lugar', 'stay.start': 'Entrada (check-in)', 'stay.end': 'Salida (check-out)',
+             'car.from': 'Lugar de recogida', 'car.to': 'Lugar de entrega', 'car.start': 'Recogida', 'car.end': 'Entrega',
+             'activity.name': 'Actividad', 'activity.start': 'Fecha y hora', 'activity.address': 'Punto de encuentro',
+             'code.name': 'Qué es (puerta, Wi-Fi, casillero…)', 'code.code': 'Código / clave', 'code.address': 'Lugar' } },
+};
+const params = new URLSearchParams(location.search);
+const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
+const t = T[lang];
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => `&#${c.charCodeAt(0)};`);
+const label = (type, k) => t.f[`${type}.${k}`] || t.f[k];
+const show = (el, text) => { $(el).textContent = text; $(el).hidden = !text; };
+
+// ---- Storage: IndexedDB on this device only. Files are kept as Blobs inside each item.
+let db;
+function openDb() {
+  return new Promise((res, rej) => {
+    const r = indexedDB.open('wallet', 1);
+    r.onupgradeneeded = () => r.result.createObjectStore('items', { keyPath: 'id' });
+    r.onsuccess = () => res(r.result);
+    r.onerror = () => rej(r.error);
+  });
+}
+function tx(mode, fn) {
+  return new Promise((res, rej) => {
+    const x = db.transaction('items', mode), s = x.objectStore('items'), r = fn(s);
+    x.oncomplete = () => res(r.result);
+    x.onerror = x.onabort = () => rej(x.error);
+  });
+}
+const allItems = () => tx('readonly', s => s.getAll());
+const putItem = it => tx('readwrite', s => s.put(it));
+const delItem = id => tx('readwrite', s => s.delete(id));
+
+// ---- Auto-fill: simple patterns over the text of a PDF or pasted email. The user always checks before saving.
+const MONTHS = ['jan|ene', 'feb', 'mar', 'apr|abr', 'may', 'jun', 'jul', 'aug|ago', 'sep|set', 'oct', 'nov', 'dec|dic'];
+const monthNum = s => MONTHS.findIndex(m => new RegExp(`^(${m})`, 'i').test(s)) + 1;
+const pad = n => String(n).padStart(2, '0');
+function findDates(text) { // returns [{i: position, d: 'YYYY-MM-DD'}] in text order
+  const out = [], add = (i, y, m, d) => {
+    y = +y < 100 ? 2000 + +y : +y;
+    if (m >= 1 && m <= 12 && d >= 1 && d <= 31) out.push({ i, d: `${y}-${pad(m)}-${pad(d)}` });
+  };
+  const M = 'jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|ene|abr|ago|set|dic';
+  let m;
+  for (m of text.matchAll(/\b(20\d\d)-(\d\d)-(\d\d)\b/g)) add(m.index, m[1], +m[2], +m[3]);
+  for (m of text.matchAll(new RegExp(`\\b(\\d{1,2})(?:\\s*de)?[\\s.-]*(${M})[a-z]*\\.?(?:\\s*de)?[\\s.,-]*((?:20)?\\d\\d)\\b`, 'gi')))
+    add(m.index, m[3], monthNum(m[2]), +m[1]);
+  for (m of text.matchAll(new RegExp(`\\b(${M})[a-z]*\\.?\\s+(\\d{1,2})(?:st|nd|rd|th)?,?\\s+(20\\d\\d)\\b`, 'gi')))
+    add(m.index, m[3], monthNum(m[1]), +m[2]);
+  for (m of text.matchAll(/\b(\d{1,2})[/.](\d{1,2})[/.](20\d\d|\d\d)\b/g)) { // 05/11/2026: day first unless clearly not
+    const [a, b] = [+m[1], +m[2]], monthFirst = a <= 12 && (b > 12 || (lang === 'en' && b <= 12));
+    monthFirst ? add(m.index, m[3], a, b) : add(m.index, m[3], b, a);
+  }
+  return out.sort((x, y) => x.i - y.i).filter((x, k, a) => !k || a[k - 1].i !== x.i);
+}
+function findTimes(text) {
+  return [...text.matchAll(/\b([01]?\d|2[0-3])[:h]([0-5]\d)\s*(a\.?m\.?|p\.?m\.?)?(?![\d/])/gi)].map(m => {
+    let h = +m[1]; const ap = (m[3] || '').toLowerCase()[0];
+    if (ap === 'p' && h < 12) h += 12; if (ap === 'a' && h === 12) h = 0;
+    return { i: m.index, t: `${pad(h)}:${m[2]}` };
+  });
+}
+function parse(text) {
+  const r = {}, low = text.toLowerCase(), near = (re, words, span = 80) => {
+    for (const w of words) { const i = low.indexOf(w); if (i >= 0) { const m = text.slice(i + w.length, i + w.length + span).match(re); if (m) return m; } }
+  };
+  // ponytail: keyword sniffing; Claude reading the document would be far more accurate but costs money (needs Juan's OK)
+  r.type = /\b(flight|vuelo|boarding|embarque|airline|aerol[ií]nea)/i.test(text) ? 'flight'
+    : /\b(car rental|rent a car|alquiler de (carro|auto|coche)|pick-?up|recogida)\b/i.test(text) ? 'car'
+    : /\b(hotel|check-?in|airbnb|hostel|alojamiento|hospedaje|apartment)\b/i.test(text) ? 'stay'
+    : /\b(parking|parqueadero|estacionamiento|aparcamiento)\b/i.test(text) ? 'parking'
+    : /\b(insurance|seguro|policy|p[oó]liza)\b/i.test(text) ? 'insurance'
+    : /\b(restaurant|restaurante|table for|mesa para)\b/i.test(text) ? 'food'
+    : /\b(train|tren|bus|coach|rail)\b/i.test(text) ? 'train'
+    : /\b(tour|ticket|entrada|tickets|activity|actividad)\b/i.test(text) ? 'activity' : null;
+  const CODE = /\b(?=[A-Z0-9]*[A-Z])[A-Z0-9]{5,8}\b/; // 6-ish capital letters/digits, at least one letter
+  const words = ['booking reference', 'booking code', 'reservation code', 'confirmation code', 'confirmation number', 'record locator',
+    'código de reserva', 'codigo de reserva', 'localizador', 'confirmation', 'reservation', 'booking', 'reserva', 'pnr'];
+  const c = near(CODE, words, 60) || text.match(/\b(?=[A-Z0-9]*\d)(?=[A-Z0-9]*[A-Z])[A-Z0-9]{6}\b/);
+  if (c) r.code = c[0];
+  const f = near(/\b([A-Z]{2}|[A-Z]\d|\d[A-Z])\s?(\d{1,4})\b/, ['flight', 'vuelo', 'flight number', 'número de vuelo']);
+  if (f) r.flight = f[1] + f[2];
+  const ap = [...text.matchAll(/\(([A-Z]{3})\)/g)].map(m => m[1]);
+  const pair = text.match(/\b([A-Z]{3})\s*(?:-|–|→|>|to|a)\s*([A-Z]{3})\b/);
+  if (pair) [r.from, r.to] = [pair[1], pair[2]]; else if (ap.length >= 2) [r.from, r.to] = ap;
+  const seat = near(/\b\d{1,2}[A-K]\b/, ['seat', 'asiento'], 30); if (seat) r.seat = seat[0];
+  const gate = near(/^\W{0,3}([A-Z0-9]{1,3})\b/, ['terminal', 'gate', 'puerta'], 10); if (gate) r.gate = gate[1];
+  // Pair each of the first two dates with the first time that follows it (before the next date).
+  const ds = findDates(text), ts = findTimes(text);
+  ds.slice(0, 2).forEach((d, k) => {
+    const nextI = ds[k + 1] ? ds[k + 1].i : Infinity, tm = ts.find(x => x.i > d.i && x.i < nextI + 40 && x.i < d.i + 200);
+    r[k ? 'end' : 'start'] = tm ? `${d.d}T${tm.t}` : d.d;
+  });
+  if (ds.length === 1 && ts.length >= 2) r.end = `${ds[0].d}T${ts[1].t}`; // same-day flight: one date, two times
+  return r;
+}
+
+// ---- PDF text, using pdf.js loaded only when a PDF is picked.
+const PDFJS = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
+let pdfReady;
+function loadPdfJs() {
+  return pdfReady ||= new Promise((res, rej) => {
+    const s = document.createElement('script');
+    s.src = PDFJS + 'pdf.min.js';
+    s.onload = () => {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS + 'pdf.worker.min.js';
+      // Ask the offline helper to keep a copy, so reading PDFs also works without internet next time.
+      navigator.serviceWorker?.controller?.postMessage({ download: [PDFJS + 'pdf.min.js', PDFJS + 'pdf.worker.min.js'] });
+      res(pdfjsLib);
+    };
+    s.onerror = () => { pdfReady = null; rej(new Error('pdf.js')); };
+    document.head.append(s);
+  });
+}
+async function pdfText(blob) {
+  const lib = await loadPdfJs(), doc = await lib.getDocument({ data: await blob.arrayBuffer() }).promise;
+  let out = '';
+  for (let p = 1; p <= Math.min(doc.numPages, 10); p++) {
+    const c = await (await doc.getPage(p)).getTextContent();
+    out += c.items.map(x => x.str + (x.hasEOL ? '\n' : ' ')).join('') + '\n';
+  }
+  return out;
+}
+
+// ---- Form
+let editing = null, file = null; // file = { name, type, blob }
+function drawFields(type, values = {}) {
+  $('fields').innerHTML = FIELDS[type].map(spec => {
+    const [k, kind = 'text'] = spec.split(':'), wide = kind !== 'text' || ['name', 'address', 'airline', 'company', 'wifi', 'code2'].includes(k) || type === 'code';
+    let v = values[k] || '';
+    if (kind === 'date') v = v.slice(0, 10); else if (kind === 'datetime-local' && v.length === 10) v += 'T00:00';
+    return `<div class="${wide ? 'wide' : ''}"><label for="f_${k}">${esc(label(type, k))}</label>` +
+      `<input id="f_${k}" name="${k}" type="${kind}" value="${esc(v)}"${k === 'code' ? ' autocapitalize="characters"' : ''}></div>`;
+  }).join('');
+}
+const formValues = () => Object.fromEntries([...$('fields').querySelectorAll('input')].map(i => [i.name, i.value.trim()]));
+function openForm(item) {
+  editing = item || null; file = item?.file || null;
+  $('type').value = item?.type || 'flight';
+  drawFields($('type').value, item?.f);
+  $('notes').value = item?.notes || ''; $('paste').value = ''; $('file').value = '';
+  show('readMsg', ''); showFile();
+  $('form').hidden = false; $('add').hidden = true;
+  $('form').scrollIntoView({ behavior: 'smooth' });
+}
+const closeForm = () => { $('form').hidden = true; $('add').hidden = false; editing = file = null; };
+const showFile = () => $('current').textContent = file ? t.attached(file.name) : '';
+function fill(text) { // put found values into empty fields only
+  const r = parse(text);
+  if (r.type && !Object.values(formValues()).some(Boolean)) { $('type').value = r.type; drawFields(r.type); }
+  let n = 0;
+  for (const [k, v] of Object.entries(r)) {
+    const el = $('fields').querySelector(`[name="${k}"]`);
+    if (!el || el.value || !v) continue;
+    el.value = el.type === 'date' ? v.slice(0, 10) : el.type === 'datetime-local' && v.length === 10 ? v + 'T00:00' : v;
+    if (el.value) n++;
+  }
+  show('readMsg', t.found(n));
+}
+$('type').onchange = () => drawFields($('type').value, formValues());
+$('file').onchange = async () => {
+  const fl = $('file').files[0]; if (!fl) return;
+  file = { name: fl.name, type: fl.type, blob: fl }; showFile();
+  if (fl.type === 'application/pdf') {
+    show('readMsg', t.reading);
+    try { fill(await pdfText(fl)); } catch { show('readMsg', t.pdfFail); }
+  } else show('readMsg', t.image); // ponytail: no photo text reading; Tesseract.js is ~15 MB per language and slow on phones
+};
+$('read').onclick = () => {
+  const text = $('paste').value.trim(); if (!text) return;
+  fill(text);
+  if (!file) { file = { name: 'email.txt', type: 'text/plain', blob: new Blob([text], { type: 'text/plain' }) }; showFile(); }
+};
+$('cancel').onclick = closeForm;
+$('form').onsubmit = async e => {
+  e.preventDefault();
+  const item = { id: editing?.id || crypto.randomUUID?.() || String(Date.now() + Math.random()), type: $('type').value,
+                 f: formValues(), notes: $('notes').value.trim(), file, created: editing?.created || Date.now() };
+  try { await putItem(item); closeForm(); render(); } catch { show('error', t.saveFail); }
+};
+
+// ---- List
+let items = [], urls = [];
+const CODES = ['door', 'wifi', 'code2']; // extra codes get their own copy button
+const when = v => v ? new Date(v.length === 10 ? v + 'T00:00' : v) : null;
+const fmt = v => {
+  const d = when(v); if (!d) return '';
+  return d.toLocaleString(lang, v.length === 10 ? { dateStyle: 'medium' } : { dateStyle: 'medium', timeStyle: 'short' });
+};
+function title(it) {
+  const f = it.f, route = f.from && f.to ? ` · ${f.from} → ${f.to}` : '';
+  const head = { flight: [f.airline, f.flight], train: [f.company, f.number], car: [f.company] }[it.type] || [f.name];
+  return (head.filter(Boolean).join(' ') || t.types[it.type]) + (it.type === 'car' ? '' : route);
+}
+function card(it, past) {
+  const f = it.f, shown = new Set(['code', 'name', 'airline', 'flight', 'company', 'number', 'start', 'end']);
+  if (it.type !== 'car') shown.add('from').add('to');
+  const dates = [f.start, f.end].filter(Boolean).map(fmt).join(' → ');
+  const rest = FIELDS[it.type].map(s => s.split(':')[0]).filter(k => !shown.has(k) && f[k]);
+  const place = k => k === 'address' && it.type !== 'insurance' || it.type === 'car' && (k === 'from' || k === 'to');
+  const val = k => k === 'phone' ? `<a href="tel:${esc(f[k].replace(/[^\d+]/g, ''))}">☎ ${esc(f[k])}</a>`
+    : place(k) ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f[k])}" target="_blank" rel="noopener">📍 ${esc(f[k])}</a>`
+    : CODES.includes(k) ? `<span class="mono">${esc(f[k])}</span> <button class="small tiny" data-copy="${k}">${t.copy}</button>` : esc(f[k]);
+  const url = it.file ? (urls.push(URL.createObjectURL(it.file.blob)), urls.at(-1)) : '';
+  return `<div class="card${past ? ' past' : ''}" data-id="${esc(it.id)}">
+    <div class="top"><span>${ICON[it.type]}</span><span class="ttl">${esc(title(it))}</span></div>
+    ${dates ? `<div class="meta">${esc(dates)}</div>` : ''}
+    ${f.code ? `<div class="row"><div class="code grow">${esc(f.code)}</div><button class="small" data-copy="code">${t.copy}</button></div>` : ''}
+    ${rest.length ? `<dl>${rest.map(k => `<dt>${esc(label(it.type, k))}</dt><dd>${val(k)}</dd>`).join('')}</dl>` : ''}
+    ${it.notes ? `<div class="notes">${esc(it.notes)}</div>` : ''}
+    <div class="row">
+      ${url ? `<a class="btn small" href="${url}" target="_blank" rel="noopener">${t.open}</a>` : ''}
+      <button class="small" data-edit>${t.edit}</button><button class="small" data-del>${t.del}</button>
+    </div></div>`;
+}
+async function render() {
+  try { items = await allItems(); show('error', ''); } catch { return show('error', t.noStore); }
+  urls.forEach(URL.revokeObjectURL); urls = [];
+  const q = $('search').value.trim().toLowerCase(), now = Date.now();
+  const hit = it => !q || [t.types[it.type], ...Object.values(it.f), it.notes].join(' ').toLowerCase().includes(q);
+  const list = items.filter(hit), up = [], none = [], past = [];
+  for (const it of list) {
+    const s = when(it.f.start), e = when(it.f.end) || s;
+    // a day-only end date (check-out) counts as past only after that whole day
+    (!s ? none : (e.getTime() + (it.f.end?.length === 10 || (!it.f.end && it.f.start.length === 10) ? 864e5 : 0)) < now ? past : up).push(it);
+  }
+  const by = (a, b) => when(a.f.start) - when(b.f.start);
+  up.sort(by); past.sort((a, b) => by(b, a)); none.sort((a, b) => b.created - a.created);
+  const group = (h, arr, p) => arr.length ? `<h2>${h}</h2>` + arr.map(it => card(it, p)).join('') : '';
+  $('list').innerHTML = !items.length ? `<p class="meta">${t.empty}</p>`
+    : group(t.upcoming, up) + group(t.nodate, none) + group(t.past, past, true);
+}
+$('search').oninput = render;
+$('list').onclick = async e => {
+  const c = e.target.closest('.card'); if (!c) return;
+  const it = items.find(x => x.id === c.dataset.id), b = e.target;
+  if (b.dataset.copy) {
+    const text = it.f[b.dataset.copy];
+    try { await navigator.clipboard.writeText(text); } catch { // older way, for browsers that block the one above
+      const ta = Object.assign(document.createElement('textarea'), { value: text }); document.body.append(ta); ta.select();
+      document.execCommand('copy'); ta.remove();
+    }
+    b.textContent = t.copied; setTimeout(() => b.textContent = t.copy, 1500);
+  } else if (b.hasAttribute('data-edit')) openForm(it);
+  else if (b.hasAttribute('data-del') && confirm(t.ask)) { try { await delItem(it.id); render(); } catch { show('error', t.saveFail); } }
+};
+
+// ---- Backup: one JSON file with the files inside as base64 text.
+const toDataUrl = blob => new Promise(res => { const r = new FileReader(); r.onload = () => res(r.result); r.readAsDataURL(blob); });
+$('export').onclick = async () => {
+  const out = [];
+  for (const it of await allItems()) out.push({ ...it, file: it.file && { name: it.file.name, type: it.file.type, data: await toDataUrl(it.file.blob) } });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({ wallet: 1, items: out })], { type: 'application/json' }));
+  a.download = `travel-wallet-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  show('backupMsg', t.exported);
+};
+$('import').onclick = () => $('importFile').click();
+$('importFile').onchange = async () => {
+  const fl = $('importFile').files[0]; $('importFile').value = ''; if (!fl) return;
+  try {
+    const data = JSON.parse(await fl.text()); if (!data.wallet || !Array.isArray(data.items)) throw 0;
+    for (const it of data.items) {
+      if (!it.id || !FIELDS[it.type]) continue;
+      if (it.file) it.file = { name: it.file.name, type: it.file.type, blob: await (await fetch(it.file.data)).blob() };
+      await putItem(it);
+    }
+    show('backupMsg', t.imported(data.items.length)); render();
+  } catch { show('backupMsg', ''); show('error', t.badBackup); }
+};
+
+// ---- Start
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+document.documentElement.lang = lang;
+$('lang').value = lang;
+$('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
+$('back').href = `./?lang=${lang}`; $('back').textContent = t.all;
+$('title').textContent = t.title; $('private').textContent = t.private;
+document.title = 'Paseo · ' + t.title;
+$('add').textContent = t.add; $('typeL').textContent = t.type; $('fileL').textContent = t.file;
+$('pasteL').textContent = t.paste; $('read').textContent = t.read; $('notesL').textContent = t.notes;
+$('save').textContent = t.save; $('cancel').textContent = t.cancel; $('search').placeholder = t.search;
+$('backupH').textContent = t.backup; $('export').textContent = t.export; $('import').textContent = t.import;
+$('type').innerHTML = Object.keys(FIELDS).map(k => `<option value="${k}">${ICON[k]} ${t.types[k]}</option>`).join('');
+$('add').onclick = () => openForm();
+openDb().then(d => { db = d; render(); }).catch(() => show('error', t.noStore));
+
+// Self-check of the auto-fill: open wallet.html?selftest and look at the console.
+if (params.has('selftest')) {
+  const r = parse('Test Airline booking confirmation\nBooking reference: ABC123\nFlight TA 1234 Lisbon (LIS) to Medellín (MDE)\n' +
+                  '05 Nov 2026 10:30 departs, arrives 06 Nov 2026 14:45\nSeat 12A Terminal 1');
+  console.assert(r.type === 'flight' && r.code === 'ABC123' && r.flight === 'TA1234' && r.from === 'LIS' && r.to === 'MDE', 'basic', r);
+  console.assert(r.start === '2026-11-05T10:30' && r.end === '2026-11-06T14:45' && r.seat === '12A' && r.gate === '1', 'dates', r);
+  const h = parse('Hotel Test Stay\nCódigo de reserva: XYZ789\nCheck-in: 12/12/2026  Check-out: 15/12/2026');
+  console.assert(h.type === 'stay' && h.code === 'XYZ789' && h.start === '2026-12-12' && h.end === '2026-12-15', 'stay', h);
+  console.log('selftest done', r, h);
+}
+</script>
+</body>
+</html>

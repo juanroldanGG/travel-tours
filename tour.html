@@ -86,9 +86,15 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const RADIUS = 30; // metres from a stop before its audio plays
+const MODES = { // how close you must get before a point plays, per kind of tour
+  walk: { radius: 30, icon: '🚶', maps: 'walking' },
+  bike: { radius: 60, icon: '🚲', maps: 'bicycling' },
+  drive: { radius: 500, icon: '🚗', maps: 'driving' },
+};
+let M = MODES.walk;
 const T = { // screen text per language; the tour text itself lives in tours/<tour>.<lang>.json
-  en: { all: '← All tours', hint: 'Walk the route, or listen from home.', walk: '▶ Start walking', home: '🏠 Play at home', dir: '📍 Directions to start',
+  en: { all: '← All tours', hint: 'Walk the route, or listen from home.', go: { walk: '▶ Start walking', bike: '▶ Start riding', drive: '▶ Start driving' }, home: '🏠 Play at home',
+        safe: { bike: 'Use one earbud so you hear traffic, and never touch the phone while riding.', drive: 'Driver: never touch the phone. Set it up before you leave; a passenger can control it.' }, dir: '📍 Directions to start',
         dl: '⬇ Download for offline', dling: 'Downloading…', dled: '✓ Saved on this phone', dlfail: 'Download failed, try again',
         pause: 'Pause', play: 'Play', next: 'Next stop ▶', brk: '☕ Take a break', resume: '▶ Resume tour',
         onBreak: 'On a break. Your place is saved, come back any time.', look: 'Look around',
@@ -96,8 +102,9 @@ const T = { // screen text per language; the tour text itself lives in tours/<to
         noGps: 'Turn on location to follow the tour.', demo: 'Test mode: move the mouse (or tap) on the map to "walk".',
         athome: 'Playing at home: stops play one after another.',
         facts: (m, k, n) => `${Math.floor(m / 60)} h${m % 60 ? ' ' + m % 60 + ' min' : ''} · ${k} km · ${n} stops`,
-        back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over', walkBack: '▶ Resume walking', homeBack: '🏠 Resume at home' },
-  es: { all: '← Todos los recorridos', hint: 'Camina la ruta, o escúchala desde casa.', walk: '▶ Empezar a caminar', home: '🏠 Escuchar en casa', dir: '📍 Cómo llegar al inicio',
+        back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over', goBack: { walk: '▶ Resume walking', bike: '▶ Resume riding', drive: '▶ Resume driving' }, homeBack: '🏠 Resume at home' },
+  es: { all: '← Todos los recorridos', hint: 'Camina la ruta, o escúchala desde casa.', go: { walk: '▶ Empezar a caminar', bike: '▶ Empezar a pedalear', drive: '▶ Empezar a manejar' }, home: '🏠 Escuchar en casa',
+        safe: { bike: 'Usa un solo audífono para oír el tráfico, y nunca toques el celular mientras pedaleas.', drive: 'Conductor: nunca toques el celular. Déjalo listo antes de salir; un pasajero puede manejarlo.' }, dir: '📍 Cómo llegar al inicio',
         dl: '⬇ Descargar sin internet', dling: 'Descargando…', dled: '✓ Guardado en este celular', dlfail: 'Falló la descarga, intenta otra vez',
         pause: 'Pausa', play: 'Seguir', next: 'Siguiente ▶', brk: '☕ Tomar un descanso', resume: '▶ Seguir el recorrido',
         onBreak: 'En descanso. Tu lugar quedó guardado, vuelve cuando quieras.', look: 'Mirar alrededor',
@@ -105,16 +112,16 @@ const T = { // screen text per language; the tour text itself lives in tours/<to
         noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: mueve el mouse (o toca) el mapa para "caminar".',
         athome: 'En casa: las paradas suenan una tras otra.',
         facts: (m, k, n) => `${Math.floor(m / 60)} h${m % 60 ? ' ' + m % 60 + ' min' : ''} · ${k} km · ${n} paradas`,
-        back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo', walkBack: '▶ Seguir caminando', homeBack: '🏠 Seguir en casa' },
+        back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo', goBack: { walk: '▶ Seguir caminando', bike: '▶ Seguir pedaleando', drive: '▶ Seguir manejando' }, homeBack: '🏠 Seguir en casa' },
 };
 const params = new URLSearchParams(location.search);
 const demo = params.has('demo'); // move the mouse on the map to fake your location
 const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
 const t = T[lang];
-const tourId = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado'].includes(params.get('tour')) ? params.get('tour') : 'lisbon';
+const tourId = /^[a-z0-9-]+$/.test(params.get('tour') || '') ? params.get('tour') : 'lisbon';
 const audio = new Audio();
 const $ = id => document.getElementById(id);
-let tour, markers = [], played = new Set(), started = false, atHome = false, onBreak = false, me, last, nums = [], current = null;
+let tour, markers = [], played = new Set(), started = false, atHome = false, onBreak = false, me, last, nums = [], current = null, queued = -1;
 const key = k => `${k}:${tourId}:${lang}`;
 const store = (k, v) => { try { localStorage.setItem(key(k), JSON.stringify(v)); } catch {} };
 const recall = k => { try { return JSON.parse(localStorage.getItem(key(k))); } catch { return null; } };
@@ -147,7 +154,7 @@ function play(i) { // i = -1 is the intro
   audio.src = `${tour.audio}/${i + 1}.mp3`;
   audio.play().catch(() => {});
   const s = tour.stops[i];
-  $('now').textContent = i < 0 ? t.intro : s.kind === 'walk' ? `🚶 ${s.name}` : `${nums[i]}. ${s.name}`;
+  $('now').textContent = i < 0 ? t.intro : s.kind === 'walk' ? `${M.icon} ${s.name}` : `${nums[i]}. ${s.name}`;
   $('words').textContent = i < 0 ? tour.intro : s.text;
   $('btn').textContent = t.pause;
   const ph = $('photo'), p = i >= 0 && s.photo ? s : null;
@@ -178,9 +185,10 @@ function onMove(pos) {
   last = pos;
   showMe(pos);
   if (onBreak || atHome) return;
-  // ponytail: plays any unplayed stop in range, not only the next one; fine for a linear walk
-  const hit = tour.stops.findIndex((s, i) => !played.has(i) && dist(pos, s) < RADIUS);
+  // ponytail: plays any unplayed stop in range, not only the next one; fine for a linear route
+  const hit = tour.stops.findIndex((s, i) => !played.has(i) && dist(pos, s) < M.radius);
   if (hit >= 0 && audio.paused) play(hit);
+  else if (hit >= 0 && hit !== current && queued < 0) queued = hit; // reached while talking: play it next (a car is gone by the end)
   updateStatus();
 }
 
@@ -220,7 +228,8 @@ audio.onended = () => {
   $('btn').textContent = t.play;
   if (onBreak) return;
   if (atHome) { const n = nextIndex(); if (n >= 0) setTimeout(() => !onBreak && audio.ended && play(n), 1500); else updateStatus(); }
-  else if (last) onMove(last); // play anything reached while talking
+  else if (queued >= 0 && !played.has(queued)) { const q = queued; queued = -1; play(q); }
+  else if (last) { queued = -1; onMove(last); }
 };
 $('speed').onclick = () => { // 1x → 1.25x → 1.5x → 1x
   audio.playbackRate = audio.playbackRate >= 1.5 ? 1 : audio.playbackRate + 0.25;
@@ -253,25 +262,28 @@ $('lang').value = lang;
 $('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
 $('back').href = `./?lang=${lang}`; $('back').textContent = t.all;
 $('status').textContent = demo ? t.demo : t.hint;
-$('walk').textContent = t.walk; $('home').textContent = t.home;
+$('home').textContent = t.home;
 $('directions').textContent = t.dir; $('download').textContent = recall('offline') ? t.dled : t.dl;
 $('next').textContent = t.next; $('pause').textContent = t.brk; $('btn').textContent = t.play;
 $('readAlong').textContent = t.read; $('streetview').textContent = t.look;
 
 fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
   tour = tr;
+  M = MODES[tour.mode] || MODES.walk;
+  $('walk').textContent = t.go[tour.mode || 'walk'];
   document.title = `Paseo · ${tour.title}`;
   $('title').textContent = tour.title;
   $('summary').textContent = tour.summary;
+  if (t.safe[tour.mode]) $('summary').innerHTML += `<br><b>⚠ ${t.safe[tour.mode]}</b>`;
   let n = 0; nums = tour.stops.map(s => s.kind === 'walk' ? 0 : ++n);
   $('facts').textContent = t.facts(tour.minutes, tour.km, n);
   const s0 = tour.stops[0];
-  $('directions').href = `https://www.google.com/maps/dir/?api=1&destination=${s0.lat},${s0.lng}&travelmode=walking`;
+  $('directions').href = `https://www.google.com/maps/dir/?api=1&destination=${s0.lat},${s0.lng}&travelmode=${M.maps}`;
   (recall('played') || []).forEach(i => played.add(i)); // pick up where you left off
   if (played.size) {
     $('facts').innerHTML += `<br>${t.back(played.size, tour.stops.length)} <button id="reset" class="small">${t.over}</button>`;
     $('reset').onclick = () => { played.clear(); save(); location.reload(); };
-    $('walk').textContent = t.walkBack; $('home').textContent = t.homeBack;
+    $('walk').textContent = t.goBack[tour.mode || 'walk']; $('home').textContent = t.homeBack;
   }
   const pts = tour.stops.map(s => [s.lat, s.lng]);
   L.polyline(pts, { color: '#c8102e', dashArray: '6 8' }).addTo(map);

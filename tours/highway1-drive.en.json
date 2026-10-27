@@ -1,0 +1,155 @@
+{
+  "title": "Highway 1: Santa Cruz to San Francisco",
+  "summary": "A slow, beautiful drive up the coast on Highway 1, from Santa Cruz to San Francisco's Ocean Beach, past farms, lighthouses, elephant seals, a legendary surf break and the tunnels that replaced Devil's Slide.",
+  "cover": "photos/highway1-drive/6.jpg",
+  "mode": "drive",
+  "minutes": 180,
+  "km": 118.0,
+  "voice": "en-US-AndrewNeural",
+  "audio": "audio/highway1-drive-en",
+  "intro": "Welcome to Highway 1! For the next two and a half to three hours, we'll drive north along one of the most beautiful coastlines in the world, from Santa Cruz all the way to Ocean Beach in San Francisco. First, the most important thing. If you're driving, never touch your phone. Set everything up now, before you leave, put the phone somewhere safe, and keep your eyes on the road. You don't need to do anything. Each story starts on its own as you get close. If you have a passenger, they can pause or replay a story for you. Because we're driving north, the ocean will be on your left the whole way, so when I say coming up on your left, think ocean side. The road is narrow and curvy in places, with cyclists and people crossing to the beach, so take it easy. If you want to stop, only pull over where there's a proper parking area. Ready? Let's hit the coast.",
+  "stops": [
+    {
+      "name": "Leaving Santa Cruz",
+      "kind": "walk",
+      "lat": 36.96088,
+      "lng": -122.05667,
+      "text": "Here we go. This is where the city ends and the wild coast begins. In a few minutes, the houses fall away, and you'll have farmland on your right and cliffs on your left. Highway 1 runs more than a thousand kilometres along the California coast, and the stretch we're driving today is one of its quietest. Settle in, and enjoy the drive."
+    },
+    {
+      "name": "Wilder Ranch State Park",
+      "kind": "stop",
+      "lat": 36.96222,
+      "lng": -122.08195,
+      "text": "Coming up on your left is the turnoff for Wilder Ranch State Park. For thousands of years, this land was home to the Ohlone people. Later it was used by the Spanish mission in Santa Cruz, and then, for most of a century, it was a dairy ranch run by the Wilder family. Today it's a state park, and the old farmhouses, barns and workshops are still standing, like a little time capsule of ranch life on the coast. Across the highway, trails climb into the hills and are popular with hikers and mountain bikers. On the ocean side, an easy path follows the top of the bluffs past small coves and arches carved by the waves. If you'd like an early stretch, there's a parking lot at the end of the entrance road. Otherwise, keep going. There's a lot of coast ahead."
+    },
+    {
+      "name": "Farms on the coastal terraces",
+      "kind": "walk",
+      "lat": 36.98419,
+      "lng": -122.14812,
+      "text": "Look at the land around you. It's flat, like giant steps between the mountains and the sea. These are marine terraces, old beaches lifted up out of the water over thousands of years. The cool, foggy climate here is perfect for crops like Brussels sprouts, artichokes and strawberries. In season, you'll see small farm stands along the road."
+    },
+    {
+      "name": "Davenport",
+      "kind": "stop",
+      "lat": 37.00782,
+      "lng": -122.18817,
+      "text": "Coming up is the tiny town of Davenport. It's named after John Davenport, a sea captain who hunted whales from this shore in the eighteen sixties. His crews watched for whales from the cliffs, then rowed out after them in small boats. Today people still watch whales from the same cliffs, but just for the joy of it. In winter and spring, gray whales pass along this coast on their long migration, and you might see their spouts out on the water. On your right, you'll notice the remains of a huge cement plant. For about a hundred years it was the heart of the town, until it closed in twenty ten. If you'd like a break, you can park along the road in town and grab a coffee. The bluffs are on the ocean side, so take care crossing the highway.",
+      "photo": "photos/highway1-drive/3.jpg",
+      "credit": "the_tahoe_guy from San Jose, California, USA, CC BY 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Davenport_Beach_-_California_Coast_Panorama.jpg"
+    },
+    {
+      "name": "Waddell Creek and Big Basin",
+      "kind": "stop",
+      "lat": 37.0904,
+      "lng": -122.27381,
+      "text": "Coming up, the road drops down to sea level at Waddell Beach, on your left. The creek and the beach are named after William Waddell, a lumberman who cut redwoods in this valley in the eighteen hundreds. Back then, this valley was truly wild. In eighteen seventy five, Waddell was attacked and killed here by a grizzly bear. This valley is the ocean end of Big Basin Redwoods, California's oldest state park, created in nineteen oh two. A famous trail, the Skyline to the Sea Trail, comes all the way down from the mountains and ends right at this beach. In twenty twenty, a huge wildfire burned through almost all of Big Basin. Many of the old redwoods survived, and the forest is slowly coming back. On windy days, look for kitesurfers flying over the waves. There's a small parking area right by the beach.",
+      "photo": "photos/highway1-drive/4.jpg",
+      "credit": "Pink Floyd Fan 101, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Basin_Redwoods_State_Park_three_days_before_the_fire.jpg"
+    },
+    {
+      "name": "Año Nuevo State Park",
+      "kind": "stop",
+      "lat": 37.11558,
+      "lng": -122.30296,
+      "text": "Coming up on your left is the entrance to Año Nuevo State Park. The point was named by the Spanish explorer Sebastián Vizcaíno, who sailed past in the first days of January, sixteen oh three. Año Nuevo means New Year. Today it's famous for northern elephant seals. These giants were hunted almost to extinction in the eighteen hundreds. Slowly, they came back, and now thousands of them come to these beaches to rest, give birth and fight for mates. The big males have a huge, droopy nose and can weigh as much as a car. During the winter breeding season, you can only visit on a guided walk led by volunteer docents, and it's a good idea to book ahead. The rest of the year, you can usually walk out with a permit from the visitor center. The walk is a few kilometres through the dunes, so plan for a couple of hours if you stop.",
+      "photo": "photos/highway1-drive/5.jpg",
+      "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephant_seals_at_Ano_Nuevo_(91604).jpg"
+    },
+    {
+      "name": "Pigeon Point Lighthouse",
+      "kind": "stop",
+      "lat": 37.17945,
+      "lng": -122.3735,
+      "text": "Coming up on your left, you'll see a tall white tower standing on a rocky point. That's Pigeon Point Lighthouse, and at about thirty five metres, it's one of the tallest lighthouses in America. The point got its name from a shipwreck. In eighteen fifty three, a fast sailing ship called the Carrier Pigeon ran onto the rocks here. More wrecks followed, and in eighteen seventy two, the lighthouse was lit to warn ships away. Its light came from a giant glass lens made in France, built from more than a thousand pieces of glass. That old lens is now on display at the site. The keepers' houses next door have become a hostel, one of the most scenic places to sleep on the whole coast. If you have a few minutes, turn left into the small parking area and walk to the edge of the point. In winter and spring, it's a great place to watch for whales.",
+      "photo": "photos/highway1-drive/6.jpg",
+      "credit": "Frank Schulenburg, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pigeon_Point_Lighthouse_(2016).jpg"
+    },
+    {
+      "name": "Pescadero",
+      "kind": "stop",
+      "lat": 37.25367,
+      "lng": -122.41477,
+      "text": "Coming up is the turnoff for Pescadero, on your right. The name comes from Spanish and means something like a place for fishing. The little town sits a few minutes inland, with old wooden houses, white churches and a main street that feels like the eighteen hundreds never really ended. It's known for its farms, its bakery, and an old tavern famous for its artichoke soup. If you're hungry, it's a lovely detour. Here by the highway is Pescadero State Beach, and behind it, on your right, is Pescadero Marsh, the largest coastal marsh between Monterey Bay and San Francisco. It's a paradise for birds. Herons, egrets and ducks feed in the shallow water, and the creek meets the ocean at the beach. There are small parking areas along the highway if you'd like to walk down to the sand.",
+      "photo": "photos/highway1-drive/7.jpg",
+      "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pescadero_Marsh_(91775).jpg"
+    },
+    {
+      "name": "San Gregorio",
+      "kind": "walk",
+      "lat": 37.31954,
+      "lng": -122.40252,
+      "text": "Coming up, Highway 84 heads inland on your right, toward the tiny town of San Gregorio and its old general store, open for well over a hundred years. In seventeen sixty nine, the Spanish expedition of Gaspar de Portolá passed through this valley on its way north. On your left, San Gregorio Beach sits below tall sandstone cliffs."
+    },
+    {
+      "name": "Toward Half Moon Bay",
+      "kind": "walk",
+      "lat": 37.39695,
+      "lng": -122.41582,
+      "text": "For the next few kilometres, enjoy one of the emptiest stretches of the drive. Rolling hills on your right, high cliffs and wide beaches on your left. Soon the farms give way to flower nurseries and greenhouses, and the traffic gets a little busier as we get close to Half Moon Bay. Keep an eye out for cyclists on the shoulder."
+    },
+    {
+      "name": "Half Moon Bay",
+      "kind": "stop",
+      "lat": 37.46181,
+      "lng": -122.43442,
+      "text": "Welcome to Half Moon Bay, the biggest town on this part of the coast. It was once called Spanishtown, and its historic Main Street, just to your right, still has old wooden buildings, cafés and shops. But this town is best known for pumpkins. In the fall, the fields along Highway 92 turn bright orange, and families come from all over the Bay Area to pick their own. Every October, the town holds a big art and pumpkin festival, and a famous contest to find the heaviest pumpkin. The winners are true giants, weighing more than a thousand kilos. That's heavier than many cars. If you'd like a break, turn right toward downtown and park near Main Street. It's a good place for lunch before the last part of the drive.",
+      "photo": "photos/highway1-drive/10.jpg",
+      "credit": "Alecprofit, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_gorgeous_California_Coastline_at_Halfmoon_Bay.jpg"
+    },
+    {
+      "name": "Pillar Point Harbor and Mavericks",
+      "kind": "stop",
+      "lat": 37.50234,
+      "lng": -122.47407,
+      "text": "Coming up on your left is Pillar Point Harbor, full of fishing boats. On many days, you can buy fresh fish and crab right off the boats. But just past the harbor, out beyond the point, is something much wilder. It's called Mavericks, one of the most famous big wave surf spots in the world. In winter storms, the waves here can grow as tall as a five storey building. The spot is named after a German shepherd called Maverick, who liked to swim out after his owners in the nineteen sixties. For years, a local surfer named Jeff Clark rode these waves almost completely alone. Today the best big wave surfers on the planet come here. The waves break far from shore, so if you want to look, park near the west end of the harbor and walk out to the bluffs. Binoculars help.",
+      "photo": "photos/highway1-drive/11.jpg",
+      "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pillar_Point_Harbor.jpg"
+    },
+    {
+      "name": "Devil's Slide and the Tom Lantos Tunnels",
+      "kind": "stop",
+      "lat": 37.56204,
+      "lng": -122.51363,
+      "text": "Coming up, the highway climbs toward a mountain that drops straight into the sea. For decades, the road here was carved into the cliffs, at a spot called Devil's Slide. The name was well earned. Landslides kept cracking and closing the road, sometimes for months, cutting the coastal towns off from San Francisco. The answer was to go through the mountain instead. In twenty thirteen, the Tom Lantos Tunnels opened, named after the congressman who fought for them. Each tunnel is more than a kilometre long, and in a moment, you'll drive through one. The old cliff road didn't disappear. It's now a walking and cycling trail with amazing views, with its own parking areas at each end. Inside the tunnel, the signal may drop for a minute. Don't worry, I'll still be here on the other side.",
+      "photo": "photos/highway1-drive/12.jpg",
+      "credit": "Tony Webster from Minneapolis, Minnesota, CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tom_Lantos_-_Devil%27s_Slide_Tunnel_(29286074836).jpg"
+    },
+    {
+      "name": "Pacifica",
+      "kind": "stop",
+      "lat": 37.59056,
+      "lng": -122.50391,
+      "text": "Welcome to Pacifica. The long beach coming up on your left is Linda Mar, one of the most popular beginner surf spots in the Bay Area. You'll often see dozens of surfers in wetsuits waiting for waves. Right by the sand, there's even a fast food restaurant with a view most fancy restaurants would envy. Pacifica became a city in nineteen fifty seven, when several small seaside communities joined together. On the ridge above the town, on your right, is a famous spot in California history. In seventeen sixty nine, members of the Portolá expedition climbed up there and became the first Europeans known to see San Francisco Bay. Here, the ocean is still in charge. Storms keep eating away at the cliffs in the north part of town, and some homes on the edge have had to be torn down.",
+      "photo": "photos/highway1-drive/13.jpg",
+      "credit": "Екатериниа Владинакова, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pacifica_Pier,_California.jpg"
+    },
+    {
+      "name": "Into the city",
+      "kind": "walk",
+      "lat": 37.64027,
+      "lng": -122.49039,
+      "text": "We're getting close to San Francisco. Soon Highway 1 turns inland, toward the middle of the city. To finish by the ocean, we'll leave it and follow Highway 35, Skyline Boulevard, toward the Great Highway and Ocean Beach. Let your navigation app's voice guide you. And don't be surprised if the fog rolls in. Out here, it often does."
+    },
+    {
+      "name": "Fort Funston and Ocean Beach",
+      "kind": "stop",
+      "lat": 37.72822,
+      "lng": -122.50187,
+      "text": "Coming up on your left are the high sand cliffs of Fort Funston, an old military site that is now a park. On windy days, hang gliders launch from the cliffs and float above the beach. Just ahead is Ocean Beach, more than five kilometres of sand along the western edge of San Francisco. This is where our drive ends. The water here is cold and the currents are strong, so it's a place for walking, not swimming. North of here, a long stretch of the old Great Highway along the beach is now closed to cars and has become a park, so look for parking near where Sloat Boulevard meets the beach. Then stretch your legs, breathe the salty air, and look back south at the coast you just drove. Thanks for traveling with me. I hope you enjoyed Highway 1.",
+      "photo": "photos/highway1-drive/15.jpg",
+      "credit": "Radomianin, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Seal_Rocks,_Ocean_Beach,_San_Francisco.jpg"
+    }
+  ]
+}

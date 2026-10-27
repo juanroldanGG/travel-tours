@@ -21,6 +21,20 @@ QUERIES = {  # stop index -> search words; stops left out get no photo
                         10: "Estación Medellín Ferrocarril de Antioquia", 12: "Parque San Antonio Medellín pájaro Botero"},
     "medellin-poblado": {0: "Parque El Poblado Medellín", 2: "Parque lineal La Presidenta Medellín",
                          4: "Parque Lleras Medellín", 6: "Provenza Medellín"},
+    "sf-chinatown": {0: "Dragon Gate Chinatown San Francisco", 2: "Old Saint Mary's Cathedral San Francisco", 3: "Tin How Temple Waverly Place",
+                     4: "Golden Gate Fortune Cookie Factory", 6: "Portsmouth Square San Francisco", 7: "Sentinel Building San Francisco",
+                     9: "City Lights Bookstore", 11: "Washington Square Park North Beach", 12: "Saints Peter and Paul Church San Francisco",
+                     14: "Coit Tower"},
+    "sf-goldengate-bike": {0: "Aquatic Park San Francisco", 2: "Fort Mason San Francisco", 3: "Marina Green San Francisco",
+                           4: "Palace of Fine Arts", 6: "Crissy Field", 8: "Fort Point National Historic Site",
+                           9: "Golden Gate Bridge south tower", 11: "Golden Gate Bridge cyclists", 12: "Vista Point Golden Gate Bridge",
+                           14: "Sausalito waterfront", 15: "Sausalito ferry terminal"},
+    "santacruz-westcliff": {0: "Santa Cruz Beach Boardwalk", 1: "Giant Dipper roller coaster Santa Cruz Beach Boardwalk", 3: "Looff Carousel Santa Cruz",
+                            5: "Santa Cruz Municipal Wharf pier", 7: "California sea lions Santa Cruz", 8: "Cowell Beach Santa Cruz",
+                            10: "To Honor Surfing statue Santa Cruz", 11: "Steamer Lane Santa Cruz", 12: "Mark Abbott Memorial Lighthouse"},
+    "highway1-drive": {1: "Wilder Ranch Santa Cruz", 3: "Davenport California coast", 4: "Waddell Beach", 5: "Año Nuevo elephant seals",
+                       6: "Pigeon Point Lighthouse", 7: "Pescadero California", 10: "Half Moon Bay coastline beach", 11: "Pillar Point Harbor",
+                       12: "Tom Lantos Tunnels Devil's Slide", 13: "Pacifica California pier", 15: "Ocean Beach San Francisco"},
 }
 UA = {"User-Agent": "TravelApp-prototype/0.1 (juan@groundgamesales.com)"}  # Wikimedia asks for a contact
 

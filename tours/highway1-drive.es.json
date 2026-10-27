@@ -1,0 +1,155 @@
+{
+  "title": "Carretera 1: de Santa Cruz a San Francisco",
+  "summary": "Un recorrido tranquilo y precioso por la costa en la Carretera 1, de Santa Cruz a Ocean Beach en San Francisco, entre granjas, faros, elefantes marinos, una ola legendaria y los túneles que reemplazaron a Devil's Slide.",
+  "cover": "photos/highway1-drive/6.jpg",
+  "mode": "drive",
+  "minutes": 180,
+  "km": 118.0,
+  "voice": "es-MX-JorgeNeural",
+  "audio": "audio/highway1-drive-es",
+  "intro": "¡Bienvenido a la Carretera 1! Durante las próximas dos horas y media o tres, vamos a manejar hacia el norte por una de las costas más bonitas del mundo, desde Santa Cruz hasta Ocean Beach, en San Francisco. Primero, lo más importante. Si vas manejando, nunca toques el celular. Déjalo todo listo ahora, antes de salir, pon el celular en un lugar seguro y mantén la vista en el camino. No tienes que hacer nada. Cada historia empieza sola cuando te vas acercando. Si vas con alguien, esa persona puede pausar o repetir una historia por ti. Como vamos hacia el norte, el mar va a estar a tu izquierda todo el camino, así que cuando te diga más adelante a tu izquierda, piensa en el lado del mar. En algunos tramos la carretera es angosta y tiene muchas curvas, con ciclistas y gente que cruza hacia la playa, así que ve con calma. Si quieres parar, hazlo solo donde haya un estacionamiento de verdad. ¿Listo? Vamos a la costa.",
+  "stops": [
+    {
+      "name": "Saliendo de Santa Cruz",
+      "kind": "walk",
+      "lat": 36.96088,
+      "lng": -122.05667,
+      "text": "Arrancamos. Aquí termina la ciudad y empieza la costa salvaje. En unos minutos se acaban las casas, y vas a tener campos de cultivo a tu derecha y acantilados a tu izquierda. La Carretera 1 recorre más de mil kilómetros por la costa de California, y el tramo que vamos a manejar hoy es uno de los más tranquilos. Acomódate y disfruta el camino."
+    },
+    {
+      "name": "Parque Estatal Wilder Ranch",
+      "kind": "stop",
+      "lat": 36.96222,
+      "lng": -122.08195,
+      "text": "Más adelante, a tu izquierda, está la entrada al Parque Estatal Wilder Ranch. Durante miles de años, esta tierra fue el hogar del pueblo ohlone. Después la usó la misión española de Santa Cruz, y luego, durante casi un siglo, fue un rancho lechero de la familia Wilder. Hoy es un parque estatal, y las viejas casas, los establos y los talleres siguen en pie, como una pequeña cápsula del tiempo de la vida de rancho en la costa. Al otro lado de la carretera, los senderos suben a los cerros y son muy populares entre caminantes y ciclistas de montaña. Del lado del mar, un camino fácil recorre lo alto de los acantilados, junto a pequeñas caletas y arcos tallados por las olas. Si quieres estirar las piernas temprano, hay un estacionamiento al final del camino de entrada. Si no, sigue adelante. Nos queda mucha costa."
+    },
+    {
+      "name": "Granjas en las terrazas de la costa",
+      "kind": "walk",
+      "lat": 36.98419,
+      "lng": -122.14812,
+      "text": "Mira la tierra a tu alrededor. Es plana, como escalones gigantes entre las montañas y el mar. Son terrazas marinas, antiguas playas que fueron saliendo del agua a lo largo de miles de años. El clima fresco y con neblina es perfecto para cultivos como coles de Bruselas, alcachofas y fresas. En temporada, vas a ver pequeños puestos de granja junto al camino."
+    },
+    {
+      "name": "Davenport",
+      "kind": "stop",
+      "lat": 37.00782,
+      "lng": -122.18817,
+      "text": "Más adelante está el pueblito de Davenport. Lleva el nombre de John Davenport, un capitán de barco que cazaba ballenas desde esta orilla en la década de mil ochocientos sesenta. Sus hombres vigilaban desde los acantilados y, cuando veían una ballena, salían a remar tras ella en botes pequeños. Hoy la gente sigue mirando ballenas desde los mismos acantilados, pero solo por el gusto de verlas. En invierno y primavera, las ballenas grises pasan por esta costa en su larga migración, y quizás veas sus soplidos en el agua. A tu derecha vas a ver lo que queda de una enorme fábrica de cemento. Durante unos cien años fue el corazón del pueblo, hasta que cerró en dos mil diez. Si quieres un descanso, puedes estacionarte junto a la carretera en el pueblo y tomarte un café. Los acantilados están del lado del mar, así que cruza la carretera con cuidado.",
+      "photo": "photos/highway1-drive/3.jpg",
+      "credit": "the_tahoe_guy from San Jose, California, USA, CC BY 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Davenport_Beach_-_California_Coast_Panorama.jpg"
+    },
+    {
+      "name": "Waddell Creek y Big Basin",
+      "kind": "stop",
+      "lat": 37.0904,
+      "lng": -122.27381,
+      "text": "Más adelante, la carretera baja al nivel del mar en Waddell Beach, a tu izquierda. El arroyo y la playa llevan el nombre de William Waddell, un maderero que cortaba secuoyas en este valle en el siglo diecinueve. En esa época, este valle era realmente salvaje. En mil ochocientos setenta y cinco, a Waddell lo atacó y lo mató aquí un oso pardo. Este valle es el extremo junto al mar de Big Basin Redwoods, el parque estatal más antiguo de California, creado en mil novecientos dos. Un sendero famoso, el Skyline to the Sea, baja desde las montañas y termina justo en esta playa. En dos mil veinte, un enorme incendio quemó casi todo Big Basin. Muchas de las secuoyas viejas sobrevivieron, y el bosque se está recuperando poco a poco. Los días de viento, busca a los kitesurfistas volando sobre las olas. Hay un pequeño estacionamiento junto a la playa.",
+      "photo": "photos/highway1-drive/4.jpg",
+      "credit": "Pink Floyd Fan 101, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Big_Basin_Redwoods_State_Park_three_days_before_the_fire.jpg"
+    },
+    {
+      "name": "Parque Estatal Año Nuevo",
+      "kind": "stop",
+      "lat": 37.11558,
+      "lng": -122.30296,
+      "text": "Más adelante, a tu izquierda, está la entrada al Parque Estatal Año Nuevo. A la punta le puso nombre el explorador español Sebastián Vizcaíno, que pasó navegando por aquí en los primeros días de enero de mil seiscientos tres. Por eso se llama Año Nuevo. Hoy es famosa por los elefantes marinos del norte. Estos gigantes fueron cazados casi hasta desaparecer en el siglo diecinueve. Poco a poco volvieron, y ahora miles de ellos llegan a estas playas a descansar, a tener crías y a pelear por pareja. Los machos grandes tienen una nariz enorme y colgante, y pueden pesar tanto como un carro. En la temporada de reproducción, en invierno, solo se puede visitar con una caminata guiada por voluntarios, y conviene reservar con tiempo. El resto del año, normalmente puedes ir por tu cuenta con un permiso del centro de visitantes. La caminata es de unos cuantos kilómetros entre dunas, así que calcula un par de horas si te detienes.",
+      "photo": "photos/highway1-drive/5.jpg",
+      "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephant_seals_at_Ano_Nuevo_(91604).jpg"
+    },
+    {
+      "name": "Faro de Pigeon Point",
+      "kind": "stop",
+      "lat": 37.17945,
+      "lng": -122.3735,
+      "text": "Más adelante, a tu izquierda, vas a ver una torre blanca y alta sobre una punta de rocas. Es el faro de Pigeon Point, y con unos treinta y cinco metros, es uno de los faros más altos de Estados Unidos. La punta debe su nombre a un naufragio. En mil ochocientos cincuenta y tres, un velero rápido llamado Carrier Pigeon chocó contra las rocas aquí. Vinieron más naufragios, y en mil ochocientos setenta y dos se encendió el faro para alejar a los barcos. Su luz salía de un lente de vidrio gigante hecho en Francia, armado con más de mil piezas de vidrio. Ese lente antiguo hoy se exhibe en el mismo lugar. Las casas de los fareros se convirtieron en un hostal, uno de los lugares más bonitos para dormir en toda la costa. Si tienes unos minutos, gira a la izquierda hacia el pequeño estacionamiento y camina hasta la orilla de la punta. En invierno y primavera, es un gran lugar para buscar ballenas.",
+      "photo": "photos/highway1-drive/6.jpg",
+      "credit": "Frank Schulenburg, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pigeon_Point_Lighthouse_(2016).jpg"
+    },
+    {
+      "name": "Pescadero",
+      "kind": "stop",
+      "lat": 37.25367,
+      "lng": -122.41477,
+      "text": "Más adelante, a tu derecha, está el desvío hacia Pescadero. Sí, el nombre viene del español, y tiene que ver con la pesca. El pueblito queda a pocos minutos tierra adentro, con casas viejas de madera, iglesias blancas y una calle principal donde parece que el siglo diecinueve nunca terminó del todo. Es conocido por sus granjas, su panadería y una vieja taberna famosa por su sopa de alcachofa. Si tienes hambre, vale la pena el desvío. Aquí, junto a la carretera, está Pescadero State Beach, y detrás, a tu derecha, el pantano de Pescadero, el humedal costero más grande entre la bahía de Monterey y San Francisco. Es un paraíso para las aves. Garzas y patos se alimentan en el agua poco profunda, y el arroyo se junta con el mar en la playa. Hay pequeños estacionamientos junto a la carretera si quieres bajar a la arena.",
+      "photo": "photos/highway1-drive/7.jpg",
+      "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pescadero_Marsh_(91775).jpg"
+    },
+    {
+      "name": "San Gregorio",
+      "kind": "walk",
+      "lat": 37.31954,
+      "lng": -122.40252,
+      "text": "Más adelante, a tu derecha, la Carretera 84 se va tierra adentro, hacia el pueblito de San Gregorio y su vieja tienda general, abierta desde hace más de cien años. En mil setecientos sesenta y nueve, la expedición española de Gaspar de Portolá pasó por este valle rumbo al norte. A tu izquierda, la playa de San Gregorio está al pie de altos acantilados de arenisca."
+    },
+    {
+      "name": "Rumbo a Half Moon Bay",
+      "kind": "walk",
+      "lat": 37.39695,
+      "lng": -122.41582,
+      "text": "Durante los próximos kilómetros, disfruta uno de los tramos más solitarios del viaje. Cerros suaves a tu derecha, acantilados altos y playas anchas a tu izquierda. Pronto las granjas dan paso a viveros de flores e invernaderos, y hay un poco más de tráfico a medida que nos acercamos a Half Moon Bay. Ojo con los ciclistas en el acotamiento."
+    },
+    {
+      "name": "Half Moon Bay",
+      "kind": "stop",
+      "lat": 37.46181,
+      "lng": -122.43442,
+      "text": "Bienvenido a Half Moon Bay, el pueblo más grande de esta parte de la costa. Antes se llamaba Spanishtown, el pueblo de los españoles, y su calle principal histórica, Main Street, justo a tu derecha, todavía tiene edificios viejos de madera, cafés y tiendas. Pero este pueblo es famoso sobre todo por las calabazas. En otoño, los campos junto a la Carretera 92 se pintan de naranja, y llegan familias de toda el área de la bahía para escoger la suya. Cada octubre, el pueblo celebra un gran festival de arte y calabazas, y un concurso famoso para encontrar la calabaza más pesada. Las ganadoras son verdaderas gigantes, de más de mil kilos. Pesan más que muchos carros. Si quieres un descanso, gira a la derecha hacia el centro y estaciónate cerca de Main Street. Es un buen lugar para almorzar antes del último tramo.",
+      "photo": "photos/highway1-drive/10.jpg",
+      "credit": "Alecprofit, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_gorgeous_California_Coastline_at_Halfmoon_Bay.jpg"
+    },
+    {
+      "name": "Pillar Point Harbor y Mavericks",
+      "kind": "stop",
+      "lat": 37.50234,
+      "lng": -122.47407,
+      "text": "Más adelante, a tu izquierda, está el puerto de Pillar Point, lleno de barcos de pesca. Muchos días puedes comprar pescado y cangrejo fresco directamente en los barcos. Pero justo pasando el puerto, más allá de la punta, hay algo mucho más salvaje. Se llama Mavericks, uno de los lugares de olas gigantes más famosos del mundo. En las tormentas de invierno, las olas aquí pueden ser tan altas como un edificio de cinco pisos. El lugar lleva el nombre de un pastor alemán llamado Maverick, al que le gustaba nadar detrás de sus dueños en los años sesenta. Durante años, un surfista local llamado Jeff Clark surfeó estas olas casi completamente solo. Hoy vienen aquí los mejores surfistas de olas grandes del planeta. Las olas rompen lejos de la orilla, así que si quieres verlas, estaciónate cerca del extremo oeste del puerto y camina hasta los acantilados. Unos binoculares ayudan.",
+      "photo": "photos/highway1-drive/11.jpg",
+      "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pillar_Point_Harbor.jpg"
+    },
+    {
+      "name": "Devil's Slide y los túneles Tom Lantos",
+      "kind": "stop",
+      "lat": 37.56204,
+      "lng": -122.51363,
+      "text": "Más adelante, la carretera sube hacia una montaña que cae directo al mar. Durante décadas, el camino aquí estaba tallado en los acantilados, en un lugar llamado Devil's Slide, el Resbalón del Diablo. El nombre era merecido. Los derrumbes agrietaban y cerraban la carretera una y otra vez, a veces por meses, y dejaban a los pueblos de la costa aislados de San Francisco. La solución fue atravesar la montaña. En dos mil trece se abrieron los túneles Tom Lantos, con el nombre del congresista que luchó por ellos. Cada túnel mide más de un kilómetro, y en un momento vas a pasar por uno. La vieja carretera del acantilado no desapareció. Hoy es un sendero para caminar y andar en bici, con vistas increíbles y estacionamiento en cada extremo. Dentro del túnel puede que se pierda la señal un minuto. No te preocupes, del otro lado sigo aquí.",
+      "photo": "photos/highway1-drive/12.jpg",
+      "credit": "Tony Webster from Minneapolis, Minnesota, CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tom_Lantos_-_Devil%27s_Slide_Tunnel_(29286074836).jpg"
+    },
+    {
+      "name": "Pacifica",
+      "kind": "stop",
+      "lat": 37.59056,
+      "lng": -122.50391,
+      "text": "Bienvenido a Pacifica. La playa larga que viene a tu izquierda es Linda Mar, uno de los lugares favoritos del área de la bahía para aprender a surfear. Muchas veces vas a ver docenas de surfistas con traje de neopreno esperando olas. Junto a la arena hay hasta un restaurante de comida rápida con una vista que muchos restaurantes elegantes envidiarían. Pacifica se convirtió en ciudad en mil novecientos cincuenta y siete, cuando varias comunidades pequeñas junto al mar se unieron. En la loma sobre el pueblo, a tu derecha, hay un lugar famoso en la historia de California. En mil setecientos sesenta y nueve, miembros de la expedición de Portolá subieron allí y fueron los primeros europeos que se sepa que vieron la bahía de San Francisco. Aquí, el mar sigue mandando. Las tormentas siguen comiéndose los acantilados en el norte del pueblo, y algunas casas al borde han tenido que ser demolidas.",
+      "photo": "photos/highway1-drive/13.jpg",
+      "credit": "Екатериниа Владинакова, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pacifica_Pier,_California.jpg"
+    },
+    {
+      "name": "Entrando a la ciudad",
+      "kind": "walk",
+      "lat": 37.64027,
+      "lng": -122.49039,
+      "text": "Ya estamos cerca de San Francisco. Pronto la Carretera 1 se va tierra adentro, hacia el centro de la ciudad. Para terminar junto al mar, la vamos a dejar y seguir la Carretera 35, Skyline Boulevard, hacia la Great Highway y Ocean Beach. Deja que la voz de tu aplicación de navegación te guíe. Y no te sorprendas si llega la neblina. Por aquí, pasa seguido."
+    },
+    {
+      "name": "Fort Funston y Ocean Beach",
+      "kind": "stop",
+      "lat": 37.72822,
+      "lng": -122.50187,
+      "text": "Más adelante, a tu izquierda, están los altos acantilados de arena de Fort Funston, un antiguo sitio militar que hoy es un parque. Los días de viento, los pilotos de ala delta despegan desde los acantilados y flotan sobre la playa. Justo adelante está Ocean Beach, más de cinco kilómetros de arena en el borde oeste de San Francisco. Aquí termina nuestro viaje. El agua es fría y las corrientes son fuertes, así que es una playa para caminar, no para nadar. Al norte, un tramo largo de la vieja Great Highway junto a la playa ya no tiene carros y se convirtió en un parque, así que busca estacionamiento cerca de donde Sloat Boulevard llega a la playa. Luego estira las piernas, respira el aire salado y mira hacia el sur, a la costa que acabas de recorrer. Gracias por viajar conmigo. Espero que hayas disfrutado la Carretera 1.",
+      "photo": "photos/highway1-drive/15.jpg",
+      "credit": "Radomianin, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Seal_Rocks,_Ocean_Beach,_San_Francisco.jpg"
+    }
+  ]
+}
