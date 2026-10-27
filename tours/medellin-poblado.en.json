@@ -1,7 +1,7 @@
 {
   "title": "Medellín: El Poblado and Provenza",
   "summary": "From the metro by the river, through old Manila and the square where El Poblado began, to Parque Lleras, the La Octava ball-pit bar, El Social and the designer shops and cafés of Vía Primavera.",
-  "cover": "photos/medellin-poblado/28.jpg",
+  "cover": "photos/medellin-poblado/30.jpg",
   "minutes": 135,
   "km": 3,
   "voice": "en-GB-RyanNeural",
@@ -89,7 +89,7 @@
       "kind": "stop",
       "lat": 6.21093,
       "lng": -75.57119,
-      "text": "One block ahead runs Avenida El Poblado, also called Carrera 43A. For most of the twentieth century this area was countryside: big country houses, called fincas, where wealthy families from downtown came to escape the city. As Medellín grew, the fincas were replaced by apartment towers, hotels and offices, and the stretch of the avenue further south became known as the Milla de Oro, the Golden Mile, for its banks and business headquarters. Now turn right and walk down Carrera 43B, beside the park, to its lower corner.",
+      "text": "One block ahead runs Avenida El Poblado, also called Carrera 43A. For most of the twentieth century this area was countryside: big country houses, called fincas, where wealthy families from downtown came to escape the city. As Medellín grew, the fincas were replaced by apartment towers, hotels and offices, and the stretch of the avenue further south became known as the Milla de Oro, the Golden Mile, for its banks and business headquarters. Now cross Calle 10 at the crosswalk and walk down Carrera 43B, beside the park, to its lower corner.",
       "photo": "photos/medellin-poblado/10.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
@@ -100,16 +100,30 @@
       "kind": "stop",
       "lat": 6.21013,
       "lng": -75.57142,
-      "text": "You're standing where Medellín began. In 1616, a Spanish colonial official, Francisco de Herrera Campuzano, set up a settlement for the indigenous people of the valley right here, called San Lorenzo de Aburrá. That's why this neighbourhood is called El Poblado, the settlement. The town of Medellín itself grew up later, further north, where the Centro is today. Look around at the mountains on every side. Medellín sits in a long, narrow valley, at about fifteen hundred metres, and the temperature stays pleasant all year. That's why it's called the City of Eternal Spring. From this lower corner, look down Carrera 43B: a pedestrian street full of bars and restaurants, busy from lunchtime until late at night. And right on the park is Alambique, a restaurant we love. Ask for the ceviche de chicharrón, a new fusion version of ceviche made with crispy pork. When you're ready, walk east along Calle 9, along the bottom of the park, to the church.",
+      "text": "You're standing where Medellín began. In 1616, a Spanish colonial official, Francisco de Herrera Campuzano, set up a settlement for the indigenous people of the valley right here, called San Lorenzo de Aburrá. That's why this neighbourhood is called El Poblado, the settlement. The town of Medellín itself grew up later, further north, where the Centro is today. Look around at the mountains on every side. Medellín sits in a long, narrow valley, at about fifteen hundred metres, and the temperature stays pleasant all year. That's why it's called the City of Eternal Spring. From this lower corner, look down Carrera 43B: a pedestrian street full of bars and restaurants, busy from lunchtime until late at night. And right on the park is Alambique, a restaurant we love. Ask for the ceviche de chicharrón, a new fusion version of ceviche made with crispy pork. When you're ready, walk east along Calle 9, along the bottom of the park, to Carrera 43A.",
       "place": "Parque El Poblado Medellín"
+    },
+    {
+      "name": "Cross at the light",
+      "kind": "walk",
+      "lat": 6.2099,
+      "lng": -75.57085,
+      "text": "At Carrera 43A, wait for the green light and cross at the crosswalk."
+    },
+    {
+      "name": "Church side",
+      "kind": "walk",
+      "lat": 6.20989,
+      "lng": -75.57062,
+      "text": "Once across, turn left and walk a few steps up to the church."
     },
     {
       "name": "San José del Poblado Church",
       "kind": "stop",
       "lat": 6.21013,
       "lng": -75.57057,
-      "text": "This is the church of San José del Poblado, the parish church of the neighbourhood. Look up at its tall brick tower with the clock. Like in almost every Colombian town, the square and the church go together: for centuries this was where people met after Sunday mass, did business and caught up on news. El Poblado has changed completely around it, but the plaza and its church are still the heart of the old village. If the doors are open, step inside for a quiet moment. Next to the church, along Carrera 43A, look for the little hot dog stands. Perritos calientes are a classic of this park: they're tiny, so you can easily eat a few. Then walk south along Carrera 43A, toward the green park by the stream.",
-      "photo": "photos/medellin-poblado/12.jpg",
+      "text": "This is the church of San José del Poblado, the parish church of the neighbourhood. Look up at its tall brick tower with the clock. Like in almost every Colombian town, the square and the church go together: for centuries this was where people met after Sunday mass, did business and caught up on news. El Poblado has changed completely around it, but the plaza and its church are still the heart of the old village. If the doors are open, step inside for a quiet moment. Next to the church, along Carrera 43A, look for the little hot dog stands. Perritos calientes are a classic of this park: they're tiny, so you can easily eat a few. Then, staying on this side of the avenue, walk south along Carrera 43A, past the hot dog stands, toward the green park by the stream.",
+      "photo": "photos/medellin-poblado/14.jpg",
       "credit": "XalD, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Jos%C3%A9_del_Poblado-fachada.jpg",
       "place": "Parroquia San José del Poblado Medellín"
@@ -118,7 +132,7 @@
       "name": "South on Carrera 43A",
       "kind": "walk",
       "lat": 6.20857,
-      "lng": -75.57113,
+      "lng": -75.571,
       "text": "Walk south along the sidewalk of Carrera 43A, Avenida El Poblado, for about two blocks, then turn left onto Calle 8."
     },
     {
@@ -126,7 +140,7 @@
       "kind": "stop",
       "lat": 6.2084,
       "lng": -75.57063,
-      "text": "Here on Calle 8, right by the park, is Café Zorba, one of our favourite spots in El Poblado. It's a lovely place for a coffee or a bite before the green part of the walk. When you're ready, keep following Calle 8 as it turns into a path and goes down into the park.",
+      "text": "Here on Calle 8, right by the park, is Café Zorba, one of our favourite spots in El Poblado. It's a vegetarian place, and they make very good pizza: a great stop for a coffee or a bite before the green part of the walk. When you're ready, keep following Calle 8 as it turns into a path and goes down into the park.",
       "place": "Café Zorba Medellín"
     },
     {
@@ -149,7 +163,7 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "This green strip follows the La Presidenta stream down the hill, the same stream you crossed near the metro. Medellín is crossed by hundreds of streams like this one, all flowing into the river at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down, and it won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now follow the path east, along the stream.",
-      "photo": "photos/medellin-poblado/17.jpg",
+      "photo": "photos/medellin-poblado/19.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
@@ -210,7 +224,7 @@
       "lat": 6.20888,
       "lng": -75.56765,
       "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants, and on weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere: reggaetón, of course, but also salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk up Carrera 38, toward Calle 10.",
-      "photo": "photos/medellin-poblado/25.jpg",
+      "photo": "photos/medellin-poblado/27.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -235,7 +249,7 @@
       "lat": 6.20783,
       "lng": -75.56578,
       "text": "On this corner is El Social, a tienda mixta, the old-style neighbourhood corner shop, open since 1969. The streets around it filled up with trendy restaurants and bars, but El Social kept its simple tables and its cold beers, and it's a favourite of locals and travellers alike. Stop for a beer and some people-watching: it's a taste of what this neighbourhood was like before. Right next door is Coyotaco, and it comes with a funny story. Coyo Taco started in Miami, created by Colombians, and grew into a chain with places around the world. But it only came to Colombia later, so for years Colombia didn't have Coyotaco, even though its creators were Colombian. When you're ready, keep walking down Carrera 35 to Calle 8.",
-      "photo": "photos/medellin-poblado/28.jpg",
+      "photo": "photos/medellin-poblado/30.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "El Social Tienda Mixta Medellín"
@@ -245,7 +259,7 @@
       "kind": "stop",
       "lat": 6.20733,
       "lng": -75.56576,
-      "text": "From this corner, look one block further down Carrera 35. That's Carolina, the restaurant of Karol G, one of the biggest music stars to come out of Medellín. It's named after her real name, Carolina Giraldo, and she opened it in December 2024. The menu mixes Colombian cooking and seafood with flavours from across Latin America. Medellín is often called the capital of reggaetón: Karol G, Maluma and J Balvin all come from this city. If you want a closer look, walk down and come back to this corner. Then follow Calle 8 west, toward the little park.",
+      "text": "From this corner, look one block further down Carrera 35. That's Carolina, the restaurant of Karol G, one of the biggest music stars to come out of Medellín. It's named after her real name, Carolina Giraldo, and she opened it in December 2024. The menu mixes Colombian cooking and seafood with flavours from across Latin America. Medellín is often called the capital of reggaetón: Karol G, Maluma and J Balvin all come from this city. If you want a closer look, walk down and come back to this corner. Then follow Calle 8 west, toward 37 Park.",
       "place": "Restaurante Carolina Medellín"
     },
     {
@@ -260,28 +274,28 @@
       "kind": "walk",
       "lat": 6.20761,
       "lng": -75.56653,
-      "text": "At Carrera 36, keep going west along Calle 8. The little park is just ahead."
+      "text": "At Carrera 36, keep going west along Calle 8. 37 Park is just ahead."
     },
     {
-      "name": "Parque La 37",
+      "name": "37 Park",
       "kind": "stop",
-      "lat": 6.20734,
-      "lng": -75.56688,
-      "text": "This is Parque La 37, a small green corner and a quiet break from the busy streets around it. Take a breather here. Then keep going west along Calle 8 to Carrera 37.",
-      "place": "Parque La 37 Provenza Medellín"
+      "lat": 6.20755,
+      "lng": -75.56691,
+      "text": "This is 37 Park, a restaurant and bar here on Calle 8, and another of our recommendations: a good place for a drink or a bite before the last stretch of the walk. Then keep going west along Calle 8 to Carrera 37.",
+      "place": "37 Park Medellín Restaurante Bar"
     },
     {
       "name": "Right onto Vía Primavera",
       "kind": "walk",
-      "lat": 6.20748,
-      "lng": -75.56742,
+      "lat": 6.20761,
+      "lng": -75.56721,
       "text": "At Carrera 37, turn right and walk uphill. This street is Vía Primavera."
     },
     {
       "name": "Vía Primavera and Pergamino",
       "kind": "stop",
-      "lat": 6.20831,
-      "lng": -75.56712,
+      "lat": 6.2083,
+      "lng": -75.56705,
       "text": "Carrera 37, Vía Primavera, is the perfect end to our walk. It's lined with small speciality shops, many run by local Colombian designers: clothes, shoes, jewellery and accessories you won't find anywhere else. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. And right here is Pergamino, one of Medellín's best-known speciality coffee shops. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Sit down, order a coffee, or a tinto, the small black coffee Colombians drink all day long, and rest your feet. In a couple of hours you've gone from the metro by the river, through old Manila, to the square where El Poblado was born four hundred years ago, and up to the streets where Medellín eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín went from one of the most dangerous cities in the world to one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce.",
       "place": "Pergamino Coffee Via Primavera Medellín"
     }

@@ -1,7 +1,7 @@
 {
   "title": "Medellín: El Poblado y Provenza",
   "summary": "Del metro junto al río, por el viejo Manila y la plaza donde nació El Poblado, hasta el Parque Lleras, el bar de la piscina de pelotas La Octava, El Social y las tiendas de diseño y cafés de la Vía Primavera.",
-  "cover": "photos/medellin-poblado/28.jpg",
+  "cover": "photos/medellin-poblado/30.jpg",
   "minutes": 135,
   "km": 3,
   "voice": "es-CO-GonzaloNeural",
@@ -89,7 +89,7 @@
       "kind": "stop",
       "lat": 6.21093,
       "lng": -75.57119,
-      "text": "Una cuadra adelante va la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de la avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Ahora gira a la derecha y baja por la Carrera 43B, junto al parque, hasta la esquina de abajo.",
+      "text": "Una cuadra adelante va la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de la avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Ahora cruza la Calle 10 por la cebra y baja por la Carrera 43B, junto al parque, hasta la esquina de abajo.",
       "photo": "photos/medellin-poblado/10.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
@@ -100,16 +100,30 @@
       "kind": "stop",
       "lat": 6.21013,
       "lng": -75.57142,
-      "text": "Estás donde empezó Medellín. En 1616, un funcionario español, el oidor Francisco de Herrera Campuzano, creó aquí mismo un poblado para los indígenas del valle, llamado San Lorenzo de Aburrá. Por eso este barrio se llama El Poblado. El pueblo de Medellín como tal creció después, más al norte, donde hoy está el Centro. Mira alrededor las montañas por todos lados. Medellín está en un valle largo y angosto, a unos mil quinientos metros de altura, y el clima es agradable todo el año. Por eso le dicen la Ciudad de la Eterna Primavera. Desde esta esquina de abajo, mira la Carrera 43B: una calle peatonal llena de bares y restaurantes, con ambiente desde el almuerzo hasta tarde en la noche. Y aquí mismo, en el parque, está Alambique, un restaurante que nos encanta. Pide el ceviche de chicharrón, una versión nueva y fusión del ceviche. Cuando estés listo, camina hacia el oriente por la Calle 9, por la parte de abajo del parque, hasta la iglesia.",
+      "text": "Estás donde empezó Medellín. En 1616, un funcionario español, el oidor Francisco de Herrera Campuzano, creó aquí mismo un poblado para los indígenas del valle, llamado San Lorenzo de Aburrá. Por eso este barrio se llama El Poblado. El pueblo de Medellín como tal creció después, más al norte, donde hoy está el Centro. Mira alrededor las montañas por todos lados. Medellín está en un valle largo y angosto, a unos mil quinientos metros de altura, y el clima es agradable todo el año. Por eso le dicen la Ciudad de la Eterna Primavera. Desde esta esquina de abajo, mira la Carrera 43B: una calle peatonal llena de bares y restaurantes, con ambiente desde el almuerzo hasta tarde en la noche. Y aquí mismo, en el parque, está Alambique, un restaurante que nos encanta. Pide el ceviche de chicharrón, una versión nueva y fusión del ceviche. Cuando estés listo, camina hacia el oriente por la Calle 9, por la parte de abajo del parque, hasta la Carrera 43A.",
       "place": "Parque El Poblado Medellín"
+    },
+    {
+      "name": "Cruza por el semáforo",
+      "kind": "walk",
+      "lat": 6.2099,
+      "lng": -75.57085,
+      "text": "En la Carrera 43A, espera el semáforo en verde y cruza por la cebra."
+    },
+    {
+      "name": "Del lado de la iglesia",
+      "kind": "walk",
+      "lat": 6.20989,
+      "lng": -75.57062,
+      "text": "Ya del otro lado, gira a la izquierda y camina unos pasos hasta la iglesia."
     },
     {
       "name": "Iglesia San José del Poblado",
       "kind": "stop",
       "lat": 6.21013,
       "lng": -75.57057,
-      "text": "Esta es la iglesia San José del Poblado, la parroquia del barrio. Mira hacia arriba su torre alta de ladrillo, con el reloj. Como en casi todos los pueblos de Colombia, la plaza y la iglesia van juntas: durante siglos aquí se encontraba la gente después de la misa del domingo, a hacer negocios y a ponerse al día. El Poblado cambió por completo a su alrededor, pero la plaza y su iglesia siguen siendo el corazón del pueblo viejo. Si las puertas están abiertas, entra un momento a descansar. Al lado de la iglesia, sobre la Carrera 43A, busca los puestos de perritos calientes, un clásico de este parque: son pequeñitos, así que te puedes comer varios. Después camina hacia el sur por la Carrera 43A, hacia el parque verde de la quebrada.",
-      "photo": "photos/medellin-poblado/12.jpg",
+      "text": "Esta es la iglesia San José del Poblado, la parroquia del barrio. Mira hacia arriba su torre alta de ladrillo, con el reloj. Como en casi todos los pueblos de Colombia, la plaza y la iglesia van juntas: durante siglos aquí se encontraba la gente después de la misa del domingo, a hacer negocios y a ponerse al día. El Poblado cambió por completo a su alrededor, pero la plaza y su iglesia siguen siendo el corazón del pueblo viejo. Si las puertas están abiertas, entra un momento a descansar. Al lado de la iglesia, sobre la Carrera 43A, busca los puestos de perritos calientes, un clásico de este parque: son pequeñitos, así que te puedes comer varios. Después, sin cruzar la avenida, camina hacia el sur por la Carrera 43A, pasando por los perritos, hacia el parque verde de la quebrada.",
+      "photo": "photos/medellin-poblado/14.jpg",
       "credit": "XalD, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Jos%C3%A9_del_Poblado-fachada.jpg",
       "place": "Parroquia San José del Poblado Medellín"
@@ -118,7 +132,7 @@
       "name": "Al sur por la Carrera 43A",
       "kind": "walk",
       "lat": 6.20857,
-      "lng": -75.57113,
+      "lng": -75.571,
       "text": "Camina hacia el sur por el andén de la Carrera 43A, la Avenida El Poblado, unas dos cuadras, y gira a la izquierda por la Calle 8."
     },
     {
@@ -126,7 +140,7 @@
       "kind": "stop",
       "lat": 6.2084,
       "lng": -75.57063,
-      "text": "Aquí en la Calle 8, junto al parque, está Café Zorba, uno de nuestros lugares favoritos de El Poblado. Es un sitio muy agradable para tomarse un café o comer algo antes de la parte verde del paseo. Cuando estés listo, sigue la Calle 8, que se vuelve un sendero y baja hacia el parque.",
+      "text": "Aquí en la Calle 8, junto al parque, está Café Zorba, uno de nuestros lugares favoritos de El Poblado. Es un lugar vegetariano y hacen muy buena pizza: perfecto para un café o algo de comer antes de la parte verde del paseo. Cuando estés listo, sigue la Calle 8, que se vuelve un sendero y baja hacia el parque.",
       "place": "Café Zorba Medellín"
     },
     {
@@ -149,7 +163,7 @@
       "lat": 6.20782,
       "lng": -75.56996,
       "text": "Esta franja verde sigue la quebrada La Presidenta colina abajo, la misma que cruzaste cerca del metro. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad, y hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sigue el sendero hacia el oriente, junto a la quebrada.",
-      "photo": "photos/medellin-poblado/17.jpg",
+      "photo": "photos/medellin-poblado/19.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn_quebrada_La_Presidenta.jpg",
       "place": "Parque Lineal La Presidenta Medellín"
@@ -210,7 +224,7 @@
       "lat": 6.20888,
       "lng": -75.56765,
       "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes, y los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes: reguetón, claro, pero también salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora sube por la Carrera 38, hacia la Calle 10.",
-      "photo": "photos/medellin-poblado/25.jpg",
+      "photo": "photos/medellin-poblado/27.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
       "place": "Parque Lleras Medellín"
@@ -235,7 +249,7 @@
       "lat": 6.20783,
       "lng": -75.56578,
       "text": "En esta esquina está El Social, una tienda mixta, la tienda de barrio de toda la vida, abierta desde 1969. Las calles alrededor se llenaron de restaurantes y bares de moda, pero El Social siguió con sus mesas sencillas y su cerveza fría, y es un favorito de locales y viajeros. Para a tomarte una cerveza y ver pasar la gente: es una probadita de cómo era este barrio antes. Aquí al lado está Coyotaco, y tiene una historia curiosa. Coyo Taco nació en Miami, creado por colombianos, y se volvió una cadena con locales en varias partes del mundo. Pero a Colombia llegó después, así que durante años en Colombia no había Coyotaco, aunque sus creadores eran colombianos. Cuando estés listo, sigue bajando por la Carrera 35 hasta la Calle 8.",
-      "photo": "photos/medellin-poblado/28.jpg",
+      "photo": "photos/medellin-poblado/30.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
       "place": "El Social Tienda Mixta Medellín"
@@ -245,7 +259,7 @@
       "kind": "stop",
       "lat": 6.20733,
       "lng": -75.56576,
-      "text": "Desde esta esquina, mira una cuadra más abajo por la Carrera 35. Ahí está Carolina, el restaurante de Karol G, una de las estrellas de la música más grandes que ha dado Medellín. Se llama así por su nombre real, Carolina Giraldo, y lo abrió en diciembre de 2024. La carta mezcla cocina colombiana y mariscos con sabores de toda América Latina. A Medellín le dicen la capital del reguetón: Karol G, Maluma y J Balvin son de esta ciudad. Si quieres verlo de cerca, baja y vuelve a esta esquina. Después sigue la Calle 8 hacia el occidente, hacia el parquecito.",
+      "text": "Desde esta esquina, mira una cuadra más abajo por la Carrera 35. Ahí está Carolina, el restaurante de Karol G, una de las estrellas de la música más grandes que ha dado Medellín. Se llama así por su nombre real, Carolina Giraldo, y lo abrió en diciembre de 2024. La carta mezcla cocina colombiana y mariscos con sabores de toda América Latina. A Medellín le dicen la capital del reguetón: Karol G, Maluma y J Balvin son de esta ciudad. Si quieres verlo de cerca, baja y vuelve a esta esquina. Después sigue la Calle 8 hacia el occidente, hacia 37 Park.",
       "place": "Restaurante Carolina Medellín"
     },
     {
@@ -260,28 +274,28 @@
       "kind": "walk",
       "lat": 6.20761,
       "lng": -75.56653,
-      "text": "En la Carrera 36, sigue hacia el occidente por la Calle 8. El parquecito está ahí adelante."
+      "text": "En la Carrera 36, sigue hacia el occidente por la Calle 8. 37 Park está ahí adelante."
     },
     {
-      "name": "Parque La 37",
+      "name": "37 Park",
       "kind": "stop",
-      "lat": 6.20734,
-      "lng": -75.56688,
-      "text": "Este es el Parque La 37, un rincón verde y pequeño, un descanso tranquilo entre las calles movidas de alrededor. Respira un momento. Después sigue hacia el occidente por la Calle 8 hasta la Carrera 37.",
-      "place": "Parque La 37 Provenza Medellín"
+      "lat": 6.20755,
+      "lng": -75.56691,
+      "text": "Este es 37 Park, un restaurante y bar aquí en la Calle 8, y otra de nuestras recomendaciones: un buen lugar para tomarse algo o comer antes del último tramo del paseo. Después sigue hacia el occidente por la Calle 8 hasta la Carrera 37.",
+      "place": "37 Park Medellín Restaurante Bar"
     },
     {
       "name": "A la derecha por la Vía Primavera",
       "kind": "walk",
-      "lat": 6.20748,
-      "lng": -75.56742,
+      "lat": 6.20761,
+      "lng": -75.56721,
       "text": "En la Carrera 37, gira a la derecha y sube. Esta calle es la Vía Primavera."
     },
     {
       "name": "Vía Primavera y Pergamino",
       "kind": "stop",
-      "lat": 6.20831,
-      "lng": -75.56712,
+      "lat": 6.2083,
+      "lng": -75.56705,
       "text": "La Carrera 37, la Vía Primavera, es el final perfecto para nuestro paseo. Está llena de tiendas pequeñas de especialidad, muchas de diseñadores colombianos locales: ropa, zapatos, joyas y accesorios que no vas a encontrar en otra parte. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el recorrido del Centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Y aquí mismo está Pergamino, uno de los cafés de especialidad más conocidos de Medellín. Colombia es uno de los grandes países cafeteros del mundo, y las montañas alrededor de Medellín también son tierra de café. Siéntate, pide un café, o un tinto, el café negro pequeño que los colombianos toman todo el día, y descansa los pies. En un par de horas pasaste del metro junto al río, por el viejo Manila, a la plaza donde nació El Poblado hace cuatrocientos años, y subiste hasta las calles donde Medellín come, compra y baila hoy. Si todavía no lo has hecho, el recorrido del Centro cuenta la otra mitad de la historia: cómo Medellín pasó de ser una de las ciudades más peligrosas del mundo a una de las más innovadoras. Gracias por caminar conmigo. Disfruta tu café, y disfruta Medellín. Gracias, parce.",
       "place": "Pergamino Coffee Via Primavera Medellín"
     }
