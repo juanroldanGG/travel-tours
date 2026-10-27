@@ -1,0 +1,127 @@
+{
+  "title": "Porto: From the Cathedral to Clérigos",
+  "voice": "en-GB-RyanNeural",
+  "audio": "audio/porto-en",
+  "intro": "Welcome to Porto! This walk takes about ninety minutes and covers two kilometres, from the cathedral on top of the old town, through the grand avenues of downtown, to the famous Clérigos Tower. Keep your screen on and your headphones in. I'll start talking on my own when you reach each place, and tell you where to turn in between. Porto is a city of granite, tiles and port wine, and its people are proud, hard working and very funny. Let's start right here, in front of the cathedral.",
+  "stops": [
+    {
+      "name": "Porto Cathedral",
+      "kind": "stop",
+      "lat": 41.1428,
+      "lng": -8.61121,
+      "text": "This is the Sé, Porto's cathedral, standing on the highest point of the old town. With its battlements and heavy towers, it looks as much like a fortress as a church, and in the twelfth century, when it was started, it had to be both. Portugal was a brand new kingdom, and a church on a hilltop was also a place to defend. In 1387, King John the First married an English princess, Philippa of Lancaster, right here. That wedding sealed the alliance between Portugal and England, signed a year earlier, and it's still in force today, the oldest alliance between two countries in the world. One of their sons, Henry the Navigator, was born in Porto and sent ships exploring down the coast of Africa."
+    },
+    {
+      "name": "The cathedral square",
+      "kind": "stop",
+      "lat": 41.14258,
+      "lng": -8.61189,
+      "text": "Walk to the middle of the square and look over the edge. Below you are the roofs of the Ribeira, the old riverside district, and beyond it the Douro river. On the far bank is Vila Nova de Gaia, where the big port wine lodges are. For centuries, barrels of wine came down the river from the vineyards upstream and were aged over there. The stone column in the square is a pillory, where criminals were once tied up and shamed in public. Porto people are nicknamed tripeiros, tripe eaters. The story goes that in 1415 they gave all their meat to the fleet sailing to conquer Ceuta, and kept only the tripe for themselves. Tripe stew is still a local speciality."
+    },
+    {
+      "name": "Down to the station",
+      "kind": "walk",
+      "lat": 41.1442,
+      "lng": -8.6109,
+      "text": "With the cathedral behind you, take the steps and the street going down toward the busy road below. You'll see a huge granite rock along the way. Granite is everywhere in Porto, it's the stone of northern Portugal, and it gives the city its grey, serious face. At the bottom, cross carefully at the crossing, then turn left. The big building ahead is São Bento station."
+    },
+    {
+      "name": "São Bento Station",
+      "kind": "stop",
+      "lat": 41.14558,
+      "lng": -8.61055,
+      "text": "Step inside the main hall of São Bento station. It's free, and it's one of the most beautiful stations in the world. The walls are covered with about twenty thousand blue and white tiles, painted by the artist Jorge Colaço in the early nineteen hundreds. They tell Portugal's story: battles, kings, and that royal wedding from the cathedral, when John the First arrived in Porto with Philippa of Lancaster. Look higher up, and the coloured band shows everyday life in the countryside, like the grape harvest and farmers at work. The station was built on the site of an old convent dedicated to Saint Benedict, São Bento in Portuguese, which is where the name comes from."
+    },
+    {
+      "name": "Up Rua de Sá da Bandeira",
+      "kind": "walk",
+      "lat": 41.1464,
+      "lng": -8.6099,
+      "text": "Come out of the station and walk uphill along Rua de Sá da Bandeira, the street running up the right side of the station as you face out. This is a busy shopping street. A little further up, on the right, is the Bolhão market, Porto's main food market for more than a century, beautifully restored a few years ago. It's worth a detour for cheese, sausages and a glass of wine. For now, keep looking out on your left for a café with a big sign and old fashioned lettering."
+    },
+    {
+      "name": "A Brasileira café",
+      "kind": "stop",
+      "lat": 41.14696,
+      "lng": -8.6093,
+      "text": "This is A Brasileira, opened in 1903 by a man named Adriano Teles, who had made his money in Brazil before coming home. Back then, most people in Porto didn't drink coffee. So he had an idea: anyone who bought a kilo of coffee beans got a free cup, served right here. It worked. Coffee caught on, and the café became a meeting place for writers, artists and businessmen. Many Portuguese families have a story like this, of someone who went to Brazil to work and came back rich. People called them Brasileiros, and they built some of the grandest houses and businesses in the north."
+    },
+    {
+      "name": "A Regaleira and the francesinha",
+      "kind": "stop",
+      "lat": 41.1472,
+      "lng": -8.60965,
+      "text": "Walk one street over, to Rua do Bonjardim. The restaurant A Regaleira here claims to be the birthplace of Porto's most famous dish, the francesinha, which means little French girl. The story is that a man who had lived in France came home in the nineteen fifties and made his own version of the croque monsieur. It's a huge sandwich, with bread, steak, ham and sausage, all covered in melted cheese and a hot, spicy beer and tomato sauce, usually with an egg on top and chips on the side. It is not a light lunch. But if you only eat one thing in Porto, many locals will tell you it should be this."
+    },
+    {
+      "name": "Rivoli Theatre",
+      "kind": "stop",
+      "lat": 41.14782,
+      "lng": -8.60994,
+      "text": "Keep going to the square just ahead, Praça Dom João the First, and look at the elegant white theatre. This is the Rivoli, Porto's municipal theatre. It first opened in 1913, and was rebuilt in the Art Deco style in the nineteen thirties, with those clean lines and tall windows. Art Deco was the fashionable style of that time, and you'll see more of it on this walk. Today the Rivoli hosts dance, theatre and film festivals, and its café is a nice place to sit down. Now walk west, downhill, to the very wide avenue just behind the theatre."
+    },
+    {
+      "name": "Avenida dos Aliados",
+      "kind": "stop",
+      "lat": 41.1482,
+      "lng": -8.611,
+      "text": "This is the Avenida dos Aliados, the Avenue of the Allies, named after the countries that fought together in the First World War, Portugal among them. It's Porto's grand living room, where the city celebrates football victories, New Year and big concerts. People call it Porto's little Champs-Élysées. Look at the buildings on both sides. Most are from the early twentieth century, built by banks and insurance companies to show off their wealth, in granite and white stone, with domes and statues on top. At the top of the avenue is the City Hall, with its tall clock tower. Let's walk up to it."
+    },
+    {
+      "name": "City Hall",
+      "kind": "stop",
+      "lat": 41.1499,
+      "lng": -8.61075,
+      "text": "The City Hall took a very long time to finish. Work started in the nineteen twenties, but money kept running out, and it was only completed in the nineteen fifties, more than thirty years later. Its tower is about seventy metres tall. In front of it stands a statue of Almeida Garrett, a writer born in Porto, who also fought as a soldier in Portugal's civil war and later helped create the National Theatre. He's considered one of the founders of the Romantic movement in Portuguese literature. Now turn around and walk back down the avenue, all the way to the statue of a king on horseback at the bottom."
+    },
+    {
+      "name": "Praça da Liberdade",
+      "kind": "stop",
+      "lat": 41.14625,
+      "lng": -8.61125,
+      "text": "The king on horseback is Pedro the Fourth. In the eighteen thirties, he fought a civil war against his own brother, Miguel, over who should rule Portugal, and whether it would have a constitution. Pedro and his liberal army were trapped inside Porto for a whole year, besieged by Miguel's troops. The people of Porto suffered hunger and disease, but held out, and Pedro won. He was so grateful that when he died, he asked for his heart to be given to the city. It's still kept today, in a church not far from here. That's why Porto calls itself the Invicta, the city that was never defeated. Now walk up the street on the left side of the avenue, to the small square with a grand hotel, Praça de Dona Filipa de Lencastre."
+    },
+    {
+      "name": "Hotel Infante Sagres",
+      "kind": "stop",
+      "lat": 41.14792,
+      "lng": -8.61293,
+      "text": "This is the Infante Sagres hotel, opened in 1951 by Delfim Ferreira, a rich industrialist who wanted Porto to have a truly luxurious hotel to receive his guests. Inside, it's all chandeliers, stained glass and carved wood, inspired by the glamour of the Art Deco years. Over the decades it has hosted kings, presidents and rock stars. It's named after Henry the Navigator, who you heard about at the cathedral. In Portuguese he's the Infante Dom Henrique, and Sagres is the cape at the far south of Portugal, linked to his voyages. Now walk west, uphill, to Rua das Carmelitas. Look for a long queue outside a bookshop."
+    },
+    {
+      "name": "Livraria Lello",
+      "kind": "stop",
+      "lat": 41.14683,
+      "lng": -8.61485,
+      "text": "This is Livraria Lello, opened in 1906 and often called the most beautiful bookshop in the world. Inside is a famous curving red staircase, with carved wood ceilings and stained glass. For years people said it inspired the magical staircases in Harry Potter, because J.K. Rowling lived in Porto in the early nineteen nineties, teaching English. Rowling herself has said she never actually visited the shop. But the story stuck, and now the queue goes around the block. You need a ticket to get in, and its price comes off any book you buy inside. Keep walking uphill to the two churches on the corner."
+    },
+    {
+      "name": "Carmo and Carmelitas churches",
+      "kind": "stop",
+      "lat": 41.14747,
+      "lng": -8.61635,
+      "text": "It looks like one big church, but it's actually two, side by side. On the right is the Carmo church, with that huge tile panel on its side wall, showing the founding of the Carmelite order. On the left is the Carmelitas church. And between them, look closely, is a tiny house, only about one metre wide, one of the narrowest in Portugal. It was built so the two churches wouldn't share a wall, because one belonged to monks and the other to nuns. The little house kept them apart. People lived in it until the nineteen eighties, and today you can visit it. Cross the road to the park on the other side."
+    },
+    {
+      "name": "Cordoaria Garden",
+      "kind": "walk",
+      "lat": 41.14566,
+      "lng": -8.61648,
+      "text": "This park is the Cordoaria, officially called Jardim João Chagas. Its old name comes from the rope makers who once worked here, making ropes for ships. Today it's a shady place to rest, with big old trees and strange sculptures of people that seem to be laughing at each other. Walk through the garden, downhill, toward the large, plain granite building at the bottom."
+    },
+    {
+      "name": "The old prison",
+      "kind": "stop",
+      "lat": 41.1446,
+      "lng": -8.6158,
+      "text": "This massive building was the Relação, Porto's court and prison, finished in the late seventeen hundreds. Prisoners were held here for almost two hundred years. Its most famous inmate was the writer Camilo Castelo Branco, jailed in the eighteen sixties for a love affair with a married woman. While locked up here, he wrote one of the great Portuguese novels, Doomed Love. Today the prison is the Portuguese Centre of Photography. Entry is usually free, and you can walk through the old cells and see the thick bars on the windows. From the front of the building, look east, and you'll see the tall tower that is our last stop."
+    },
+    {
+      "name": "Clérigos Tower",
+      "kind": "stop",
+      "lat": 41.14575,
+      "lng": -8.61395,
+      "text": "This is the Torre dos Clérigos, the symbol of Porto. It was designed by Nicolau Nasoni, an Italian painter and architect who came to Porto in his thirties and stayed for the rest of his life. He gave the city its Baroque style, and asked to be buried in this church, which he also designed. The tower was finished in 1763, and for a long time it was the tallest building in Portugal, about seventy five metres high. Sailors used it as a landmark to find the river mouth. If your legs still work, you can climb its two hundred and forty steps for the best view in town. Thank you for walking with me. Obrigado, and enjoy Porto."
+    }
+  ]
+}

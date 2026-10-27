@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lisbon Walk</title>
+<title>Walking Tours</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
   :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --accent:#c8102e; --card:#f4f1ec; }
@@ -12,7 +12,8 @@
   body { margin:0; font:16px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg);
          display:flex; flex-direction:column; height:100dvh; }
   header { padding:12px 16px; display:flex; gap:12px; align-items:flex-start; }
-  header > div { flex:1; }
+  header > div:first-child { flex:1; }
+  .pick { display:flex; flex-direction:column; gap:6px; }
   select { font:inherit; font-size:14px; padding:6px; border-radius:8px; background:var(--bg); color:var(--fg); }
   h1 { font-size:18px; margin:0; }
   #status { color:var(--muted); font-size:14px; margin-top:2px; }
@@ -33,7 +34,10 @@
 <body>
 <header>
   <div><h1 id="title">Loading…</h1><div id="status"></div></div>
-  <select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option></select>
+  <div class="pick">
+    <select id="tour" aria-label="Tour"><option value="lisbon">Lisboa</option><option value="porto">Porto</option></select>
+    <select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option></select>
+  </div>
 </header>
 <div id="map"></div>
 <footer>
@@ -48,18 +52,19 @@ const RADIUS = 30; // metres from a stop before its audio plays
 const params = new URLSearchParams(location.search);
 const demo = params.has('demo'); // tap the map to fake your location
 const audio = new Audio();
-const T = { // screen text per language; the tour text itself lives in tour.json / tour.es.json
-  en: { file: 'tour.json', hint: 'Tap Start, then walk. Audio plays at each stop.', idle: 'Not started', start: 'Start', pause: 'Pause', play: 'Play',
+const T = { // screen text per language; the tour text itself lives in tours/<tour>.<lang>.json
+  en: { hint: 'Tap Start, then walk. Audio plays at each stop.', idle: 'Not started', start: 'Start', pause: 'Pause', play: 'Play',
         read: 'Read along', intro: 'Introduction', done: 'Tour finished. Obrigado!', next: (n, d) => `Next stop: ${n}, ${d} m away`,
         noGps: 'Turn on location to follow the tour.', demo: 'Test mode: tap Start, then move the mouse (or tap) on the map to "walk".',
         back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over' },
-  es: { file: 'tour.es.json', hint: 'Toca Empezar y camina. El audio suena en cada parada.', idle: 'Sin empezar', start: 'Empezar', pause: 'Pausa', play: 'Seguir',
+  es: { hint: 'Toca Empezar y camina. El audio suena en cada parada.', idle: 'Sin empezar', start: 'Empezar', pause: 'Pausa', play: 'Seguir',
         read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado. Obrigado!', next: (n, d) => `Próxima parada: ${n}, a ${d} m`,
         noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: toca Empezar y mueve el mouse (o toca) el mapa para "caminar".',
         back: (a, b) => `Bienvenido de nuevo: llevas ${a} de ${b}.`, over: 'Empezar de nuevo' },
 };
 const lang = T[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
 const t = T[lang];
+const tourId = ['lisbon', 'porto'].includes(params.get('tour')) ? params.get('tour') : 'lisbon';
 const $ = id => document.getElementById(id);
 let tour, markers = [], played = new Set(), started = false, me, last, nums = [];
 const save = () => { try { localStorage.setItem('played:' + tour.title, JSON.stringify([...played])); } catch {} };
@@ -127,13 +132,15 @@ $('speed').onclick = () => { // 1x → 1.25x → 1.5x → 1x
 audio.onplay = () => audio.playbackRate = parseFloat($('speed').textContent); // new src resets the speed
 
 $('lang').value = lang;
+$('tour').value = tourId;
 $('lang').onchange = e => { params.set('lang', e.target.value); location.search = params; };
+$('tour').onchange = e => { params.set('tour', e.target.value); location.search = params; };
 $('status').textContent = demo ? t.demo : t.hint;
 $('now').textContent = t.idle;
 $('btn').textContent = t.start;
 $('readAlong').textContent = t.read;
 
-fetch(t.file).then(r => r.json()).then(tr => {
+fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
   tour = tr;
   $('title').textContent = tour.title;
   let n = 0; nums = tour.stops.map(s => s.kind === 'walk' ? 0 : ++n);
