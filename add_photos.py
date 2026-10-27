@@ -22,7 +22,7 @@ QUERIES = {  # stop index -> search words; stops left out get no photo
     "medellin-poblado": {0: "Estación Poblado Metro de Medellín", 5: "Manila El Poblado Medellín", 10: "Avenida El Poblado Medellín",
                          12: "Iglesia de San José del Poblado-fachada",
                          17: "2018 Medellín quebrada La Presidenta", 23: "La Octava Bar Medellín", 25: "ParqueLleras1",
-                         27: "Provenza Medellín", 29: "Carrera 35 Provenza Medellín", 32: "Parque La 37 Provenza Medellín"},
+                         28: "Provenza Medellín", 29: "Restaurante Carolina Medellín", 34: "Pergamino Coffee Via Primavera Medellín"},
     "sf-chinatown": {0: "Dragon Gate Chinatown San Francisco", 2: "Old Saint Mary's Cathedral San Francisco", 3: "Tin How Temple Waverly Place",
                      4: "Golden Gate Fortune Cookie Factory", 6: "Portsmouth Square San Francisco", 7: "Sentinel Building San Francisco",
                      9: "City Lights Bookstore", 11: "Washington Square Park North Beach", 12: "Saints Peter and Paul Church San Francisco",

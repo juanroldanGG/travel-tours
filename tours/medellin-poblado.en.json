@@ -1,7 +1,7 @@
 {
   "title": "Medellín: El Poblado and Provenza",
-  "summary": "From the metro by the river, through old Manila and the square where El Poblado began, to Parque Lleras, the La Octava ball-pit bar and the leafy cafés of Provenza.",
-  "cover": "photos/medellin-poblado/21.jpg",
+  "summary": "From the metro by the river, through old Manila and the square where El Poblado began, to Parque Lleras, the La Octava ball-pit bar, El Social and the designer shops and cafés of Vía Primavera.",
+  "cover": "photos/medellin-poblado/28.jpg",
   "minutes": 135,
   "km": 3,
   "voice": "en-GB-RyanNeural",
@@ -106,8 +106,8 @@
     {
       "name": "San José del Poblado Church",
       "kind": "stop",
-      "lat": 6.21001,
-      "lng": -75.57024,
+      "lat": 6.21013,
+      "lng": -75.57057,
       "text": "This is the church of San José del Poblado, the parish church of the neighbourhood. Look up at its tall brick tower with the clock. Like in almost every Colombian town, the square and the church go together: for centuries this was where people met after Sunday mass, did business and caught up on news. El Poblado has changed completely around it, but the plaza and its church are still the heart of the old village. If the doors are open, step inside for a quiet moment. Next to the church, along Carrera 43A, look for the little hot dog stands. Perritos calientes are a classic of this park: they're tiny, so you can easily eat a few. Then walk south along Carrera 43A, toward the green park by the stream.",
       "photo": "photos/medellin-poblado/12.jpg",
       "credit": "XalD, CC BY-SA 3.0, Wikimedia Commons",
@@ -207,9 +207,9 @@
     {
       "name": "Parque Lleras",
       "kind": "stop",
-      "lat": 6.20897,
-      "lng": -75.56786,
-      "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants, and on weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere. The city is often called the capital of reggaetón: stars like J Balvin, Karol G and Maluma all come from Medellín. But you'll also hear salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk up Carrera 38, toward Calle 10.",
+      "lat": 6.20888,
+      "lng": -75.56765,
+      "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants, and on weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere: reggaetón, of course, but also salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk up Carrera 38, toward Calle 10.",
       "photo": "photos/medellin-poblado/25.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
@@ -220,58 +220,70 @@
       "kind": "walk",
       "lat": 6.20938,
       "lng": -75.56745,
-      "text": "At the top of Carrera 38, turn right onto Calle 10 and walk east. While you walk, let's talk about food. The classic dish of this region is the bandeja paisa, a huge plate with beans, rice, ground beef, crispy pork belly called chicharrón, a fried egg, sweet plantain, avocado, a little arepa and chorizo. It's a farmer's meal, so share it. For something smaller, try an arepa, or an empanada with spicy ají sauce."
-    },
-    {
-      "name": "Provenza",
-      "kind": "stop",
-      "lat": 6.20898,
-      "lng": -75.5666,
-      "text": "Welcome to Provenza, the trendiest corner of Medellín. These leafy streets are full of small boutiques, restaurants, rooftop bars and cafés. Look into the shops and you'll find many Colombian designers. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. Keep walking east to Carrera 35, the street with the most trees of all.",
-      "photo": "photos/medellin-poblado/27.jpg",
-      "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
-      "place": "Provenza Medellín"
+      "text": "At the top of Carrera 38, turn right onto Calle 10 and walk east, three blocks, to Carrera 35. While you walk, let's talk about food. The classic dish of this region is the bandeja paisa, a huge plate with beans, rice, ground beef, crispy pork belly called chicharrón, a fried egg, sweet plantain, avocado, a little arepa and chorizo. It's a farmer's meal, so share it. For something smaller, try an arepa, or an empanada with spicy ají sauce."
     },
     {
       "name": "Right onto Carrera 35",
       "kind": "walk",
       "lat": 6.20866,
       "lng": -75.56561,
-      "text": "Turn right onto Carrera 35 and walk down it, under the big trees."
+      "text": "Turn right onto Carrera 35 and walk down it, under the big trees. Look out for fresh fruit juices on the menus here: lulo is tangy and green inside, maracuyá is passion fruit, and guanábana is creamy and sweet."
     },
     {
-      "name": "Carrera 35",
+      "name": "El Social and Coyotaco",
       "kind": "stop",
-      "lat": 6.2081,
-      "lng": -75.56566,
-      "text": "This stretch of Carrera 35 is the heart of Provenza: a street shaded by big trees, lined with terraces and restaurants. This is a great place to stop for a while. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Many cafés here serve speciality coffee from small farms; ask where it comes from. Or order a tinto, the small black coffee Colombians drink all day long. And try the fruit juices: lulo is tangy and green inside, maracuyá is passion fruit, guanábana is creamy and sweet.",
-      "photo": "photos/medellin-poblado/29.jpg",
-      "credit": "José Luiz, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Carrera_35_-_Provenza_-_Medell%C3%ADn_-_Colombia_2024_(2).jpg",
-      "place": "Carrera 35 Provenza Medellín"
+      "lat": 6.20783,
+      "lng": -75.56578,
+      "text": "On this corner is El Social, a tienda mixta, the old-style neighbourhood corner shop, open since 1969. The streets around it filled up with trendy restaurants and bars, but El Social kept its simple tables and its cold beers, and it's a favourite of locals and travellers alike. Stop for a beer and some people-watching: it's a taste of what this neighbourhood was like before. Right next door is Coyotaco, and it comes with a funny story. Coyo Taco started in Miami, created by Colombians, and grew into a chain with places around the world. But it only came to Colombia later, so for years Colombia didn't have Coyotaco, even though its creators were Colombian. When you're ready, keep walking down Carrera 35 to Calle 8.",
+      "photo": "photos/medellin-poblado/28.jpg",
+      "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
+      "place": "El Social Tienda Mixta Medellín"
     },
     {
-      "name": "Right onto Calle 8",
-      "kind": "walk",
+      "name": "Carolina, Karol G's restaurant",
+      "kind": "stop",
       "lat": 6.20733,
       "lng": -75.56576,
-      "text": "At the bottom of Carrera 35, turn right onto Calle 8."
+      "text": "From this corner, look one block further down Carrera 35. That's Carolina, the restaurant of Karol G, one of the biggest music stars to come out of Medellín. It's named after her real name, Carolina Giraldo, and she opened it in December 2024. The menu mixes Colombian cooking and seafood with flavours from across Latin America. Medellín is often called the capital of reggaetón: Karol G, Maluma and J Balvin all come from this city. If you want a closer look, walk down and come back to this corner. Then follow Calle 8 west, toward the little park.",
+      "place": "Restaurante Carolina Medellín"
     },
     {
-      "name": "Almost there",
+      "name": "Along Calle 8",
       "kind": "walk",
       "lat": 6.20701,
       "lng": -75.56631,
-      "text": "Follow Calle 8 a few more steps, then turn right into the small park."
+      "text": "Follow Calle 8 as it bends to the right."
+    },
+    {
+      "name": "Calle 8 at Carrera 36",
+      "kind": "walk",
+      "lat": 6.20761,
+      "lng": -75.56653,
+      "text": "At Carrera 36, keep going west along Calle 8. The little park is just ahead."
     },
     {
       "name": "Parque La 37",
       "kind": "stop",
       "lat": 6.20734,
       "lng": -75.56688,
-      "text": "This quiet little park, Parque La 37, is the end of our walk. In a couple of hours you've gone from the metro by the river, through the old streets of Manila, to the square where El Poblado was born four hundred years ago, and up to the streets where Medellín eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín went from one of the most dangerous cities in the world to one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce.",
+      "text": "This is Parque La 37, a small green corner and a quiet break from the busy streets around it. Take a breather here. Then keep going west along Calle 8 to Carrera 37.",
       "place": "Parque La 37 Provenza Medellín"
+    },
+    {
+      "name": "Right onto Vía Primavera",
+      "kind": "walk",
+      "lat": 6.20748,
+      "lng": -75.56742,
+      "text": "At Carrera 37, turn right and walk uphill. This street is Vía Primavera."
+    },
+    {
+      "name": "Vía Primavera and Pergamino",
+      "kind": "stop",
+      "lat": 6.20831,
+      "lng": -75.56712,
+      "text": "Carrera 37, Vía Primavera, is the perfect end to our walk. It's lined with small speciality shops, many run by local Colombian designers: clothes, shoes, jewellery and accessories you won't find anywhere else. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. And right here is Pergamino, one of Medellín's best-known speciality coffee shops. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Sit down, order a coffee, or a tinto, the small black coffee Colombians drink all day long, and rest your feet. In a couple of hours you've gone from the metro by the river, through old Manila, to the square where El Poblado was born four hundred years ago, and up to the streets where Medellín eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín went from one of the most dangerous cities in the world to one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce.",
+      "place": "Pergamino Coffee Via Primavera Medellín"
     }
   ]
 }
