@@ -19,7 +19,7 @@ QUERIES = {  # stop index -> search words; stops left out get no photo
                         3: "Parque Berrío Medellín", 4: "Palacio de la Cultura Rafael Uribe Uribe", 5: "Plaza Botero Medellín",
                         8: "Edificio Vásquez Medellín", 9: "Plaza Cisneros Medellín postes de luz", 10: "Biblioteca EPM Medellín",
                         12: "Estación Medellín Ferrocarril de Antioquia", 16: "Parque San Antonio Medellín pájaro Botero"},
-    "medellin-poblado": {0: "Estación Poblado Metro de Medellín", 6: "Manila El Poblado Medellín", 8: "Avenida El Poblado Medellín",
+    "medellin-poblado": {0: "Estación Poblado Metro de Medellín", 5: "Manila El Poblado Medellín", 8: "Avenida El Poblado Medellín",
                          10: "Iglesia de San José del Poblado-fachada",
                          14: "2018 Medellín quebrada La Presidenta", 17: "La Octava Bar Medellín", 19: "ParqueLleras1",
                          21: "Provenza Medellín", 23: "Carrera 35 Provenza Medellín", 26: "Parque La 37 Provenza Medellín"},

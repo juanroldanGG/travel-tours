@@ -11,27 +11,20 @@
     {
       "name": "Estación Poblado del Metro",
       "kind": "stop",
-      "lat": 6.21196,
-      "lng": -75.5779,
-      "text": "Empezamos en la estación Poblado, en la Línea A del Metro de Medellín. Se inauguró en 1995 y sigue siendo el único metro de Colombia, y aquí la gente lo quiere mucho. Fíjate qué limpio está: sin grafitis, sin basura. A ese respeto por lo de todos le dicen cultura metro. La Línea A corre junto al río Medellín, en el fondo del valle. Desde aquí caminamos cuesta arriba, hacia el oriente, hacia las montañas. Sal de la estación y busca la Calle 10.",
+      "lat": 6.21296,
+      "lng": -75.57794,
+      "text": "Empezamos en la esquina de la estación Poblado, en la Línea A del Metro de Medellín. Se inauguró en 1995 y sigue siendo el único metro de Colombia, y aquí la gente lo quiere mucho. Fíjate qué limpio está: sin grafitis, sin basura. A ese respeto por lo de todos le dicen cultura metro. La Línea A corre junto al río Medellín, en el fondo del valle. Desde aquí caminamos cuesta arriba, hacia el oriente, hacia las montañas. Camina hacia el oriente por la Calle 10, y cruza las avenidas grandes solo por los semáforos.",
       "photo": "photos/medellin-poblado/0.jpg",
       "credit": "Bernard Gagnon, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Poblado,_Medell%C3%ADn_02.jpg",
       "place": "Estación Poblado Metro de Medellín"
     },
     {
-      "name": "De la Avenida Regional a la Calle 10",
-      "kind": "walk",
-      "lat": 6.21296,
-      "lng": -75.57794,
-      "text": "Camina un minuto hacia el norte por la Avenida Regional y gira a la derecha por la Calle 10, hacia el oriente, hacia las montañas. Cruza las avenidas grandes solo por los semáforos."
-    },
-    {
-      "name": "Glorieta de Manila",
+      "name": "Cruzando la Avenida Las Vegas",
       "kind": "walk",
       "lat": 6.21277,
       "lng": -75.57615,
-      "text": "Llegaste a la glorieta de Manila, sobre la Avenida Las Vegas. Cruza por el semáforo y sigue hacia el oriente. En algún lugar bajo tus pies, la quebrada La Presidenta termina su viaje cuesta abajo hacia el río. Más adelante nos vamos a encontrar con la misma quebrada, en un parque verde."
+      "text": "En la Avenida Las Vegas, cruza por el semáforo y luego sigue en diagonal a la izquierda, hacia la Calle 11. En algún lugar bajo tus pies, la quebrada La Presidenta termina su viaje cuesta abajo hacia el río. Más adelante nos vamos a encontrar con la misma quebrada, en un parque verde."
     },
     {
       "name": "Por la Calle 11",
@@ -59,22 +52,29 @@
       "kind": "stop",
       "lat": 6.21345,
       "lng": -75.573,
-      "text": "Bienvenido a Manila, uno de los rincones residenciales más antiguos de El Poblado. Mira la escala: casas de dos y tres pisos, cuadras pequeñas, árboles, y casi ninguna torre. Muchas de estas casas de familia hoy son cafés, restaurantes pequeños, hostales y espacios de coworking, y eso le da al barrio un ambiente joven y relajado. Cerca hay hasta un parque de patinaje público, que se llena en las tardes. Es un buen lugar para ver cómo era El Poblado antes de los edificios altos. Ahora baja por la Carrera 43E, hacia la avenida grande.",
+      "text": "Bienvenido a Manila, uno de los rincones residenciales más antiguos de El Poblado. Mira la escala: casas de dos y tres pisos, cuadras pequeñas, árboles, y casi ninguna torre. Muchas de estas casas de familia hoy son cafés, restaurantes pequeños, hostales y espacios de coworking, y eso le da al barrio un ambiente joven y relajado. Cerca hay hasta un parque de patinaje público, que se llena en las tardes. Es un buen lugar para ver cómo era El Poblado antes de los edificios altos. Ahora sigue caminando hacia el oriente por la Calle 11A.",
       "place": "Manila El Poblado Medellín"
     },
     {
-      "name": "A la izquierda por la Calle 10A",
+      "name": "A la derecha por la Carrera 43B",
       "kind": "walk",
-      "lat": 6.21288,
-      "lng": -75.57311,
-      "text": "Al final de la Carrera 43E, gira a la izquierda por la Calle 10A y síguela hacia el oriente, entre cafés y tiendas pequeñas, hasta la Avenida El Poblado."
+      "lat": 6.21261,
+      "lng": -75.57074,
+      "text": "En la Carrera 43B, gira a la derecha y baja hacia el sur."
     },
     {
-      "name": "Avenida El Poblado",
+      "name": "Cruzando la Calle 10A",
+      "kind": "walk",
+      "lat": 6.21193,
+      "lng": -75.57079,
+      "text": "Cruza la Calle 10A con cuidado y sigue derecho bajando por la Carrera 43B."
+    },
+    {
+      "name": "Milla de Oro",
       "kind": "stop",
-      "lat": 6.2114,
-      "lng": -75.57029,
-      "text": "Esta vía tan movida es la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de esta avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Cruza con cuidado por el semáforo y entra a la plaza de la iglesia.",
+      "lat": 6.21098,
+      "lng": -75.57117,
+      "text": "Una cuadra a tu izquierda va la Avenida El Poblado, o Carrera 43A. Durante casi todo el siglo veinte esta zona era campo: grandes fincas a donde las familias ricas del centro venían a descansar de la ciudad. A medida que Medellín creció, las fincas se cambiaron por torres de apartamentos, hoteles y oficinas, y el tramo de la avenida más hacia el sur se ganó el nombre de la Milla de Oro, por sus bancos y sedes de empresas. Cruza la Calle 10 por el semáforo; la plaza de la iglesia está ahí al frente.",
       "photo": "photos/medellin-poblado/8.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",

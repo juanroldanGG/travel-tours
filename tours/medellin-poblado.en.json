@@ -11,27 +11,20 @@
     {
       "name": "Poblado Metro Station",
       "kind": "stop",
-      "lat": 6.21196,
-      "lng": -75.5779,
-      "text": "We start at Poblado station, on Line A of the Medellín Metro. Opened in 1995, it is still the only metro in Colombia, and people here are very proud of it. Notice how clean it is: no graffiti, no litter. Locals call this respect for shared spaces cultura metro, metro culture. Line A runs along the Medellín River, right at the bottom of the valley. From here we walk uphill, east, toward the mountains. Leave the station and head toward Calle 10.",
+      "lat": 6.21296,
+      "lng": -75.57794,
+      "text": "We start at the corner of Poblado station, on Line A of the Medellín Metro. Opened in 1995, it is still the only metro in Colombia, and people here are very proud of it. Notice how clean it is: no graffiti, no litter. Locals call this respect for shared spaces cultura metro, metro culture. Line A runs along the Medellín River, right at the bottom of the valley. From here we walk uphill, east, toward the mountains. Walk east along Calle 10, and cross the big avenues only at the traffic lights.",
       "photo": "photos/medellin-poblado/0.jpg",
       "credit": "Bernard Gagnon, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Poblado,_Medell%C3%ADn_02.jpg",
       "place": "Estación Poblado Metro de Medellín"
     },
     {
-      "name": "Avenida Regional to Calle 10",
-      "kind": "walk",
-      "lat": 6.21296,
-      "lng": -75.57794,
-      "text": "Walk north along Avenida Regional for a minute, then turn right onto Calle 10, heading east toward the mountains. Cross the big avenues only at the traffic lights."
-    },
-    {
-      "name": "Manila roundabout",
+      "name": "Across Avenida Las Vegas",
       "kind": "walk",
       "lat": 6.21277,
       "lng": -75.57615,
-      "text": "You've reached the Manila roundabout on Avenida Las Vegas. Cross at the lights and keep going east. Somewhere under your feet, the La Presidenta stream is finishing its trip down the hill into the river. We'll meet the same stream later, up in a green park."
+      "text": "At Avenida Las Vegas, cross at the lights, then bear left toward Calle 11. Somewhere under your feet, the La Presidenta stream is finishing its trip down the hill into the river. We'll meet the same stream later, up in a green park."
     },
     {
       "name": "Onto Calle 11",
@@ -59,22 +52,29 @@
       "kind": "stop",
       "lat": 6.21345,
       "lng": -75.573,
-      "text": "Welcome to Manila, one of the oldest residential corners of El Poblado. Look at the scale of it: two- and three-storey houses, a tight grid of streets, trees, and almost no towers. Many of these old family homes are now cafés, small restaurants, hostels and co-working spaces, which gives the neighbourhood a young, relaxed feel. Nearby there's even a public skate park, busy in the afternoons. It's a good place to see how El Poblado looked before the high-rises arrived. Now walk down Carrera 43E, toward the big avenue.",
+      "text": "Welcome to Manila, one of the oldest residential corners of El Poblado. Look at the scale of it: two- and three-storey houses, a tight grid of streets, trees, and almost no towers. Many of these old family homes are now cafés, small restaurants, hostels and co-working spaces, which gives the neighbourhood a young, relaxed feel. Nearby there's even a public skate park, busy in the afternoons. It's a good place to see how El Poblado looked before the high-rises arrived. Now keep walking east along Calle 11A.",
       "place": "Manila El Poblado Medellín"
     },
     {
-      "name": "Left onto Calle 10A",
+      "name": "Right onto Carrera 43B",
       "kind": "walk",
-      "lat": 6.21288,
-      "lng": -75.57311,
-      "text": "At the end of Carrera 43E, turn left onto Calle 10A and follow it east, past cafés and small shops, to Avenida El Poblado."
+      "lat": 6.21261,
+      "lng": -75.57074,
+      "text": "At Carrera 43B, turn right and walk downhill, south."
     },
     {
-      "name": "Avenida El Poblado",
+      "name": "Across Calle 10A",
+      "kind": "walk",
+      "lat": 6.21193,
+      "lng": -75.57079,
+      "text": "Cross Calle 10A carefully and keep going straight down Carrera 43B."
+    },
+    {
+      "name": "Milla de Oro",
       "kind": "stop",
-      "lat": 6.2114,
-      "lng": -75.57029,
-      "text": "This busy road is Avenida El Poblado, also called Carrera 43A. For most of the twentieth century this area was countryside: big country houses, called fincas, where wealthy families from downtown came to escape the city. As Medellín grew, the fincas were replaced by apartment towers, hotels and offices, and the stretch of this avenue further south became known as the Milla de Oro, the Golden Mile, for its banks and business headquarters. Cross carefully at the lights, and walk into the square with the church.",
+      "lat": 6.21098,
+      "lng": -75.57117,
+      "text": "One block to your left runs Avenida El Poblado, also called Carrera 43A. For most of the twentieth century this area was countryside: big country houses, called fincas, where wealthy families from downtown came to escape the city. As Medellín grew, the fincas were replaced by apartment towers, hotels and offices, and the stretch of the avenue further south became known as the Milla de Oro, the Golden Mile, for its banks and business headquarters. Cross Calle 10 at the lights; the square with the church is right ahead.",
       "photo": "photos/medellin-poblado/8.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
