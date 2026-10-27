@@ -99,7 +99,7 @@ const T = { // screen text per language; the tour text itself lives in tours/<to
         safe: { bike: 'Use one earbud so you hear traffic, and never touch the phone while riding.', drive: 'Driver: never touch the phone. Set it up before you leave; a passenger can control it.' }, dir: '📍 Directions to start',
         dl: '⬇ Download for offline', dling: 'Downloading…', dled: '✓ Saved on this phone', dlfail: 'Download failed, try again',
         pause: 'Pause', play: 'Play', next: 'Next stop ▶', brk: '☕ Take a break', resume: '▶ Resume tour',
-        onBreak: 'On a break. Your place is saved, come back any time.', look: 'Look around',
+        onBreak: 'On a break. Your place is saved, come back any time.', look: '🗺️ See on Google Maps',
         read: 'Read along', intro: 'Introduction', done: 'Tour finished. Enjoy the city!', next_: (n, d) => `Next stop: ${n}, ${d} m away`,
         noGps: 'Turn on location to follow the tour.', demo: 'Test mode: move the mouse (or tap) on the map to "walk".',
         athome: 'Playing at home: stops play one after another.',
@@ -109,7 +109,7 @@ const T = { // screen text per language; the tour text itself lives in tours/<to
         safe: { bike: 'Usa un solo audífono para oír el tráfico, y nunca toques el celular mientras pedaleas.', drive: 'Conductor: nunca toques el celular. Déjalo listo antes de salir; un pasajero puede manejarlo.' }, dir: '📍 Cómo llegar al inicio',
         dl: '⬇ Descargar sin internet', dling: 'Descargando…', dled: '✓ Guardado en este celular', dlfail: 'Falló la descarga, intenta otra vez',
         pause: 'Pausa', play: 'Seguir', next: 'Siguiente ▶', brk: '☕ Tomar un descanso', resume: '▶ Seguir el recorrido',
-        onBreak: 'En descanso. Tu lugar quedó guardado, vuelve cuando quieras.', look: 'Mirar alrededor',
+        onBreak: 'En descanso. Tu lugar quedó guardado, vuelve cuando quieras.', look: '🗺️ Ver en Google Maps',
         read: 'Leer el texto', intro: 'Introducción', done: '¡Recorrido terminado! Disfruta la ciudad.', next_: (n, d) => `Próxima parada: ${n}, a ${d} m`,
         noGps: 'Activa la ubicación para seguir el recorrido.', demo: 'Modo prueba: mueve el mouse (o toca) el mapa para "caminar".',
         athome: 'En casa: las paradas suenan una tras otra.',
@@ -164,7 +164,8 @@ function play(i) { // i = -1 is the intro
   if (p) {
     ph.querySelector('img').src = p.photo;
     ph.querySelector('.credit').innerHTML = `📷 <a href="${p.source}" target="_blank" rel="noopener">${p.credit}</a>`;
-    $('streetview').href = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${p.lat},${p.lng}`;
+    // the place page has real photos (also indoors) and Street View at the right spot; raw Street View faced random walls
+    $('streetview').href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.place || `${p.lat},${p.lng}`)}`;
   }
   if (i >= 0) {
     played.add(i); markers[i].setIcon(icon(i)); save();

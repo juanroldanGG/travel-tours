@@ -16,7 +16,8 @@
       "text": "You're standing where Medellín began. In 1616, the Spanish set up a settlement for the indigenous people of the valley right here, called San Lorenzo de Aburrá. That's why this neighbourhood is called El Poblado, the settlement. The town of Medellín itself grew up later, further north, where the Centro is today. The church on the square is San José del Poblado. Look around at the mountains on every side. Medellín sits in a long, narrow valley, at about fifteen hundred metres, and the temperature stays pleasant all year. That's why it's called the City of Eternal Spring. Now walk east, uphill, along Calle 10.",
       "photo": "photos/medellin-poblado/0.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_canal_parque_Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_canal_parque_Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg",
+      "place": "Parque El Poblado Medellín"
     },
     {
       "name": "Up Calle 10",
@@ -30,7 +31,8 @@
       "kind": "stop",
       "lat": 6.20782,
       "lng": -75.56996,
-      "text": "This little green strip follows the La Presidenta stream down the hill. Medellín is crossed by hundreds of streams like this one, all flowing into the Medellín River at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down. It even won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now head up to Calle 9, toward the music and the crowds."
+      "text": "This little green strip follows the La Presidenta stream down the hill. Medellín is crossed by hundreds of streams like this one, all flowing into the Medellín River at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down. It even won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now head up to Calle 9, toward the music and the crowds.",
+      "place": "Parque lineal La Presidenta Medellín"
     },
     {
       "name": "Toward Parque Lleras",
@@ -44,7 +46,8 @@
       "kind": "stop",
       "lat": 6.2087,
       "lng": -75.568,
-      "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants. On weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere. This city is often called the capital of reggaetón: stars like J Balvin, Karol G and Maluma all come from Medellín. But you'll also hear salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk east, a block or two, to the street called Vía Primavera."
+      "text": "This is Parque Lleras, the heart of El Poblado's nightlife. Around this small, leafy park are dozens of bars, clubs and restaurants. On weekend nights it fills with locals and travellers from all over the world. Medellín's music is everywhere. This city is often called the capital of reggaetón: stars like J Balvin, Karol G and Maluma all come from Medellín. But you'll also hear salsa, vallenato and electronic music. If you want to learn a few dance steps, many places offer salsa classes for beginners. Now walk east, a block or two, to the street called Vía Primavera.",
+      "place": "Parque Lleras Medellín"
     },
     {
       "name": "What to eat",
@@ -61,7 +64,8 @@
       "text": "Welcome to Provenza, the trendiest corner of Medellín. These leafy streets are full of small boutiques, restaurants, rooftop bars and cafés. Look into the shops and you'll find many Colombian designers. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. This is a great place to stop for a while. Find a café, sit down, and order a tinto, a small black coffee, the way Colombians drink it all day long.",
       "photo": "photos/medellin-poblado/6.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
+      "place": "Provenza Medellín"
     },
     {
       "name": "Coffee and fruit",

@@ -68,7 +68,7 @@ for i, query in QUERIES[tour].items():
     if hit:
         url, credit, page = hit
         (here / "photos" / tour / f"{i}.jpg").write_bytes(get(url))
-        found[i] = {"photo": f"photos/{tour}/{i}.jpg", "credit": credit, "source": page}
+        found[i] = {"photo": f"photos/{tour}/{i}.jpg", "credit": credit, "source": page, "place": query}  # place: for the Google Maps button
         print(i, credit[:70])
     time.sleep(0.5)
 

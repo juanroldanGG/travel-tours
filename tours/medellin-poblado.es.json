@@ -16,7 +16,8 @@
       "text": "Estás donde empezó Medellín. En 1616, los españoles crearon aquí mismo un poblado para los indígenas del valle, llamado San Lorenzo de Aburrá. Por eso este barrio se llama El Poblado. El pueblo de Medellín como tal creció después, más al norte, donde hoy está el Centro. La iglesia de la plaza es San José del Poblado. Mira alrededor las montañas por todos lados. Medellín está en un valle largo y angosto, a unos mil quinientos metros de altura, y el clima es agradable todo el año. Por eso le dicen la Ciudad de la Eterna Primavera. Ahora camina hacia el oriente, subiendo por la Calle 10.",
       "photo": "photos/medellin-poblado/0.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_canal_parque_Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_canal_parque_Gabriel_Garc%C3%ADa_M%C3%A1rquez.jpg",
+      "place": "Parque El Poblado Medellín"
     },
     {
       "name": "Subiendo por la Calle 10",
@@ -30,7 +31,8 @@
       "kind": "stop",
       "lat": 6.20782,
       "lng": -75.56996,
-      "text": "Esta franja verde sigue la quebrada La Presidenta, colina abajo. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río Medellín, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad. Hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sube hacia la Calle 9, hacia la música y la gente."
+      "text": "Esta franja verde sigue la quebrada La Presidenta, colina abajo. A Medellín la cruzan cientos de quebradas como esta, que bajan todas al río Medellín, en el fondo del valle. En los últimos años la ciudad ha convertido calles y quebradas en corredores verdes, sembrando miles de árboles y plantas para refrescar la ciudad. Hasta ganó premios internacionales por eso. Escucha los pájaros. Puede que veas pericos verdes, o al pájaro ruidoso de pecho amarillo que aquí llaman bichofué. Ahora sube hacia la Calle 9, hacia la música y la gente.",
+      "place": "Parque lineal La Presidenta Medellín"
     },
     {
       "name": "Hacia el Parque Lleras",
@@ -44,7 +46,8 @@
       "kind": "stop",
       "lat": 6.2087,
       "lng": -75.568,
-      "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes. Los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes. A esta ciudad le dicen la capital del reguetón: estrellas como J Balvin, Karol G y Maluma son de Medellín. Pero también vas a oír salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora camina hacia el oriente, una o dos cuadras, hasta la calle llamada Vía Primavera."
+      "text": "Este es el Parque Lleras, el corazón de la rumba de El Poblado. Alrededor de este parque pequeño y lleno de árboles hay decenas de bares, discotecas y restaurantes. Los fines de semana en la noche se llena de locales y viajeros de todo el mundo. La música de Medellín está en todas partes. A esta ciudad le dicen la capital del reguetón: estrellas como J Balvin, Karol G y Maluma son de Medellín. Pero también vas a oír salsa, vallenato y música electrónica. Si quieres aprender unos pasos, muchos lugares tienen clases de salsa para principiantes. Ahora camina hacia el oriente, una o dos cuadras, hasta la calle llamada Vía Primavera.",
+      "place": "Parque Lleras Medellín"
     },
     {
       "name": "Qué comer",
@@ -61,7 +64,8 @@
       "text": "Bienvenido a Provenza, el rincón más de moda de Medellín. Estas calles llenas de árboles tienen pequeñas tiendas, restaurantes, terrazas y cafés. Entra a las tiendas y vas a encontrar muchos diseñadores colombianos. Medellín es una ciudad de moda, cuna de la industria textil de la que se habla en el centro, y cada julio recibe Colombiamoda, una de las ferias de moda más grandes de América Latina. Este es un buen lugar para quedarse un rato. Busca un café, siéntate y pide un tinto, el café negro pequeño que los colombianos toman todo el día.",
       "photo": "photos/medellin-poblado/6.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg"
+      "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
+      "place": "Provenza Medellín"
     },
     {
       "name": "Café y frutas",
