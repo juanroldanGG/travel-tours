@@ -199,7 +199,7 @@ const menuBtn = document.getElementById('menuBtn'), menu = document.getElementBy
 menuBtn.onclick = () => { menu.classList.toggle('hidden'); menuBtn.setAttribute('aria-expanded', !menu.classList.contains('hidden')); };
 
 // Tour cards come straight from the tour files, so a new tour only needs its JSON.
-const TOURS = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado', 'sf-chinatown', 'sf-goldengate-bike', 'santacruz-westcliff', 'highway1-drive', 'milan-duomo-castello', 'milan-leonardo-navigli', 'milan-tram1'];
+const TOURS = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado', 'sf-chinatown', 'sf-goldengate-bike', 'santacruz-westcliff', 'highway1-drive', 'milan-duomo-castello', 'milan-leonardo-navigli', 'milan-tram1', 'rome-ancient', 'rome-baroque', 'rome-ghetto-trastevere'];
 Promise.all(TOURS.map(id => fetch(`tours/${id}.${lang}.json`).then(r => r.json()).then(t => ({ id, ...t })))).then(list => {
   document.getElementById('cards').innerHTML = list.map(t => {
     const stops = t.stops.filter(s => s.kind !== 'walk').length;

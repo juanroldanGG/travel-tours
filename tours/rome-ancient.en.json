@@ -1,0 +1,415 @@
+{
+  "title": "Rome: Colosseum, Forums and the Capitoline",
+  "summary": "Ancient Rome without a ticket: from the Colosseum and the Arch of Constantine along the Imperial Forums to Trajan's Column, up Michelangelo's Capitoline hill to a free view over the Roman Forum, and down past the Mouth of Truth to the Circus Maximus.",
+  "cover": "photos/rome-ancient/0.jpg",
+  "mode": "walk",
+  "minutes": 150,
+  "km": 3.6,
+  "voice": "en-GB-RyanNeural",
+  "audio": "audio/rome-ancient-en",
+  "intro": "Welcome to Rome! For the next two and a half hours or so, we'll walk through ancient Rome, from the Colosseum along the Imperial Forums to Trajan's Column, up the Capitoline hill to a free view over the Roman Forum, and down past the Mouth of Truth to the Circus Maximus. You don't need a ticket: we see everything from the street. Keep your screen on and your headphones in. I'll start talking when you reach each place, and between stops I'll tell you which way to go. A few tips. Start around half past nine in the morning, or by two in the afternoon, so you reach the Mouth of Truth before it closes, at about ten to five in winter. If you want to go inside the Colosseum another time, book only on the official website, ticketing dot colosseo dot it: tickets carry your name, and anyone selling skip-the-line tickets in the street is a tout. Don't pay for photos with costumed gladiators; if one puts a helmet on your head, hand it back and walk away. Watch for pickpockets around the Colosseum and on crowded buses. Until March 2027 the pavements of the big avenue are being rebuilt, so if you meet fences, follow the open path. Wear good shoes: there are cobbles and some steps. Ready? Let's begin outside the Colosseo metro station, facing the Colosseum.",
+  "stops": [
+    {
+      "name": "The Colosseum",
+      "kind": "stop",
+      "lat": 41.89115,
+      "lng": 12.4915,
+      "text": "Welcome to the Colosseum. In front of you is the side that still stands to its full height: four storeys of travertine stone, almost fifty metres tall. The emperor Vespasian began it around AD 70, on the site of a private lake in Nero's palace gardens, and his son Titus opened it in AD 80 with a hundred days of games. It held somewhere between fifty and eighty thousand people. The name probably comes from a giant bronze statue of Nero, the Colossus, that stood nearby. Now look closely at the stone. See all those holes? In the Middle Ages people dug out the iron clamps that held the blocks together, to reuse the metal. Above the ground-floor arches, look for Roman numerals: those were entrance numbers, like on a ticket today. Near the top, stone brackets held masts for a huge awning that shaded the crowd. On the right, the sloping brick wedge propping up the end of the wall was added in the 1820s, after earthquakes had brought down much of the outer ring. Two myths, while we're here. Nobody really knows which way the thumb pointed to spare or kill a gladiator. And there's no solid evidence that Christians were thrown to the lions here. Now follow the paved walkway around this end of the Colosseum, keeping the building on your left, toward the great triple arch.",
+      "photo": "photos/rome-ancient/0.jpg",
+      "credit": "kevinmcgill from Den Bosch, Netherlands, CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma_-_Colosseo_esterno_su_via_dei_Fori_Imperiali.jpg",
+      "place": "Colosseum, Rome"
+    },
+    {
+      "name": "Arch of Constantine",
+      "kind": "stop",
+      "lat": 41.8903,
+      "lng": 12.4911,
+      "text": "This is the Arch of Constantine, opened in AD 315 to celebrate Constantine's victory over his rival, Maxentius, three years earlier. And it's a bit of a cheat. Much of its sculpture was taken from older monuments. The standing figures on top of the columns are prisoners from Dacia, today's Romania, carved for the emperor Trajan two hundred years before. The pairs of round medallions above the side arches come from Hadrian's time, and the big panels at the top from Marcus Aurelius's. The old emperors' faces were re-carved. The only sculpture made for Constantine is the thin band of little figures above the side arches: plainer, and the start of a new, late-Roman style. The inscription says he won by the inspiration of the divinity, conveniently vague about which god. Between you and the arch, the low circle of brick is all that's left of the Meta Sudans, a tall Roman fountain that Mussolini cleared away in 1936 for a roundabout. The arch was also the finish line of the 1960 Olympic marathon, won by Abebe Bikila, running barefoot. Now turn around for a look at the Colosseum's south side, where the outer ring has fallen and you can see right into the inner arches. Then walk back north across the square, past the metro, to the start of the wide avenue heading toward the white monument in the distance. Take the pavement on its left-hand side.",
+      "via": [
+        [
+          41.891162,
+          12.491918
+        ],
+        [
+          41.890944,
+          12.491915
+        ],
+        [
+          41.890763,
+          12.491309
+        ]
+      ],
+      "photo": "photos/rome-ancient/1.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_(Rome)_,lateral_view.jpg",
+      "place": "Arch of Constantine, Rome"
+    },
+    {
+      "name": "Via dei Fori Imperiali",
+      "kind": "stop",
+      "lat": 41.89245,
+      "lng": 12.4882,
+      "text": "You're on Via dei Fori Imperiali, the avenue of the Imperial Forums. It isn't ancient at all. Mussolini drove it through here in 1932, straight from his office in Piazza Venezia to the Colosseum, as a stage for military parades. To build it, a whole neighbourhood was knocked down, and hundreds of poor families were moved out to the edge of the city. On the brick wall on your left, look for the marble maps, put up in 1934. They show Rome growing from a single dot into an empire around the whole Mediterranean. A fifth map, showing Mussolini's own empire, was taken down in 1945. Above the wall rise the brick vaults of the Basilica of Maxentius, the last great hall of ancient Rome. Behind you on the left is the platform of the Temple of Venus and Rome, designed by the emperor Hadrian, probably the largest temple the city ever had. A nice detail: Roma spelled backwards is amor, love, the realm of Venus. A little further on, look down through the railings on your left: that's the Roman Forum. Keep walking along this pavement to the big crossroads with traffic lights, where Via Cavour comes in. Since November 2026 these pavements are being rebuilt, so if you meet fences, follow the open path.",
+      "via": [
+        [
+          41.890649,
+          12.491204
+        ],
+        [
+          41.890836,
+          12.490827
+        ],
+        [
+          41.891119,
+          12.490954
+        ],
+        [
+          41.891319,
+          12.490307
+        ]
+      ],
+      "photo": "photos/rome-ancient/2.jpg",
+      "credit": "Jebulon, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_Maxentius_Constantine_Rome.jpg",
+      "place": "Basilica of Maxentius, Via dei Fori Imperiali, Rome"
+    },
+    {
+      "name": "Cross at Largo Corrado Ricci",
+      "kind": "walk",
+      "lat": 41.89312,
+      "lng": 12.4873,
+      "text": "Cross the avenue here, at the traffic lights. Push the button and wait for green. On the other side, walk a few steps to the left, to the bronze statues of emperors beside the railings.",
+      "via": [
+        [
+          41.893037,
+          12.487171
+        ]
+      ]
+    },
+    {
+      "name": "Forums of Nerva and Augustus",
+      "kind": "stop",
+      "lat": 41.8939,
+      "lng": 12.48635,
+      "text": "Look over the railing. The narrow sunken strip on your right is the Forum of Nerva, really a grand passageway, opened in AD 97. At its far end, two columns still hold up a carved frieze. It tells the myth of Arachne, a girl who challenged the goddess Minerva to a weaving contest and was turned into a spider. Straight ahead is the Forum of Augustus, with the tall columns and steps of the Temple of Mars the Avenger. As a young man, Augustus swore at the battle of Philippi, in 42 BC, that he'd build a temple to Mars if he defeated the men who had murdered Julius Caesar. He kept his word: the temple opened forty years later, in 2 BC, still unfinished. Behind it rises an enormous grey stone wall, over thirty metres high, a firebreak between the forum and the crowded slum behind it. Augustus is said to have boasted that he found Rome a city of brick and left it a city of marble. Behind you on the right, the stump of a medieval tower, the Torre dei Conti, is still under scaffolding: in November 2025 part of it collapsed during restoration, and a worker, Octav Stroici, lost his life. Now keep walking along this pavement to the bronze statue of Trajan.",
+      "via": [
+        [
+          41.893192,
+          12.48734
+        ],
+        [
+          41.893396,
+          12.486999
+        ],
+        [
+          41.893881,
+          12.486664
+        ],
+        [
+          41.893811,
+          12.486515
+        ]
+      ],
+      "photo": "photos/rome-ancient/4.jpg",
+      "credit": "NikonZ7II, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tempio_di_Marte_Ultore_(Roma)_-_Laterale.jpg",
+      "place": "Forum of Augustus, Rome"
+    },
+    {
+      "name": "Trajan's Forum and Markets",
+      "kind": "stop",
+      "lat": 41.89445,
+      "lng": 12.48555,
+      "text": "Below you is the Forum of Trajan, the last and largest of the imperial forums. It was paid for with the riches of Trajan's conquest of Dacia, in AD 106, and to make room, the builders cut away a whole ridge of hill. The grey granite column stumps belong to the Basilica Ulpia, a vast hall for law courts and business. Beyond it, the great curved brick building, several storeys high, is Trajan's Markets. It was long called the world's first shopping mall, with shops along a street named Via Biberatica, from the Latin word for drinking. Many experts now think it was mostly offices. Today it's a museum. On top, look at the brick tower leaning slightly: the Torre delle Milizie. Romans call it Nero's tower, and say Nero watched Rome burn from it. Impossible: it was built more than a thousand years after the fire, and Nero wasn't even in Rome when the fire began. Now look to your left: that tall carved column at the end of the forum is Trajan's Column. Let's see it up close. Walk on to the end of this pavement, and into the paved square beside the column.",
+      "via": [
+        [
+          41.894379,
+          12.485479
+        ]
+      ],
+      "photo": "photos/rome-ancient/5.jpg",
+      "credit": "NikonZ7II, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercati_di_Traiano_-_Roma.jpg",
+      "place": "Trajan's Market, Rome"
+    },
+    {
+      "name": "Trajan's Column",
+      "kind": "stop",
+      "lat": 41.89562,
+      "lng": 12.4841,
+      "text": "Here is Trajan's Column, dedicated in AD 113 to celebrate his two wars in Dacia. It's about thirty-five metres tall with its base, built of some twenty huge drums of Carrara marble, and it's hollow, with a spiral staircase inside. Now follow the carved band winding up it, twenty-three times around: it's a two-hundred-metre comic strip, with about two and a half thousand figures. Soldiers build forts, cross rivers and fight, and Trajan himself appears again and again. Near the bottom, look for the bearded god of the river Danube, rising out of the water to watch the army cross. Trajan's ashes were placed in the base. His statue on top disappeared in the Middle Ages, and in 1587 Pope Sixtus the Fifth put up Saint Peter instead. Look at the inscription over the little door in the base: those elegant capital letters became the model for a typeface you've probably seen on film posters, called Trajan. Now walk back down the square to the avenue, and cross it at the traffic lights. Then turn right, along the foot of the huge white monument.",
+      "via": [
+        [
+          41.89466,
+          12.48509
+        ],
+        [
+          41.89498,
+          12.48468
+        ],
+        [
+          41.8953,
+          12.48439
+        ]
+      ],
+      "photo": "photos/rome-ancient/6.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_HD.jpg",
+      "place": "Trajan's Column, Rome"
+    },
+    {
+      "name": "The Vittoriano",
+      "kind": "stop",
+      "lat": 41.89555,
+      "lng": 12.48285,
+      "text": "This gleaming white mountain is the Vittoriano, the monument to Victor Emmanuel the Second, the first king of a united Italy. It was begun in 1885, inaugurated in 1911, fifty years after unification, and only finished in 1935. It's built of bright white marble from northern Italy, which is why it looks so different from Rome's honey-coloured stone, and a whole medieval neighbourhood on the hill was cleared to make room. Romans have never quite loved it: they call it the wedding cake, or the typewriter. The bronze king on horseback is so big that, before it was put up, a small dinner was held inside the horse's belly. Below him is the Altar of the Fatherland, with the Tomb of the Unknown Soldier, guarded by two soldiers and two eternal flames. The altar is free to visit; a ticket of eighteen euros includes the lift to the top, with one of the best views in Rome. Now turn around. Across the square, the old palace with the small balcony in the middle is Palazzo Venezia. From that balcony Mussolini proclaimed his empire in 1936, and in June 1940 announced that Italy was entering the Second World War. The big building site in the square is for a new metro station, due around 2033. Now, with the monument on your left, walk along its foot, and around the corner to the left, to the foot of two long staircases.",
+      "via": [
+        [
+          41.8953,
+          12.48439
+        ],
+        [
+          41.8949,
+          12.4844
+        ],
+        [
+          41.89478,
+          12.48428
+        ],
+        [
+          41.8954,
+          12.4836
+        ]
+      ],
+      "photo": "photos/rome-ancient/7.jpg",
+      "credit": "Paolo Costa Baldi, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Venezia_-_Il_Vittoriano_(cropped).jpg",
+      "place": "Altare della Patria, Rome"
+    },
+    {
+      "name": "Two ways up the Capitoline",
+      "kind": "stop",
+      "lat": 41.89385,
+      "lng": 12.48182,
+      "text": "Here are two ways up the Capitoline hill, the smallest of Rome's famous seven hills, and the most important. On the left, a steep medieval staircase of a hundred and twenty-four steps, built in 1348 as thanks for the end of the Black Death, climbs to the plain brick church of Santa Maria in Aracoeli. On the right, a wide, gentle stepped ramp, the Cordonata, designed by Michelangelo so that riders could go up on horseback. Pope Paul the Third asked him to redesign the hill in 1536, after the emperor Charles the Fifth visited Rome and found it in a sorry state. At the bottom, the two black lions spitting water are Egyptian. Between the stairs stands Cola di Rienzo, a medieval rebel who dreamed of reviving the Roman republic; he was killed near this spot in 1354. And look to the left of the church stairs: that brick ruin with several floors is a Roman apartment block from the second century AD. Most Romans lived in buildings like this, not in marble palaces. Now climb the Cordonata to the square at the top. If you'd rather avoid steps, the sloping street just to the right, Via delle Tre Pile, also goes up.",
+      "via": [
+        [
+          41.895533,
+          12.482683
+        ],
+        [
+          41.895437,
+          12.482721
+        ],
+        [
+          41.895374,
+          12.482461
+        ],
+        [
+          41.895154,
+          12.482218
+        ],
+        [
+          41.894401,
+          12.482255
+        ],
+        [
+          41.893965,
+          12.482055
+        ],
+        [
+          41.893989,
+          12.481831
+        ]
+      ],
+      "photo": "photos/rome-ancient/8.jpg",
+      "credit": "Jean-Pol GRANDMONT, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio_(2).JPG",
+      "place": "Cordonata Capitolina, Rome"
+    },
+    {
+      "name": "Piazza del Campidoglio",
+      "kind": "stop",
+      "lat": 41.89338,
+      "lng": 12.4828,
+      "text": "Welcome to Piazza del Campidoglio, on top of the Capitoline hill. For the ancient Romans this was the most sacred place in the city, crowned by the great temple of Jupiter. The word capitol comes from here, and so does the name of Capitol Hill in Washington. Michelangelo designed this square, and he turned it around: instead of facing the ancient Forum, it faces west, toward St Peter's, the new centre of power. Look down at the paving: a twelve-pointed star inside an oval. That was his design too, though it was only laid in 1940. The building ahead, with the tower, is Rome's city hall; the two on either side are the Capitoline Museums. In the middle is Marcus Aurelius on horseback. This is a copy; the original, from around AD 175, is inside the museum. It's one of very few bronze statues of a Roman emperor that survived, because in the Middle Ages people melted down pagan bronzes, but they thought this rider was Constantine, the first Christian emperor, and spared him. A legend says that when the statue turns fully golden again, the world will end. And another, told by Livy: when the Gauls climbed this hill by night, around 390 BC, the sacred geese of the goddess Juno honked and woke the defenders. Now walk to the right of the city hall, through to the street behind it, Via del Campidoglio, to a terrace with a view.",
+      "via": [
+        [
+          41.893989,
+          12.481831
+        ],
+        [
+          41.893941,
+          12.481987
+        ],
+        [
+          41.89378,
+          12.481954
+        ]
+      ],
+      "photo": "photos/rome-ancient/9.jpg",
+      "credit": "Krzysztof Golik, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Replica_of_the_Equestrian_statue_of_Marcus_Aurelius_in_Rome_(3).jpg",
+      "place": "Piazza del Campidoglio, Rome"
+    },
+    {
+      "name": "The Forum terrace",
+      "kind": "stop",
+      "lat": 41.89246,
+      "lng": 12.48364,
+      "text": "And here it is: the Roman Forum, spread out below you, with no ticket needed. For a thousand years this valley was the heart of Rome, with its temples, law courts, markets and Senate. Right below you stand the eight tall columns of the Temple of Saturn, which held the state treasury. Every December, at the festival of Saturnalia, slaves were briefly set free and people gave each other presents. To the left, the big triumphal arch is the Arch of Septimius Severus, from AD 203. After his son Caracalla murdered his own brother, Geta, Geta's name was chiselled off it. Behind the arch, the plain brick building is the Curia, the Senate house. Close by, hidden from here, is the Mamertine, Rome's ancient prison, where enemies like the Gallic chief Vercingetorix were executed. The lone column standing in the open square is the Column of Phocas, from the year 608, the last monument ever added to the Forum. Now follow the straight line of the Sacred Way into the distance: the Arch of Titus, and beyond it, the Colosseum, where we started. On the right is the Palatine hill, where the emperors lived; it gave us the word palace. When you're ready, take the sloping lane that winds down the hill on your right, Via di Monte Tarpeo, to the little square at the bottom.",
+      "via": [
+        [
+          41.893374,
+          12.483066
+        ],
+        [
+          41.892913,
+          12.48305
+        ]
+      ],
+      "photo": "photos/rome-ancient/10.jpg",
+      "credit": "Nhartmannphotos, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roman_Forum_east_end_panorama.jpg",
+      "place": "Terrazza del Foro Romano, Via del Campidoglio, Rome"
+    },
+    {
+      "name": "The Tarpeian Rock",
+      "kind": "stop",
+      "lat": 41.89138,
+      "lng": 12.48268,
+      "text": "Look up at the cliff above you, on your right, under the trees. This is the Tarpeian Rock, the southern edge of the Capitoline hill. For centuries, until about the first century BC, traitors and murderers were thrown off it to their deaths. It takes its name from Tarpeia, a girl who, the legend says, opened the citadel to an enemy army, the Sabines, in exchange for what they wore on their left arms. She meant their gold bracelets. Instead, they crushed her under their shields. One real victim was Marcus Manlius, the man the sacred geese had woken: he saved the Capitol from the Gauls, and a few years later, accused of wanting to make himself king, he was thrown from this very rock. The Romans had a saying for it: the Tarpeian Rock is close to the Capitol. The fall from glory can be very short. Now carry on down the square to its lower end, and turn right into Via della Misericordia.",
+      "via": [
+        [
+          41.891716,
+          12.482699
+        ]
+      ],
+      "photo": "photos/rome-ancient/11.jpg",
+      "credit": "Lalupa, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Campitelli_-_rupe_Tarpea_1060740.JPG",
+      "place": "Rupe Tarpea, Rome"
+    },
+    {
+      "name": "Via della Misericordia",
+      "kind": "walk",
+      "lat": 41.89002,
+      "lng": 12.48204,
+      "text": "This is Via della Misericordia. Follow it to the end. There, cross the busy road, Via Luigi Petroselli, at the zebra crossing; wait until the cars have stopped. Then turn left along the far pavement, toward the two ancient temples.",
+      "via": [
+        [
+          41.891303,
+          12.482712
+        ],
+        [
+          41.891156,
+          12.482433
+        ],
+        [
+          41.891055,
+          12.482502
+        ],
+        [
+          41.89068,
+          12.482016
+        ]
+      ]
+    },
+    {
+      "name": "The temples of the cattle market",
+      "kind": "stop",
+      "lat": 41.88903,
+      "lng": 12.481,
+      "text": "These two temples are among the best preserved in Rome, and both are more than two thousand years old. This was the Forum Boarium, the cattle market, right beside Rome's first river port. The round one is the Temple of Hercules Victor, from the late second century BC: the oldest marble building still standing in Rome. Count its columns: there are twenty, and nineteen are original. For centuries people thought it was a temple of Vesta. The rectangular one is the Temple of Portunus, the god of harbours and doors, with half-columns stuck onto its walls. It survived because in 872 it became a church. Two more stories from this spot. In 264 BC, Rome's very first gladiator fight was held here, at a funeral, over three centuries before the Colosseum. And legend says Hercules himself killed a fire-breathing giant named Cacus here, for stealing his cattle. Now walk through the garden to its far corner, by the fountain with two tritons, and cross the road at the traffic lights, to the church with the tall bell tower.",
+      "via": [
+        [
+          41.889844,
+          12.480791
+        ],
+        [
+          41.889068,
+          12.481173
+        ]
+      ],
+      "photo": "photos/rome-ancient/13.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Hercules_(Rome).jpg",
+      "place": "Temple of Hercules Victor, Rome"
+    },
+    {
+      "name": "The Mouth of Truth",
+      "kind": "stop",
+      "lat": 41.88835,
+      "lng": 12.4815,
+      "text": "This is Santa Maria in Cosmedin, with its slender twelfth-century bell tower, seven storeys high. And in the porch, on the left, is the Bocca della Verità, the Mouth of Truth: a big marble face almost two metres across, perhaps a sea god. It was probably an ancient Roman drain cover. The medieval legend says that if you put your hand in its mouth and tell a lie, it will bite your hand off; jealous husbands supposedly brought their wives here to swear they were faithful. It became world famous in the film Roman Holiday, when Gregory Peck pretends to lose his hand and Audrey Hepburn screams. There's usually a queue for photos, the porch closes at about ten to five in winter, and there may be a small fee. Inside the church, look at the beautiful inlaid stone floor, and a skull crowned with flowers, said to be Saint Valentine's. Now go back to the corner, cross the main road, Via della Greca, at the traffic lights, and follow its pavement to the left, toward the long green valley ahead.",
+      "via": [
+        [
+          41.88907,
+          12.48117
+        ],
+        [
+          41.88856,
+          12.48134
+        ],
+        [
+          41.88819,
+          12.48114
+        ],
+        [
+          41.88813,
+          12.48123
+        ],
+        [
+          41.8884,
+          12.48141
+        ]
+      ],
+      "photo": "photos/rome-ancient/14.jpg",
+      "credit": "Felix König, CC BY 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_in_Cosmedin_Roma_2012.jpg",
+      "place": "Bocca della Verità, Rome"
+    },
+    {
+      "name": "Circus Maximus",
+      "kind": "stop",
+      "lat": 41.8857,
+      "lng": 12.48496,
+      "text": "Here's the Circus Maximus, the greatest chariot-racing track of the Roman world: over six hundred metres long, with room for more than a hundred and fifty thousand spectators. Picture it: twelve starting gates, chariots racing seven laps around a long barrier down the middle, and the crowd split into teams, the Blues and the Greens. Across the valley, the huge brick ruins on the Palatine hill are the emperors' palaces, looking straight down on the track. Two Egyptian obelisks once stood in the middle; today one is in Piazza del Popolo, and the other at St John Lateran. The last races here were held in AD 549. In AD 64, the great fire of Rome broke out in shops around the Circus. You may have heard that Nero played music while Rome burned. Even in his own time that was only a rumour: he was fifty kilometres away, at Antium, when it started, and came back to organise help. But he did blame the Christians, and began the first persecution. That's the end of our walk. Thank you for walking with me. For gelato, Il Gelato di Claudio Torcè, on Viale Aventino, is about ten minutes away. For a real Roman meal, walk fifteen minutes to Testaccio: at lunchtime, Mordi e Vai, in the market, makes famous beef sandwiches, and Da Felice serves cacio e pepe tossed at your table; book ahead. The Circo Massimo metro station is about ten minutes to the east. Grazie, and enjoy Rome.",
+      "via": [
+        [
+          41.888397,
+          12.481405
+        ],
+        [
+          41.888127,
+          12.481231
+        ],
+        [
+          41.888017,
+          12.481284
+        ],
+        [
+          41.887283,
+          12.482583
+        ],
+        [
+          41.887146,
+          12.482503
+        ],
+        [
+          41.886302,
+          12.48361
+        ],
+        [
+          41.885654,
+          12.484822
+        ]
+      ],
+      "photo": "photos/rome-ancient/15.jpg",
+      "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rome_(IT),_Circus_Maximus_--_2013_--_3354.jpg",
+      "place": "Circus Maximus, Rome"
+    }
+  ]
+}

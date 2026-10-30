@@ -1,0 +1,452 @@
+{
+  "title": "Roma: Campo de' Fiori, el gueto judío y el Trastevere",
+  "summary": "De un palacio de los Farnese y la plaza donde quemaron a Giordano Bruno, al lugar donde mataron a César, por el antiguo gueto judío, por el puente más viejo de Roma y la Isla Tiberina, hasta los callejones del Trastevere.",
+  "cover": "photos/rome-ghetto-trastevere/0.jpg",
+  "mode": "walk",
+  "minutes": 150,
+  "km": 3.4,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/rome-ghetto-trastevere-es",
+  "intro": "¡Bienvenido a Roma! Durante las próximas dos horas y media, más o menos, caminaremos desde la Piazza Farnese y la plaza del mercado de Campo de' Fiori hasta el lugar donde mataron a Julio César, por el antiguo gueto judío, por el puente más viejo de la ciudad hasta la Isla Tiberina, y por los callejones del Trastevere. Deja la pantalla encendida y los audífonos puestos. Empezaré a hablar cuando llegues a cada lugar, y entre parada y parada te diré por qué calle seguir. Unos consejos. Empieza entre las nueve y las nueve y media de la mañana, entre semana, de lunes a jueves si puedes: el mercado está animado, y llegarás a Santa Cecilia antes de las doce y media, cuando cierran su famoso fresco. Evita los sábados si quieres ver la sinagoga y las pastelerías judías, que cierran por el Shabat. Las calles son empedradas, así que usa buenos zapatos. En las iglesias, cúbrete hombros y rodillas. Cruzaremos cuatro avenidas con tráfico, siempre en semáforo; los tranvías son silenciosos, así que mira a ambos lados. Los carteristas trabajan en los tranvías y en las multitudes, así que lleva el celular y la billetera al frente, y ignora con amabilidad a los que te invitan a entrar a los restaurantes. ¿Listo? Empecemos en la Piazza Farnese, frente al palacio.",
+  "stops": [
+    {
+      "name": "Piazza Farnese",
+      "kind": "stop",
+      "lat": 41.89512,
+      "lng": 12.47128,
+      "text": "Bienvenido a la Piazza Farnese. El gran palacio que tienes enfrente es el Palazzo Farnese, uno de los palacios renacentistas más bellos de Roma. Se empezó hacia 1515 para el cardenal Alessandro Farnese, y cuando él se convirtió en el papa Pablo Tercero, en 1534, el palacio creció con él. Lo diseñó Antonio da Sangallo el Joven, y lo terminó Miguel Ángel. Mira arriba: la cornisa profunda y pesada, y la gran ventana central con el escudo de la familia encima, son obra suya. Ahora fíjate en la bandera francesa sobre la puerta. El palacio es de Italia, pero desde 1936 se lo alquila a Francia como embajada, con un contrato de noventa y nueve años. Adentro hay uno de los grandes techos pintados de Roma, de Annibale Carracci, que solo se ve en una visita guiada reservada con tiempo. Ahora mira las dos fuentes. Esas enormes tinas de granito son de la antigua Roma, probablemente de las Termas de Caracalla, y se convirtieron en fuentes en 1626. Encima de cada una hay un lirio, el emblema de los Farnese. Cuando quieras, dale la espalda al palacio y sal de la plaza por la calle corta que tienes enfrente, la Via dei Baullari. Desemboca en el Campo de' Fiori. Detente cerca de la estatua encapuchada del centro.",
+      "photo": "photos/rome-ghetto-trastevere/0.jpg",
+      "credit": "Myrabella, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Palais_Farnese.jpg",
+      "place": "Palazzo Farnese, Rome"
+    },
+    {
+      "name": "Campo de' Fiori",
+      "kind": "stop",
+      "lat": 41.89552,
+      "lng": 12.47205,
+      "text": "Este es el Campo de' Fiori, el campo de las flores. Aquí hay un mercado de comida todas las mañanas, menos los domingos, desde 1869. Hoy muchos puestos venden recuerdos y salsas en frasco para turistas, así que compra en los puestos de frutas y verduras de verdad. Pero esta plaza tiene un pasado oscuro: aquí se hacían ejecuciones públicas. Mira al hombre encapuchado de bronce. Es Giordano Bruno, filósofo y antiguo fraile, quemado vivo en este mismo lugar el diecisiete de febrero de 1600, después de siete años de cárcel. Creía que el universo era infinito, lleno de otros mundos, pero lo condenaron sobre todo por sus ideas sobre la doctrina cristiana. Quizás oigas que murió por decir que la Tierra gira alrededor del Sol; eso es una simplificación. La estatua se levantó en 1889, pagada con una colecta que empezaron unos estudiantes, cuando los papas ya habían perdido el control de Roma. Fíjate hacia dónde mira: hacia el Vaticano. Y guarda otra fecha. El nueve de septiembre de 1553 se quemaron en esta plaza ejemplares del Talmud, los libros sagrados judíos. Dos años después, los judíos de Roma fueron encerrados en un gueto, hacia donde vamos. A tu espalda, en la esquina de la izquierda, el Forno Campo de' Fiori vende pizza bianca calientita por porciones. Ahora cruza la plaza hasta la esquina del fondo, a la derecha, donde sale una calle angosta, la Piazza del Biscione.",
+      "via": [
+        [
+          41.895613,
+          12.471803
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/1.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Giordano_Bruno_in_Campo_de%27_fiori.jpg",
+      "place": "Campo de' Fiori, Rome"
+    },
+    {
+      "name": "Piazza del Biscione",
+      "kind": "walk",
+      "lat": 41.89538,
+      "lng": 12.47268,
+      "text": "Sigue derecho por esta franja angosta, la Piazza del Biscione, y atraviesa el pasaje bajo y cubierto del final, el Passetto del Biscione. Saldrás a una calle curva.",
+      "via": []
+    },
+    {
+      "name": "El Teatro de Pompeyo",
+      "kind": "stop",
+      "lat": 41.89522,
+      "lng": 12.4737,
+      "text": "Mira cómo se curva esta calle, la Via di Grotta Pinta, y cómo las casas siguen la curva. No es casualidad. Estás dentro del fantasma de un teatro romano. En el año 55 antes de Cristo, el general Pompeyo el Grande inauguró aquí mismo el primer teatro permanente de piedra de Roma. Al Senado no le gustaban los teatros permanentes, así que Pompeyo fue astuto: puso un templo a Venus en lo alto de las gradas y dijo que había construido un templo con escalones adelante. Las casas que te rodean están sobre las viejas filas de asientos, y sus sótanos, y hasta los comedores de algunos restaurantes cercanos, todavía tienen muros romanos. Detrás del escenario, Pompeyo hizo un enorme jardín rodeado de columnas, y al fondo, una sala donde a veces se reunía el Senado. Guarda esa sala en la memoria. En unos minutos estaremos donde estaba, y donde mataron a Julio César. Ahora sigue la curva hasta la placita del final, la Piazza dei Satiri, y continúa derecho hasta la siguiente calle.",
+      "via": [
+        [
+          41.895404,
+          12.473551
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/3.jpg",
+      "credit": "Croberto68 at Italian Wikipedia, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Parione_-_S._Maria_in_Grottapinta.JPG",
+      "place": "Via di Grotta Pinta, Rome"
+    },
+    {
+      "name": "Via dei Chiavari",
+      "kind": "walk",
+      "lat": 41.89506,
+      "lng": 12.47426,
+      "text": "Gira aquí a la derecha, por la Via dei Chiavari.",
+      "via": [
+        [
+          41.895074,
+          12.473807
+        ]
+      ]
+    },
+    {
+      "name": "Antico Forno Roscioli",
+      "kind": "walk",
+      "lat": 41.89466,
+      "lng": 12.47433,
+      "text": "En esta esquina está el Antico Forno Roscioli, una de las mejores panaderías de Roma. Una porción de pizza rossa, solo tomate sobre pan crujiente, es el antojo perfecto. Gira aquí a la izquierda, por el angosto Vicolo de' Chiodaroli, y sigue derecho por la Via di Sant'Anna hasta llegar a una calle ancha con rieles de tranvía."
+    },
+    {
+      "name": "Largo Arenula",
+      "kind": "walk",
+      "lat": 41.89464,
+      "lng": 12.4759,
+      "text": "Este es el Largo Arenula. Gira a la izquierda por el andén, hacia el semáforo de la esquina. Ya se ven unas ruinas hundidas al otro lado de la calle."
+    },
+    {
+      "name": "Cruza en el semáforo",
+      "kind": "walk",
+      "lat": 41.89499,
+      "lng": 12.47645,
+      "text": "Cruza aquí, en el semáforo, hacia la esquina de las ruinas. Oprime el botón y espera el verde; los buses pasan rápido. Luego sube por el andén junto a la reja, con las ruinas a tu derecha.",
+      "via": [
+        [
+          41.894596,
+          12.476218
+        ],
+        [
+          41.895019,
+          12.476219
+        ]
+      ]
+    },
+    {
+      "name": "Largo di Torre Argentina",
+      "kind": "stop",
+      "lat": 41.8953,
+      "lng": 12.47648,
+      "text": "Mira hacia abajo, a la plaza hundida. Son cuatro templos de la República romana, de dos o tres siglos antes de Cristo. Nadie sabe bien a qué dioses pertenecían, así que los arqueólogos los llaman simplemente A, B, C y D. El redondo, el templo B, era probablemente de la Fortuna: la fortuna de este mismo día. Se encontraron en los años veinte, cuando demolieron todo un barrio aquí. Y el nombre Argentina no tiene nada que ver con el país; viene de una torre que construyó un funcionario del papa nacido en Estrasburgo, Argentoratum en latín. Ahora mira justo debajo de ti, el muro de grandes bloques de piedra detrás de los templos. Es parte de la sala de Pompeyo, al fondo del jardín del que te hablé, y casi toda queda bajo la calle donde estás parado. En los idus de marzo, el quince de marzo del año 44 antes de Cristo, el Senado se reunió aquí, y Julio César fue apuñalado hasta la muerte por un grupo de senadores, junto a la estatua de Pompeyo. Y no, probablemente nunca dijo 'Tú también, Bruto'. Esa frase es de Shakespeare. Hoy las ruinas son de los gatos; unos voluntarios tienen un refugio de gatos en la esquina por la que acabas de pasar. Una pasarela elevada te deja bajar entre los templos, con boleto. Cierra los lunes, y en invierno cierra a las cuatro. Cuando quieras, vuelve a la esquina y gira a la izquierda por la Via Florida, con las ruinas a tu izquierda.",
+      "photo": "photos/rome-ghetto-trastevere/8.jpg",
+      "credit": "Wknight94, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Largo_di_Torre_Argentina_4.jpg",
+      "place": "Largo di Torre Argentina, Rome"
+    },
+    {
+      "name": "Cruza la Via Florida",
+      "kind": "walk",
+      "lat": 41.89492,
+      "lng": 12.47731,
+      "text": "Cruza la Via Florida aquí, en el semáforo, y cuidado con el tranvía. Luego baja derecho por la calle angosta de enfrente, la Via Paganica, hasta una placita con una fuente.",
+      "via": [
+        [
+          41.894956,
+          12.47653
+        ]
+      ]
+    },
+    {
+      "name": "La Fuente de las Tortugas",
+      "kind": "stop",
+      "lat": 41.89388,
+      "lng": 12.47742,
+      "text": "Esta es la Piazza Mattei, y la Fontana delle Tartarughe, la Fuente de las Tortugas, una de las fuentes más encantadoras de Roma. Se construyó en la década de 1580, con diseño de Giacomo della Porta y figuras de bronce de Taddeo Landini. Cuatro jóvenes delgados apoyan cada uno un pie sobre un delfín y levantan una mano. Ahora mira la taza de arriba: cuatro tortuguitas de bronce, empujadas por el borde para que beban. No estaban en el diseño original. Se añadieron en 1658, probablemente por Bernini, quizás para explicar qué intentaban alcanzar los jóvenes. Las tortugas que ves son copias: después de un robo en 1979, las originales se llevaron a los Museos Capitolinos. Aquí hay una leyenda preciosa. El duque Mattei, que vivía en este palacio, perdió su fortuna en el juego, y su futuro suegro canceló la boda. Para demostrar lo que un Mattei arruinado todavía podía hacer, el duque construyó esta fuente en una sola noche, se la mostró al viejo desde una ventana, y luego mandó tapiar esa ventana para siempre. Es solo una leyenda: la fuente tardó años, y el palacio se terminó mucho después. Ahora sal de la plaza por el callejón angosto a tu derecha, justo pasando la fuente: la Via della Reginella. Camina despacio, y mira al piso.",
+      "photo": "photos/rome-ghetto-trastevere/10.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Turtle_Fountain.jpg",
+      "place": "Fontana delle Tartarughe, Rome"
+    },
+    {
+      "name": "Via della Reginella",
+      "kind": "stop",
+      "lat": 41.89305,
+      "lng": 12.47718,
+      "text": "Mira los adoquines. Entre ellos hay unas placas pequeñas de bronce llamadas stolpersteine, piedras de tropiezo. Cada una lleva el nombre de alguien que vivía en ese edificio y que fue llevado y asesinado en el Holocausto. Roma puso las primeras en 2010, la primera ciudad de Italia en hacerlo. Tómate un momento para leer un nombre, y por favor no las pises. Ya estás en el antiguo gueto judío. Hay judíos en Roma desde hace más de dos mil años, una de las comunidades judías más antiguas de Europa. Pero en julio de 1555, el papa Pablo Cuarto los obligó a todos a vivir aquí, detrás de murallas, en unas pocas calles abarrotadas junto al río, que se inundaba a menudo. Las puertas se cerraban con llave de noche, y la comunidad hasta tuvo que pagar el muro que la encerraba. No podían tener propiedades, solo podían trabajar en unos pocos oficios, como vender ropa usada, y los sábados los obligaban a escuchar sermones para que se convirtieran. El gueto duró hasta 1870, cuando Roma pasó a ser parte de Italia, y los muros se derribaron en 1888. Aquí mismo, en la esquina a tu derecha, busca una tiendita sin letrero y con fila: la Pasticceria Boccione, una pastelería kosher desde 1815. Prueba la pizza ebraica, un pastel denso y chicloso de frutos secos y fruta confitada, o la tarta de ricotta y guindas. Solo reciben efectivo, y cierran los sábados. Ahora gira a la izquierda por la Via del Portico d'Ottavia, la calle principal del gueto, y camina hasta las columnas antiguas del final.",
+      "via": [
+        [
+          41.893528,
+          12.477426
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/11.jpg",
+      "credit": "Hugo DK, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pietre_d%27inciampo_Ghetto_Roma.jpg",
+      "place": "Pasticceria Boccione, Rome"
+    },
+    {
+      "name": "Pórtico de Octavia",
+      "kind": "stop",
+      "lat": 41.89245,
+      "lng": 12.4784,
+      "text": "Estas columnas altas son la entrada del Pórtico de Octavia. El emperador Augusto reconstruyó aquí una columnata más antigua y le puso el nombre de su hermana, Octavia. Era un patio inmenso de columnas alrededor de dos templos, con bibliotecas. Lo que ves se reconstruyó casi todo después de un incendio, en el año 203, se remendó en la Edad Media con un arco de ladrillo, y tiene una iglesia metida adentro, Sant'Angelo in Pescheria. Pescheria quiere decir pescadería: durante siglos, aquí estuvo el mercado de pescado de Roma. Busca una losa de mármol con una inscripción en latín, en el pilar a la derecha del arco. Dice que a todo pescado más largo que la losa había que entregarle la cabeza a los magistrados de la ciudad. Las cabezas de pescado daban una sopa excelente. Ahora mira la placita a tu derecha. Se llama Largo 16 Ottobre 1943. Al amanecer de ese sábado, las tropas de las SS alemanas cerraron estas calles y fueron de puerta en puerta. Tres semanas antes, la comunidad había pagado un rescate de cincuenta kilos de oro, con ayuda de otros romanos, para que la dejaran en paz. No sirvió de nada. Ese día arrestaron a mil doscientas cincuenta y nueve personas, y más de mil fueron enviadas a Auschwitz. Solo volvieron dieciséis: quince hombres y una mujer, Settimia Spizzichino, que pasó el resto de su vida contándoles a los escolares lo que pasó. La placa en la pared los recuerda. Cuando quieras, atraviesa la placita hasta el pasaje del otro lado, la Via del Foro Piscario, hacia los grandes arcos de piedra.",
+      "via": [
+        [
+          41.892507,
+          12.4783
+        ],
+        [
+          41.892374,
+          12.478356
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/12.jpg",
+      "credit": "Palickap, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma,_Portico_d%27Ottavia_(3).jpg",
+      "place": "Portico d'Ottavia, Rome"
+    },
+    {
+      "name": "Teatro de Marcelo",
+      "kind": "stop",
+      "lat": 41.89224,
+      "lng": 12.47925,
+      "text": "Frente a ti están los grandes arcos de piedra del Teatro de Marcelo. Julio César despejó el terreno, pero lo asesinaron antes de que se construyera. Augusto lo terminó hacia el año 13 antes de Cristo, y le puso el nombre de su sobrino y heredero, Marcelo, que había muerto joven. Cabían bastante más de diez mil personas, y es más antiguo que el Coliseo. Mira las dos filas de arcos: medias columnas dóricas, sencillas, abajo, y jónicas arriba. En la Edad Media, las familias nobles convirtieron el teatro en fortaleza, y en el siglo dieciséis el arquitecto Baldassare Peruzzi construyó un palacio encima. Mira sobre los arcos, las ventanas y los balcones: son apartamentos, y todavía vive gente ahí, encima de un teatro de dos mil años. Las tres columnas blancas y altas de al lado son de un templo de Apolo; las volvieron a levantar en 1940. Ahora regresa por el pasaje hasta la placita y gira a la izquierda, por la calle entre el jardín de la sinagoga y el parqueadero.",
+      "via": [
+        [
+          41.892113,
+          12.478728
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/13.jpg",
+      "credit": "lienyuan lee, CC BY 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%A6%AC%E5%88%87%E7%BE%85%E5%8A%87%E5%A0%B4_Marcello_Theatre_-_panoramio.jpg",
+      "place": "Theatre of Marcellus, Rome"
+    },
+    {
+      "name": "La Gran Sinagoga",
+      "kind": "stop",
+      "lat": 41.8918,
+      "lng": 12.47857,
+      "text": "A tu derecha, detrás del jardín, está la Gran Sinagoga de Roma, con la única cúpula cuadrada de la ciudad, hecha de aluminio. Se construyó entre 1901 y 1904, en el terreno que quedó libre cuando derribaron el viejo gueto. Adentro hay también una segunda sinagoga, de rito español, y el Museo Judío de Roma. Un boleto de unos doce euros incluye una visita guiada a la sinagoga. Cierra los sábados y en las fiestas judías, y en invierno cierra a las cuatro, o a las dos los viernes. Hay control de seguridad, así que lleva tu documento, y cúbrete hombros y rodillas. Los soldados y las barreras que ves están aquí por una razón. El nueve de octubre de 1982, cuando las familias salían de un servicio, unos terroristas atacaron con granadas y armas de fuego. Hubo decenas de heridos, y un niño de dos años, Stefano Gaj Taché, murió. La plaza del otro lado de la sinagoga lleva su nombre. Cuatro años después, en 1986, el papa Juan Pablo Segundo vino aquí, el primer papa en siglos del que se sepa que visitó una sinagoga, y llamó a los judíos los hermanos mayores de la Iglesia. Ahora sigue hasta la avenida del río, al final de la calle. Crúzala en el semáforo, derecho hacia el viejo puente de piedra, y camina hasta la mitad.",
+      "via": [
+        [
+          41.89223,
+          12.47928
+        ],
+        [
+          41.89211,
+          12.47873
+        ],
+        [
+          41.8921,
+          12.47847
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/14.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Great_Synagogue_of_Rome.jpg",
+      "place": "Great Synagogue of Rome"
+    },
+    {
+      "name": "Ponte Fabricio",
+      "kind": "stop",
+      "lat": 41.89108,
+      "lng": 12.47825,
+      "text": "Estás en el puente más antiguo de Roma que todavía se usa, el Ponte Fabricio. Lo construyó en el año 62 antes de Cristo Lucio Fabricio, el funcionario a cargo de los caminos de Roma, para reemplazar un puente de madera que se había quemado. La gente lo cruza a pie desde hace más de dos mil años. Su nombre está tallado cuatro veces en el puente, pero solo se puede leer desde la orilla. Mira el arquito sobre el pilar del medio: deja pasar el agua en las crecientes. Ahora mira los dos pilares de piedra en los muros, al comienzo del puente, cada uno con cuatro caras. Le dieron al puente su apodo romano, Ponte dei Quattro Capi, el puente de las cuatro cabezas. Una leyenda dice que el papa Sixto Quinto puso a cuatro arquitectos que se peleaban a restaurar el puente, luego les mandó cortar la cabeza, y puso sus caras ahí para que tuvieran que estar juntos para siempre. Es solo un cuento; para empezar, hay ocho caras, no cuatro. Al otro lado de la avenida, la iglesita de San Gregorio tiene sobre la puerta una inscripción en hebreo y en latín. Fue una de las iglesias donde obligaban a los judíos del gueto a oír sermones. Sigue caminando hasta la isla, y detente en la plaza frente a la iglesia.",
+      "via": [
+        [
+          41.8915,
+          12.47864
+        ],
+        [
+          41.89134,
+          12.47858
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/15.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Statues_on_Ponte_Fabricio_in_Rome.JPG",
+      "place": "Ponte Fabricio, Rome"
+    },
+    {
+      "name": "La Isla Tiberina",
+      "kind": "stop",
+      "lat": 41.89052,
+      "lng": 12.47777,
+      "text": "Bienvenido a la Isla Tiberina, la única isla del río en su paso por Roma, de unos doscientos setenta metros de largo y con forma de barco. Desde la Antigüedad es un lugar de sanación. En el año 293 antes de Cristo, durante una peste, los romanos mandaron traer de Grecia a Esculapio, el dios de la medicina. La leyenda dice que la serpiente sagrada que traían se deslizó del barco y nadó hasta esta isla, así que aquí le construyeron su templo. Después hasta revistieron la punta de la isla con piedra tallada como la proa de un barco. A tu espalda hay un hospital, el Fatebenefratelli, que maneja una orden religiosa desde la década de 1580 y que sigue funcionando, así que ojo con las ambulancias. En 1943, los médicos de aquí escondieron a judíos de los nazis internándolos como pacientes de una enfermedad contagiosa y aterradora que llamaron Síndrome K. La enfermedad nunca existió, y ayudó a salvar vidas. La iglesia que tienes enfrente, San Bartolomeo, está sobre las ruinas del templo. La fundó hacia el año mil el emperador Otón Tercero, y hoy es un memorial a los mártires cristianos de nuestro tiempo. Ahora sal de la plaza por tu derecha, por el segundo puente, el Ponte Cestio, hacia el Trastevere.",
+      "via": [
+        [
+          41.89058,
+          12.477659
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/16.jpg",
+      "credit": "Diego Delso, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Isla_Tiberina,_Roma,_Italia,_2022-09-16,_DD_31.jpg",
+      "place": "Isola Tiberina, Rome"
+    },
+    {
+      "name": "Ponte Cestio",
+      "kind": "walk",
+      "lat": 41.89005,
+      "lng": 12.4773,
+      "text": "Este es el Ponte Cestio. Los romanos construyeron el primer puente aquí en tiempos de Julio César, pero este lo desarmaron y lo volvieron a armar en la década de 1880, usando mucha de la piedra antigua. Al final del puente, cruza la avenida del río en el semáforo. Luego gira a la derecha por el andén unos pocos pasos.",
+      "via": [
+        [
+          41.89058,
+          12.477659
+        ],
+        [
+          41.890436,
+          12.477497
+        ]
+      ]
+    },
+    {
+      "name": "Piazza della Gensola",
+      "kind": "walk",
+      "lat": 41.88968,
+      "lng": 12.47663,
+      "text": "Gira aquí a la izquierda, por la Piazza della Gensola, y síguela hasta una placita con una iglesia diminuta.",
+      "via": [
+        [
+          41.889553,
+          12.477016
+        ]
+      ]
+    },
+    {
+      "name": "Piazza in Piscinula",
+      "kind": "stop",
+      "lat": 41.88917,
+      "lng": 12.47669,
+      "text": "Bienvenido al Trastevere, el barrio del otro lado del Tíber. Durante siglos fue el barrio de la gente trabajadora de Roma: barqueros, estibadores y artesanos. A comienzos de la Edad Media, buena parte de la comunidad judía de la ciudad también vivía de este lado del río. Esta placita es la Piazza in Piscinula, la plaza de la piscinita, por unas termas romanas que hubo aquí. Mira la iglesia diminuta de San Benedetto. Dicen que su campanario es el más pequeño de Roma, y su campanita tiene la fecha de 1069. La tradición cuenta que San Benito vivió aquí en un cuartito cuando era un joven estudiante en Roma. Al otro lado de la plaza, las casas viejas con ventanas góticas eran de la familia Mattei, la misma de la Fuente de las Tortugas, antes de que se mudaran al otro lado del río. Cuando quieras, camina por la plaza y toma el callejón angosto a la izquierda de la iglesita, la Via in Piscinula. Al final, sigue a la derecha por la Via Titta Scarpetta, y bájala.",
+      "via": [
+        [
+          41.889246,
+          12.47637
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/19.jpg",
+      "credit": "Bargioni, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma_(Trastevere)_-_Chiesa_di_s._Benedetto_in_Piscinula,_affresco_absidale.jpg",
+      "place": "Piazza in Piscinula, Rome"
+    },
+    {
+      "name": "Via dei Salumi",
+      "kind": "walk",
+      "lat": 41.8884,
+      "lng": 12.47701,
+      "text": "Gira aquí a la izquierda, por la Via dei Salumi. Al final, gira a la derecha.",
+      "via": [
+        [
+          41.8891,
+          12.476976
+        ],
+        [
+          41.8888,
+          12.477057
+        ],
+        [
+          41.888743,
+          12.477243
+        ]
+      ]
+    },
+    {
+      "name": "Via dei Vascellari",
+      "kind": "walk",
+      "lat": 41.8881,
+      "lng": 12.47776,
+      "text": "Esta es la Via dei Vascellari. Síguela hasta la plaza del final. En el camino, en el número 29, está Da Enzo al 29, una trattoria diminuta y muy querida para los clásicos de pasta romana. Siempre hay fila, así que llega temprano, al almuerzo o hacia las seis y media de la tarde."
+    },
+    {
+      "name": "Santa Cecilia",
+      "kind": "stop",
+      "lat": 41.88735,
+      "lng": 12.47695,
+      "text": "Frente a ti está la portada de Santa Cecilia in Trastevere. Atraviésala hasta el patio jardín, con su gran vaso antiguo de mármol. Según la tradición, la iglesia está sobre la casa de Cecilia, una joven noble romana que murió por su fe. Su leyenda dice que en su boda le cantaba a Dios en su corazón, y por eso es la patrona de la música, y que la hirieron tres veces en el cuello y vivió tres días más. Los historiadores aceptan que hubo una mártir llamada Cecilia; lo demás es leyenda piadosa. En 1599 abrieron su tumba, y los testigos dijeron que encontraron el cuerpo entero. El escultor Stefano Maderno la talló como la describieron: acostada de lado, con la cara volteada y un corte en el cuello. Esa figura de mármol blanco está bajo el altar, debajo de un baldaquino gótico de 1293. Arriba, en el coro de las monjas, hay un tesoro raro: el Juicio Final de Pietro Cavallini, pintado hacia 1290 y redescubierto bajo el yeso en 1900. Solo se puede ver entre semana por la mañana, más o menos de diez y media a doce y media, pagando una pequeña entrada. Cuando quieras, vuelve a subir por la calle por donde llegaste, y toma la primera a la izquierda, la Via dei Genovesi. Síguela derecho unos trescientos metros. A mitad de camino, unos pasos subiendo por la Via della Luce, a la derecha, el Biscottificio Innocenti hornea galletas en un horno antiguo.",
+      "photo": "photos/rome-ghetto-trastevere/22.jpg",
+      "credit": "NateBergin, CC BY 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cecilia_in_Trastevere_Facade.jpg",
+      "place": "Santa Cecilia in Trastevere, Rome"
+    },
+    {
+      "name": "Via di Monte Fiore",
+      "kind": "walk",
+      "lat": 41.88838,
+      "lng": 12.4746,
+      "text": "Al final de la Via dei Genovesi, gira a la derecha por la Via di Monte Fiore, y luego toma la primera calle a la izquierda, hacia la gran avenida con el tranvía.",
+      "via": [
+        [
+          41.887637,
+          12.477284
+        ]
+      ]
+    },
+    {
+      "name": "Viale di Trastevere",
+      "kind": "walk",
+      "lat": 41.8888,
+      "lng": 12.4745,
+      "text": "Esta es la Viale di Trastevere, con el tranvía 8 por el medio. No cruces aquí. Gira a la derecha por su andén, hasta el semáforo junto a la torre medieval de ladrillo.",
+      "via": [
+        [
+          41.888747,
+          12.474687
+        ]
+      ]
+    },
+    {
+      "name": "Cruza la Viale di Trastevere",
+      "kind": "walk",
+      "lat": 41.88947,
+      "lng": 12.47425,
+      "text": "Cruza la avenida aquí, en el semáforo, y sigue derecho por la calle peatonal de enfrente, la Via della Lungaretta. Síguela unos cuatrocientos metros, hasta una plaza con una fuente y una iglesia cubierta de mosaicos dorados. A mitad de camino, en el número 96, Fior di Luna hace un helado excelente y sorbetes de fruta.",
+      "via": [
+        [
+          41.88886,
+          12.474232
+        ]
+      ]
+    },
+    {
+      "name": "Santa Maria in Trastevere",
+      "kind": "stop",
+      "lat": 41.88955,
+      "lng": 12.47025,
+      "text": "Esta es la Piazza di Santa Maria in Trastevere, el corazón del barrio. La iglesia que tienes enfrente es una de las más antiguas de Roma dedicadas a la Virgen. Aquí hay una iglesia desde el siglo tercero o cuarto, y la que ves se reconstruyó en la década de 1140. Mira arriba el mosaico dorado que cruza lo alto de la fachada: la Virgen amamantando al Niño, entre diez mujeres que llevan lámparas. Cuenta las lámparas: casi todas están encendidas, pero dos están apagadas. Nadie sabe bien por qué; quizás es la parábola de las vírgenes prudentes y las necias. Adentro, busca las veintidós enormes columnas de granito, sacadas de antiguas termas romanas, y el mosaico del ábside, con Cristo y la Virgen sentados lado a lado en un mismo trono. Una leyenda dice que en el año 38 antes de Cristo brotó aceite de la tierra en este lugar y corrió durante un día entero. Una inscripción adentro, fons olei, marca el sitio, y una calle que sale de esta plaza todavía se llama la calle de la fuente de aceite. La fuente que tienes al lado es una de las fuentes públicas más antiguas de Roma; ya aparece en un mapa de la década de 1470. Si entras, cúbrete hombros y rodillas. Ahora, con la iglesia de frente, camina hasta la esquina del fondo a la derecha de la plaza, hacia la plaza más pequeña que sigue.",
+      "via": [
+        [
+          41.889744,
+          12.470275
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/26.jpg",
+      "credit": "Krzysztof Golik, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontana_di_piazza_Santa_Maria_in_Trastevere_(2).jpg",
+      "place": "Santa Maria in Trastevere, Rome"
+    },
+    {
+      "name": "Piazza di Sant'Egidio",
+      "kind": "walk",
+      "lat": 41.8901,
+      "lng": 12.46913,
+      "text": "Esta es la Piazza di Sant'Egidio. La Comunidad de Sant'Egidio, un movimiento católico conocido en todo el mundo por su trabajo por la paz y por los pobres, nació aquí en 1968. También cuidan el memorial de los mártires en la Isla Tiberina. Sigue derecho, y toma a la derecha el callejón angosto Vicolo del Cinque. Síguelo hasta el final.",
+      "via": [
+        [
+          41.889744,
+          12.470275
+        ],
+        [
+          41.889784,
+          12.469242
+        ]
+      ]
+    },
+    {
+      "name": "Via del Politeama",
+      "kind": "walk",
+      "lat": 41.89136,
+      "lng": 12.47016,
+      "text": "Al final del callejón, gira a la izquierda, hacia la plaza con la gran fuente. En la esquina está Freni e Frizioni, un bar en un antiguo taller de carros, lleno a la hora del aperitivo.",
+      "via": [
+        [
+          41.890543,
+          12.469121
+        ]
+      ]
+    },
+    {
+      "name": "Piazza Trilussa",
+      "kind": "stop",
+      "lat": 41.8917,
+      "lng": 12.4699,
+      "text": "Esta es la Piazza Trilussa, al pie del Ponte Sisto, el puente peatonal sobre el río. La gran fuente, el Fontanone, se construyó para el papa Pablo Quinto en 1613. Estaba en la otra orilla hasta 1898, cuando la trajeron aquí para dar paso a los muros del río. El busto de bronce con la mano levantada es Trilussa, el poeta que le da nombre a la plaza. Su nombre real era Carlo Alberto Salustri, y Trilussa es un anagrama. Escribía fábulas ingeniosas en dialecto romano, burlándose de los poderosos, y nunca entró al partido fascista. En 1950 lo nombraron senador vitalicio; bromeó diciendo que lo habían hecho senador mortal, y murió veinte días después. El Ponte Sisto se construyó para el papa Sixto Cuarto, para el Jubileo de 1475. Si subes al puente, cruza con cuidado la avenida de la orilla por el paso de cebra; la vista sobre el río es preciosa, sobre todo al atardecer. Aquí termina nuestro paseo. Gracias por caminar conmigo. Para comer algo, Supplì Roma, en la Via di San Francesco a Ripa, fríe algunas de las mejores bolitas de arroz de Roma. Para un trago barato con ambiente de la Roma de antes, prueba el Bar San Calisto, junto a la plaza de la iglesia. De noche estas calles se llenan y hay ruido, así que lleva el celular y la billetera bien guardados. Grazie, y disfruta Roma.",
+      "via": [
+        [
+          41.89166,
+          12.470072
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/29.jpg",
+      "credit": "Mark Landon, CC BY 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontanone_di_Ponte_Sisto,_Piazza_Trilussa_(2008)_-_pediment.jpg",
+      "place": "Piazza Trilussa, Rome"
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "title": "Roma: Coliseo, Foros y el Capitolio",
+  "summary": "La Roma antigua sin boleto: del Coliseo y el Arco de Constantino por los Foros Imperiales hasta la Columna de Trajano, subiendo al Capitolio de Miguel Ángel para ver gratis el Foro Romano, y bajando por la Boca de la Verdad hasta el Circo Máximo.",
+  "cover": "photos/rome-ancient/0.jpg",
+  "mode": "walk",
+  "minutes": 150,
+  "km": 3.6,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/rome-ancient-es",
+  "intro": "¡Bienvenido a Roma! Durante las próximas dos horas y media, más o menos, caminaremos por la Roma antigua, desde el Coliseo por los Foros Imperiales hasta la Columna de Trajano, subiendo a la colina Capitolina para ver gratis el Foro Romano, y bajando por la Boca de la Verdad hasta el Circo Máximo. No necesitas boleto: todo lo vemos desde la calle. Deja la pantalla encendida y los audífonos puestos. Empezaré a hablar cuando llegues a cada lugar, y entre parada y parada te diré por dónde seguir. Unos consejos. Empieza hacia las nueve y media de la mañana, o a más tardar a las dos de la tarde, para llegar a la Boca de la Verdad antes de que cierre, hacia las cinco menos diez en invierno. Si quieres entrar al Coliseo otro día, reserva solo en la página oficial, ticketing punto colosseo punto it: los boletos llevan tu nombre, y quien venda boletos para saltarse la fila en la calle es un revendedor. No pagues por fotos con gladiadores disfrazados; si uno te pone un casco en la cabeza, devuélveselo y sigue caminando. Cuidado con los carteristas alrededor del Coliseo y en los buses llenos. Hasta marzo de 2027 están rehaciendo los andenes de la gran avenida, así que si encuentras vallas, sigue el paso abierto. Usa buenos zapatos: hay empedrado y algunas escaleras. ¿Listo? Empecemos a la salida de la estación de metro Colosseo, frente al Coliseo.",
+  "stops": [
+    {
+      "name": "El Coliseo",
+      "kind": "stop",
+      "lat": 41.89115,
+      "lng": 12.4915,
+      "text": "Bienvenido al Coliseo. Frente a ti está el lado que sigue en pie con toda su altura: cuatro pisos de piedra travertino, de casi cincuenta metros. El emperador Vespasiano lo empezó hacia el año 70, donde había un lago privado de los jardines del palacio de Nerón, y su hijo Tito lo inauguró en el año 80 con cien días de juegos. Le cabían entre cincuenta y ochenta mil personas. El nombre probablemente viene de una estatua gigante de bronce de Nerón, el Coloso, que estaba aquí cerca. Ahora mira bien la piedra. ¿Ves todos esos huecos? En la Edad Media la gente sacó las grapas de hierro que unían los bloques, para reusar el metal. Sobre los arcos del primer piso, busca números romanos: eran los números de las entradas, como en una boleta de hoy. Cerca de la cima, unas ménsulas de piedra sostenían mástiles para un toldo enorme que le daba sombra al público. A la derecha, la cuña inclinada de ladrillo que apuntala el final del muro se añadió en la década de 1820, después de que los terremotos tumbaran buena parte del anillo exterior. Dos mitos, ya que estamos aquí. Nadie sabe bien hacia dónde apuntaba el pulgar para salvar o matar a un gladiador. Y no hay pruebas sólidas de que aquí lanzaran cristianos a los leones. Ahora sigue el camino empedrado alrededor de este extremo del Coliseo, con el edificio a tu izquierda, hacia el gran arco de tres puertas.",
+      "photo": "photos/rome-ancient/0.jpg",
+      "credit": "kevinmcgill from Den Bosch, Netherlands, CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma_-_Colosseo_esterno_su_via_dei_Fori_Imperiali.jpg",
+      "place": "Colosseum, Rome"
+    },
+    {
+      "name": "El Arco de Constantino",
+      "kind": "stop",
+      "lat": 41.8903,
+      "lng": 12.4911,
+      "text": "Este es el Arco de Constantino, inaugurado en el año 315 para celebrar la victoria de Constantino sobre su rival, Majencio, tres años antes. Y tiene algo de trampa. Buena parte de sus esculturas se tomaron de monumentos más viejos. Las figuras de pie sobre las columnas son prisioneros de Dacia, la actual Rumania, talladas para el emperador Trajano doscientos años antes. Los pares de medallones redondos sobre los arcos laterales son de la época de Adriano, y los grandes paneles de arriba, de la de Marco Aurelio. Las caras de los emperadores viejos se volvieron a tallar. Lo único hecho para Constantino es la franja delgada de figuritas sobre los arcos laterales: más sencilla, y el comienzo de un nuevo estilo, el de la Roma tardía. La inscripción dice que ganó por inspiración de la divinidad, muy convenientemente sin decir cuál. Entre tú y el arco, el círculo bajo de ladrillo es todo lo que queda de la Meta Sudans, una fuente romana alta que Mussolini mandó quitar en 1936 para hacer una glorieta. El arco también fue la meta del maratón olímpico de 1960, que ganó Abebe Bikila corriendo descalzo. Ahora date la vuelta y mira el lado sur del Coliseo, donde el anillo exterior se cayó y se ven por dentro los arcos interiores. Luego regresa hacia el norte por la plaza, pasando el metro, hasta el comienzo de la gran avenida que va hacia el monumento blanco a lo lejos. Toma el andén de su lado izquierdo.",
+      "via": [
+        [
+          41.891162,
+          12.491918
+        ],
+        [
+          41.890944,
+          12.491915
+        ],
+        [
+          41.890763,
+          12.491309
+        ]
+      ],
+      "photo": "photos/rome-ancient/1.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_(Rome)_,lateral_view.jpg",
+      "place": "Arch of Constantine, Rome"
+    },
+    {
+      "name": "Via dei Fori Imperiali",
+      "kind": "stop",
+      "lat": 41.89245,
+      "lng": 12.4882,
+      "text": "Estás en la Via dei Fori Imperiali, la avenida de los Foros Imperiales. No tiene nada de antigua. Mussolini la abrió en 1932, derecho desde su oficina en la Piazza Venezia hasta el Coliseo, como escenario para desfiles militares. Para construirla tumbaron un barrio entero, y cientos de familias pobres fueron trasladadas a las afueras. En el muro de ladrillo a tu izquierda, busca los mapas de mármol, puestos en 1934. Muestran a Roma creciendo de un puntico hasta un imperio alrededor de todo el Mediterráneo. Un quinto mapa, con el propio imperio de Mussolini, se quitó en 1945. Sobre el muro se levantan las bóvedas de ladrillo de la Basílica de Majencio, la última gran sala de la Roma antigua. A tu espalda, a la izquierda, está la plataforma del Templo de Venus y Roma, diseñado por el emperador Adriano, probablemente el templo más grande que tuvo la ciudad. Un detalle bonito: Roma al revés es amor, el reino de Venus. Un poco más adelante, mira hacia abajo por la reja de tu izquierda: ese es el Foro Romano. Sigue por este andén hasta el gran cruce con semáforos donde llega la Via Cavour. Desde noviembre de 2026 están rehaciendo estos andenes, así que si encuentras vallas, sigue el paso que esté abierto.",
+      "via": [
+        [
+          41.890649,
+          12.491204
+        ],
+        [
+          41.890836,
+          12.490827
+        ],
+        [
+          41.891119,
+          12.490954
+        ],
+        [
+          41.891319,
+          12.490307
+        ]
+      ],
+      "photo": "photos/rome-ancient/2.jpg",
+      "credit": "Jebulon, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_Maxentius_Constantine_Rome.jpg",
+      "place": "Basilica of Maxentius, Via dei Fori Imperiali, Rome"
+    },
+    {
+      "name": "Cruza en el Largo Corrado Ricci",
+      "kind": "walk",
+      "lat": 41.89312,
+      "lng": 12.4873,
+      "text": "Cruza la avenida aquí, en el semáforo. Oprime el botón y espera el verde. Al otro lado, camina unos pasos a la izquierda, hasta las estatuas de bronce de emperadores junto a la reja.",
+      "via": [
+        [
+          41.893037,
+          12.487171
+        ]
+      ]
+    },
+    {
+      "name": "Los Foros de Nerva y de Augusto",
+      "kind": "stop",
+      "lat": 41.8939,
+      "lng": 12.48635,
+      "text": "Mira por encima de la reja. La franja angosta y hundida a tu derecha es el Foro de Nerva, en realidad un gran pasaje, inaugurado en el año 97. Al fondo, dos columnas todavía sostienen un friso tallado. Cuenta el mito de Aracne, una muchacha que retó a la diosa Minerva a un concurso de tejido y terminó convertida en araña. Al frente está el Foro de Augusto, con las columnas altas y las escalinatas del Templo de Marte Vengador. De joven, Augusto juró en la batalla de Filipos, en el año 42 antes de Cristo, que le construiría un templo a Marte si derrotaba a los asesinos de Julio César. Cumplió: el templo se inauguró cuarenta años después, en el año 2 antes de Cristo, todavía sin terminar. Detrás se levanta un muro enorme de piedra gris, de más de treinta metros, un cortafuegos entre el foro y el barrio pobre y abarrotado que había detrás. Dicen que Augusto presumía de haber encontrado una Roma de ladrillo y haberla dejado de mármol. A tu espalda, a la derecha, el muñón de una torre medieval, la Torre dei Conti, sigue con andamios: en noviembre de 2025 una parte se derrumbó durante la restauración, y un trabajador, Octav Stroici, perdió la vida. Ahora sigue por este andén hasta la estatua de bronce de Trajano.",
+      "via": [
+        [
+          41.893192,
+          12.48734
+        ],
+        [
+          41.893396,
+          12.486999
+        ],
+        [
+          41.893881,
+          12.486664
+        ],
+        [
+          41.893811,
+          12.486515
+        ]
+      ],
+      "photo": "photos/rome-ancient/4.jpg",
+      "credit": "NikonZ7II, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tempio_di_Marte_Ultore_(Roma)_-_Laterale.jpg",
+      "place": "Forum of Augustus, Rome"
+    },
+    {
+      "name": "El Foro y los Mercados de Trajano",
+      "kind": "stop",
+      "lat": 41.89445,
+      "lng": 12.48555,
+      "text": "Abajo está el Foro de Trajano, el último y el más grande de los foros imperiales. Se pagó con las riquezas de la conquista de Dacia, en el año 106, y para hacerle espacio, los constructores cortaron toda una loma. Los muñones de columnas de granito gris son de la Basílica Ulpia, una sala inmensa para tribunales y negocios. Más allá, el gran edificio curvo de ladrillo, de varios pisos, son los Mercados de Trajano. Durante mucho tiempo los llamaron el primer centro comercial del mundo, con tiendas en una calle llamada Via Biberatica, de la palabra latina para beber. Muchos expertos creen hoy que eran sobre todo oficinas. Hoy es un museo. Encima, mira la torre de ladrillo un poco inclinada: la Torre delle Milizie. Los romanos la llaman la torre de Nerón, y dicen que desde ahí Nerón vio arder Roma. Imposible: la construyeron más de mil años después del incendio, y Nerón ni siquiera estaba en Roma cuando empezó. Ahora mira a tu izquierda: esa columna alta y tallada al final del foro es la Columna de Trajano. Vamos a verla de cerca. Sigue hasta el final de este andén, y entra a la plaza empedrada junto a la columna.",
+      "via": [
+        [
+          41.894379,
+          12.485479
+        ]
+      ],
+      "photo": "photos/rome-ancient/5.jpg",
+      "credit": "NikonZ7II, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercati_di_Traiano_-_Roma.jpg",
+      "place": "Trajan's Market, Rome"
+    },
+    {
+      "name": "La Columna de Trajano",
+      "kind": "stop",
+      "lat": 41.89562,
+      "lng": 12.4841,
+      "text": "Aquí está la Columna de Trajano, dedicada en el año 113 para celebrar sus dos guerras en Dacia. Mide unos treinta y cinco metros con su base, está hecha de unos veinte enormes tambores de mármol de Carrara, y es hueca, con una escalera de caracol por dentro. Ahora sigue la franja tallada que sube enroscándose, veintitrés vueltas: es una historieta de doscientos metros, con unas dos mil quinientas figuras. Los soldados construyen fuertes, cruzan ríos y pelean, y el mismo Trajano aparece una y otra vez. Cerca de la base, busca al dios barbudo del río Danubio, que sale del agua para ver pasar al ejército. Las cenizas de Trajano se pusieron en la base. Su estatua de arriba desapareció en la Edad Media, y en 1587 el papa Sixto Quinto puso en su lugar a San Pedro. Mira la inscripción sobre la puertita de la base: esas mayúsculas elegantes se volvieron el modelo de una tipografía que seguramente has visto en carteles de películas, llamada Trajan. Ahora regresa por la plaza hasta la avenida, y crúzala en el semáforo. Luego gira a la derecha, por el pie del enorme monumento blanco.",
+      "via": [
+        [
+          41.89466,
+          12.48509
+        ],
+        [
+          41.89498,
+          12.48468
+        ],
+        [
+          41.8953,
+          12.48439
+        ]
+      ],
+      "photo": "photos/rome-ancient/6.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_HD.jpg",
+      "place": "Trajan's Column, Rome"
+    },
+    {
+      "name": "El Vittoriano",
+      "kind": "stop",
+      "lat": 41.89555,
+      "lng": 12.48285,
+      "text": "Esta montaña blanca y reluciente es el Vittoriano, el monumento a Víctor Manuel Segundo, el primer rey de la Italia unida. Se empezó en 1885, se inauguró en 1911, cincuenta años después de la unificación, y apenas se terminó en 1935. Está hecho de un mármol muy blanco del norte de Italia, por eso se ve tan distinto de la piedra color miel de Roma, y para hacerle espacio despejaron todo un barrio medieval de la colina. Los romanos nunca lo han querido del todo: le dicen el pastel de bodas, o la máquina de escribir. El rey de bronce a caballo es tan grande que, antes de subirlo, se hizo una pequeña cena dentro de la barriga del caballo. Debajo está el Altar de la Patria, con la Tumba del Soldado Desconocido, custodiada por dos soldados y dos llamas eternas. El altar se visita gratis; un boleto de dieciocho euros incluye el ascensor hasta arriba, con una de las mejores vistas de Roma. Ahora date la vuelta. Al otro lado de la plaza, el palacio viejo con el balconcito en el centro es el Palazzo Venezia. Desde ese balcón Mussolini proclamó su imperio en 1936, y en junio de 1940 anunció que Italia entraba a la Segunda Guerra Mundial. La gran obra en la plaza es para una nueva estación de metro, prevista hacia 2033. Ahora, con el monumento a tu izquierda, camina por su pie y dobla la esquina a la izquierda, hasta el pie de dos largas escaleras.",
+      "via": [
+        [
+          41.8953,
+          12.48439
+        ],
+        [
+          41.8949,
+          12.4844
+        ],
+        [
+          41.89478,
+          12.48428
+        ],
+        [
+          41.8954,
+          12.4836
+        ]
+      ],
+      "photo": "photos/rome-ancient/7.jpg",
+      "credit": "Paolo Costa Baldi, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Venezia_-_Il_Vittoriano_(cropped).jpg",
+      "place": "Altare della Patria, Rome"
+    },
+    {
+      "name": "Dos subidas al Capitolio",
+      "kind": "stop",
+      "lat": 41.89385,
+      "lng": 12.48182,
+      "text": "Aquí hay dos maneras de subir a la colina Capitolina, la más pequeña de las famosas siete colinas de Roma, y la más importante. A la izquierda, una escalinata medieval empinada de ciento veinticuatro escalones, construida en 1348 para dar gracias por el fin de la peste negra, sube a la sencilla iglesia de ladrillo de Santa Maria in Aracoeli. A la derecha, una rampa ancha y suave con escalones, la Cordonata, diseñada por Miguel Ángel para que se pudiera subir a caballo. El papa Pablo Tercero le pidió rediseñar la colina en 1536, después de que el emperador Carlos Quinto visitara Roma y la encontrara en mal estado. Abajo, los dos leones negros que echan agua son egipcios. Entre las escaleras está Cola di Rienzo, un rebelde medieval que soñaba con revivir la república romana; lo mataron cerca de aquí en 1354. Y mira a la izquierda de la escalinata de la iglesia: esa ruina de ladrillo con varios pisos es un edificio de apartamentos romano del siglo segundo. La mayoría de los romanos vivía en edificios así, no en palacios de mármol. Ahora sube por la Cordonata hasta la plaza de arriba. Si prefieres evitar escalones, la calle en pendiente justo a la derecha, la Via delle Tre Pile, también sube.",
+      "via": [
+        [
+          41.895533,
+          12.482683
+        ],
+        [
+          41.895437,
+          12.482721
+        ],
+        [
+          41.895374,
+          12.482461
+        ],
+        [
+          41.895154,
+          12.482218
+        ],
+        [
+          41.894401,
+          12.482255
+        ],
+        [
+          41.893965,
+          12.482055
+        ],
+        [
+          41.893989,
+          12.481831
+        ]
+      ],
+      "photo": "photos/rome-ancient/8.jpg",
+      "credit": "Jean-Pol GRANDMONT, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio_(2).JPG",
+      "place": "Cordonata Capitolina, Rome"
+    },
+    {
+      "name": "La Piazza del Campidoglio",
+      "kind": "stop",
+      "lat": 41.89338,
+      "lng": 12.4828,
+      "text": "Bienvenido a la Piazza del Campidoglio, en lo alto de la colina Capitolina. Para los antiguos romanos era el lugar más sagrado de la ciudad, coronado por el gran templo de Júpiter. La palabra capitolio viene de aquí, y también el nombre del Capitolio de Washington. Miguel Ángel diseñó esta plaza, y la volteó: en vez de mirar hacia el antiguo Foro, mira al oeste, hacia San Pedro, el nuevo centro del poder. Mira el piso: una estrella de doce puntas dentro de un óvalo. También era diseño suyo, aunque apenas la pusieron en 1940. El edificio de enfrente, con la torre, es la alcaldía de Roma; los dos de los lados son los Museos Capitolinos. En el centro está Marco Aurelio a caballo. Es una copia; el original, de hacia el año 175, está dentro del museo. Es una de las poquísimas estatuas de bronce de un emperador romano que sobrevivieron, porque en la Edad Media la gente fundía los bronces paganos, pero creyeron que este jinete era Constantino, el primer emperador cristiano, y lo salvaron. Una leyenda dice que cuando la estatua vuelva a estar toda dorada, se acabará el mundo. Y otra, que cuenta Livio: cuando los galos subieron esta colina de noche, hacia el año 390 antes de Cristo, los gansos sagrados de la diosa Juno graznaron y despertaron a los defensores. Ahora camina por la derecha de la alcaldía, hasta la calle de atrás, la Via del Campidoglio, hasta una terraza con vista.",
+      "via": [
+        [
+          41.893989,
+          12.481831
+        ],
+        [
+          41.893941,
+          12.481987
+        ],
+        [
+          41.89378,
+          12.481954
+        ]
+      ],
+      "photo": "photos/rome-ancient/9.jpg",
+      "credit": "Krzysztof Golik, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Replica_of_the_Equestrian_statue_of_Marcus_Aurelius_in_Rome_(3).jpg",
+      "place": "Piazza del Campidoglio, Rome"
+    },
+    {
+      "name": "La terraza del Foro",
+      "kind": "stop",
+      "lat": 41.89246,
+      "lng": 12.48364,
+      "text": "Y aquí está: el Foro Romano, extendido debajo de ti, sin necesidad de boleto. Durante mil años este valle fue el corazón de Roma, con sus templos, tribunales, mercados y el Senado. Justo debajo están las ocho columnas altas del Templo de Saturno, que guardaba el tesoro del Estado. Cada diciembre, en la fiesta de las Saturnales, a los esclavos los dejaban libres por unos días y la gente se daba regalos. A la izquierda, el gran arco de triunfo es el Arco de Septimio Severo, del año 203. Cuando su hijo Caracalla asesinó a su propio hermano, Geta, borraron a cincel el nombre de Geta. Detrás del arco, el edificio sencillo de ladrillo es la Curia, la sede del Senado. Cerca, escondida desde aquí, está la Mamertina, la antigua cárcel de Roma, donde ejecutaron a enemigos como el jefe galo Vercingétorix. La columna solitaria en medio de la plaza abierta es la Columna de Focas, del año 608, el último monumento que se le añadió al Foro. Ahora sigue con la vista la línea recta de la Vía Sacra a lo lejos: el Arco de Tito, y más allá, el Coliseo, donde empezamos. A la derecha está el Palatino, donde vivían los emperadores; de ahí viene la palabra palacio. Cuando quieras, toma el callejón que baja serpenteando por la colina a tu derecha, la Via di Monte Tarpeo, hasta la placita de abajo.",
+      "via": [
+        [
+          41.893374,
+          12.483066
+        ],
+        [
+          41.892913,
+          12.48305
+        ]
+      ],
+      "photo": "photos/rome-ancient/10.jpg",
+      "credit": "Nhartmannphotos, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roman_Forum_east_end_panorama.jpg",
+      "place": "Terrazza del Foro Romano, Via del Campidoglio, Rome"
+    },
+    {
+      "name": "La Roca Tarpeya",
+      "kind": "stop",
+      "lat": 41.89138,
+      "lng": 12.48268,
+      "text": "Mira hacia arriba, al acantilado a tu derecha, bajo los árboles. Esta es la Roca Tarpeya, el borde sur de la colina Capitolina. Durante siglos, hasta más o menos el siglo primero antes de Cristo, a los traidores y asesinos los lanzaban desde aquí. Toma su nombre de Tarpeya, una muchacha que, según la leyenda, le abrió la ciudadela a un ejército enemigo, los sabinos, a cambio de lo que llevaban en el brazo izquierdo. Ella se refería a sus brazaletes de oro. Pero ellos la aplastaron con sus escudos. Una víctima real fue Marco Manlio, el hombre al que despertaron los gansos sagrados: salvó el Capitolio de los galos, y pocos años después, acusado de querer hacerse rey, lo lanzaron desde esta misma roca. Los romanos tenían un dicho: la Roca Tarpeya está cerca del Capitolio. La caída desde la gloria puede ser muy corta. Ahora sigue bajando por la plaza hasta su extremo, y gira a la derecha por la Via della Misericordia.",
+      "via": [
+        [
+          41.891716,
+          12.482699
+        ]
+      ],
+      "photo": "photos/rome-ancient/11.jpg",
+      "credit": "Lalupa, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Campitelli_-_rupe_Tarpea_1060740.JPG",
+      "place": "Rupe Tarpea, Rome"
+    },
+    {
+      "name": "Via della Misericordia",
+      "kind": "walk",
+      "lat": 41.89002,
+      "lng": 12.48204,
+      "text": "Esta es la Via della Misericordia. Síguela hasta el final. Ahí, cruza la avenida con tráfico, la Via Luigi Petroselli, por el paso de cebra; espera a que los carros se detengan. Luego gira a la izquierda por el andén del otro lado, hacia los dos templos antiguos.",
+      "via": [
+        [
+          41.891303,
+          12.482712
+        ],
+        [
+          41.891156,
+          12.482433
+        ],
+        [
+          41.891055,
+          12.482502
+        ],
+        [
+          41.89068,
+          12.482016
+        ]
+      ]
+    },
+    {
+      "name": "Los templos del mercado de ganado",
+      "kind": "stop",
+      "lat": 41.88903,
+      "lng": 12.481,
+      "text": "Estos dos templos están entre los mejor conservados de Roma, y los dos tienen más de dos mil años. Aquí estaba el Foro Boario, el mercado de ganado, justo al lado del primer puerto fluvial de Roma. El redondo es el Templo de Hércules Víctor, de finales del siglo segundo antes de Cristo: el edificio de mármol más antiguo que sigue en pie en Roma. Cuenta sus columnas: son veinte, y diecinueve son originales. Durante siglos la gente creyó que era un templo de Vesta. El rectangular es el Templo de Portuno, el dios de los puertos y las puertas, con medias columnas pegadas a los muros. Sobrevivió porque en el año 872 se convirtió en iglesia. Dos historias más de este lugar. En el año 264 antes de Cristo se hizo aquí la primera pelea de gladiadores de Roma, en un funeral, más de tres siglos antes del Coliseo. Y la leyenda dice que aquí mismo Hércules mató a un gigante que echaba fuego, llamado Caco, por robarle su ganado. Ahora atraviesa el jardín hasta la esquina del fondo, junto a la fuente con dos tritones, y cruza la calle en el semáforo hasta la iglesia del campanario alto.",
+      "via": [
+        [
+          41.889844,
+          12.480791
+        ],
+        [
+          41.889068,
+          12.481173
+        ]
+      ],
+      "photo": "photos/rome-ancient/13.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Temple_of_Hercules_(Rome).jpg",
+      "place": "Temple of Hercules Victor, Rome"
+    },
+    {
+      "name": "La Boca de la Verdad",
+      "kind": "stop",
+      "lat": 41.88835,
+      "lng": 12.4815,
+      "text": "Esta es Santa Maria in Cosmedin, con su campanario esbelto del siglo doce, de siete pisos. Y en el pórtico, a la izquierda, está la Bocca della Verità, la Boca de la Verdad: una gran cara de mármol de casi dos metros, quizás un dios del mar. Probablemente era una tapa de alcantarilla de la antigua Roma. La leyenda medieval dice que si metes la mano en su boca y dices una mentira, te la arranca de un mordisco; dicen que los maridos celosos traían aquí a sus esposas para que juraran fidelidad. Se hizo famosa en todo el mundo con la película La princesa que quería vivir, cuando Gregory Peck finge perder la mano y Audrey Hepburn grita. Casi siempre hay fila para las fotos, el pórtico cierra hacia las cinco menos diez en invierno, y puede que cobren una pequeña entrada. Dentro de la iglesia, mira el hermoso piso de piedras incrustadas, y una calavera coronada de flores que dicen que es de San Valentín. Ahora vuelve a la esquina, cruza la avenida, la Via della Greca, en el semáforo, y sigue por su andén hacia la izquierda, hacia el largo valle verde que tienes enfrente.",
+      "via": [
+        [
+          41.88907,
+          12.48117
+        ],
+        [
+          41.88856,
+          12.48134
+        ],
+        [
+          41.88819,
+          12.48114
+        ],
+        [
+          41.88813,
+          12.48123
+        ],
+        [
+          41.8884,
+          12.48141
+        ]
+      ],
+      "photo": "photos/rome-ancient/14.jpg",
+      "credit": "Felix König, CC BY 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_in_Cosmedin_Roma_2012.jpg",
+      "place": "Bocca della Verità, Rome"
+    },
+    {
+      "name": "El Circo Máximo",
+      "kind": "stop",
+      "lat": 41.8857,
+      "lng": 12.48496,
+      "text": "Aquí está el Circo Máximo, la pista de carreras de carros más grande del mundo romano: más de seiscientos metros de largo, con espacio para más de ciento cincuenta mil espectadores. Imagínalo: doce puertas de salida, carros corriendo siete vueltas alrededor de una larga barrera en el medio, y el público dividido en equipos, los Azules y los Verdes. Al otro lado del valle, las enormes ruinas de ladrillo del Palatino son los palacios de los emperadores, que miraban directo a la pista. En el centro había dos obeliscos egipcios; hoy uno está en la Piazza del Popolo, y el otro en San Juan de Letrán. Las últimas carreras aquí fueron en el año 549. En el año 64, el gran incendio de Roma empezó en unas tiendas alrededor del Circo. Quizás has oído que Nerón tocaba música mientras Roma ardía. Ya en su época eso era solo un rumor: estaba a cincuenta kilómetros, en Anzio, cuando empezó, y volvió para organizar la ayuda. Pero sí culpó a los cristianos, y empezó la primera persecución. Aquí termina nuestro paseo. Gracias por caminar conmigo. Para un helado, Il Gelato di Claudio Torcè, en la Viale Aventino, queda a unos diez minutos. Para una comida romana de verdad, camina quince minutos hasta el Testaccio: al almuerzo, Mordi e Vai, en el mercado, hace unos famosos sánduches de carne, y Da Felice sirve cacio e pepe mezclado en tu mesa; reserva antes. La estación de metro Circo Massimo queda a unos diez minutos hacia el este. Grazie, y disfruta Roma.",
+      "via": [
+        [
+          41.888397,
+          12.481405
+        ],
+        [
+          41.888127,
+          12.481231
+        ],
+        [
+          41.888017,
+          12.481284
+        ],
+        [
+          41.887283,
+          12.482583
+        ],
+        [
+          41.887146,
+          12.482503
+        ],
+        [
+          41.886302,
+          12.48361
+        ],
+        [
+          41.885654,
+          12.484822
+        ]
+      ],
+      "photo": "photos/rome-ancient/15.jpg",
+      "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rome_(IT),_Circus_Maximus_--_2013_--_3354.jpg",
+      "place": "Circus Maximus, Rome"
+    }
+  ]
+}

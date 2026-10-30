@@ -42,6 +42,19 @@ QUERIES = {  # stop index -> search words; stops left out get no photo
     "milan-tram1": {0: "Torre Breda Milano", 1: "Ca' Brutta Milano Muzio", 2: "Archi di Porta Nuova Milano", 3: "Via Manzoni Milano tram",
                     4: "Piazza della Scala Milano tram", 5: "Piazza Cordusio Milano", 6: "Monumento a Garibaldi Largo Cairoli Milano",
                     7: "Ago filo e nodo Cadorna", 8: "Tram ATM serie 1500 Milano", 10: "Arco della Pace Milano tram"},
+    "rome-ancient": {0: "Colosseo Roma esterno", 1: "Arch of Constantine Rome", 2: "Basilica of Maxentius Via dei Fori Imperiali",
+                     4: "Temple of Mars Ultor Forum of Augustus", 5: "Trajan's Market Rome", 6: "Trajan's Column Rome", 7: "Vittoriano Rome",
+                     8: "Cordonata Capitolina", 9: "Piazza del Campidoglio Marcus Aurelius", 10: "Roman Forum panorama Temple of Saturn",
+                     11: "Tarpeian Rock", 13: "Temple of Hercules Victor Rome", 14: "Bocca della Verità Santa Maria in Cosmedin", 15: "Circus Maximus Rome"},
+    "rome-baroque": {0: "Spanish Steps Barcaccia", 1: "Keats-Shelley House Rome", 2: "Colonna dell'Immacolata Roma", 3: "Sant'Andrea delle Fratte campanile Borromini",
+                     6: "Trevi Fountain", 8: "Tempio di Adriano Piazza di Pietra Roma", 9: "Sant'Ignazio Andrea Pozzo ceiling", 10: "Pantheon Rome",
+                     11: "Elephant and Obelisk Minerva Bernini", 12: "Sant'Ivo alla Sapienza lantern", 13: "Calling of Saint Matthew Caravaggio",
+                     14: "Madonna di Loreto Caravaggio", 15: "Piazza Navona Rome", 16: "Fontana dei Quattro Fiumi"},
+    "rome-ghetto-trastevere": {0: "Palazzo Farnese Rome piazza", 1: "Campo de' Fiori Giordano Bruno", 3: "Santa Maria in Grottapinta",
+                               8: "Largo di Torre Argentina", 10: "Fontana delle Tartarughe", 11: "Pietre d'inciampo Roma ghetto",
+                               12: "Portico d'Ottavia Sant'Angelo in Pescheria", 13: "Theatre of Marcellus", 14: "Great Synagogue of Rome", 15: "Ponte Fabricio",
+                               16: "Isola Tiberina", 19: "San Benedetto in Piscinula Roma", 22: "Santa Cecilia in Trastevere facade",
+                               26: "Santa Maria in Trastevere piazza", 29: "Fontanone di Ponte Sisto Piazza Trilussa"},
 }
 UA = {"User-Agent": "TravelApp-prototype/0.1 (juan@groundgamesales.com)"}  # Wikimedia asks for a contact
 

@@ -1,0 +1,452 @@
+{
+  "title": "Rome: Campo de' Fiori, the Jewish Ghetto and Trastevere",
+  "summary": "From a Farnese palace and the square where Giordano Bruno burned, to the spot where Caesar was killed, through the old Jewish Ghetto, across Rome's oldest bridge and Tiber Island, into the lanes of Trastevere.",
+  "cover": "photos/rome-ghetto-trastevere/0.jpg",
+  "mode": "walk",
+  "minutes": 150,
+  "km": 3.4,
+  "voice": "en-GB-RyanNeural",
+  "audio": "audio/rome-ghetto-trastevere-en",
+  "intro": "Welcome to Rome! For the next two and a half hours or so, we'll walk from Piazza Farnese and the market square of Campo de' Fiori to the spot where Julius Caesar was killed, through the old Jewish Ghetto, across the oldest bridge in the city to Tiber Island, and into the lanes of Trastevere. Keep your screen on and your headphones in. I'll start talking when you reach each place, and between stops I'll tell you which street to take. A few tips. Start between nine and half past nine on a weekday morning, Monday to Thursday if you can: the market is busy, and you'll reach Santa Cecilia before half past twelve, when its famous fresco closes. Avoid Saturdays if you want the synagogue and the Jewish bakeries, which close for the Sabbath. The streets are cobbled, so wear good shoes. In churches, cover your shoulders and knees. We'll cross four busy roads, always at traffic lights; trams are quiet, so look both ways. Pickpockets work the trams and the crowds, so keep your phone and wallet in front of you, and politely ignore restaurant touts. Ready? Let's begin in Piazza Farnese, facing the palace.",
+  "stops": [
+    {
+      "name": "Piazza Farnese",
+      "kind": "stop",
+      "lat": 41.89512,
+      "lng": 12.47128,
+      "text": "Welcome to Piazza Farnese. The great palace in front of you is Palazzo Farnese, one of the finest Renaissance palaces in Rome. It was begun around 1515 for Cardinal Alessandro Farnese, and when he became Pope Paul the Third, in 1534, the palace grew with him. Antonio da Sangallo the Younger designed it, and Michelangelo finished it. Look up at the top: the deep, heavy cornice, and the big central window with the family arms above it, are his work. Now notice the French flag over the door. Italy owns the palace, but since 1936 it has been rented to France as its embassy, on a ninety-nine-year lease. Inside is one of Rome's great painted ceilings, by Annibale Carracci, which you can only see on a guided tour booked in advance. Now look at the two fountains. Those huge granite tubs are ancient Roman, probably from the Baths of Caracalla, and they became fountains in 1626. On top of each one sits a lily, the Farnese family emblem. When you're ready, turn your back to the palace, and walk out of the square along the short street straight ahead, Via dei Baullari. It opens into Campo de' Fiori. Stop near the hooded statue in the middle.",
+      "photo": "photos/rome-ghetto-trastevere/0.jpg",
+      "credit": "Myrabella, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Palais_Farnese.jpg",
+      "place": "Palazzo Farnese, Rome"
+    },
+    {
+      "name": "Campo de' Fiori",
+      "kind": "stop",
+      "lat": 41.89552,
+      "lng": 12.47205,
+      "text": "This is Campo de' Fiori, the field of flowers. There has been a food market here every morning except Sunday since 1869. Today many stalls sell souvenirs and bottled sauces for visitors, so buy from the real fruit and vegetable stands. But this square has a dark past: it was a place of public executions. Look up at the hooded man in bronze. He is Giordano Bruno, a philosopher and former friar, burned alive on this spot on the seventeenth of February, 1600, after seven years in prison. He believed the universe was infinite, full of other worlds, but he was condemned mostly for his ideas about Christian doctrine. You may hear that he died for saying the Earth goes around the Sun; that's a simplification. The statue went up in 1889, paid for by a collection started by students, after the popes had lost control of Rome. Notice which way he faces: toward the Vatican. And remember one more date. On the ninth of September 1553, copies of the Talmud, the Jewish holy books, were burned in this square. Two years later, Rome's Jews were shut into a ghetto, where we're heading. Behind you, in the corner on the left, Forno Campo de' Fiori sells warm pizza bianca by the slice. Now cross the square to its far corner, on the right, where a narrow street, Piazza del Biscione, leads off.",
+      "via": [
+        [
+          41.895613,
+          12.471803
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/1.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Giordano_Bruno_in_Campo_de%27_fiori.jpg",
+      "place": "Campo de' Fiori, Rome"
+    },
+    {
+      "name": "Piazza del Biscione",
+      "kind": "walk",
+      "lat": 41.89538,
+      "lng": 12.47268,
+      "text": "Walk straight along this narrow strip, Piazza del Biscione, and through the low covered passage at its end, the Passetto del Biscione. You'll come out in a curving street.",
+      "via": []
+    },
+    {
+      "name": "Pompey's Theatre",
+      "kind": "stop",
+      "lat": 41.89522,
+      "lng": 12.4737,
+      "text": "Look at how this street, Via di Grotta Pinta, curves, and how the houses follow the curve. That's no accident. You're standing inside the ghost of a Roman theatre. In 55 BC, the general Pompey the Great opened Rome's first permanent stone theatre right here. The Senate disapproved of permanent theatres, so Pompey was crafty: he put a temple to Venus at the top of the seats, and said he had built a temple with steps in front of it. The houses around you sit on the old rows of seats, and their cellars, and even the dining rooms of some restaurants nearby, still have Roman walls in them. Behind the stage, Pompey laid out a huge garden lined with columns, and at its far end a hall where the Senate sometimes met. Hold on to that hall. In a few minutes we'll stand where it was, and where Julius Caesar was killed. Now follow the curve to the little square at the end, Piazza dei Satiri, and keep straight on to the next street.",
+      "via": [
+        [
+          41.895404,
+          12.473551
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/3.jpg",
+      "credit": "Croberto68 at Italian Wikipedia, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Parione_-_S._Maria_in_Grottapinta.JPG",
+      "place": "Via di Grotta Pinta, Rome"
+    },
+    {
+      "name": "Via dei Chiavari",
+      "kind": "walk",
+      "lat": 41.89506,
+      "lng": 12.47426,
+      "text": "Turn right here, onto Via dei Chiavari.",
+      "via": [
+        [
+          41.895074,
+          12.473807
+        ]
+      ]
+    },
+    {
+      "name": "Antico Forno Roscioli",
+      "kind": "walk",
+      "lat": 41.89466,
+      "lng": 12.47433,
+      "text": "At this corner is Antico Forno Roscioli, one of Rome's best bakeries. A slice of pizza rossa, plain tomato on crisp bread, is a perfect snack. Turn left here, into the narrow Vicolo de' Chiodaroli, and keep going straight on, along Via di Sant'Anna, until you reach a wide street with tram tracks."
+    },
+    {
+      "name": "Largo Arenula",
+      "kind": "walk",
+      "lat": 41.89464,
+      "lng": 12.4759,
+      "text": "This is Largo Arenula. Turn left along the pavement, toward the traffic lights at the corner. You can already see sunken ruins across the road."
+    },
+    {
+      "name": "Cross at the lights",
+      "kind": "walk",
+      "lat": 41.89499,
+      "lng": 12.47645,
+      "text": "Cross here, at the traffic lights, to the corner of the ruins. Push the button and wait for green; buses come fast. Then walk up the pavement beside the railings, with the ruins on your right.",
+      "via": [
+        [
+          41.894596,
+          12.476218
+        ],
+        [
+          41.895019,
+          12.476219
+        ]
+      ]
+    },
+    {
+      "name": "Largo di Torre Argentina",
+      "kind": "stop",
+      "lat": 41.8953,
+      "lng": 12.47648,
+      "text": "Look down into the sunken square. These are four temples from the Roman Republic, two to three centuries before Christ. Nobody is sure which gods they belonged to, so archaeologists simply call them A, B, C and D. The round one, temple B, was probably for Fortune: the fortune of this very day. They were found in the 1920s, when a whole neighbourhood here was demolished. And the name Argentina has nothing to do with the country; it comes from a tower built by a papal official from Strasbourg, Argentoratum in Latin. Now look just below you, at the wall of big squared stone blocks behind the temples. That is part of Pompey's hall, at the end of the garden I told you about, and most of it lies under the street you're standing on. On the Ides of March, the fifteenth of March, 44 BC, the Senate met here, and Julius Caesar was stabbed to death by a group of senators, near Pompey's statue. And no, he probably never said 'Et tu, Brute'. That line is Shakespeare's. Today the ruins belong to the cats; volunteers run a cat sanctuary at the corner you just passed. A raised walkway lets you go down among the temples, with a ticket. It's closed on Mondays, and in winter it closes at four. When you're ready, walk back to the corner, and turn left along Via Florida, with the ruins on your left.",
+      "photo": "photos/rome-ghetto-trastevere/8.jpg",
+      "credit": "Wknight94, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Largo_di_Torre_Argentina_4.jpg",
+      "place": "Largo di Torre Argentina, Rome"
+    },
+    {
+      "name": "Cross Via Florida",
+      "kind": "walk",
+      "lat": 41.89492,
+      "lng": 12.47731,
+      "text": "Cross Via Florida here, at the traffic lights, and watch out for the tram. Then walk straight down the narrow street opposite, Via Paganica, to a little square with a fountain.",
+      "via": [
+        [
+          41.894956,
+          12.47653
+        ]
+      ]
+    },
+    {
+      "name": "The Turtle Fountain",
+      "kind": "stop",
+      "lat": 41.89388,
+      "lng": 12.47742,
+      "text": "This is Piazza Mattei, and the Fontana delle Tartarughe, the Turtle Fountain, one of the most charming fountains in Rome. It was built in the 1580s, designed by Giacomo della Porta, with bronze figures by Taddeo Landini. Four slim young men each rest a foot on a dolphin and reach up with one hand. Now look at the top basin: four little bronze turtles, being pushed up over the rim to drink. They weren't in the original design. They were added in 1658, probably by Bernini, perhaps to explain what the young men were reaching for. The turtles you see are copies: after a theft in 1979, the originals went to the Capitoline Museums. There's a lovely legend here. Duke Mattei, who lived in this palace, lost his fortune gambling, and his future father-in-law called off the wedding. To show what a penniless Mattei could still do, the duke built this fountain in a single night, showed it to the old man from a window, and then had that window walled up forever. It's only a legend: the fountain took years to build, and the palace was finished long after. Now leave the square by the narrow lane on your right, just past the fountain: Via della Reginella. Walk slowly, and look down as you go.",
+      "photo": "photos/rome-ghetto-trastevere/10.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Turtle_Fountain.jpg",
+      "place": "Fontana delle Tartarughe, Rome"
+    },
+    {
+      "name": "Via della Reginella",
+      "kind": "stop",
+      "lat": 41.89305,
+      "lng": 12.47718,
+      "text": "Look down at the cobbles. Set among them are small brass plates called stolpersteine, stumbling stones. Each one carries the name of someone who lived in that building and was taken away and killed in the Holocaust. Rome laid its first ones in 2010, the first city in Italy to do so. Take a moment to read a name, and please don't step on them. You're now in the old Jewish Ghetto. Jews have lived in Rome for more than two thousand years, one of the oldest Jewish communities in Europe. But in July 1555, Pope Paul the Fourth ordered them all to live here, behind walls, in a few crowded streets by the river, which often flooded. The gates were locked at night, and the community even had to pay for the wall that shut them in. They couldn't own property, could work only in a few trades, like selling second-hand clothes, and on Saturdays were forced to listen to sermons urging them to convert. The ghetto lasted until 1870, when Rome became part of Italy, and the walls came down in 1888. Right here at the corner, on your right, look for a little shop with no sign and a queue: Pasticceria Boccione, a kosher bakery since 1815. Try the pizza ebraica, a dense, chewy cake of nuts and candied fruit, or the ricotta and sour cherry tart. It's cash only, and closed on Saturdays. Now turn left along Via del Portico d'Ottavia, the ghetto's main street, and walk to the ancient columns at the end.",
+      "via": [
+        [
+          41.893528,
+          12.477426
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/11.jpg",
+      "credit": "Hugo DK, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pietre_d%27inciampo_Ghetto_Roma.jpg",
+      "place": "Pasticceria Boccione, Rome"
+    },
+    {
+      "name": "Portico d'Ottavia",
+      "kind": "stop",
+      "lat": 41.89245,
+      "lng": 12.4784,
+      "text": "These tall columns are the entrance to the Portico of Octavia. The emperor Augustus rebuilt an older colonnade here and named it after his sister, Octavia. It was a vast courtyard of columns around two temples, with libraries. What you see was mostly rebuilt after a fire, in 203 AD, patched in the Middle Ages with a brick arch, and with a church built right into it, Sant'Angelo in Pescheria. Pescheria means fish market: for centuries, this was Rome's fish market. Look for a marble slab with a Latin inscription, on the pillar to the right of the arch. It says that any fish longer than the slab had to have its head handed to the city's magistrates. Fish heads made excellent soup. Now look at the little square on your right. It is called Largo 16 Ottobre 1943. At dawn on that Saturday, German SS troops sealed off these streets and went from door to door. Three weeks earlier, the community had paid a ransom of fifty kilos of gold, helped by other Romans, to be left in peace. It changed nothing. That day 1,259 people were arrested, and more than a thousand were sent to Auschwitz. Only sixteen came back: fifteen men, and one woman, Settimia Spizzichino, who spent the rest of her life telling schoolchildren what happened. The plaque on the wall remembers them. When you're ready, walk across the little square to the passage on its far side, Via del Foro Piscario, toward the great stone arches.",
+      "via": [
+        [
+          41.892507,
+          12.4783
+        ],
+        [
+          41.892374,
+          12.478356
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/12.jpg",
+      "credit": "Palickap, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma,_Portico_d%27Ottavia_(3).jpg",
+      "place": "Portico d'Ottavia, Rome"
+    },
+    {
+      "name": "Theatre of Marcellus",
+      "kind": "stop",
+      "lat": 41.89224,
+      "lng": 12.47925,
+      "text": "Ahead of you are the great stone arches of the Theatre of Marcellus. Julius Caesar cleared the ground for it, but he was murdered before it was built. Augustus finished it around 13 BC, and named it after his nephew and chosen heir, Marcellus, who had died young. It held well over ten thousand people, and it's older than the Colosseum. Look at the two rows of arches: plain Doric half-columns below, Ionic ones above. In the Middle Ages, noble families turned the theatre into a fortress, and in the 1500s the architect Baldassare Peruzzi built a palace on top of it. Look above the arches, at the windows and balconies: those are apartments, and people still live there, on top of a two-thousand-year-old theatre. The three tall white columns nearby belong to a temple of Apollo; they were put back up in 1940. Now walk back along the passage to the little square, and turn left, down the street between the synagogue garden and the car park.",
+      "via": [
+        [
+          41.892113,
+          12.478728
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/13.jpg",
+      "credit": "lienyuan lee, CC BY 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%A6%AC%E5%88%87%E7%BE%85%E5%8A%87%E5%A0%B4_Marcello_Theatre_-_panoramio.jpg",
+      "place": "Theatre of Marcellus, Rome"
+    },
+    {
+      "name": "The Great Synagogue",
+      "kind": "stop",
+      "lat": 41.8918,
+      "lng": 12.47857,
+      "text": "On your right, beyond the garden, is the Great Synagogue of Rome, with the only square dome in the city, made of aluminium. It was built between 1901 and 1904, on land cleared when the old ghetto was torn down. Inside are also a second, Spanish-rite synagogue, and the Jewish Museum of Rome. A ticket of about twelve euros includes a guided visit of the synagogue. It's closed on Saturdays and Jewish holidays, and in winter it closes at four, or at two on Fridays. There's a security check, so bring ID, and cover your shoulders and knees. The soldiers and barriers you see are here for a reason. On the ninth of October 1982, as families were leaving a service, terrorists attacked with grenades and guns. Dozens were wounded, and a two-year-old boy, Stefano Gaj Taché, was killed. The square on the far side of the synagogue is named after him. Four years later, in 1986, Pope John Paul the Second came here, the first pope known to visit a synagogue in centuries, and called the Jews the Church's elder brothers. Now walk on to the river road at the end of the street. Cross it at the traffic lights, straight onto the old stone bridge, and walk to the middle.",
+      "via": [
+        [
+          41.89223,
+          12.47928
+        ],
+        [
+          41.89211,
+          12.47873
+        ],
+        [
+          41.8921,
+          12.47847
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/14.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Great_Synagogue_of_Rome.jpg",
+      "place": "Great Synagogue of Rome"
+    },
+    {
+      "name": "Ponte Fabricio",
+      "kind": "stop",
+      "lat": 41.89108,
+      "lng": 12.47825,
+      "text": "You're on the oldest bridge in Rome still in use, Ponte Fabricio. It was built in 62 BC by Lucius Fabricius, the official in charge of Rome's roads, to replace a wooden bridge that had burned. People have walked across it for more than two thousand years. His name is carved on the bridge four times, but you can only read it from the riverbank. Look at the small arch over the middle pier: it lets floodwater through. Now look at the two stone pillars on the parapets, at the start of the bridge, each with four faces. They gave the bridge its Roman nickname, Ponte dei Quattro Capi, the bridge of the four heads. A legend says Pope Sixtus the Fifth had four quarrelling architects restore the bridge, then had them beheaded, and put up their faces so they'd have to stay together forever. It's only a story; for one thing, there are eight faces, not four. Back across the road, the little church of San Gregorio has an inscription over its door in Hebrew and Latin. It was one of the churches where the ghetto's Jews were forced to hear sermons. Walk on, onto the island, and stop in the square in front of the church.",
+      "via": [
+        [
+          41.8915,
+          12.47864
+        ],
+        [
+          41.89134,
+          12.47858
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/15.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Statues_on_Ponte_Fabricio_in_Rome.JPG",
+      "place": "Ponte Fabricio, Rome"
+    },
+    {
+      "name": "Tiber Island",
+      "kind": "stop",
+      "lat": 41.89052,
+      "lng": 12.47777,
+      "text": "Welcome to Tiber Island, the only island on the river's course through Rome, about two hundred and seventy metres long and shaped like a boat. Since ancient times it has been a place of healing. In 293 BC, during a plague, the Romans sent to Greece for Aesculapius, the god of medicine. The legend says the sacred snake they brought back slid off the ship and swam to this island, so here they built his temple. Later they even faced the island's tip with stone carved like the prow of a ship. Behind you is a hospital, Fatebenefratelli, run by a religious order since the 1580s, and still working, so watch for ambulances. In 1943, doctors here hid Jews from the Nazis by admitting them as patients with a frightening, contagious illness they called Syndrome K. The disease never existed, and it helped save lives. The church in front of you, San Bartolomeo, stands on the ruins of the temple. It was founded around the year 1000 by the emperor Otto the Third, and today it's a memorial to Christian martyrs of our own times. Now leave the square on your right, across the second bridge, Ponte Cestio, toward Trastevere.",
+      "via": [
+        [
+          41.89058,
+          12.477659
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/16.jpg",
+      "credit": "Diego Delso, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Isla_Tiberina,_Roma,_Italia,_2022-09-16,_DD_31.jpg",
+      "place": "Isola Tiberina, Rome"
+    },
+    {
+      "name": "Ponte Cestio",
+      "kind": "walk",
+      "lat": 41.89005,
+      "lng": 12.4773,
+      "text": "This is Ponte Cestio. The Romans first built a bridge here in the time of Julius Caesar, but this one was taken apart and rebuilt in the 1880s, reusing much of the ancient stone. At the end of the bridge, cross the river road at the traffic lights. Then turn right along the pavement for a few steps.",
+      "via": [
+        [
+          41.89058,
+          12.477659
+        ],
+        [
+          41.890436,
+          12.477497
+        ]
+      ]
+    },
+    {
+      "name": "Piazza della Gensola",
+      "kind": "walk",
+      "lat": 41.88968,
+      "lng": 12.47663,
+      "text": "Turn left here, into Piazza della Gensola, and follow it round to a small square with a tiny church.",
+      "via": [
+        [
+          41.889553,
+          12.477016
+        ]
+      ]
+    },
+    {
+      "name": "Piazza in Piscinula",
+      "kind": "stop",
+      "lat": 41.88917,
+      "lng": 12.47669,
+      "text": "Welcome to Trastevere, the neighbourhood across the Tiber. For centuries this was the home of Rome's working people: boatmen, dockers and craftsmen. In the early Middle Ages, much of the city's Jewish community lived on this side of the river too. This little square is Piazza in Piscinula, the square of the little pool, named after Roman baths that once stood here. Look at the tiny church of San Benedetto. Its bell tower is said to be the smallest in Rome, and its little bell is dated 1069. Tradition says Saint Benedict lived in a small room here as a young student in Rome. Across the square, the old houses with Gothic windows belonged to the Mattei family, the same family as the Turtle Fountain, before they moved across the river. When you're ready, walk along the square and take the narrow lane to the left of the little church, Via in Piscinula. At its end, bear right into Via Titta Scarpetta, and follow it down.",
+      "via": [
+        [
+          41.889246,
+          12.47637
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/19.jpg",
+      "credit": "Bargioni, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma_(Trastevere)_-_Chiesa_di_s._Benedetto_in_Piscinula,_affresco_absidale.jpg",
+      "place": "Piazza in Piscinula, Rome"
+    },
+    {
+      "name": "Via dei Salumi",
+      "kind": "walk",
+      "lat": 41.8884,
+      "lng": 12.47701,
+      "text": "Turn left here, into Via dei Salumi. At its end, turn right.",
+      "via": [
+        [
+          41.8891,
+          12.476976
+        ],
+        [
+          41.8888,
+          12.477057
+        ],
+        [
+          41.888743,
+          12.477243
+        ]
+      ]
+    },
+    {
+      "name": "Via dei Vascellari",
+      "kind": "walk",
+      "lat": 41.8881,
+      "lng": 12.47776,
+      "text": "This is Via dei Vascellari. Follow it to the square at the end. On the way, at number 29, is Da Enzo al 29, a tiny, much-loved trattoria for Roman pasta classics. There's always a queue, so come early, for lunch or around half past six in the evening."
+    },
+    {
+      "name": "Santa Cecilia",
+      "kind": "stop",
+      "lat": 41.88735,
+      "lng": 12.47695,
+      "text": "In front of you is the gateway to Santa Cecilia in Trastevere. Step through into the courtyard garden, with its big ancient marble vase. By tradition, the church stands on the house of Cecilia, a young Roman noblewoman who died for her faith. Her legend says that at her wedding she sang to God in her heart, which is why she's the patron saint of music, and that she was struck three times on the neck and lived for three more days. Historians agree there was a martyr called Cecilia; the rest is pious legend. In 1599 her tomb was opened, and witnesses said her body was found whole. The sculptor Stefano Maderno carved her as they described her: lying on her side, face turned away, with a cut across her neck. That white marble figure lies under the altar, below a Gothic canopy from 1293. Upstairs, in the nuns' choir, is a rare treasure: Pietro Cavallini's Last Judgment, painted around 1290, and found again under plaster in 1900. It can be seen only on weekday mornings, roughly half past ten to half past twelve, for a small fee. When you're ready, go back up the street you came in by, and take the first turning on the left, Via dei Genovesi. Follow it straight on, for about three hundred metres. Halfway along, a few steps up Via della Luce on the right, Biscottificio Innocenti bakes biscuits in an old oven.",
+      "photo": "photos/rome-ghetto-trastevere/22.jpg",
+      "credit": "NateBergin, CC BY 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Santa_Cecilia_in_Trastevere_Facade.jpg",
+      "place": "Santa Cecilia in Trastevere, Rome"
+    },
+    {
+      "name": "Via di Monte Fiore",
+      "kind": "walk",
+      "lat": 41.88838,
+      "lng": 12.4746,
+      "text": "At the end of Via dei Genovesi, turn right into Via di Monte Fiore, then take the first street on the left, toward the big avenue with the tram.",
+      "via": [
+        [
+          41.887637,
+          12.477284
+        ]
+      ]
+    },
+    {
+      "name": "Viale di Trastevere",
+      "kind": "walk",
+      "lat": 41.8888,
+      "lng": 12.4745,
+      "text": "This is Viale di Trastevere, with tram 8 down the middle. Don't cross here. Turn right along its pavement, as far as the traffic lights by the medieval brick tower.",
+      "via": [
+        [
+          41.888747,
+          12.474687
+        ]
+      ]
+    },
+    {
+      "name": "Cross Viale di Trastevere",
+      "kind": "walk",
+      "lat": 41.88947,
+      "lng": 12.47425,
+      "text": "Cross the avenue here, at the traffic lights, and keep straight on into the pedestrian street opposite, Via della Lungaretta. Follow it for about four hundred metres, to a square with a fountain and a church covered in gold mosaics. Halfway along, at number 96, Fior di Luna makes excellent gelato and fruit sorbets.",
+      "via": [
+        [
+          41.88886,
+          12.474232
+        ]
+      ]
+    },
+    {
+      "name": "Santa Maria in Trastevere",
+      "kind": "stop",
+      "lat": 41.88955,
+      "lng": 12.47025,
+      "text": "This is Piazza di Santa Maria in Trastevere, the heart of the neighbourhood. The church in front of you is one of the oldest in Rome dedicated to Mary. A church has stood here since the third or fourth century, and the one you see was rebuilt in the 1140s. Look up at the gold mosaic across the top of the façade: Mary nursing the child, between ten women carrying lamps. Count the lamps: most are lit, but two are dark. Nobody is quite sure why; perhaps it's the parable of the wise and foolish maidens. Inside, look for the twenty-two huge granite columns, taken from ancient Roman baths, and the mosaic in the apse, with Christ and Mary sitting side by side on one throne. A legend says that in 38 BC, oil gushed out of the ground on this spot and flowed for a whole day. An inscription inside, fons olei, marks the place, and a street off this square is still called the street of the oil spring. The fountain beside you is one of the oldest public fountains in Rome, already on a map from the 1470s. If you go in, cover your shoulders and knees. Now, with the church in front of you, walk to the far right-hand corner of the square, into the smaller square beyond.",
+      "via": [
+        [
+          41.889744,
+          12.470275
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/26.jpg",
+      "credit": "Krzysztof Golik, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontana_di_piazza_Santa_Maria_in_Trastevere_(2).jpg",
+      "place": "Santa Maria in Trastevere, Rome"
+    },
+    {
+      "name": "Piazza di Sant'Egidio",
+      "kind": "walk",
+      "lat": 41.8901,
+      "lng": 12.46913,
+      "text": "This is Piazza di Sant'Egidio. The Community of Sant'Egidio, a Catholic movement known around the world for its work for peace and for the poor, was born here in 1968. They also look after the martyrs' memorial on Tiber Island. Keep going straight on, and bear right into the narrow lane Vicolo del Cinque. Follow it to the end.",
+      "via": [
+        [
+          41.889744,
+          12.470275
+        ],
+        [
+          41.889784,
+          12.469242
+        ]
+      ]
+    },
+    {
+      "name": "Via del Politeama",
+      "kind": "walk",
+      "lat": 41.89136,
+      "lng": 12.47016,
+      "text": "At the end of the lane, turn left, into the square with the big fountain. On the corner is Freni e Frizioni, a bar in an old car repair shop, busy at aperitivo time.",
+      "via": [
+        [
+          41.890543,
+          12.469121
+        ]
+      ]
+    },
+    {
+      "name": "Piazza Trilussa",
+      "kind": "stop",
+      "lat": 41.8917,
+      "lng": 12.4699,
+      "text": "This is Piazza Trilussa, at the foot of Ponte Sisto, the footbridge over the river. The big fountain, the Fontanone, was built for Pope Paul the Fifth in 1613. It stood on the other bank until 1898, when it was moved here to make way for the river walls. The bronze bust with a raised hand is Trilussa, the poet the square is named after. His real name was Carlo Alberto Salustri, and Trilussa is an anagram of it. He wrote witty fables in Roman dialect, poking fun at the powerful, and he never joined the Fascist party. In 1950 he was made a senator for life; he joked that they'd made him a senator for death, and died twenty days later. Ponte Sisto was built for Pope Sixtus the Fourth for the Jubilee of 1475. If you walk onto it, cross the riverside road carefully at the zebra crossing; the view along the river is lovely, especially at sunset. That's the end of our walk. Thank you for walking with me. For something to eat, Supplì Roma, on Via di San Francesco a Ripa, fries some of the best rice balls in Rome. For a cheap drink with old Rome atmosphere, try Bar San Calisto, just off the church square. At night these streets get crowded and loud, so keep your phone and wallet close. Grazie, and enjoy Rome.",
+      "via": [
+        [
+          41.89166,
+          12.470072
+        ]
+      ],
+      "photo": "photos/rome-ghetto-trastevere/29.jpg",
+      "credit": "Mark Landon, CC BY 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontanone_di_Ponte_Sisto,_Piazza_Trilussa_(2008)_-_pediment.jpg",
+      "place": "Piazza Trilussa, Rome"
+    }
+  ]
+}

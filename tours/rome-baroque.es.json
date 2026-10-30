@@ -1,0 +1,377 @@
+{
+  "title": "Roma: Plaza de España, Trevi, Panteón y Navona",
+  "summary": "La Roma barroca a pie: de la Escalinata a la Fontana di Trevi y el Panteón, pasando por el elefante de Bernini y dos iglesias llenas de Caravaggio, siguiendo la gran rivalidad entre Bernini y Borromini hasta la Piazza Navona.",
+  "cover": "photos/rome-baroque/0.jpg",
+  "mode": "walk",
+  "minutes": 135,
+  "km": 2.7,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/rome-baroque-es",
+  "intro": "¡Bienvenido a Roma! Durante las próximas dos horas, más o menos, caminaremos desde la Escalinata de la Plaza de España hasta la Piazza Navona, por el corazón de la Roma barroca: la Fontana di Trevi, el Panteón, el elefante de Bernini, dos iglesias con cuadros de Caravaggio, y una rivalidad famosa entre dos arquitectos. Deja la pantalla encendida y los audífonos puestos. Empezaré a hablar cuando llegues a cada lugar, y entre parada y parada te diré por qué calle seguir. Unos consejos. Empieza temprano, hacia las ocho y media de la mañana, entre semana, de martes a jueves si puedes: la Escalinata y la Fontana di Trevi están más tranquilas antes de las nueve y media, y llegarás a las iglesias de Caravaggio antes de que cierren al mediodía. O empieza hacia las tres de la tarde, cuando vuelven a abrir. El Panteón cuesta siete euros con reserva por horario, así que reserva para más o menos una hora después de empezar. Usa zapatos cómodos para el empedrado, y cúbrete hombros y rodillas para las iglesias. Estas son las calles más llenas de Roma, y las preferidas de los carteristas: lleva el celular y la billetera al frente, y di que no con firmeza a pulseras gratis, rosas y firmas para causas. ¿Listo? Empecemos en la Piazza di Spagna, junto a la fuente con forma de barco al pie de la escalinata. La estación de metro Spagna está a la vuelta de la esquina.",
+  "stops": [
+    {
+      "name": "La Escalinata de la Plaza de España",
+      "kind": "stop",
+      "lat": 41.90572,
+      "lng": 12.48185,
+      "text": "Bienvenido a la Piazza di Spagna, y a la Escalinata. Ciento treinta y cinco escalones suben desde aquí hasta la iglesia de arriba, la Trinità dei Monti. Lo curioso es esto: la escalinata se pagó con dinero francés, y sube a una iglesia francesa, pero se llama española, porque el embajador de España ante el Papa vive en esta plaza desde hace siglos. Se construyó entre 1723 y 1725. Desde 2019 está prohibido sentarse o comer en los escalones, con multas desde 250 euros, así que nada de repetir la escena del helado de La princesa que quería vivir. Ahora mira la fuente que tienes enfrente, con forma de barco medio hundido: la Barcaccia. El papa Urbano Octavo se la encargó a Pietro Bernini, probablemente con ayuda de su hijo, Gian Lorenzo Bernini, que será el protagonista del paseo de hoy. Una leyenda dice que recuerda un barco que quedó varado aquí con la gran inundación de 1598. La verdad es más práctica: aquí el agua llega con poca presión, así que la fuente tenía que quedar por debajo de la calle, y un barco que se hunde hace que eso parezca a propósito. Busca los soles y las abejas: son los símbolos de los Barberini, la familia del papa Urbano. No pierdas de vista esas abejas hoy. El agua viene de un antiguo acueducto romano, el Aqua Virgo, que seguiremos hasta la Fontana di Trevi, y se puede tomar. Ahora camina hasta el pie de la escalinata, a la derecha, hasta la casa rosada de la esquina.",
+      "photo": "photos/rome-baroque/0.jpg",
+      "credit": "Ank Kumar, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanish_Steps,_Rome_(Ank_Kumar)_05.jpg",
+      "place": "Spanish Steps, Rome"
+    },
+    {
+      "name": "La Casa de Keats y Shelley",
+      "kind": "stop",
+      "lat": 41.90562,
+      "lng": 12.4825,
+      "text": "Esta casa rosada al pie de la escalinata es donde murió el poeta inglés John Keats. Llegó a Roma en noviembre de 1820 con su amigo, el pintor Joseph Severn, con la esperanza de que el clima cálido le curara la tuberculosis. No fue así. Murió aquí el veintitrés de febrero de 1821, con apenas veinticinco años. Su cuarto estaba en el segundo piso, con ventanas hacia la escalinata. Por las leyes de salud de la época, rasparon las paredes y quemaron sus muebles. Pidió una lápida sin su nombre, solo con estas palabras: aquí yace uno cuyo nombre fue escrito en el agua. Hoy la casa es un pequeño museo sobre Keats y sus amigos, los poetas románticos ingleses Shelley y Byron, que adoraban Italia. Cierra los domingos. En la otra esquina de la escalinata, el salón de té Babington's sirve té inglés desde 1893, a buen precio para ellos. Ahora camina por la plaza, alejándote de la escalinata, hacia la columna alta con una estatua encima.",
+      "via": [
+        [
+          41.905739,
+          12.482425
+        ]
+      ],
+      "photo": "photos/rome-baroque/1.jpg",
+      "credit": "Keats1795, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Keats-Shelley_House.jpg",
+      "place": "Keats-Shelley House, Rome"
+    },
+    {
+      "name": "Bernini y la columna",
+      "kind": "stop",
+      "lat": 41.90497,
+      "lng": 12.48285,
+      "text": "Esta columna honra la Inmaculada Concepción, la creencia de que la Virgen nació libre de pecado, que el papa Pío Noveno declaró oficial en 1854. La columna es de mármol romano antiguo, encontrada en 1777, y en 1857 hicieron falta doscientos veinte bomberos para levantarla. Uno de los cuatro profetas de la base es Moisés. Cada año, el ocho de diciembre, los bomberos de Roma suben por una escalera larguísima para colgarle una corona de flores en el brazo a la Virgen, y el Papa viene a rezar aquí. Ahora mira el edificio detrás de la columna: el palacio de Propaganda Fide, la sede del Vaticano para las misiones en todo el mundo. Su fachada estrecha, con las abejas del papa Urbano sobre la puerta, la diseñó Bernini. Y aquí empieza nuestra rivalidad. Bernini había diseñado unos campanarios para San Pedro, y se agrietaron. Su rival, Francesco Borromini, que alguna vez había trabajado a su lado, se encargó de que todo el mundo se enterara. El siguiente papa mandó tumbar los campanarios en 1646, Bernini cayó en desgracia, y Borromini terminó este edificio. Así que un mismo palacio tiene dos caras: la de Bernini aquí, y la de Borromini a la vuelta. Deja el palacio a tu izquierda y entra por la calle angosta de su costado, la Via di Propaganda.",
+      "via": [
+        [
+          41.905739,
+          12.482425
+        ],
+        [
+          41.905675,
+          12.482213
+        ]
+      ],
+      "photo": "photos/rome-baroque/2.jpg",
+      "credit": "Kurt Kaiser, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Column_of_the_Immaculate_Conception_3.jpg",
+      "place": "Colonna dell'Immacolata, Rome"
+    },
+    {
+      "name": "El lado de Borromini",
+      "kind": "stop",
+      "lat": 41.90407,
+      "lng": 12.48322,
+      "text": "A tu izquierda está el lado de Borromini del mismo palacio. Compáralo con la fachada tranquila de Bernini. Aquí, unas pilastras gigantes desfilan por el muro, el centro de la fachada se curva hacia adentro, y los marcos de las ventanas se doblan y se hinchan. La calle es tan angosta que no puedes alejarte para verla, así que Borromini la diseñó para verla de lado, mientras caminas. Era un hombre brillante y de mal genio, y hasta tumbó una capillita que Bernini había construido adentro, para hacer la suya. Ahora mira al fondo de la calle: el campanario blanco, apilado como una corona, y una cúpula de ladrillo pelado. Es la iglesia de Sant'Andrea delle Fratte, San Andrés de los matorrales, de cuando esto era la orilla de la ciudad. Borromini la reconstruyó desde 1653, pero nunca terminó la cúpula, así que sigue en ladrillo crudo. Y aquí viene la ironía: adentro, junto al altar, hay dos ángeles de mármol de Bernini, de los mejores que talló. Eran para el puente de Sant'Angelo, pero al papa le parecieron demasiado valiosos para dejarlos bajo la lluvia, así que al puente fueron unas copias, y en 1729 los originales llegaron aquí. Los ángeles de Bernini, bajo la torre de Borromini. Si la iglesia está abierta, entra; es gratis. Luego sigue hasta el final de la calle, y continúa derecho, con la iglesia a tu izquierda.",
+      "via": [],
+      "photo": "photos/rome-baroque/3.jpg",
+      "credit": "Archivio Accademia delle Scienze di Torino, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tamburo_e_campanile_della_chiesa_di_Sant%27Andrea_delle_Fratte,_before_1976_-_Archivio_Accademia_delle_Scienze_Torino,_Millon_49_18_174.jpg",
+      "place": "Sant'Andrea delle Fratte, Rome"
+    },
+    {
+      "name": "Via del Nazareno",
+      "kind": "walk",
+      "lat": 41.90288,
+      "lng": 12.48329,
+      "text": "Gira aquí a la izquierda, por la Via del Nazareno.",
+      "via": [
+        [
+          41.903557,
+          12.483409
+        ]
+      ]
+    },
+    {
+      "name": "Los arcos del Aqua Virgo",
+      "kind": "walk",
+      "lat": 41.90262,
+      "lng": 12.48372,
+      "text": "Busca tres grandes arcos de piedra, hundidos bajo la calle detrás de una reja. Son parte del Aqua Virgo, el acueducto que construyó Agripa, la mano derecha del emperador Augusto, en el año 19 antes de Cristo. Es la misma agua que llena la Fontana di Trevi, a pocos minutos de aquí. Al final de esta calle está la Via del Tritone, con mucho tráfico. Crúzala por el paso de cebra, y con cuidado: espera a que los buses y los carros se detengan del todo. Luego entra por la calle angosta de enfrente, un poco a tu derecha, la Via della Stamperia, y bájala hasta la fuente. De aquí al Panteón están las calles más llenas de gente de Roma, así que lleva el celular y la billetera al frente.",
+      "via": [
+        [
+          41.902695,
+          12.483793
+        ]
+      ]
+    },
+    {
+      "name": "La Fontana di Trevi",
+      "kind": "stop",
+      "lat": 41.90072,
+      "lng": 12.48322,
+      "text": "Y aquí está: la Fontana di Trevi, la fuente barroca más grande del mundo, de casi cincuenta metros de ancho y veintiséis de alto, construida contra la parte de atrás de un palacio. El papa Clemente Doce organizó un concurso, Nicola Salvi se quedó con el encargo, y la obra empezó en 1732. Salvi murió antes de terminarla, y se acabó en 1762. En el centro está Océano, sobre un carro en forma de concha tirado por dos caballos alados: uno salvaje y uno tranquilo, los dos humores del mar. Arriba, dos relieves cuentan la historia del acueducto: Agripa aprobando los planos, y una muchacha mostrándoles el manantial a unos soldados sedientos. Esa muchacha, dice la leyenda, le dio su nombre al Aqua Virgo, el Agua Virgen. La tradición dice que si tiras una moneda con la mano derecha por encima del hombro izquierdo, volverás a Roma. Cada día caen al agua unos tres mil euros, y la ciudad se los da todos a Cáritas, una obra que da de comer a los pobres. Desde febrero de 2026, bajar hasta el agua cuesta dos euros, en la taquilla de la Via della Stamperia; mirarla desde aquí arriba es gratis. Nunca te sientes en el borde ni te metas al agua: Anita Ekberg lo hizo en La dolce vita, pero hoy cuesta una multa de al menos cuatrocientos cincuenta euros. Di que no a quien te ofrezca una pulsera gratis o una rosa. Cuando quieras, gírate para que la fuente te quede a la derecha, y sal de la plaza por la Via delle Muratte, derecho unos doscientos metros, hasta la calle principal con tráfico.",
+      "via": [
+        [
+          41.902695,
+          12.483793
+        ],
+        [
+          41.902527,
+          12.484101
+        ],
+        [
+          41.902494,
+          12.483963
+        ],
+        [
+          41.902328,
+          12.484031
+        ],
+        [
+          41.902217,
+          12.483849
+        ],
+        [
+          41.901623,
+          12.483499
+        ],
+        [
+          41.900799,
+          12.483615
+        ]
+      ],
+      "photo": "photos/rome-baroque/6.jpg",
+      "credit": "Wilfredor, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontaine_Trevi_-_Rome.jpg",
+      "place": "Trevi Fountain, Rome"
+    },
+    {
+      "name": "Cruza la Via del Corso",
+      "kind": "walk",
+      "lat": 41.9001,
+      "lng": 12.48092,
+      "text": "Esta es la Via del Corso, la gran calle comercial de Roma. Es recta como una regla porque sigue una antigua calzada romana, la Via Flaminia. Crúzala aquí, en el semáforo, y sigue derecho por la calle de enfrente, la Via di Pietra."
+    },
+    {
+      "name": "El Templo de Adriano",
+      "kind": "stop",
+      "lat": 41.90003,
+      "lng": 12.47948,
+      "text": "Aquí hay una sorpresa: once columnas enormes de mármol, de unos quince metros de alto, metidas en la fachada de un edificio de oficinas. Son lo que queda de un templo dedicado en el año 145 al emperador Adriano, por su sucesor, Antonino Pío. Mira las cicatrices y los golpes de las columnas, y la reja que muestra el nivel del suelo antiguo, unos cinco metros bajo tus pies. Eso es lo que ha subido Roma con los siglos. En 1695 el arquitecto Carlo Fontana convirtió la ruina en la aduana del papa, metiendo muros entre las columnas. Después fue la bolsa de valores de Roma, y hoy es la Cámara de Comercio. Así es Roma: aquí no se bota nada. Ahora toma el callejón diminuto a la izquierda de las columnas, la Via de' Burrò, hacia una plaza que parece un escenario de teatro.",
+      "via": [
+        [
+          41.899964,
+          12.479825
+        ]
+      ],
+      "photo": "photos/rome-baroque/8.jpg",
+      "credit": "Broenberr, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma,_Piazza_di_Pietra_-_Tempio_di_Adriano~2017.jpg",
+      "place": "Temple of Hadrian, Piazza di Pietra, Rome"
+    },
+    {
+      "name": "San Ignacio",
+      "kind": "stop",
+      "lat": 41.89912,
+      "lng": 12.4796,
+      "text": "Mira alrededor de esta placita. En 1728 el arquitecto Filippo Raguzzini la diseñó como un teatro: las casitas curvas son el escenario, y la gran iglesia es el público. La iglesia es San Ignacio, construida para el colegio de los jesuitas desde 1626, y dedicada a su fundador, Ignacio de Loyola. Adentro está uno de los mejores trucos de Roma. Un hermano jesuita y pintor, Andrea Pozzo, cubrió la bóveda con un techo que parece abrirse al cielo, con santos que flotan hacia la gloria. Y no hay una cúpula de verdad. Se acabó la plata, o, según una historia, los vecinos se quejaron de que les quitaría la luz. Así que en 1685 Pozzo pintó una cúpula sobre un lienzo plano. Adentro, busca un disco en el piso, en la mitad de la nave. Párate encima y mira arriba: las columnas parecen subir derecho al cielo. Camina hacia el altar hasta un segundo disco, y mira la cúpula. Luego sigue caminando y mira hacia atrás: la ilusión se desarma en una pintura plana y aplastada. La entrada es gratis, y hay un espejo inclinado para que no te duela el cuello. Cuando termines, sal, dale la espalda a la iglesia, y toma la calle de tu izquierda, la Via del Seminario, hacia el Panteón.",
+      "via": [
+        [
+          41.899931,
+          12.479804
+        ],
+        [
+          41.899674,
+          12.479822
+        ],
+        [
+          41.899442,
+          12.479398
+        ],
+        [
+          41.899145,
+          12.479453
+        ]
+      ],
+      "photo": "photos/rome-baroque/9.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_St._Ignatius.jpg",
+      "place": "Sant'Ignazio di Loyola, Rome"
+    },
+    {
+      "name": "El Panteón",
+      "kind": "stop",
+      "lat": 41.89935,
+      "lng": 12.47688,
+      "text": "Este es el Panteón, el edificio mejor conservado de la Roma antigua. Lee las letras grandes del frente: Marco Agripa, hijo de Lucio, cónsul por tercera vez, lo hizo. Es el mismo Agripa que construyó el Aqua Virgo. Pero el edificio que ves no es el suyo. El emperador Adriano lo reconstruyó hacia el año 126, y con modestia volvió a poner la vieja inscripción de Agripa. Las dieciséis columnas de granito del pórtico vinieron de Egipto, y cada una pesa unas sesenta toneladas. Adentro, la cúpula sigue siendo la cúpula de concreto sin refuerzo más grande del mundo, diecinueve siglos después. Mide cuarenta y tres metros de ancho, exactamente lo mismo que de alto, así que una bola gigante cabría perfecta adentro. Y sí, la lluvia entra por el hueco de arriba. El piso tiene una leve pendiente, y veintidós huequitos de desagüe se llevan el agua. El Panteón sobrevivió porque en el año 609 se convirtió en iglesia, y lo sigue siendo. El pintor Rafael está enterrado adentro. Pero no se salvó de todo. En la década de 1620, el papa Urbano Octavo, otra vez él, le quitó el bronce al pórtico, sobre todo para hacer cañones. Un romano ingenioso lo resumió en latín: lo que no hicieron los bárbaros, lo hicieron los Barberini. Desde julio de 2026 la entrada cuesta siete euros, con reserva por horario en internet. En la esquina por donde llegaste, Tazza d'Oro hace una granita de café con crema deliciosa. Ahora baja por el costado izquierdo del Panteón, por la Via della Minerva, hasta la siguiente plaza.",
+      "via": [
+        [
+          41.899006,
+          12.477196
+        ],
+        [
+          41.899149,
+          12.47692
+        ]
+      ],
+      "photo": "photos/rome-baroque/10.jpg",
+      "credit": "Rabax63, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg",
+      "place": "Pantheon, Rome"
+    },
+    {
+      "name": "El elefante de Bernini",
+      "kind": "stop",
+      "lat": 41.89818,
+      "lng": 12.47752,
+      "text": "Te presento al elefante favorito de Roma. Lo diseñó Bernini, lo talló su ayudante Ercole Ferrata, y se inauguró en 1667. Sobre su lomo lleva un pequeño obelisco egipcio de unos dos mil seiscientos años, encontrado aquí cerca, donde hubo un templo de la diosa egipcia Isis. Los romanos le dicen el Pulcin della Minerva; en el viejo dialecto romano eso quería decir cerdito, porque es muy gordito. Ahora mira debajo de la barriga: hay un bloque de piedra que lo sostiene. Un fraile dominico insistió en que un obelisco no podía quedar sobre un espacio vacío, así que pusieron el bloque. Y cuentan que Bernini se vengó: mira hacia dónde apunta el trasero del elefante, con la cola de lado. Hacia el antiguo convento de los dominicos. Es una historia romana, no un hecho probado, pero mira esa trompa torcida y esa cara pícara, y decide tú. Detrás está Santa Maria sopra Minerva, la única iglesia gótica de Roma, con un techo azul lleno de estrellas y un Cristo de Miguel Ángel adentro. En su fachada busca unas plaquitas que marcan hasta dónde llegaron las crecientes del Tíber. Y en el convento de al lado, en 1633, obligaron a Galileo a negar que la Tierra se mueve alrededor del Sol. Ahora sal de la plaza por la calle de tu derecha, la Via della Palombella, que pasa por detrás del Panteón.",
+      "via": [
+        [
+          41.899149,
+          12.47692
+        ],
+        [
+          41.899006,
+          12.477196
+        ],
+        [
+          41.898188,
+          12.477327
+        ]
+      ],
+      "photo": "photos/rome-baroque/11.jpg",
+      "credit": "Petar Milošević, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephant_and_Obelisk_-_Bernini.jpg",
+      "place": "Elephant and Obelisk, Piazza della Minerva, Rome"
+    },
+    {
+      "name": "Sant'Eustachio",
+      "kind": "stop",
+      "lat": 41.89833,
+      "lng": 12.47548,
+      "text": "Aquí hay dos cosas para ver. Primero, mira lo alto de la iglesia de esta plaza: una cabeza de ciervo, con una cruz entre los cuernos. La leyenda dice que Eustaquio era un general romano que vio una cruz entre los cuernos de un ciervo mientras cazaba, y se hizo cristiano. Segundo, mira hacia el oeste, por encima de los techos, y busca una espiral blanca que sube como un sacacorchos. Es la punta de Sant'Ivo alla Sapienza, de Borromini, construida entre 1642 y 1660 como capilla de la antigua universidad de Roma. Por dentro tiene forma de estrella de seis puntas, y está decorada con los símbolos de tres papas: las abejas de los Barberini, las palomas de los Pamphilj y los montes de los Chigi. Después de años de arreglos, reabrió el veintisiete de octubre de 2026: gratis, entre semana por la mañana, de nueve y media a una y media, por el patio de la Corso del Rinascimento. Y ahora, café. Sant'Eustachio Il Caffè, aquí mismo, es uno de los cafés más famosos de Roma. Su gran caffè viene espumoso y ya con azúcar; si lo quieres sin azúcar, di amaro. Primero paga en la caja, luego entrega el recibo en la barra, y tómatelo de pie, como un romano. Cuando quieras, camina hasta el otro extremo de la plaza, y gira a la derecha por la Via della Dogana Vecchia, hacia el norte.",
+      "via": [
+        [
+          41.898205,
+          12.476523
+        ],
+        [
+          41.898421,
+          12.475953
+        ],
+        [
+          41.898417,
+          12.475795
+        ],
+        [
+          41.89827,
+          12.475717
+        ]
+      ],
+      "photo": "photos/rome-baroque/12.jpg",
+      "credit": "Nhartmannphotos, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rome_skyline_and_Sant%27Ivo.jpg",
+      "place": "Sant'Eustachio Il Caffè, Rome"
+    },
+    {
+      "name": "San Luigi dei Francesi",
+      "kind": "stop",
+      "lat": 41.89962,
+      "lng": 12.4749,
+      "text": "Esta es San Luigi dei Francesi, la iglesia nacional de Francia en Roma, terminada en 1589. Por fuera parece sencilla, pero adentro, en la última capilla a la izquierda, hay tres cuadros que hicieron famoso a un pintor joven: Caravaggio. Su protector, el cardenal Del Monte, vivía en el palacio de al lado, y le ayudó a conseguir el encargo, a tiempo para el Jubileo de 1600. Busca la Vocación de San Mateo. Mateo es un recaudador de impuestos, sentado en una mesa contando monedas con unos muchachos de sombreros con plumas, como en una taberna romana de 1600. Cristo entra por la derecha, y un rayo de luz les cae en la cara mientras señala. Su mano recuerda a la de Adán, de Miguel Ángel. Ahora, ¿cuál es Mateo? ¿El hombre de barba que se señala a sí mismo, como diciendo, yo? ¿O el muchacho encorvado sobre la plata? Los expertos todavía discuten. Al otro lado de la capilla, en el Martirio de San Mateo, dicen que la cara barbuda del fondo es el mismo Caravaggio. Su primera versión del cuadro del altar mostraba a Mateo como un campesino con los pies sucios; los curas la rechazaron, y esa pintura se destruyó en Berlín en 1945. La entrada es gratis, pero la iglesia cierra al mediodía, más o menos de una menos cuarto a dos y media. Cuando termines, gira a la derecha al salir, y camina hacia el norte por la placita hasta la Via della Scrofa, por este mismo andén. Luego toma la primera a la izquierda, la Via di Sant'Agostino, hasta la iglesia de la escalinata ancha.",
+      "via": [
+        [
+          41.898273,
+          12.475086
+        ],
+        [
+          41.898352,
+          12.475262
+        ],
+        [
+          41.89867,
+          12.475239
+        ]
+      ],
+      "photo": "photos/rome-baroque/13.jpg",
+      "credit": "Caravaggio, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Calling-of-st-matthew.jpg",
+      "place": "San Luigi dei Francesi, Rome"
+    },
+    {
+      "name": "Sant'Agostino",
+      "kind": "stop",
+      "lat": 41.90068,
+      "lng": 12.47431,
+      "text": "Esta fachada sencilla de piedra, terminada en 1483, es una de las primeras fachadas renacentistas de Roma, y su piedra la sacaron del Coliseo. Adentro, en la primera capilla a la izquierda, hay otro Caravaggio: la Virgen de Loreto, pintada hacia 1605. La Virgen está descalza en una puerta romana cualquiera, con el revoque descascarado, cargando a un niño pesado y muy real, mientras dos peregrinos pobres se arrodillan ante ella. Los pies del hombre te apuntan a ti, y las plantas están mugrientas. Un pintor rival escribió que la gente común armó un gran alboroto cuando la descubrieron. Es de las últimas obras de Caravaggio en Roma: en 1606 mató a un hombre en una pelea y huyó de la ciudad con una condena a muerte. Murió cuatro años después. Adentro también hay un fresco del profeta Isaías, de Rafael, en el tercer pilar a la izquierda. La iglesia cierra al mediodía, más o menos de doce y media a cuatro. Cuando quieras, vuelve a bajar a la calle y gira a la derecha. Al final, cruza la avenida por el paso de cebra; no hay semáforo, así que espera a que paren los carros. Luego gira a la izquierda, hacia el extremo de la Piazza Navona.",
+      "via": [
+        [
+          41.900537,
+          12.474875
+        ],
+        [
+          41.900534,
+          12.474446
+        ],
+        [
+          41.900776,
+          12.47448
+        ],
+        [
+          41.900787,
+          12.474323
+        ]
+      ],
+      "photo": "photos/rome-baroque/14.jpg",
+      "credit": "Michelangelo Merisi da Caravaggio, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_Caravaggio_001.jpg",
+      "place": "Basilica di Sant'Agostino, Rome"
+    },
+    {
+      "name": "Piazza Navona, el estadio",
+      "kind": "stop",
+      "lat": 41.90008,
+      "lng": 12.4729,
+      "text": "Bienvenido a la Piazza Navona. Fíjate en su forma: larga, angosta y redondeada en este extremo. Es porque fue un estadio. El emperador Domiciano lo construyó en el año 86 para atletismo al estilo griego, carreras y lucha, no carreras de carros, con puestos para unas treinta mil personas. Las casas alrededor de la plaza están sobre sus viejas gradas, y el nombre Navona viene de 'in agone', en los juegos. En la callecita de este extremo, la Piazza di Tor Sanguigna, puedes asomarte y ver algunos arcos reales del estadio, unos cinco metros más abajo; ahí también hay un pequeño museo. La fuente de este lado muestra a Neptuno luchando con un pulpo; la taza es de 1574, pero las estatuas se añadieron apenas en la década de 1870. Y durante dos siglos, desde 1652, los fines de semana de verano tapaban los desagües, la plaza se inundaba, y los carruajes chapoteaban por el agua para divertirse. Ahora camina por el centro de la plaza hasta la gran fuente con el obelisco.",
+      "via": [
+        [
+          41.900787,
+          12.474323
+        ],
+        [
+          41.900807,
+          12.474025
+        ],
+        [
+          41.900525,
+          12.474064
+        ],
+        [
+          41.900457,
+          12.473409
+        ],
+        [
+          41.900244,
+          12.473415
+        ],
+        [
+          41.900009,
+          12.473119
+        ]
+      ],
+      "photo": "photos/rome-baroque/15.jpg",
+      "credit": "Myrabella, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_1.jpg",
+      "place": "Piazza Navona, Rome"
+    },
+    {
+      "name": "La Fuente de los Cuatro Ríos",
+      "kind": "stop",
+      "lat": 41.89895,
+      "lng": 12.47333,
+      "text": "Y aquí está la obra maestra de Bernini, la Fuente de los Cuatro Ríos, inaugurada en 1651. El papa Inocencio Décimo, de la familia Pamphilj, cuyo palacio está en esta plaza, quería una gran fuente frente a su puerta. Bernini seguía en desgracia por lo de los campanarios, y Borromini ya había diseñado la tubería para traer el agua hasta aquí. Pero Bernini hizo una maqueta de plata de su diseño, y llegó al papa a través de su poderosa cuñada, Olimpia. Y ganó. Los cuatro gigantes son cuatro grandes ríos, uno por cada continente conocido entonces: el Nilo por África, con la cabeza cubierta porque nadie sabía dónde nacía; el Ganges por Asia, con un remo largo; el Danubio por Europa; y el Río de la Plata por América, sentado sobre un montón de monedas de plata. Busca el caballo que sale de la roca, el león que bebe, y en la punta del obelisco, la paloma de los Pamphilj con una rama de olivo. Detrás de la fuente está la iglesia de Sant'Agnese, con su fachada curva de Borromini. Te van a contar que el Nilo se tapa los ojos para no ver la iglesia de Borromini. Gran historia, pero es un mito: la fuente se terminó antes de que empezaran la iglesia. Y aquí termina nuestro paseo. Gracias por caminar conmigo. Un consejo: si te sientas en un café de esta plaza, estás pagando la vista. Para algo más romano, camina dos calles al oeste hasta la Piazza del Fico, para un aperitivo en el Bar del Fico, o hasta la Via del Governo Vecchio, para pizza romana delgadita en Da Baffetto. Y si quieres más, nuestro recorrido por Campo de' Fiori, el gueto y el Trastevere empieza a cinco minutos al sur de aquí, en la Piazza Farnese. Grazie, y disfruta Roma.",
+      "via": [
+        [
+          41.899903,
+          12.473234
+        ]
+      ],
+      "photo": "photos/rome-baroque/16.jpg",
+      "credit": "This Photo was taken by Wolfgang Moroder.  , CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_Gange_fontana_dei_Fiumi_Roma.jpg",
+      "place": "Fontana dei Quattro Fiumi, Rome"
+    }
+  ]
+}

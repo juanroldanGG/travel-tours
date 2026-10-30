@@ -1,0 +1,377 @@
+{
+  "title": "Rome: Spanish Steps, Trevi, Pantheon and Navona",
+  "summary": "Baroque Rome on foot: from the Spanish Steps to the Trevi Fountain and the Pantheon, past Bernini's elephant and two churches full of Caravaggio, following the great rivalry between Bernini and Borromini to Piazza Navona.",
+  "cover": "photos/rome-baroque/0.jpg",
+  "mode": "walk",
+  "minutes": 135,
+  "km": 2.7,
+  "voice": "en-GB-RyanNeural",
+  "audio": "audio/rome-baroque-en",
+  "intro": "Welcome to Rome! For the next two hours or so, we'll walk from the Spanish Steps to Piazza Navona, through the heart of Baroque Rome: the Trevi Fountain, the Pantheon, Bernini's elephant, two churches with paintings by Caravaggio, and a famous rivalry between two architects. Keep your screen on and your headphones in. I'll start talking when you reach each place, and between stops I'll tell you which street to take. A few tips. Start early, around half past eight on a weekday, Tuesday to Thursday if you can: the Spanish Steps and the Trevi are calmest before half past nine, and you'll reach the Caravaggio churches before they close for lunch. Or start at about three in the afternoon, when they reopen. The Pantheon costs seven euros with a timed booking, so book a slot about an hour after your start. Wear comfortable shoes for the cobbles, and cover your shoulders and knees for churches. These are the most crowded streets in Rome, and the busiest for pickpockets: keep your phone and wallet in front of you, and say a firm no to free bracelets, roses and petitions. Ready? Let's begin in Piazza di Spagna, by the boat-shaped fountain at the foot of the steps. The Spagna metro station is just around the corner.",
+  "stops": [
+    {
+      "name": "The Spanish Steps",
+      "kind": "stop",
+      "lat": 41.90572,
+      "lng": 12.48185,
+      "text": "Welcome to Piazza di Spagna, and the Spanish Steps. A hundred and thirty-five steps climb from here to the church at the top, Trinità dei Monti. Here's the funny part: the steps were paid for with French money, and they lead up to a French church, yet they're called Spanish, because Spain's ambassador to the Pope has lived on this square for centuries. They were built between 1723 and 1725. Since 2019, sitting or eating on the steps is forbidden, with fines from 250 euros, so no recreating the gelato scene from Roman Holiday. Now look at the fountain in front of you, shaped like a half-sunken boat: the Barcaccia. Pope Urban the Eighth ordered it from Pietro Bernini, probably helped by his son, Gian Lorenzo Bernini, who will be the star of today's walk. A legend says it recalls a boat left stranded here by the great flood of 1598. The truth is more practical: the water pressure here is low, so the fountain had to sit below street level, and a sinking boat makes that look deliberate. Look for the suns and the bees on it: the symbols of the Barberini, Pope Urban's family. Keep an eye out for those bees today. The water comes from an ancient Roman aqueduct, the Aqua Virgo, which we'll follow to the Trevi Fountain, and it's good to drink. Now walk to the right-hand foot of the steps, to the pink house on the corner.",
+      "photo": "photos/rome-baroque/0.jpg",
+      "credit": "Ank Kumar, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanish_Steps,_Rome_(Ank_Kumar)_05.jpg",
+      "place": "Spanish Steps, Rome"
+    },
+    {
+      "name": "Keats-Shelley House",
+      "kind": "stop",
+      "lat": 41.90562,
+      "lng": 12.4825,
+      "text": "This pink house at the foot of the steps is where the English poet John Keats died. He came to Rome in November 1820 with his friend, the painter Joseph Severn, hoping the warm climate would cure his tuberculosis. It didn't. He died here on the twenty-third of February 1821, aged just twenty-five. His room was on the second floor, with windows looking onto the steps. Under the health laws of the time, the walls were scraped and his furniture was burned. He asked for a gravestone with no name on it, only the words: here lies one whose name was writ in water. Today the house is a small museum about Keats and his friends, the English Romantic poets Shelley and Byron, who all loved Italy. It's closed on Sundays. On the other corner of the steps, Babington's Tea Rooms have served English tea here since 1893, at a price. Now walk along the square, away from the steps, toward the tall column with a statue on top.",
+      "via": [
+        [
+          41.905739,
+          12.482425
+        ]
+      ],
+      "photo": "photos/rome-baroque/1.jpg",
+      "credit": "Keats1795, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Keats-Shelley_House.jpg",
+      "place": "Keats-Shelley House, Rome"
+    },
+    {
+      "name": "Bernini and the column",
+      "kind": "stop",
+      "lat": 41.90497,
+      "lng": 12.48285,
+      "text": "This column honours the Immaculate Conception, the belief that Mary was born free of sin, which Pope Pius the Ninth declared official in 1854. The column itself is ancient Roman marble, found in 1777, and in 1857 it took two hundred and twenty firefighters to raise it. One of the four prophets around the base is Moses. Every year on the eighth of December, Rome's firefighters climb a long ladder to hang a wreath of flowers on Mary's arm, and the Pope comes to pray here. Now look at the building behind the column: the palace of Propaganda Fide, the Vatican's headquarters for missions around the world. Its narrow front, with Pope Urban's bees over the door, was designed by Bernini. And here our rivalry begins. Bernini had designed bell towers for St Peter's, and they cracked. His rival, Francesco Borromini, who had once worked alongside him, made sure everyone heard about it. The next pope had the towers pulled down in 1646, Bernini fell out of favour, and Borromini got to finish this building. So one palace has two faces: Bernini's here, and Borromini's round the corner. Keep the palace on your left, and walk into the narrow street along its side, Via di Propaganda.",
+      "via": [
+        [
+          41.905739,
+          12.482425
+        ],
+        [
+          41.905675,
+          12.482213
+        ]
+      ],
+      "photo": "photos/rome-baroque/2.jpg",
+      "credit": "Kurt Kaiser, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Column_of_the_Immaculate_Conception_3.jpg",
+      "place": "Colonna dell'Immacolata, Rome"
+    },
+    {
+      "name": "Borromini's side",
+      "kind": "stop",
+      "lat": 41.90407,
+      "lng": 12.48322,
+      "text": "On your left is Borromini's side of the same palace. Compare it with Bernini's calm front. Here, giant pilasters march along the wall, the middle of the façade curves inward, and the window frames bend and swell. The street is too narrow to step back, so Borromini designed it to be seen at an angle, as you walk past. He was a brilliant, moody man, and he even tore down a small chapel Bernini had built inside, to put up his own. Now look ahead, at the end of the street: the white bell tower stacked like a crown, and a dome of bare brick. That's the church of Sant'Andrea delle Fratte, Saint Andrew of the thickets, from when this was the edge of town. Borromini rebuilt it from 1653, but never finished the dome, so it's still raw brick. And here's the irony: inside, beside the altar, are two marble angels by Bernini, among the finest he ever carved. They were made for the Sant'Angelo bridge, but the pope thought them too precious to leave out in the rain, so copies went on the bridge, and in 1729 the originals came here. Bernini's angels, under Borromini's tower. If the church is open, step in; it's free. Then carry on to the end of the street, and straight on, with the church on your left.",
+      "via": [],
+      "photo": "photos/rome-baroque/3.jpg",
+      "credit": "Archivio Accademia delle Scienze di Torino, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Tamburo_e_campanile_della_chiesa_di_Sant%27Andrea_delle_Fratte,_before_1976_-_Archivio_Accademia_delle_Scienze_Torino,_Millon_49_18_174.jpg",
+      "place": "Sant'Andrea delle Fratte, Rome"
+    },
+    {
+      "name": "Via del Nazareno",
+      "kind": "walk",
+      "lat": 41.90288,
+      "lng": 12.48329,
+      "text": "Turn left here, into Via del Nazareno.",
+      "via": [
+        [
+          41.903557,
+          12.483409
+        ]
+      ]
+    },
+    {
+      "name": "The Aqua Virgo arches",
+      "kind": "walk",
+      "lat": 41.90262,
+      "lng": 12.48372,
+      "text": "Look for three big stone arches, sunk below the street behind a railing. They're part of the Aqua Virgo, the aqueduct that Agrippa, the emperor Augustus's right-hand man, built in 19 BC. It's the same water that fills the Trevi Fountain, a few minutes from here. At the end of this street is busy Via del Tritone. Cross it at the zebra crossing, and take care: wait until the buses and cars have really stopped. Then go into the narrow street opposite, a little to your right, Via della Stamperia, and follow it down to the fountain. From here to the Pantheon are the most crowded streets in Rome, so keep your phone and wallet in front of you.",
+      "via": [
+        [
+          41.902695,
+          12.483793
+        ]
+      ]
+    },
+    {
+      "name": "The Trevi Fountain",
+      "kind": "stop",
+      "lat": 41.90072,
+      "lng": 12.48322,
+      "text": "And here it is: the Trevi Fountain, the largest Baroque fountain in the world, nearly fifty metres wide and twenty-six high, built against the back of a palace. Pope Clement the Twelfth held a competition, Nicola Salvi got the job, and work began in 1732. Salvi died before it was done, and it was finished in 1762. In the centre stands Oceanus, on a shell chariot pulled by two winged horses: one wild, one calm, the two moods of the sea. Above, two reliefs tell the aqueduct's story: Agrippa approving the plans, and a young girl showing thirsty soldiers the spring. That girl, the legend says, gave the Aqua Virgo, the Virgin Water, its name. Tradition says that if you throw a coin with your right hand over your left shoulder, you'll come back to Rome. About three thousand euros land in the water every day, and the city gives it all to Caritas, a charity that feeds the poor. Since February 2026, going down to the water costs two euros, from the ticket office on Via della Stamperia; looking from up here is free. Never sit on the edge or wade in: Anita Ekberg did it in La Dolce Vita, but today it means a fine of at least four hundred and fifty euros. Say no to anyone offering a free bracelet or a rose. When you're ready, turn so the fountain is on your right, and walk out of the square along Via delle Muratte, straight on for two hundred metres, to the busy main street.",
+      "via": [
+        [
+          41.902695,
+          12.483793
+        ],
+        [
+          41.902527,
+          12.484101
+        ],
+        [
+          41.902494,
+          12.483963
+        ],
+        [
+          41.902328,
+          12.484031
+        ],
+        [
+          41.902217,
+          12.483849
+        ],
+        [
+          41.901623,
+          12.483499
+        ],
+        [
+          41.900799,
+          12.483615
+        ]
+      ],
+      "photo": "photos/rome-baroque/6.jpg",
+      "credit": "Wilfredor, CC0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fontaine_Trevi_-_Rome.jpg",
+      "place": "Trevi Fountain, Rome"
+    },
+    {
+      "name": "Cross Via del Corso",
+      "kind": "walk",
+      "lat": 41.9001,
+      "lng": 12.48092,
+      "text": "This is Via del Corso, Rome's main shopping street. It's as straight as a ruler because it follows an ancient Roman road, the Via Flaminia. Cross it here, at the traffic lights, and go straight into the street opposite, Via di Pietra."
+    },
+    {
+      "name": "Temple of Hadrian",
+      "kind": "stop",
+      "lat": 41.90003,
+      "lng": 12.47948,
+      "text": "Here's a surprise: eleven enormous marble columns, about fifteen metres tall, built into the front of an office building. They're what's left of a temple dedicated in AD 145 to the emperor Hadrian, by his successor, Antoninus Pius. Look at the scars and chips on the columns, and at the railings showing the ancient ground level, about five metres below your feet. That's how much Rome has risen over the centuries. In 1695 the architect Carlo Fontana turned the ruin into the papal customs house, slotting walls in between the columns. Later it held Rome's stock exchange, and today it's the Chamber of Commerce. That's Rome: nothing goes to waste. Now take the tiny lane on the left of the columns, Via de' Burrò, into a square that looks like a stage set.",
+      "via": [
+        [
+          41.899964,
+          12.479825
+        ]
+      ],
+      "photo": "photos/rome-baroque/8.jpg",
+      "credit": "Broenberr, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Roma,_Piazza_di_Pietra_-_Tempio_di_Adriano~2017.jpg",
+      "place": "Temple of Hadrian, Piazza di Pietra, Rome"
+    },
+    {
+      "name": "Sant'Ignazio",
+      "kind": "stop",
+      "lat": 41.89912,
+      "lng": 12.4796,
+      "text": "Look around this little square. In 1728 the architect Filippo Raguzzini designed it like a theatre: the curvy little houses are the stage set, and the big church is the audience. The church is Sant'Ignazio, built for the Jesuits' college from 1626, and named after their founder, Ignatius of Loyola. Inside is one of the best tricks in Rome. A Jesuit brother and painter, Andrea Pozzo, covered the vault with a ceiling that seems to open up to the sky, with saints floating up to heaven. And there's no real dome. The money ran out, or, one story says, the neighbours complained it would block their light. So in 1685 Pozzo painted a dome on a flat canvas. Inside, look for a disc on the floor in the middle of the nave. Stand on it and look up: the columns seem to rise straight into the sky. Walk on toward the altar to a second disc, and look at the dome. Then keep walking and look back: the illusion collapses into a flat, squashed painting. Entry is free, and there's a tilted mirror so you don't hurt your neck. When you're done, come back out, turn so the church is behind you, and take the street on your left, Via del Seminario, to the Pantheon.",
+      "via": [
+        [
+          41.899931,
+          12.479804
+        ],
+        [
+          41.899674,
+          12.479822
+        ],
+        [
+          41.899442,
+          12.479398
+        ],
+        [
+          41.899145,
+          12.479453
+        ]
+      ],
+      "photo": "photos/rome-baroque/9.jpg",
+      "credit": "Livioandronico2013, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Triumph_of_St._Ignatius.jpg",
+      "place": "Sant'Ignazio di Loyola, Rome"
+    },
+    {
+      "name": "The Pantheon",
+      "kind": "stop",
+      "lat": 41.89935,
+      "lng": 12.47688,
+      "text": "This is the Pantheon, the best-preserved building of ancient Rome. Read the big letters across the front: Marcus Agrippa, son of Lucius, consul for the third time, made this. That's the same Agrippa who built the Aqua Virgo. But the building you see isn't his. The emperor Hadrian rebuilt it around AD 126, and modestly put Agrippa's old inscription back up. The sixteen granite columns of the porch came from Egypt, and each weighs around sixty tonnes. Inside, the dome is still the largest unreinforced concrete dome in the world, nineteen centuries later. It's forty-three metres across, exactly the same as its height, so a giant ball would fit perfectly inside. And yes, rain falls through the hole in the top. The floor slopes gently, and twenty-two little drain holes carry it away. The Pantheon survived because in 609 it became a church, and it still is one. The painter Raphael is buried inside. But it didn't escape everything. In the 1620s, Pope Urban the Eighth, him again, stripped the bronze from the porch, mostly to make cannons. A Roman wit summed it up in Latin: what the barbarians didn't do, the Barberini did. Since July 2026 entry costs seven euros, with a timed booking online. On the corner where you came in, Tazza d'Oro makes an excellent coffee granita with whipped cream. Now walk down the left-hand side of the Pantheon, along Via della Minerva, to the next square.",
+      "via": [
+        [
+          41.899006,
+          12.477196
+        ],
+        [
+          41.899149,
+          12.47692
+        ]
+      ],
+      "photo": "photos/rome-baroque/10.jpg",
+      "credit": "Rabax63, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg",
+      "place": "Pantheon, Rome"
+    },
+    {
+      "name": "Bernini's elephant",
+      "kind": "stop",
+      "lat": 41.89818,
+      "lng": 12.47752,
+      "text": "Meet Rome's favourite elephant. Bernini designed it, his assistant Ercole Ferrata carved it, and it was unveiled in 1667. On its back is a small Egyptian obelisk, about two thousand six hundred years old, found nearby, where a temple of the Egyptian goddess Isis once stood. Romans call it the Pulcin della Minerva; in old Roman dialect that meant little pig, because it's so chubby. Now look under its belly: there's a block of stone holding it up. A Dominican friar insisted an obelisk couldn't stand over an empty space, so the block went in. The story goes that Bernini took his revenge: look which way the elephant's backside points, with its tail flicked aside. Toward the old Dominican friary. It's a Roman story, not a proven fact, but look at that twisted trunk and sly face, and decide for yourself. Behind it is Santa Maria sopra Minerva, Rome's only Gothic church, with a blue, starry ceiling and a statue of Christ by Michelangelo inside. On its front, look for small plaques showing how high the Tiber floods once reached. And in the friary next door, in 1633, Galileo was made to deny that the Earth moves around the Sun. Now leave the square by the street on your right, Via della Palombella, which runs along the back of the Pantheon.",
+      "via": [
+        [
+          41.899149,
+          12.47692
+        ],
+        [
+          41.899006,
+          12.477196
+        ],
+        [
+          41.898188,
+          12.477327
+        ]
+      ],
+      "photo": "photos/rome-baroque/11.jpg",
+      "credit": "Petar Milošević, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Elephant_and_Obelisk_-_Bernini.jpg",
+      "place": "Elephant and Obelisk, Piazza della Minerva, Rome"
+    },
+    {
+      "name": "Sant'Eustachio",
+      "kind": "stop",
+      "lat": 41.89833,
+      "lng": 12.47548,
+      "text": "Two things to see here. First, look up at the top of the church on this square: a stag's head, with a cross between its antlers. Legend says Eustace was a Roman general who saw a cross between a stag's antlers while hunting, and became a Christian. Second, look west over the rooftops for a white spiral twisting up like a corkscrew. That's the top of Sant'Ivo alla Sapienza, by Borromini, built between 1642 and 1660 as the chapel of Rome's old university. Inside it's shaped like a six-pointed star, and decorated with the symbols of three popes: Barberini bees, Pamphilj doves and Chigi mountains. After years of repairs it reopened on the twenty-seventh of October 2026: free, on weekday mornings from half past nine to half past one, through the courtyard on Corso del Rinascimento. Now, coffee. Sant'Eustachio Il Caffè, right here, is one of the most famous coffee bars in Rome. Its gran caffè comes foamy and already sweetened; if you don't want sugar, say amaro. Pay at the till first, give your receipt to the barman, and drink it standing at the bar, like a Roman. When you're ready, walk to the far end of the square, and turn right into Via della Dogana Vecchia, heading north.",
+      "via": [
+        [
+          41.898205,
+          12.476523
+        ],
+        [
+          41.898421,
+          12.475953
+        ],
+        [
+          41.898417,
+          12.475795
+        ],
+        [
+          41.89827,
+          12.475717
+        ]
+      ],
+      "photo": "photos/rome-baroque/12.jpg",
+      "credit": "Nhartmannphotos, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Rome_skyline_and_Sant%27Ivo.jpg",
+      "place": "Sant'Eustachio Il Caffè, Rome"
+    },
+    {
+      "name": "San Luigi dei Francesi",
+      "kind": "stop",
+      "lat": 41.89962,
+      "lng": 12.4749,
+      "text": "This is San Luigi dei Francesi, the French national church in Rome, finished in 1589. It looks plain, but inside, in the last chapel on the left, are three paintings that made a young painter famous: Caravaggio. His patron, Cardinal Del Monte, lived in the palace next door, and helped him win the job, in time for the Jubilee of 1600. Find the Calling of Saint Matthew. Matthew is a tax collector, sitting at a table counting coins with some young men in feathered hats, like a Roman tavern scene in 1600. Christ comes in from the right, and a beam of light falls across their faces as he points. His hand echoes Michelangelo's Adam. Now, which one is Matthew? The bearded man pointing at himself, as if to say, me? Or the young man hunched over the money? Experts still argue. Across the chapel, in the Martyrdom of Saint Matthew, the bearded face in the background is said to be Caravaggio himself. His first version of the altarpiece showed Matthew as a peasant with dirty feet; the priests rejected it, and that painting was destroyed in Berlin in 1945. Entry is free, but the church closes for lunch, roughly from a quarter to one until half past two. When you're done, turn right as you come out, and walk north through the little square onto Via della Scrofa, keeping to this pavement. Then take the first left, Via di Sant'Agostino, to the church with the wide steps.",
+      "via": [
+        [
+          41.898273,
+          12.475086
+        ],
+        [
+          41.898352,
+          12.475262
+        ],
+        [
+          41.89867,
+          12.475239
+        ]
+      ],
+      "photo": "photos/rome-baroque/13.jpg",
+      "credit": "Caravaggio, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Calling-of-st-matthew.jpg",
+      "place": "San Luigi dei Francesi, Rome"
+    },
+    {
+      "name": "Sant'Agostino",
+      "kind": "stop",
+      "lat": 41.90068,
+      "lng": 12.47431,
+      "text": "This plain stone front, finished in 1483, is one of the first Renaissance church façades in Rome, and its stone was taken from the Colosseum. Inside, in the first chapel on the left, is another Caravaggio: the Madonna of Loreto, painted around 1605. Mary stands barefoot in an ordinary Roman doorway with peeling plaster, holding a heavy, very real baby, while two poor pilgrims kneel before her. The man's feet point right at you, and the soles are filthy. A rival painter wrote that ordinary people made a great fuss when it was unveiled. It's among Caravaggio's last works in Rome: in 1606 he killed a man in a brawl and fled the city under a death sentence. He died four years later. Inside there's also a fresco of the prophet Isaiah by Raphael, on the third pillar on the left. The church closes in the middle of the day, from about half past twelve until four. When you're ready, go back down to the street and turn right. At its end, cross the busy road at the zebra crossing; there's no traffic light, so wait for the cars to stop. Then turn left, into the end of Piazza Navona.",
+      "via": [
+        [
+          41.900537,
+          12.474875
+        ],
+        [
+          41.900534,
+          12.474446
+        ],
+        [
+          41.900776,
+          12.47448
+        ],
+        [
+          41.900787,
+          12.474323
+        ]
+      ],
+      "photo": "photos/rome-baroque/14.jpg",
+      "credit": "Michelangelo Merisi da Caravaggio, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_Caravaggio_001.jpg",
+      "place": "Basilica di Sant'Agostino, Rome"
+    },
+    {
+      "name": "Piazza Navona, the stadium",
+      "kind": "stop",
+      "lat": 41.90008,
+      "lng": 12.4729,
+      "text": "Welcome to Piazza Navona. Notice its shape: long, narrow, and rounded at this end. That's because it was a stadium. The emperor Domitian built it in AD 86 for Greek-style athletics, running and wrestling rather than chariot races, with seats for around thirty thousand people. The houses around the square stand on its old seats, and the name Navona comes from 'in agone', at the games. In the little street off this end, Piazza di Tor Sanguigna, you can look down at some of the stadium's real arches, about five metres below; there's a small museum there too. The fountain at this end shows Neptune wrestling an octopus; its basin is from 1574, but the statues were only added in the 1870s. And for two centuries, from 1652, the drains were blocked on summer weekends, the square flooded, and carriages splashed through the water for fun. Now walk down the middle of the square to the big fountain with the obelisk.",
+      "via": [
+        [
+          41.900787,
+          12.474323
+        ],
+        [
+          41.900807,
+          12.474025
+        ],
+        [
+          41.900525,
+          12.474064
+        ],
+        [
+          41.900457,
+          12.473409
+        ],
+        [
+          41.900244,
+          12.473415
+        ],
+        [
+          41.900009,
+          12.473119
+        ]
+      ],
+      "photo": "photos/rome-baroque/15.jpg",
+      "credit": "Myrabella, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_1.jpg",
+      "place": "Piazza Navona, Rome"
+    },
+    {
+      "name": "The Four Rivers Fountain",
+      "kind": "stop",
+      "lat": 41.89895,
+      "lng": 12.47333,
+      "text": "And here is Bernini's masterpiece, the Fountain of the Four Rivers, unveiled in 1651. Pope Innocent the Tenth, of the Pamphilj family, whose palace is on this square, wanted a grand fountain at his front door. Bernini was still out of favour after the bell towers, and Borromini had already designed the pipes to bring the water here. But Bernini made a silver model of his design, and it reached the pope through his powerful sister-in-law, Olimpia. He won. The four giants are four great rivers, one for each continent known at the time: the Nile for Africa, his head covered because nobody knew where the Nile began; the Ganges for Asia, with a long oar; the Danube for Europe; and the Río de la Plata for the Americas, sitting on a pile of silver coins. Look for the horse bursting out of the rock, the lion drinking, and on top of the obelisk, the Pamphilj dove with an olive branch. Behind the fountain is the church of Sant'Agnese, with its curved front by Borromini. You'll hear that the Nile covers his eyes so he doesn't have to look at Borromini's church. Great story, but a myth: the fountain was finished before the church was even begun. And that's the end of our walk. Thank you for walking with me. A tip: if you sit down at a café on this square, you're paying for the view. For something more Roman, walk two streets west to Piazza del Fico, for an aperitivo at Bar del Fico, or to Via del Governo Vecchio, for thin Roman pizza at Da Baffetto. And if you'd like more, our tour of Campo de' Fiori, the Ghetto and Trastevere starts five minutes south of here, in Piazza Farnese. Grazie, and enjoy Rome.",
+      "via": [
+        [
+          41.899903,
+          12.473234
+        ]
+      ],
+      "photo": "photos/rome-baroque/16.jpg",
+      "credit": "This Photo was taken by Wolfgang Moroder.  , CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_Gange_fontana_dei_Fiumi_Roma.jpg",
+      "place": "Fontana dei Quattro Fiumi, Rome"
+    }
+  ]
+}
