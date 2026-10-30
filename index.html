@@ -64,7 +64,7 @@
     <div class="mx-auto max-w-3xl text-center">
       <div class="mb-6 inline-flex items-center gap-3 rounded-full bg-white/10 px-2.5 py-2 ring-1 ring-white/15 backdrop-blur fade-1">
         <span class="text-xs font-medium text-neutral-900 bg-white/90 rounded-full py-0.5 px-2" data-i18n="badge">New</span>
-        <span class="text-sm font-medium text-white/90" data-i18n="badgeText">Tours in Portugal, Colombia and California</span>
+        <span class="text-sm font-medium text-white/90" data-i18n="badgeText">Tours in Portugal, Italy, Colombia and California</span>
       </div>
       <h1 class="font-serif font-normal text-white tracking-tight leading-tight text-5xl sm:text-6xl lg:text-7xl fade-2">
         <span data-i18n="title1">Walk the city.</span><br><span data-i18n="title2">Hear its stories.</span>
@@ -155,7 +155,7 @@
 <script>
 const TXT = {
   en: { other: 'Español', navTours: 'Tours', navHow: 'How it works', navWhy: 'Why RutaMundo', navWallet: 'Travel wallet', walletTitle: 'All your bookings in one place', walletLead: "Flights, hotels, car rentals and door codes. Upload the airline's PDF or paste the email and the booking code fills in by itself. It stays on your phone only.", walletCta: 'Open my wallet', cta: 'Try a tour', badge: 'New',
-        badgeText: 'Tours in Portugal, Colombia and California', title1: 'Walk the city.', title2: 'Hear its stories.',
+        badgeText: 'Tours in Portugal, Italy, Colombia and California', title1: 'Walk the city.', title2: 'Hear its stories.',
         lead: 'Self-guided audio tours that play on their own as you reach each place. Clear, natural voices in English and Spanish. Stop for coffee whenever you like.',
         browse: 'Browse tours', listen: 'Listen from home', chip1: '🎧 Clear AI voices', chip2: '🌎 English & Español', chip3: '📶 Works offline', chip4: '☕ Stop any time',
         toursBadge: 'Tours', toursTitle: 'Pick a city, press play', toursLead: 'On foot, by bike or by car, each tour is 3 hours or less, with stories at every stop and directions in between.',
@@ -169,9 +169,9 @@ const TXT = {
         w5t: 'Read along', w5: "Every stop's words on screen, and play speed from 1x to 1.5x.",
         w6t: 'GPS acting up?', w6: 'Tap "Next stop" any time. You\'re always in control.',
         photos: 'Photos', andOthers: 'and Wikimedia Commons contributors (credited in each tour)',
-        stops: 'stops', start: 'Start tour', mode: { walk: '🚶 Walking tour', bike: '🚲 Bike tour', drive: '🚗 Driving tour' } },
+        stops: 'stops', start: 'Start tour', mode: { walk: '🚶 Walking tour', bike: '🚲 Bike tour', drive: '🚗 Driving tour', tram: '🚋 Tram ride' } },
   es: { other: 'English', navTours: 'Recorridos', navHow: 'Cómo funciona', navWhy: 'Por qué RutaMundo', navWallet: 'Billetera de viaje', walletTitle: 'Todas tus reservas en un solo lugar', walletLead: 'Vuelos, hoteles, carros alquilados y códigos de puertas. Sube el PDF de la aerolínea o pega el correo y el código de reserva se llena solo. Todo queda solo en tu celular.', walletCta: 'Abrir mi billetera', cta: 'Prueba un recorrido', badge: 'Nuevo',
-        badgeText: 'Recorridos en Portugal, Colombia y California', title1: 'Camina la ciudad.', title2: 'Escucha sus historias.',
+        badgeText: 'Recorridos en Portugal, Italia, Colombia y California', title1: 'Camina la ciudad.', title2: 'Escucha sus historias.',
         lead: 'Recorridos de audio que suenan solos cuando llegas a cada lugar. Voces claras y naturales en español e inglés. Para a tomar un café cuando quieras.',
         browse: 'Ver recorridos', listen: 'Escuchar desde casa', chip1: '🎧 Voces claras con IA', chip2: '🌎 Español e inglés', chip3: '📶 Funciona sin internet', chip4: '☕ Para cuando quieras',
         toursBadge: 'Recorridos', toursTitle: 'Elige una ciudad y dale play', toursLead: 'A pie, en bici o en carro, cada recorrido dura 3 horas o menos, con historias en cada parada e indicaciones entre ellas.',
@@ -185,7 +185,7 @@ const TXT = {
         w5t: 'Lee mientras escuchas', w5: 'El texto de cada parada en pantalla, y velocidad de 1x a 1.5x.',
         w6t: '¿Falla el GPS?', w6: 'Toca "Siguiente" cuando quieras. Siempre tienes el control.',
         photos: 'Fotos', andOthers: 'y colaboradores de Wikimedia Commons (con crédito en cada recorrido)',
-        stops: 'paradas', start: 'Empezar', mode: { walk: '🚶 A pie', bike: '🚲 En bici', drive: '🚗 En carro' } },
+        stops: 'paradas', start: 'Empezar', mode: { walk: '🚶 A pie', bike: '🚲 En bici', drive: '🚗 En carro', tram: '🚋 En tranvía' } },
 };
 const params = new URLSearchParams(location.search);
 const lang = TXT[params.get('lang')] ? params.get('lang') : navigator.language.startsWith('es') ? 'es' : 'en';
@@ -199,11 +199,11 @@ const menuBtn = document.getElementById('menuBtn'), menu = document.getElementBy
 menuBtn.onclick = () => { menu.classList.toggle('hidden'); menuBtn.setAttribute('aria-expanded', !menu.classList.contains('hidden')); };
 
 // Tour cards come straight from the tour files, so a new tour only needs its JSON.
-const TOURS = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado', 'sf-chinatown', 'sf-goldengate-bike', 'santacruz-westcliff', 'highway1-drive'];
+const TOURS = ['lisbon', 'porto', 'medellin-centro', 'medellin-poblado', 'sf-chinatown', 'sf-goldengate-bike', 'santacruz-westcliff', 'highway1-drive', 'milan-duomo-castello', 'milan-leonardo-navigli', 'milan-tram1'];
 Promise.all(TOURS.map(id => fetch(`tours/${id}.${lang}.json`).then(r => r.json()).then(t => ({ id, ...t })))).then(list => {
   document.getElementById('cards').innerHTML = list.map(t => {
     const stops = t.stops.filter(s => s.kind !== 'walk').length;
-    const time = `${Math.floor(t.minutes / 60)} h${t.minutes % 60 ? ' ' + t.minutes % 60 + ' min' : ''}`;
+    const time = [t.minutes >= 60 && Math.floor(t.minutes / 60) + ' h', t.minutes % 60 && t.minutes % 60 + ' min'].filter(Boolean).join(' ');
     return `<a href="tour.html?tour=${t.id}&lang=${lang}" class="group relative overflow-hidden rounded-2xl">
       <div class="aspect-[4/3] overflow-hidden bg-neutral-200">
         <img src="${t.cover}" alt="" class="size-full h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">

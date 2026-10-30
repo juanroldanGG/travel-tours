@@ -1,0 +1,368 @@
+{
+  "title": "Milán: el Duomo, La Scala y el Castillo",
+  "summary": "Del techo de ciento treinta y cinco agujas de la catedral, por la Galería de vidrio y La Scala, al bohemio Brera, a través del castillo de los Sforza y por el parque hasta el arco de Napoleón.",
+  "cover": "photos/milan-duomo-castello/0.jpg",
+  "mode": "walk",
+  "minutes": 120,
+  "km": 3.5,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/milan-duomo-castello-es",
+  "intro": "¡Bienvenido a Milán! Durante las próximas dos horas, más o menos, caminaremos desde la catedral, en el corazón de la ciudad, por la Galería de techo de vidrio, frente al teatro de ópera más famoso del mundo, por el barrio de los artistas de Brera, a través de un castillo del Renacimiento y por el parque hasta el arco de Napoleón. Deja la pantalla encendida y los audífonos puestos. Empezaré a hablar cuando llegues a cada lugar, y entre parada y parada te diré por qué calle seguir. Dos cosas prácticas. Los patios del castillo cierran a las siete y media de la noche, así que empieza a más tardar a las cuatro y media. Y en la plaza de la catedral, puede que alguien intente amarrarte una pulsera gratis en la muñeca, o ponerte maíz en la mano para las palomas, y después te pida plata. Di que no, con firmeza, y sigue caminando. En las multitudes, lleva el bolso al frente. ¿Listo? Empecemos frente al Duomo.",
+  "stops": [
+    {
+      "name": "El Duomo",
+      "kind": "stop",
+      "lat": 45.4641,
+      "lng": 9.1899,
+      "text": "Aquí está: el Duomo, la catedral de Milán, la razón por la que toda la ciudad mira hacia aquí. La obra empezó en 1386, cuando el señor de Milán, Gian Galeazzo Visconti, quiso una iglesia que compitiera con cualquiera de Europa. Les regaló a los constructores una cantera de mármol cerca del lago Mayor, libre de impuestos. Y tardaron casi seis siglos. Napoleón ordenó terminar la fachada para coronarse rey de Italia aquí adentro, en 1805, y la última puerta de bronce se instaló apenas en 1965. Mira el techo: ciento treinta y cinco agujas y más de tres mil cuatrocientas estatuas. Ahora busca la aguja más alta y la figurita dorada en la punta. Es la Madonnina, la pequeña Virgen. Es de cobre dorado, mide unos cuatro metros, y la subieron en 1774. Durante siglos Milán respetó una regla no escrita: ningún edificio podía ser más alto que ella. Cuando por fin los rascacielos la superaron, la ciudad encontró una salida encantadora: los edificios más altos llevan en el techo una copia pequeña de la Madonnina, para que ella siga estando arriba. En la Segunda Guerra Mundial la envolvieron en tela durante cinco años, para que su brillo no guiara a los bombarderos. Una historia más. El mármol llegaba por los canales en barcazas marcadas A U F, ad usum fabricae, para la obra, y esas barcazas no pagaban peaje. Dicen que de ahí viene la expresión italiana a ufo, que significa gratis. Si entras después, cúbrete hombros y rodillas, y busca en el piso, cerca de la puerta, una línea de bronce: es la línea de un reloj de sol que pusieron unos astrónomos en 1786. Las terrazas del techo valen la pena, pero reserva antes, y ten en cuenta que el ascensor no llega hasta arriba del todo. Ahora date la vuelta, con la catedral a tu espalda, y camina hasta la esquina del fondo a la derecha de la plaza, pasando junto al rey a caballo. De ahí sale una calle estrecha, la Via Mercanti.",
+      "photo": "photos/milan-duomo-castello/0.jpg",
+      "credit": "Francesca Milanini, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Duomo_di_Milano,_facciata,_17_giugno_2025.jpg",
+      "place": "Duomo di Milano"
+    },
+    {
+      "name": "Piazza dei Mercanti",
+      "kind": "stop",
+      "lat": 45.46475,
+      "lng": 9.18805,
+      "text": "Acabas de entrar a la Edad Media. Esta placita, la plaza de los Mercaderes, era el corazón de Milán hace setecientos años, cuando la plaza de la catedral todavía no existía. El gran edificio de ladrillo sobre arcos es el Palazzo della Ragione, el antiguo ayuntamiento, terminado en 1233. Los comerciantes negociaban bajo los arcos, y el concejo de la ciudad se reunía arriba. En uno de sus lados, busca un caballero a caballo tallado en piedra. Es Oldrado da Tresseno, el alcalde que lo construyó, y las palabras en latín debajo de él presumen de que construyó este palacio y quemó a los herejes, como debía. El Milán medieval no era un lugar amable. Ahora busca algo más raro: en uno de los arcos, una pequeña talla de una cerda, cubierta de lana solo en la mitad del cuerpo. Es la scrofa semilanuta, la cerda medio lanuda. La leyenda cuenta que a un jefe celta le dijeron en un sueño que fundara una ciudad donde encontrara un animal así, y que el nombre Mediolanum, el antiguo nombre de Milán, significa media lana. Es bonita, pero no es el significado real: el nombre es celta, y quiere decir algo así como en medio de la llanura. El edificio de franjas blancas y negras es la Loggia degli Osii, de 1316. Desde su balconcito se leían en voz alta las sentencias y las leyes de la ciudad. Cuando termines de mirar, vuelve a la plaza de la catedral por donde llegaste, gira a la izquierda y camina hacia el enorme arco de triunfo de ese lado de la plaza.",
+      "photo": "photos/milan-duomo-castello/1.jpg",
+      "credit": "Stefano Stabile, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_mercanti_Milano.JPG",
+      "place": "Piazza dei Mercanti Milano",
+      "via": [
+        [
+          45.4644,
+          9.18865
+        ]
+      ]
+    },
+    {
+      "name": "Entra a la Galería",
+      "kind": "walk",
+      "lat": 45.46468,
+      "lng": 9.18998,
+      "text": "Este arco es la entrada a la Galería. Entra y detente en el centro, bajo la cúpula de vidrio."
+    },
+    {
+      "name": "Galería Vittorio Emanuele II",
+      "kind": "stop",
+      "lat": 45.46564,
+      "lng": 9.19001,
+      "text": "Mira hacia arriba. Estás bajo la cúpula de vidrio de la Galería Vittorio Emanuele Segundo, a cuarenta y siete metros de altura. Los milaneses la llaman il salotto, la sala de la ciudad. Se inauguró en 1867, con el nombre del primer rey de una Italia recién unida, y una calle cubierta de hierro y vidrio, iluminada con gas, era lo más moderno que la gente había visto. La diseñó Giuseppe Mengoni. Su historia tiene un final triste: en diciembre de 1877, pocas semanas antes de que se estrenara el gran arco por el que entraste, se cayó del andamio y murió. Ahora mira el piso. Los mosaicos muestran los escudos de las primeras capitales de Italia: Turín, Florencia, Roma, y la cruz roja de Milán. Busca el toro de Turín y el grupito de gente alrededor. La tradición dice que si pones el talón sobre una parte muy particular del toro y das tres vueltas, tendrás buena suerte y volverás a Milán. Lo hace tanta gente que la ciudad tiene que tapar el hueco; el último arreglo fue en junio de 2026. A tu alrededor están algunas de las tiendas más antiguas de Milán. Prada abrió aquí mismo su primera tienda, en 1913. Y junto al arco del lado de la catedral está el Camparino, abierto en 1915 por Davide Campari, que nació en este mismo edificio. Pide un Campari con soda en la barra y tómatelo de pie, como los milaneses. Cuando quieras, sigue derecho y sal de la Galería por el lado opuesto a la catedral.",
+      "photo": "photos/milan-duomo-castello/3.jpg",
+      "credit": "Terragio67, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Galleria_Vittorio_Emanuele_II_-_Cupola,_interno_-_2024-09-28_12-30-48_001.jpg",
+      "place": "Galleria Vittorio Emanuele II"
+    },
+    {
+      "name": "La Scala",
+      "kind": "stop",
+      "lat": 45.46695,
+      "lng": 9.1899,
+      "text": "Al otro lado de la plaza hay un edificio sencillo, de color claro. No parece gran cosa, ¿verdad? Es La Scala, tal vez el teatro de ópera más famoso del mundo. Se inauguró en 1778, después de que se quemara el viejo teatro de la corte. El nombre no tiene nada que ver con escaleras, scala en italiano. Viene de una iglesia que estaba aquí, Santa Maria alla Scala, fundada por una noble de la familia Scala, de Verona. Aquí se estrenaron el Nabucco de Verdi, en 1842, y Madama Butterfly y Turandot de Puccini. Cada temporada abre el siete de diciembre, día de San Ambrosio, el patrono de Milán, y es el evento social del año. En agosto de 1943 las bombas destrozaron el teatro. Reabrió en mayo de 1946 con el gran director Arturo Toscanini, que volvía del exilio, y los milaneses hicieron fila entre las ruinas para escucharlo. En el centro de la plaza está Leonardo da Vinci, con cuatro de sus alumnos a sus pies. Los milaneses le dicen on liter in quater, un litro en cuatro: una botella y cuatro vasos. A tu espalda está el Palazzo Marino, la alcaldía desde 1861. Lo construyó un banquero genovés, Tommaso Marino, que gastó tanto en él que dejó a su familia en la ruina. El museo del teatro, en el lado izquierdo de La Scala, te deja ver la sala desde un palco cuando no hay ensayo. Ahora sube por la Via Verdi, la calle del lado derecho del teatro, de modo que La Scala te quede a la izquierda.",
+      "photo": "photos/milan-duomo-castello/4.jpg",
+      "credit": "Jakub Hałun, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:20110725_Milano_La_Scala_5507.jpg",
+      "place": "Teatro alla Scala",
+      "via": [
+        [
+          45.466575,
+          9.190109
+        ],
+        [
+          45.466904,
+          9.19003
+        ]
+      ]
+    },
+    {
+      "name": "Por la Via Verdi",
+      "kind": "walk",
+      "lat": 45.46749,
+      "lng": 9.18986,
+      "text": "Esta es la Via Verdi. Sigue derecho, con el teatro a tu izquierda.",
+      "via": [
+        [
+          45.467046,
+          9.190002
+        ]
+      ]
+    },
+    {
+      "name": "Entrando a Brera",
+      "kind": "walk",
+      "lat": 45.46894,
+      "lng": 9.18827,
+      "text": "Sigue derecho. Desde aquí la calle se llama Via Brera, y estás entrando a Brera, el antiguo barrio de los artistas de Milán. En unos trescientos metros verás a tu derecha una gran portada de piedra con un patio detrás.",
+      "via": [
+        [
+          45.468332,
+          9.188602
+        ]
+      ]
+    },
+    {
+      "name": "Palacio de Brera",
+      "kind": "stop",
+      "lat": 45.47215,
+      "lng": 9.18775,
+      "text": "A tu derecha está el Palacio de Brera. Atraviesa la portada hasta el patio, con sus dos pisos de arcos, y te encontrarás con Napoleón. Desnudo. Este bronce es una copia de una estatua de mármol de Antonio Canova, que muestra a Napoleón como Marte, el dios de la guerra, en papel de pacificador, con una figurita de la Victoria en la mano. A Napoleón no le gustó el original. Le pareció demasiado atlético y lo mandó a esconder. Después de su derrota, los británicos compraron el mármol y se lo regalaron al hombre que lo venció, el duque de Wellington, y todavía está en su casa de Londres. Esta copia se fundió en Roma en 1811, con el bronce de cañones derretidos. El edificio era un colegio de jesuitas. Cuando se suprimió la orden, en 1773, la emperatriz María Teresa de Austria lo llenó de saber: una biblioteca, un observatorio, un jardín botánico y una academia de bellas artes, donde todavía estudian artistas. Después Napoleón añadió arriba la Pinacoteca, la galería de pintura, para lucir los cuadros sacados de iglesias de todo su nuevo reino. Tiene obras de Rafael, Mantegna, Caravaggio, y El beso de Francesco Hayez, que se volvió un símbolo del romance italiano. Cierra los lunes, y es gratis el primer domingo de cada mes si reservas. Al lado, en el número 32, el Bar Jamaica fue durante décadas el sitio donde pintores, escritores y periodistas discutían entre tragos. Ahora sal de nuevo a la Via Brera y gira a la derecha. A los pocos pasos, sale a la izquierda una calle empedrada: la Via Fiori Chiari.",
+      "photo": "photos/milan-duomo-castello/7.jpg",
+      "credit": "Chabe01, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Statue_Napoleone_Come_Marte_Pacificatore_Palais_Brera_-_Milan_(IT25)_-_2022-09-03_-_2.jpg",
+      "place": "Pinacoteca di Brera",
+      "via": [
+        [
+          45.470945,
+          9.18765
+        ],
+        [
+          45.471579,
+          9.187762
+        ],
+        [
+          45.472139,
+          9.187646
+        ]
+      ]
+    },
+    {
+      "name": "Via Fiori Chiari",
+      "kind": "walk",
+      "lat": 45.47222,
+      "lng": 9.187,
+      "text": "Este callejón empedrado es la Via Fiori Chiari, la calle de las flores claras. Al otro lado de la Via Brera, la misma calle sigue como Via Fiori Oscuri, la calle de las flores oscuras. Una historia dice que los nombres venían de un colegio de niñas de un lado y de algo menos respetable del otro. Lo que sí es cierto es que Brera era un barrio bohemio y bravo, lleno de burdeles con licencia, hasta que Italia los cerró todos en 1958. Hoy son cafés, galerías y, algunas noches, adivinas en mesitas. El tercer domingo de cada mes hay aquí un mercado de antigüedades. Camina hasta el final de la calle.",
+      "via": [
+        [
+          45.47231,
+          9.1876
+        ]
+      ]
+    },
+    {
+      "name": "Por la Via Madonnina",
+      "kind": "walk",
+      "lat": 45.472,
+      "lng": 9.18562,
+      "text": "Gira aquí a la izquierda, por la Via Madonnina, y baja hasta la plaza con la iglesia."
+    },
+    {
+      "name": "Santa Maria del Carmine",
+      "kind": "stop",
+      "lat": 45.4704,
+      "lng": 9.1853,
+      "text": "Esta es la Piazza del Carmine y la iglesia de Santa Maria del Carmine. La iglesia se derrumbó en 1446 y la reconstruyeron; la fachada que parece gótica es en realidad de 1880. Adentro es fresca y tranquila, buen lugar para una pausa corta. Mira alrededor. Brera es el barrio de la escuela de arte de Milán desde hace doscientos cincuenta años, y hoy también es el distrito del diseño. Cada abril, durante la Semana del Diseño de Milán, estas calles se llenan de instalaciones, vitrinas convertidas en exposiciones y gente muy bien vestida. Ahora, con la iglesia a tu espalda, camina hasta la esquina de abajo a la derecha de la plaza, y gira a la derecha por la Via Landolfo, hacia la avenida ancha con rieles de tranvía.",
+      "photo": "photos/milan-duomo-castello/10.jpg",
+      "credit": "MasciaMB, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Facciata_chiesa_Santa_Maria_Carmine_Milano.jpg",
+      "place": "Santa Maria del Carmine Milano",
+      "via": [
+        [
+          45.471667,
+          9.185567
+        ],
+        [
+          45.470901,
+          9.184994
+        ],
+        [
+          45.470285,
+          9.184994
+        ]
+      ]
+    },
+    {
+      "name": "Foro Buonaparte",
+      "kind": "walk",
+      "lat": 45.47003,
+      "lng": 9.18406,
+      "text": "La avenida curva que tienes enfrente, con rieles de tranvía, es el Foro Buonaparte. Napoleón quería aquí un foro inmenso, un anillo de edificios grandiosos alrededor del castillo. Nunca se construyó, pero la calle se quedó con su nombre y con la curva de su plan. Crúzala por el semáforo y sigue derecho por la Via Quintino Sella, hacia el verde frente al castillo.",
+      "via": [
+        [
+          45.470285,
+          9.184994
+        ],
+        [
+          45.470393,
+          9.184949
+        ],
+        [
+          45.470182,
+          9.184834
+        ]
+      ]
+    },
+    {
+      "name": "Cruza hacia el castillo",
+      "kind": "walk",
+      "lat": 45.47,
+      "lng": 9.18213,
+      "text": "Al final, cruza por la cebra, gira a la izquierda por el borde de la gran plaza, y cruza una vez más hasta la fuente redonda frente al castillo."
+    },
+    {
+      "name": "Castello Sforzesco",
+      "kind": "stop",
+      "lat": 45.46922,
+      "lng": 9.18095,
+      "text": "Mira el castillo de frente. Este es el Castello Sforzesco. Lo empezó la familia Visconti en 1358. Luego, en 1450, Francesco Sforza, un soldado que se había casado con la hija del último Visconti y se hizo duque, lo reconstruyó como palacio y fortaleza. La torre alta sobre la puerta es la Torre del Filarete, y aquí viene una sorpresa: no es la original. La primera explotó en 1521, cuando la usaban para guardar pólvora. La que ves la reconstruyó en 1905 el arquitecto Luca Beltrami, a partir de dibujos antiguos. Busca el reloj, y debajo, en el nicho, a San Ambrosio, el patrono de Milán. Bajo el dominio español fue una de las fortalezas más grandes de Europa, un fuerte en forma de estrella con doce baluartes. Cuando los franceses tomaron la ciudad, la mayoría de esos muros se derribaron, y muchos milaneses querían tumbar también el castillo. Fue Beltrami quien lo salvó y lo convirtió en museos. Ahora pasa por la puerta bajo la torre y entra al primer patio. Los patios son gratis, de siete de la mañana a siete y media de la noche.",
+      "photo": "photos/milan-duomo-castello/13.jpg",
+      "credit": "Terragio67, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Torre_del_Filarete_-_2024-09-02_21-41-46_001.jpg",
+      "place": "Torre del Filarete Castello Sforzesco",
+      "via": [
+        [
+          45.469508,
+          9.18199
+        ],
+        [
+          45.469069,
+          9.181655
+        ]
+      ]
+    },
+    {
+      "name": "El patio del castillo",
+      "kind": "stop",
+      "lat": 45.4703,
+      "lng": 9.1795,
+      "text": "Este patio enorme era la plaza de armas. Los museos del castillo están en los edificios que te rodean, y hay dos tesoros que se destacan. El primero es la Sala delle Asse, un salón que Leonardo da Vinci pintó en 1498 para el duque Ludovico Sforza, apodado il Moro. Cubrió el techo con moreras cuyas ramas se anudan sobre tu cabeza, y en dialecto milanés la morera se decía moron, un guiño al apodo del duque. La pintura fue blanqueada, olvidada durante siglos y redescubierta en 1893. Todavía la están restaurando, y se espera que reabra hacia 2027. El segundo es la Piedad Rondanini, la última escultura de Miguel Ángel. Todavía la estaba tallando pocos días antes de morir, en febrero de 1564, con casi ochenta y nueve años. Está sin terminar, y se nota que cambió de idea: junto a las figuras cuelga un brazo de sobra, que quedó de una versión anterior. Ludovico il Moro es también el duque que trajo a Leonardo a Milán. Leonardo se quedó casi veinte años, diseñando fiestas, canales y armas, y pintando la Última Cena, que puedes visitar en nuestro otro recorrido por Milán. Los museos cierran los lunes. Ahora cruza derecho el patio, pasa por el pasaje del fondo y sal por detrás del castillo, hacia el parque.",
+      "photo": "photos/milan-duomo-castello/14.jpg",
+      "credit": "C messier, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Cortile_delle_Armi_-_2023-10-29_4213.jpg",
+      "place": "Castello Sforzesco",
+      "via": [
+        [
+          45.469117,
+          9.181178
+        ],
+        [
+          45.469368,
+          9.181152
+        ],
+        [
+          45.469389,
+          9.180744
+        ]
+      ]
+    },
+    {
+      "name": "Al parque",
+      "kind": "walk",
+      "lat": 45.47151,
+      "lng": 9.17795,
+      "text": "Saliste por detrás del castillo. Cruza la calle con cuidado hacia el parque y toma el camino que va derecho. A lo lejos, al otro extremo del parque, ya se ve un arco blanco. Ahí terminamos."
+    },
+    {
+      "name": "Por el Parco Sempione",
+      "kind": "walk",
+      "lat": 45.47239,
+      "lng": 9.17785,
+      "text": "Sigue el camino, un poco hacia la izquierda, hacia el puentecito de hierro.",
+      "via": [
+        [
+          45.471651,
+          9.178174
+        ],
+        [
+          45.471779,
+          9.178022
+        ],
+        [
+          45.472138,
+          9.178024
+        ]
+      ]
+    },
+    {
+      "name": "Puente de las Sirenitas",
+      "kind": "stop",
+      "lat": 45.47311,
+      "lng": 9.1767,
+      "text": "Este es el Ponte delle Sirenette, el puente de las sirenitas. Mira las cuatro sirenas de hierro fundido. Los milaneses les pusieron de apodo las hermanas Ghisini, de ghisa, hierro fundido. Construido en 1842, dicen que fue el primer puente de hierro fundido de Italia, y no estaba aquí. Cruzaba uno de los canales que antes pasaban por el centro de la ciudad. Milán era una ciudad de agua. Hacia 1930 taparon los canales del centro para hacer calles, y trajeron el puentecito a este parque. En nuestro segundo recorrido te contamos más sobre los canales de Milán. El parque, el Parco Sempione, era el coto de caza de los duques detrás del castillo, y después un campo de desfiles del ejército. Se volvió parque público en la década de 1890. Abre hasta tarde, pero como cualquier parque grande de ciudad, se disfruta más de día. Sigue por los caminos hacia el arco.",
+      "photo": "photos/milan-duomo-castello/17.jpg",
+      "credit": "Paolobon140, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Il_cosiddetto_ponte_delle_Sirenette,_oggi_al_Parco_Sempione_di_Milano.jpg",
+      "place": "Ponte delle Sirenette Milano"
+    },
+    {
+      "name": "Torre Branca",
+      "kind": "stop",
+      "lat": 45.4742,
+      "lng": 9.17497,
+      "text": "Mira a tu izquierda, la torre de acero alta y delgada. Es la Torre Branca, de ciento ocho metros. La diseñó el arquitecto Gio Ponti para la exposición de diseño de 1933, y la levantaron en solo sesenta y ocho días de trabajo. Su altura se limitó a propósito, para quedar justo por debajo de la Madonnina del Duomo. Un ascensor pequeño te sube a la punta, con vista a toda la ciudad y, en días despejados, a los Alpes. Cierra con viento y mal tiempo. El edificio bajo detrás de ella es la Triennale, el museo del diseño de Milán. Ahora mira a tu derecha, detrás de los árboles. Es la Arena Civica, un estadio construido en 1807, en tiempos de Napoleón. La inundaban para montar batallas navales de mentira, y en 1910 la selección de fútbol de Italia jugó allí su primer partido oficial, y le ganó seis a dos a Francia. Sigue hacia el arco.",
+      "photo": "photos/milan-duomo-castello/18.jpg",
+      "credit": "Arbalete, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_Torre_Branca.JPG",
+      "place": "Torre Branca Milano",
+      "via": [
+        [
+          45.47322,
+          9.176535
+        ],
+        [
+          45.473639,
+          9.176718
+        ]
+      ]
+    },
+    {
+      "name": "Ya casi",
+      "kind": "walk",
+      "lat": 45.47543,
+      "lng": 9.17401,
+      "text": "El arco está justo enfrente. Rodéalo y párate delante de él, del lado del parque.",
+      "via": [
+        [
+          45.47438,
+          9.174786
+        ],
+        [
+          45.474708,
+          9.17475
+        ],
+        [
+          45.474803,
+          9.174459
+        ],
+        [
+          45.474882,
+          9.174543
+        ],
+        [
+          45.475028,
+          9.174242
+        ]
+      ]
+    },
+    {
+      "name": "Arco della Pace",
+      "kind": "stop",
+      "lat": 45.47569,
+      "lng": 9.17243,
+      "text": "Este es el Arco della Pace, el Arco de la Paz. Se empezó en 1807 para Napoleón, para celebrar sus victorias y marcar el inicio de su nueva carretera por el paso del Simplón hasta París. Mira a través del arco: esa avenida larga y recta, el Corso Sempione, sale hacia los Alpes y Francia. Cuando Napoleón cayó, la obra se detuvo. Los austriacos, los nuevos dueños de Milán, la terminaron y, con algo de ironía, la dedicaron a la paz. Se inauguró en 1838. Arriba, seis caballos de bronce tiran del carro de la diosa de la Paz. Puede que te cuenten que los austriacos voltearon los caballos para mostrarle el trasero a Francia. Es una gran historia, pero no es cierta: los caballos se subieron bajo los austriacos, y ya miraban hacia la ciudad. En 1859, Napoleón Tercero y Víctor Manuel Segundo entraron por este arco después de vencer a los austriacos, un gran paso hacia la unificación de Italia. Y en febrero de 2026, aquí ardió la llama olímpica de los Juegos de Invierno de Milán Cortina. Aquí termina nuestro paseo. Para un aperitivo, los bares del Corso Sempione están muy cerca. En Milán, desde las seis de la tarde más o menos, el trago viene con algo de comer. Gracias por caminar conmigo. Grazie, y disfruta Milán. Si quieres más, nuestro segundo recorrido por Milán va de la Última Cena de Leonardo a los viejos canales.",
+      "photo": "photos/milan-duomo-castello/20.jpg",
+      "credit": "Zairon, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_Arco_della_Pace_von_S%C3%BCdost_3.jpg",
+      "place": "Arco della Pace Milano",
+      "via": [
+        [
+          45.475411,
+          9.173365
+        ],
+        [
+          45.475675,
+          9.172756
+        ],
+        [
+          45.475913,
+          9.172496
+        ],
+        [
+          45.475803,
+          9.172277
+        ]
+      ]
+    }
+  ]
+}

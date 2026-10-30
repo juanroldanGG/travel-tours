@@ -1,0 +1,261 @@
+{
+  "title": "Milan by Tram: the Historic Line 1",
+  "summary": "Ride a 1928 tram with wooden benches past the Porta Nuova arches, the fashion district, La Scala and the Sforza castle, to Napoleon's arch. About 30 minutes for the price of a bus ticket.",
+  "cover": "photos/milan-tram1/4.jpg",
+  "mode": "tram",
+  "minutes": 40,
+  "km": 4.6,
+  "voice": "en-GB-RyanNeural",
+  "audio": "audio/milan-tram1-en",
+  "intro": "Welcome aboard! This is a ride, not a walk: about thirty minutes on Milan's tram line 1, which usually runs the city's famous old trams from 1928, with wooden benches and big windows. We'll board at Piazza della Repubblica and get off at Napoleon's arch, passing a medieval gate, the fashion district, La Scala and the castle on the way. Paper tickets are gone since January 2026. The easiest way to pay is to tap your contactless bank card or phone on the reader as you get on, one card per person. A ride costs two euros twenty and lasts ninety minutes. You can also use the ATM Milano app, but activate the ticket before you board. The old trams have steep steps, so they aren't wheelchair accessible. Avoid rush hour, and keep your bag in front of you near the doors. Keep your screen on: I'll start talking as the tram reaches each place.",
+  "stops": [
+    {
+      "name": "Piazza della Repubblica",
+      "kind": "stop",
+      "lat": 45.47809,
+      "lng": 9.19745,
+      "text": "This is Piazza della Repubblica, and the place to board. Wait at the stop for tram number 1, direction Roserio, and when it comes, sit on the right-hand side if you can: most of the sights will be on your right. While you wait, look around. Milan's first Central Station stood right here, from 1864 until the new, enormous station opened up the road in 1931. On the square is the grand Hotel Principe di Savoia, from 1927. And look for the tall tower a little way off on the right side of the square: Torre Breda, finished in 1954. At about a hundred and seventeen metres, it was the first building to rise higher than the golden Madonnina on top of the Duomo, breaking a rule the Milanese had kept for centuries. Once you're on board, relax. I'll talk as we reach each part of the ride.",
+      "photo": "photos/milan-tram1/0.jpg",
+      "credit": "Moongateclimber, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Breda_Tower_from_Viale_Tunisia.jpg",
+      "place": "Piazza della Repubblica Milano"
+    },
+    {
+      "name": "Via Turati and the Ugly House",
+      "kind": "stop",
+      "lat": 45.47601,
+      "lng": 9.19474,
+      "text": "We're on Via Turati. Coming up on your right, on the corner, is a building with a strange mix of arches, windows and stone bands. Its architect, Giovanni Muzio, finished it in 1923, and the Milanese hated it so much they called it the Ca' Brutta, the Ugly House. The name stuck, but today it's seen as a landmark of modern Italian architecture. On the left, the pale buildings belong to the Montecatini company, and the first one was designed by Gio Ponti in the 1930s, the same architect who built Torre Branca and, later, the Pirelli skyscraper. Milan has always been the city of Italian business, and you can read its history in its office buildings.",
+      "via": [
+        [
+          45.478197,
+          9.197101
+        ],
+        [
+          45.478107,
+          9.196807
+        ]
+      ],
+      "photo": "photos/milan-tram1/1.jpg",
+      "credit": "Paolo Monti, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta,_1982_circa_%E2%80%93_BEIC_IE9091107.jpg",
+      "place": "Ca' Brutta Milano"
+    },
+    {
+      "name": "Porta Nuova arches",
+      "kind": "stop",
+      "lat": 45.47269,
+      "lng": 9.19516,
+      "text": "Get ready: the tram is about to go through an old stone gate. These are the Archi di Porta Nuova, a gate of Milan's medieval walls from the eleven hundreds. Built into it are ancient Roman tombstones, recycled by the medieval builders, and above, a marble shrine from the thirteen hundreds. For centuries, everything coming into the city from the north passed through here. On your left, the trees are the Giardini Montanelli, Milan's oldest public gardens, from 1784. Through the gate, we enter Via Manzoni, named after Alessandro Manzoni, the author of The Betrothed, the great novel every Italian reads at school.",
+      "via": [
+        [
+          45.47559,
+          9.194612
+        ],
+        [
+          45.472992,
+          9.195014
+        ]
+      ],
+      "photo": "photos/milan-tram1/2.jpg",
+      "credit": "Robertater17, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Archi_di_Porta_Nuova_-_202209241205.jpeg",
+      "place": "Archi di Porta Nuova"
+    },
+    {
+      "name": "Via Manzoni",
+      "kind": "stop",
+      "lat": 45.47029,
+      "lng": 9.19299,
+      "text": "This is Via Manzoni, on the edge of Milan's fashion district. The streets opening on your left lead into the Quadrilatero della Moda, the fashion rectangle, with Via Montenapoleone at its heart: the most expensive shopping street in Italy. On your right, at number 29, is the Grand Hotel et de Milan. The composer Giuseppe Verdi lived there, and died there in January 1901. As he lay dying, the city spread straw on this street so the carriages and horses wouldn't disturb him. When he died, hundreds of thousands of people followed his coffin. A little further on, on your left, is the Poldi Pezzoli Museum, a nobleman's house full of art, one of Milan's hidden treasures.",
+      "via": [
+        [
+          45.472326,
+          9.19511
+        ]
+      ],
+      "photo": "photos/milan-tram1/3.jpg",
+      "credit": "Fernando García, CC BY 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_via_Manzoni_tram.jpg",
+      "place": "Grand Hotel et de Milan"
+    },
+    {
+      "name": "La Scala",
+      "kind": "stop",
+      "lat": 45.46757,
+      "lng": 9.19012,
+      "text": "Look right: that plain, pale building is La Scala, perhaps the most famous opera house in the world. It opened in 1778, and Verdi, the man from the hotel we just passed, premiered his first great success here, Nabucco, in 1842. The season always opens on the seventh of December, the feast of Milan's patron saint. On the left, in the little square, is a statue of Leonardo da Vinci with four of his pupils, and behind it Palazzo Marino, the city hall. Just past it, the tall arch is the back entrance to the Galleria, the glass-roofed shopping arcade. If you want to see the Duomo, the Galleria leads straight to it, a five-minute walk from here.",
+      "via": [],
+      "photo": "photos/milan-tram1/4.jpg",
+      "credit": "dconvertini, CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Teatro_alla_Scala_-_52894556808.jpg",
+      "place": "Teatro alla Scala"
+    },
+    {
+      "name": "Piazza Cordusio",
+      "kind": "stop",
+      "lat": 45.46563,
+      "lng": 9.18712,
+      "text": "This is Piazza Cordusio. The name goes back more than twelve hundred years, to the Lombards, the Germanic people who ruled northern Italy: cors ducis, the duke's court. Around 1900 it became Milan's money square, ringed by banks and insurance companies. The curved building on the left side of the square was the stock exchange and the main post office; since 2018 it has been a giant Starbucks Reserve Roastery, the first Starbucks to open in Italy, in the land of espresso. The Duomo is just five minutes away on foot, down Via Orefici. Hold on, the tram now turns north.",
+      "via": [
+        [
+          45.466852,
+          9.189241
+        ],
+        [
+          45.4657,
+          9.188202
+        ],
+        [
+          45.465628,
+          9.187966
+        ]
+      ],
+      "photo": "photos/milan-tram1/5.jpg",
+      "credit": "Paolobon140, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Cordusio_a_Milano,_veduta_generale.jpg",
+      "place": "Piazza Cordusio Milano"
+    },
+    {
+      "name": "Largo Cairoli and the castle",
+      "kind": "stop",
+      "lat": 45.46817,
+      "lng": 9.182,
+      "text": "On your left, right beside the tracks, Giuseppe Garibaldi on horseback, the general who did more than anyone to unite Italy in the eighteen sixties. Now look right, down the wide avenue: that red-brick fortress with the tall tower is the Castello Sforzesco, the castle of the Sforza dukes, built from 1450. Leonardo da Vinci worked for them, and inside is Michelangelo's very last sculpture. The tram is now running along Foro Buonaparte. That curve is all that's left of Napoleon's plan for a huge forum around the castle, which was never built.",
+      "via": [
+        [
+          45.465656,
+          9.186608
+        ],
+        [
+          45.465795,
+          9.186416
+        ],
+        [
+          45.468898,
+          9.185294
+        ],
+        [
+          45.468929,
+          9.185072
+        ],
+        [
+          45.4687,
+          9.184006
+        ],
+        [
+          45.468576,
+          9.182755
+        ],
+        [
+          45.468353,
+          9.182159
+        ]
+      ],
+      "photo": "photos/milan-tram1/6.jpg",
+      "credit": "G.dallorto, Attribution, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano,_largo_Cairoli_-_Monumento_a_Giuseppe_Garibaldi._Foto_Giovanni_Dall%27Orto_6-gen-2007_-_02.jpg",
+      "place": "Largo Cairoli Milano"
+    },
+    {
+      "name": "Cadorna",
+      "kind": "stop",
+      "lat": 45.468,
+      "lng": 9.17601,
+      "text": "This is Cadorna, a busy hub: two metro lines, and the train station for Lake Como and for Malpensa airport. Look out for a giant sculpture in the square: a huge needle with coloured thread looping through the ground. It's called Needle, Thread and Knot, by the American artists Claes Oldenburg and Coosje van Bruggen, from 2000. The needle is a tribute to Milan's fashion and textile trades, and the thread is in red, green and yellow, the colours of the first three metro lines. At the next stop, Piazza Virgilio, you can get off for Leonardo's Last Supper, about five minutes' walk to the left, if you've booked a ticket.",
+      "via": [
+        [
+          45.468002,
+          9.181855
+        ],
+        [
+          45.467746,
+          9.18111
+        ],
+        [
+          45.467592,
+          9.179958
+        ],
+        [
+          45.46767,
+          9.178999
+        ],
+        [
+          45.468057,
+          9.177651
+        ]
+      ],
+      "photo": "photos/milan-tram1/7.jpg",
+      "credit": "Paolobon140, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Veduta_generale_estiva_di_piazzale_Cadorna,_Milano.jpg",
+      "place": "Ago filo e nodo Milano"
+    },
+    {
+      "name": "The tram itself",
+      "kind": "stop",
+      "lat": 45.4698,
+      "lng": 9.17068,
+      "text": "While we ride through these quieter streets, let's talk about the tram you're sitting in. If it's a short orange or yellow tram with wooden benches, it's a Ventotto, a twenty-eight, named after 1928, the year the first ones came into service. Milan copied the design from an American tram, created in Cleveland by a man named Peter Witt. More than five hundred were built. About a hundred and twenty-five still carry passengers every day, almost a century later, which makes them some of the oldest trams in regular service anywhere. Some went abroad: about ten of them run on the historic F line in San Francisco, a few still in Milan's colours. And in February 2026, for the opening of the Winter Olympics, the President of Italy rode to the stadium in a historic tram, driven by the motorcycle champion Valentino Rossi.",
+      "via": [
+        [
+          45.46785,
+          9.175415
+        ],
+        [
+          45.467786,
+          9.173783
+        ],
+        [
+          45.467867,
+          9.173297
+        ]
+      ],
+      "photo": "photos/milan-tram1/8.jpg",
+      "credit": "Nick shul, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:ATM_Class_1500_1661.jpg",
+      "place": "Tram 1 Milano"
+    },
+    {
+      "name": "Get ready to get off",
+      "kind": "walk",
+      "lat": 45.47354,
+      "lng": 9.16916,
+      "text": "Get ready: the next stop is Arco della Pace, where we get off. Press the stop button, and in a moment, look right: a huge white triumphal arch will appear at the end of the avenue.",
+      "via": [
+        [
+          45.4723,
+          9.16746
+        ],
+        [
+          45.472475,
+          9.167533
+        ]
+      ]
+    },
+    {
+      "name": "Arco della Pace",
+      "kind": "stop",
+      "lat": 45.47698,
+      "lng": 9.17077,
+      "text": "Here we are. Get off, and walk over to the arch. This is the Arco della Pace, the Arch of Peace, begun in 1807 for Napoleon, where his new road over the Alps to Paris entered the city. Behind you, that long, straight avenue, Corso Sempione, is that road. Napoleon fell before it was finished, and the Austrians completed it in 1838 and dedicated it to peace. On top, six bronze horses pull the goddess of Peace. You may hear they were turned around to show their backsides to France. It's a good story, but it's not true. Behind the arch is Parco Sempione, Milan's big central park. Walk straight through it and you'll reach the castle you saw from the tram. That's the end of our ride. Thank you for riding with me. Grazie, and enjoy Milan. If you liked it, try our walking tours: one from the Duomo to this very arch, and one from Leonardo's Last Supper to the canals.",
+      "via": [
+        [
+          45.475216,
+          9.171674
+        ],
+        [
+          45.475689,
+          9.171548
+        ],
+        [
+          45.476227,
+          9.1717
+        ]
+      ],
+      "photo": "photos/milan-tram1/10.jpg",
+      "credit": "Oleksandr Dede, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano,_Peter_Witt_1990_and_1661_and_Arco_della_Pace.jpg",
+      "place": "Arco della Pace Milano"
+    }
+  ]
+}

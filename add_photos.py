@@ -37,6 +37,11 @@ QUERIES = {  # stop index -> search words; stops left out get no photo
     "highway1-drive": {1: "Wilder Ranch Santa Cruz", 3: "Davenport California coast", 4: "Waddell Beach", 5: "Año Nuevo elephant seals",
                        6: "Pigeon Point Lighthouse", 7: "Pescadero California", 10: "Half Moon Bay coastline beach", 11: "Pillar Point Harbor",
                        12: "Tom Lantos Tunnels Devil's Slide", 13: "Pacifica California pier", 15: "Ocean Beach San Francisco"},
+    "milan-duomo-castello": {0: 'Duomo di Milano facciata piazza', 1: 'Loggia degli Osii Milano', 3: 'Galleria Vittorio Emanuele II Milano interno', 4: 'Teatro alla Scala Piazza della Scala Milano', 7: 'Napoleone Canova Brera bronzo', 10: 'Santa Maria del Carmine Milano facciata', 13: 'Castello Sforzesco Torre del Filarete', 14: 'Castello Sforzesco Rocchetta cortile', 17: 'Ponte delle Sirenette Parco Sempione', 18: 'Torre Branca Milano', 20: 'Arco della Pace Milano'},
+    "milan-leonardo-navigli": {0: 'San Maurizio al Monastero Maggiore Milano aula delle monache', 2: 'The Last Supper Leonardo da Vinci', 4: 'Museo Nazionale della Scienza e della Tecnologia Leonardo da Vinci Milano', 6: "Sant'Ambrogio Milano facciata basilica", 11: 'Colonne di San Lorenzo Milano', 13: "Sant'Eustorgio Milano campanile", 15: 'Darsena Milano', 17: 'Naviglio Grande Milano', 18: 'Vicolo dei Lavandai Milano'},
+    "milan-tram1": {0: "Torre Breda Milano", 1: "Ca' Brutta Milano Muzio", 2: "Archi di Porta Nuova Milano", 3: "Via Manzoni Milano tram",
+                    4: "Piazza della Scala Milano tram", 5: "Piazza Cordusio Milano", 6: "Monumento a Garibaldi Largo Cairoli Milano",
+                    7: "Ago filo e nodo Cadorna", 8: "Tram ATM serie 1500 Milano", 10: "Arco della Pace Milano tram"},
 }
 UA = {"User-Agent": "TravelApp-prototype/0.1 (juan@groundgamesales.com)"}  # Wikimedia asks for a contact
 

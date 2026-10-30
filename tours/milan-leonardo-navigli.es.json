@@ -1,0 +1,388 @@
+{
+  "title": "Milán: Leonardo, San Ambrosio y los canales",
+  "summary": "De la ciudad de los emperadores romanos a la Última Cena de Leonardo y su viña perdida, pasando por la Columna del Diablo, las columnas romanas y la iglesia de los Reyes Magos, hasta la hora del aperitivo en los canales.",
+  "cover": "photos/milan-leonardo-navigli/17.jpg",
+  "mode": "walk",
+  "minutes": 120,
+  "km": 3.6,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/milan-leonardo-navigli-es",
+  "intro": "Bienvenido a Milán. Este paseo dura unas dos horas, con tiempo para entrar a mirar, y sigue el agua y los siglos: desde los días en que los emperadores romanos vivían aquí, hasta la Última Cena de Leonardo da Vinci, San Ambrosio y su Columna del Diablo, los Reyes Magos, y al final los viejos canales, los Navigli, donde los milaneses van a tomarse el aperitivo de la tarde. Intenta empezar a media tarde, para terminar al atardecer junto al agua. Si quieres ver la Última Cena por dentro, tienes que reservar por internet, solo en el sitio oficial, con semanas o meses de anticipación, y cierra los lunes. En las iglesias las visitas se suspenden durante la misa, así que entra en silencio y con respeto. Deja la pantalla encendida y los audífonos puestos. Te hablaré cuando llegues a cada lugar, y entre parada y parada te diré por qué calle seguir. Y por favor, cuidado con las bicicletas y los tranvías al cruzar. Empecemos.",
+  "stops": [
+    {
+      "name": "San Maurizio y las torres romanas",
+      "kind": "stop",
+      "lat": 45.4656,
+      "lng": 9.1789,
+      "text": "Estás en el Corso Magenta, frente a una iglesia de piedra sencilla: San Maurizio, que fue parte del Monastero Maggiore, el convento más importante de Milán. No la juzgues por fuera. Entra, es gratis y cierra los lunes, y cada centímetro de las paredes está cubierto de frescos de Bernardino Luini y sus hijos, pintados a comienzos del siglo dieciséis. La llaman la Capilla Sixtina de Milán. Un muro divide la iglesia en dos: la mitad de adelante era para el público, y la de atrás para las monjas, que vivían encerradas y seguían la misa a través de una reja. Busca el Arca de Noé en la sala de las monjas, donde dos unicornios hacen fila para subir. Ahora piensa en hace mil setecientos años. Entre el año 286 y el 402, Milán, Mediolanum, era donde de verdad vivían los emperadores del Imperio romano de Occidente. Roma seguía siendo la capital de nombre, pero la corte estaba aquí. Justo detrás de esta iglesia, en el patio del Museo Arqueológico, todavía hay dos torres romanas: una de las murallas de la ciudad, y otra del circo de carreras de carros, que se salvó porque las monjas la usaron como campanario. Y al otro lado de la calle, mira el Palazzo Litta, con dos hombres gigantes de piedra que sostienen el balcón. Ahora date la vuelta para que la iglesia te quede a la izquierda, y camina por el Corso Magenta.",
+      "photo": "photos/milan-leonardo-navigli/0.jpg",
+      "credit": "Carlo Dell'Orto, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_San_Maurizio_al_monastero_maggiore,_aula_delle_monache_06.JPG",
+      "place": "San Maurizio al Monastero Maggiore"
+    },
+    {
+      "name": "Cruzando la Via Carducci",
+      "kind": "walk",
+      "lat": 45.46585,
+      "lng": 9.17555,
+      "text": "En este cruce grande, atraviesa la Via Carducci por el semáforo y sigue derecho por el Corso Magenta. En unos cuatrocientos metros aparecerá a tu derecha una iglesia de ladrillo rojo. Mira su parte de atrás, la gran cúpula redonda. Es de Bramante, el arquitecto que después diseñó San Pedro en Roma.",
+      "via": [
+        [
+          45.465704,
+          9.178069
+        ],
+        [
+          45.46562,
+          9.177981
+        ],
+        [
+          45.465939,
+          9.177326
+        ],
+        [
+          45.465975,
+          9.17687
+        ],
+        [
+          45.465881,
+          9.175905
+        ],
+        [
+          45.465956,
+          9.175937
+        ]
+      ]
+    },
+    {
+      "name": "Santa Maria delle Grazie y la Última Cena",
+      "kind": "stop",
+      "lat": 45.466,
+      "lng": 9.1708,
+      "text": "Esta es Santa Maria delle Grazie. El duque Ludovico Sforza, il Moro, la quería como iglesia funeraria de su familia, y en la década de 1490 le pidió a Bramante esa cúpula, y a Leonardo da Vinci una pintura en el comedor de los monjes, aquí al lado. Esa pintura es la Última Cena. Leonardo muestra el momento exacto en que Jesús dice: uno de ustedes me va a traicionar, y cada apóstol reacciona a su manera. Aquí va lo que casi todos dicen mal: no es un fresco. Los frescos se pintan rápido, sobre yeso húmedo. Leonardo quería trabajar despacio y corregir, así que pintó sobre la pared seca, y la pintura empezó a descascararse en menos de veinte años. Desde entonces ha sobrevivido a una puerta que le abrieron en la parte de abajo en 1652, a soldados franceses que usaron la sala de establo en 1796, y a una bomba en agosto de 1943 que destruyó casi todo el salón. La pared pintada se salvó detrás de sacos de arena. La última restauración duró veintiún años y terminó en 1999. Para verla hay que reservar por internet, solo en el sitio oficial, con semanas o incluso meses de anticipación. Tienes quince minutos adentro, en un grupo pequeño. Cierra los lunes. La entrada es el edificio justo al lado de la iglesia; busca el letrero Cenacolo Vinciano. Aunque no tengas entrada, la iglesia en sí es gratis. Ahora mira al otro lado de la calle, la casa antigua y elegante del número 65, la Casa degli Atellani. Detrás esconde una de las historias más bonitas de Milán. En 1498, mientras Leonardo pintaba la Última Cena al otro lado de la calle, el duque le regaló una viña aquí detrás, como una hectárea de vides. Leonardo estaba orgulloso de ella. La perdió cuando los franceses tomaron Milán, la recuperó, y todavía la mencionó en su testamento. Con los siglos la viña desapareció, y las bombas de 1943 acabaron con ella. Luego, unos científicos de la Universidad de Milán excavaron en el jardín, encontraron raíces viejas y con su ADN identificaron la uva: malvasía de Candía. En 2015 volvieron a sembrar la viña de Leonardo con la misma vid. Lástima que no se puede entrar. En 2022 la casa la compró el multimillonario francés Bernard Arnault, y está cerrada al público desde octubre de 2023, sin fecha de reapertura. Así que disfrútala desde aquí. Ahora cruza el Corso Magenta por el paso peatonal y baja por la Via Zenale, la calle frente a la plaza de la iglesia, justo a la derecha de la casa antigua.",
+      "photo": "photos/milan-leonardo-navigli/2.jpg",
+      "credit": "Leonardo da Vinci, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg",
+      "place": "Cenacolo Vinciano",
+      "via": [
+        [
+          45.46573,
+          9.175494
+        ],
+        [
+          45.465811,
+          9.175307
+        ],
+        [
+          45.465651,
+          9.173979
+        ],
+        [
+          45.465663,
+          9.171327
+        ],
+        [
+          45.465697,
+          9.170665
+        ],
+        [
+          45.466018,
+          9.170697
+        ]
+      ]
+    },
+    {
+      "name": "Via San Vittore",
+      "kind": "walk",
+      "lat": 45.46365,
+      "lng": 9.16965,
+      "text": "Al final de la Via Zenale, gira a la izquierda por la Via San Vittore.",
+      "via": [
+        [
+          45.466018,
+          9.170697
+        ],
+        [
+          45.465775,
+          9.170613
+        ],
+        [
+          45.465679,
+          9.170363
+        ]
+      ]
+    },
+    {
+      "name": "Las máquinas de Leonardo",
+      "kind": "stop",
+      "lat": 45.46334,
+      "lng": 9.17035,
+      "text": "A tu derecha, en un antiguo monasterio, está el Museo Nacional de la Ciencia y la Tecnología de Italia, que lleva el nombre de Leonardo da Vinci. Abrió en 1953, para los quinientos años de su nacimiento. Leonardo llenó miles de páginas de cuadernos con ideas: máquinas voladoras, puentes, esclusas, armas, engranajes. El museo tiene una famosa galería de maquetas construidas a partir de esos dibujos, para que veas cómo se verían sus bocetos en madera y metal. También tiene un submarino de verdad, trenes, aviones y uno de los viejos tranvías de 1928 de Milán. Cierra los lunes. Sigue derecho por la Via San Vittore unos trescientos metros.",
+      "photo": "photos/milan-leonardo-navigli/4.jpg",
+      "credit": "01albertop, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Museo_nazionale_della_scienza_e_della_tecnologia_Leonardo_da_Vinci.jpg",
+      "place": "Museo Nazionale Scienza e Tecnologia Leonardo da Vinci"
+    },
+    {
+      "name": "La Pusterla",
+      "kind": "walk",
+      "lat": 45.46233,
+      "lng": 9.17351,
+      "text": "Sigue derecho hacia la plaza. La pequeña puerta de ladrillo con estatuas a tu derecha es la Pusterla di Sant'Ambrogio, una puerta lateral de las murallas medievales. Se reconstruyó en 1939 con ladrillos viejos, pero sus estatuas de San Ambrosio y dos mártires son del siglo catorce. Camina hacia la iglesia de ladrillo y detente junto a la vieja columna de piedra que está sola."
+    },
+    {
+      "name": "San Ambrosio y la Columna del Diablo",
+      "kind": "stop",
+      "lat": 45.4624,
+      "lng": 9.17495,
+      "text": "Mira la columna romana solitaria a tu lado, y los dos huecos que tiene. Es la Colonna del Diavolo, la Columna del Diablo. La leyenda cuenta que aquí el Diablo intentó tentar a San Ambrosio, perdió la paciencia, lo embistió y se le quedaron los cuernos clavados en la piedra. Dicen que los huecos huelen a azufre, y que si pegas la oreja, oyes el infierno. Lo más probable es que ahí hubiera piezas de metal. Ambrosio es el héroe de Milán. En el año 374 era el gobernador romano, ni siquiera estaba bautizado, cuando la gente en la catedral empezó a gritar: ¡Ambrosio, obispo! En una semana ya era las dos cosas. Construyó esta basílica en la década de 380, y todavía está aquí, en la cripta. Uno de sus alumnos fue un joven profesor africano llamado Agustín, a quien Ambrosio bautizó en el 387, y que se volvió San Agustín. Ambrosio también era duro: después de una masacre en el 390, obligó al emperador Teodosio a hacer penitencia pública. La iglesia que ves es casi toda del siglo doce. Atraviesa el patio de arcos y busca el altar de oro, de más de mil cien años, y una serpiente de bronce sobre una columna que, dicen, bajará arrastrándose el día del fin del mundo. Ahora, mirando hacia la iglesia, sal de la plaza por la derecha, por la Via Lanzone.",
+      "photo": "photos/milan-leonardo-navigli/6.jpg",
+      "credit": "Óðinn, CC BY-SA 2.5 ca, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Atrium_of_the_Basilica_of_Sant%27Ambrogio.jpg",
+      "place": "Basilica di Sant'Ambrogio",
+      "via": [
+        [
+          45.462167,
+          9.174454
+        ],
+        [
+          45.462396,
+          9.174635
+        ]
+      ]
+    },
+    {
+      "name": "Via Lanzone",
+      "kind": "walk",
+      "lat": 45.46171,
+      "lng": 9.1746,
+      "text": "Sigue la Via Lanzone, que dobla hacia la izquierda.",
+      "via": [
+        [
+          45.462318,
+          9.174914
+        ],
+        [
+          45.462371,
+          9.174664
+        ],
+        [
+          45.462055,
+          9.174533
+        ]
+      ]
+    },
+    {
+      "name": "Via Caminadella",
+      "kind": "walk",
+      "lat": 45.46084,
+      "lng": 9.1764,
+      "text": "Sigue derecho por la Via Caminadella y la Via Mora, hasta la placita del final.",
+      "via": [
+        [
+          45.461422,
+          9.174854
+        ],
+        [
+          45.461071,
+          9.17552
+        ]
+      ]
+    },
+    {
+      "name": "Via De Amicis y el anfiteatro",
+      "kind": "walk",
+      "lat": 45.45873,
+      "lng": 9.17804,
+      "text": "Gira a la izquierda por la Via De Amicis. Mientras caminas, el parque a tu derecha, detrás de la reja, esconde los restos del anfiteatro romano de Milán, donde peleaban gladiadores hace casi dos mil años. Era uno de los más grandes de Italia. Después, sus piedras se las llevaron para construir iglesias, entre ellas la que estás a punto de ver. El pequeño museo del número 17 es gratis. Camina hasta el final de la calle, donde hay una vieja puerta de piedra. Ahí gira a la izquierda, hacia la fila de columnas romanas.",
+      "via": [
+        [
+          45.460567,
+          9.17646
+        ],
+        [
+          45.46007,
+          9.176855
+        ],
+        [
+          45.459762,
+          9.177446
+        ],
+        [
+          45.459679,
+          9.177348
+        ],
+        [
+          45.459018,
+          9.178324
+        ]
+      ]
+    },
+    {
+      "name": "Hacia las columnas",
+      "kind": "walk",
+      "lat": 45.45776,
+      "lng": 9.1808,
+      "text": "Gira aquí a la izquierda y camina hasta la fila de columnas romanas altas que tienes enfrente.",
+      "via": [
+        [
+          45.457809,
+          9.180074
+        ],
+        [
+          45.457895,
+          9.180168
+        ],
+        [
+          45.457734,
+          9.180553
+        ],
+        [
+          45.457834,
+          9.18065
+        ]
+      ]
+    },
+    {
+      "name": "Las columnas de San Lorenzo",
+      "kind": "stop",
+      "lat": 45.4581,
+      "lng": 9.181,
+      "text": "Dieciséis columnas romanas, de unos ocho metros cada una, del siglo segundo o tercero. Nadie sabe con certeza de qué templo o de qué baños salieron. En el siglo cuarto las trajeron aquí para hacer una entrada grandiosa a la iglesia de atrás, San Lorenzo, que cuando se construyó era la iglesia redonda más grande de Occidente. Durante siglos hubo casas apretadas entre las columnas y la iglesia; las quitaron apenas en 1935. En el centro hay un emperador de bronce: Constantino. Es una copia de una estatua antigua de Roma, y está aquí por una razón. En el año 313, Constantino y el otro emperador se reunieron en Milán y acordaron dejar que todos practicaran su religión libremente, también los cristianos. Es el famoso Edicto de Milán. No convirtió al cristianismo en la religión oficial, eso vino después, pero acabó con las persecuciones. Hoy las Colonne son donde los jóvenes milaneses se reúnen las noches de verano, trago en mano, sentados en las escaleras. Ahora devuélvete por la vieja puerta de piedra por la que pasaste, la Porta Ticinese medieval, y sigue derecho por el Corso di Porta Ticinese.",
+      "photo": "photos/milan-leonardo-navigli/11.jpg",
+      "credit": "Original uploader was Bigorenzo at it.wikipedia, Public domain, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Colonneslorenzo.jpg",
+      "place": "Colonne di San Lorenzo",
+      "via": [
+        [
+          45.457763,
+          9.180965
+        ]
+      ]
+    },
+    {
+      "name": "Corso di Porta Ticinese",
+      "kind": "walk",
+      "lat": 45.4554,
+      "lng": 9.18071,
+      "text": "Este es el Corso di Porta Ticinese, una calle de tiendas de ropa vintage, tenis y cafés. El parque verde a tu izquierda es el Parco delle Basiliche, el parque de las basílicas, porque une a San Lorenzo, que quedó atrás, con la próxima iglesia. Sigue derecho. La próxima iglesia te quedará a la izquierda.",
+      "via": [
+        [
+          45.457681,
+          9.181062
+        ]
+      ]
+    },
+    {
+      "name": "San Eustorgio y los Reyes Magos",
+      "kind": "stop",
+      "lat": 45.45345,
+      "lng": 9.1807,
+      "text": "Mira hacia arriba, al campanario de esta iglesia, San Eustorgio. En la punta no hay una cruz. Hay una estrella. Es porque, durante siglos, esta iglesia decía tener los cuerpos de los Reyes Magos, los que siguieron la estrella hasta Belén. Venían peregrinos de toda Europa. Pero en 1164 el emperador alemán Federico Barbarroja, que acababa de aplastar a Milán, mandó llevarse las reliquias a Colonia, donde todavía están, en la gran catedral. Milán tardó más de setecientos años en recuperar unos pocos fragmentos, a comienzos del siglo veinte. Adentro todavía puedes ver la enorme tumba de piedra vacía de los Magos. Cada seis de enero, un desfile de Reyes Magos, con camellos y disfraces, camina desde el Duomo hasta esta iglesia. Detrás, la capilla Portinari, construida en la década de 1460 para Pigello Portinari, que dirigía el banco de los Médici en Milán, es una joya del Renacimiento, pero esa parte se paga. Ahora sigue hasta el final de la calle, a la plaza grande con la puerta blanca y alta.",
+      "photo": "photos/milan-leonardo-navigli/13.jpg",
+      "credit": "Bele92, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Campanile_Diocesi_Milano_Sant%27Eustorgio.JPG",
+      "place": "Basilica di Sant'Eustorgio",
+      "via": [
+        [
+          45.453298,
+          9.180386
+        ],
+        [
+          45.453387,
+          9.180733
+        ]
+      ]
+    },
+    {
+      "name": "Piazza Ventiquattro Maggio",
+      "kind": "walk",
+      "lat": 45.45282,
+      "lng": 9.18003,
+      "text": "Esta es la Piazza Ventiquattro Maggio, con tráfico y tranvías por todos lados, así que usa los pasos peatonales. Deja la gran puerta blanca a tu izquierda, cruza la plaza y ve hacia el final del largo estanque de agua a tu derecha.",
+      "via": [
+        [
+          45.453387,
+          9.180733
+        ],
+        [
+          45.453298,
+          9.180386
+        ],
+        [
+          45.453144,
+          9.180376
+        ],
+        [
+          45.453157,
+          9.180222
+        ]
+      ]
+    },
+    {
+      "name": "La Dársena",
+      "kind": "stop",
+      "lat": 45.45243,
+      "lng": 9.17915,
+      "text": "Esta larga dársena de agua es la Darsena, el antiguo puerto de Milán. Sí, Milán, a cientos de kilómetros del mar, tenía puerto, y en 1953 era el tercero de Italia por peso de mercancías. Aquí se juntan dos canales: el Naviglio Grande, que llega desde el río Ticino por el oeste, y el Naviglio Pavese, que sale hacia el sur, a Pavía. Las barcazas traían arena, piedra, grano y vino a la ciudad. La última, cargada de arena, llegó en 1979. Después el puerto se abandonó, hasta que lo limpiaron y lo reabrieron en 2015, para la Expo, la feria mundial. El mercado cubierto de la plaza tiene buena comida callejera. ¿Y la alta puerta blanca de la plaza? Es la Porta Ticinese nueva, terminada en tiempos de Napoleón. Cuando él cayó, los milaneses le grabaron una nueva dedicatoria, a la paz. ¿Te acuerdas del mármol del Duomo? Llegaba por aquí, en barcazas por el Naviglio Grande, y luego pasaba por una esclusa justo al norte de aquí hacia canales que llegaban hasta la catedral. Esos canales de la ciudad hoy están enterrados bajo las calles. Ahora camina por la orilla, con el agua a tu derecha. Pronto cruzarás un puentecito sobre el inicio del Naviglio Pavese, el canal que va a Pavía.",
+      "photo": "photos/milan-leonardo-navigli/15.jpg",
+      "credit": "FlavMi, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milan-Porta_Genova-Main_walk_of_the_D%C3%A0rsena.jpg",
+      "place": "Darsena Milano",
+      "via": [
+        [
+          45.452771,
+          9.180123
+        ],
+        [
+          45.452427,
+          9.179968
+        ]
+      ]
+    },
+    {
+      "name": "Sobre el Naviglio Grande",
+      "kind": "walk",
+      "lat": 45.45219,
+      "lng": 9.17775,
+      "text": "Usa el paso peatonal, y luego pasa el puente sobre el Naviglio Grande. Al otro lado, gira a la izquierda por el camino junto al canal, la Alzaia Naviglio Grande.",
+      "via": [
+        [
+          45.452267,
+          9.178893
+        ]
+      ]
+    },
+    {
+      "name": "El Naviglio Grande",
+      "kind": "stop",
+      "lat": 45.45235,
+      "lng": 9.17674,
+      "text": "Estás en el Naviglio Grande, el Gran Canal. Se empezó en 1177, casi trescientos años antes de que naciera Leonardo, y recorre cincuenta kilómetros desde el río Ticino. Alzaia significa camino de sirga: río arriba, contra la corriente, las barcazas las jalaban caballos que caminaban por este sendero. Vas a oír muchas veces que Leonardo inventó la esclusa o que construyó los Navigli. No es así. Pero en sus años en Milán estudió los canales a fondo, y dibujó compuertas que se cierran en ángulo, el diseño que todavía se usa en canales de todo el mundo. Una cosa más. En otoño e invierno a veces vacían el canal para limpiarlo y repararlo, así que no te sorprendas si encuentras una zanja con barro en vez de agua. Por la tarde, estas orillas son el lugar favorito de los milaneses para el aperitivo. El último domingo de casi todos los meses hay un enorme mercado de antigüedades por las dos orillas. Camina junto al canal, con el agua a tu izquierda, unos ciento cincuenta metros. Cuidado con las bicicletas.",
+      "photo": "photos/milan-leonardo-navigli/17.jpg",
+      "credit": "Dario Crespi, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ponte_antico_sul_Naviglio_Grande_a_Turbigo_03.jpg",
+      "place": "Alzaia Naviglio Grande Milano"
+    },
+    {
+      "name": "Vicolo dei Lavandai",
+      "kind": "stop",
+      "lat": 45.45205,
+      "lng": 9.17515,
+      "text": "Gira a la derecha por el callejoncito, el Vicolo dei Lavandai, el callejón de los lavanderos. Mira las losas de piedra a lo largo del canalito de agua, bajo el techo de madera. Hasta los años cincuenta, esto era un lavadero público. La gente se arrodillaba aquí, restregaba la ropa sobre las piedras inclinadas con una pasta de ceniza y jabón, y la enjuagaba en el agua corriente del canal. Era un trabajo duro y frío, y los lavanderos hasta tenían su propio gremio, con San Antonio como patrono. Es uno de los rincones más fotografiados de Milán, y el lugar perfecto para terminar. Aquí acaba nuestro paseo: de la ciudad de los emperadores a Leonardo, San Ambrosio, los Reyes Magos y el agua que construyó Milán. Ahora es la hora del aperitivo. Pide un spritz o un Campari, y en muchos bares viene algo de comer. No dejes el celular sobre la mesa y lleva el bolso cerca; estos canales se llenan de noche, y las orillas no tienen baranda. Gracias por caminar conmigo. Grazie, y disfruta Milán. Y si todavía no lo has hecho, prueba nuestro otro recorrido por Milán, del Duomo al castillo.",
+      "photo": "photos/milan-leonardo-navigli/18.jpg",
+      "credit": "Lorenzo Fratti, CC BY 2.5, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Vicolo_Lavandai_a_Milano.jpg",
+      "place": "Vicolo dei Lavandai Milano",
+      "via": [
+        [
+          45.452253,
+          9.176631
+        ],
+        [
+          45.451965,
+          9.175297
+        ]
+      ]
+    }
+  ]
+}

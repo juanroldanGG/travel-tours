@@ -1,0 +1,261 @@
+{
+  "title": "Milán en tranvía: la histórica línea 1",
+  "summary": "Súbete a un tranvía de 1928 con bancas de madera y pasa por los arcos de Porta Nuova, el barrio de la moda, La Scala y el castillo de los Sforza, hasta el arco de Napoleón. Unos 30 minutos por el precio de un pasaje.",
+  "cover": "photos/milan-tram1/4.jpg",
+  "mode": "tram",
+  "minutes": 40,
+  "km": 4.6,
+  "voice": "es-CO-GonzaloNeural",
+  "audio": "audio/milan-tram1-es",
+  "intro": "¡Bienvenido a bordo! Este es un viaje, no una caminata: unos treinta minutos en la línea 1 del tranvía de Milán, que normalmente usa los famosos tranvías antiguos de 1928, con bancas de madera y ventanas grandes. Nos subimos en la Piazza della Repubblica y nos bajamos en el arco de Napoleón, pasando por una puerta medieval, el barrio de la moda, La Scala y el castillo. Desde enero de 2026 ya no hay tiquetes de papel. Lo más fácil es pasar tu tarjeta bancaria sin contacto o tu celular por el lector al subir, una tarjeta por persona. Un viaje cuesta dos euros con veinte y vale noventa minutos. También puedes usar la aplicación ATM Milano, pero activa el tiquete antes de subir. Los tranvías viejos tienen escalones altos, así que no son accesibles en silla de ruedas. Evita la hora pico y lleva el bolso al frente cerca de las puertas. Deja la pantalla encendida: empezaré a hablar a medida que el tranvía llegue a cada lugar.",
+  "stops": [
+    {
+      "name": "Piazza della Repubblica",
+      "kind": "stop",
+      "lat": 45.47809,
+      "lng": 9.19745,
+      "text": "Esta es la Piazza della Repubblica, y aquí te subes. Espera en la parada el tranvía número 1, dirección Roserio, y cuando llegue, siéntate del lado derecho si puedes: casi todo lo que vamos a ver quedará a tu derecha. Mientras esperas, mira alrededor. La primera Estación Central de Milán estaba justo aquí, desde 1864 hasta que en 1931 abrió la nueva, enorme, un poco más arriba. En la plaza está el gran Hotel Principe di Savoia, de 1927. Y busca la torre alta un poco más allá, del lado derecho de la plaza: la Torre Breda, terminada en 1954. Con unos ciento diecisiete metros, fue el primer edificio más alto que la Madonnina dorada del Duomo, rompiendo una regla que los milaneses habían respetado durante siglos. Ya arriba, relájate. Te iré contando a medida que pasemos por cada parte del recorrido.",
+      "photo": "photos/milan-tram1/0.jpg",
+      "credit": "Moongateclimber, CC BY-SA 3.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Breda_Tower_from_Viale_Tunisia.jpg",
+      "place": "Piazza della Repubblica Milano"
+    },
+    {
+      "name": "Via Turati y la Casa Fea",
+      "kind": "stop",
+      "lat": 45.47601,
+      "lng": 9.19474,
+      "text": "Estamos en la Via Turati. Ya viene a tu derecha, en la esquina, un edificio con una mezcla rara de arcos, ventanas y franjas de piedra. Su arquitecto, Giovanni Muzio, lo terminó en 1923, y a los milaneses les pareció tan feo que lo bautizaron la Ca' Brutta, la Casa Fea. El nombre se quedó, pero hoy se considera una joya de la arquitectura moderna italiana. A la izquierda, los edificios claros son de la empresa Montecatini, y el primero lo diseñó Gio Ponti en los años treinta, el mismo arquitecto de la Torre Branca y, después, del rascacielos Pirelli. Milán siempre ha sido la ciudad de los negocios de Italia, y su historia se lee en sus edificios de oficinas.",
+      "via": [
+        [
+          45.478197,
+          9.197101
+        ],
+        [
+          45.478107,
+          9.196807
+        ]
+      ],
+      "photo": "photos/milan-tram1/1.jpg",
+      "credit": "Paolo Monti, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Paolo_Monti_%E2%80%93_Milano._Ca%27_Brutta,_1982_circa_%E2%80%93_BEIC_IE9091107.jpg",
+      "place": "Ca' Brutta Milano"
+    },
+    {
+      "name": "Los arcos de Porta Nuova",
+      "kind": "stop",
+      "lat": 45.47269,
+      "lng": 9.19516,
+      "text": "Atento: el tranvía está a punto de pasar por una vieja puerta de piedra. Son los Archi di Porta Nuova, una puerta de las murallas medievales de Milán, del siglo doce. Incrustadas en ella hay lápidas romanas antiguas, recicladas por los constructores medievales, y arriba, un altar de mármol del siglo catorce. Durante siglos, todo lo que entraba a la ciudad desde el norte pasaba por aquí. A tu izquierda, los árboles son los Giardini Montanelli, los jardines públicos más antiguos de Milán, de 1784. Al cruzar la puerta entramos a la Via Manzoni, que lleva el nombre de Alessandro Manzoni, el autor de Los novios, la gran novela que todo italiano lee en el colegio.",
+      "via": [
+        [
+          45.47559,
+          9.194612
+        ],
+        [
+          45.472992,
+          9.195014
+        ]
+      ],
+      "photo": "photos/milan-tram1/2.jpg",
+      "credit": "Robertater17, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_-_Archi_di_Porta_Nuova_-_202209241205.jpeg",
+      "place": "Archi di Porta Nuova"
+    },
+    {
+      "name": "Via Manzoni",
+      "kind": "stop",
+      "lat": 45.47029,
+      "lng": 9.19299,
+      "text": "Esta es la Via Manzoni, en el borde del barrio de la moda de Milán. Las calles que se abren a tu izquierda llevan al Quadrilatero della Moda, el cuadrilátero de la moda, con la Via Montenapoleone en el centro: la calle de compras más cara de Italia. A tu derecha, en el número 29, está el Grand Hotel et de Milan. Allí vivió el compositor Giuseppe Verdi, y allí murió, en enero de 1901. Mientras agonizaba, la ciudad cubrió esta calle con paja para que los coches y los caballos no lo molestaran. Cuando murió, cientos de miles de personas siguieron su ataúd. Un poco más adelante, a tu izquierda, está el Museo Poldi Pezzoli, la casa de un noble llena de arte, uno de los tesoros escondidos de Milán.",
+      "via": [
+        [
+          45.472326,
+          9.19511
+        ]
+      ],
+      "photo": "photos/milan-tram1/3.jpg",
+      "credit": "Fernando García, CC BY 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano_via_Manzoni_tram.jpg",
+      "place": "Grand Hotel et de Milan"
+    },
+    {
+      "name": "La Scala",
+      "kind": "stop",
+      "lat": 45.46757,
+      "lng": 9.19012,
+      "text": "Mira a la derecha: ese edificio sencillo y claro es La Scala, tal vez el teatro de ópera más famoso del mundo. Se inauguró en 1778, y Verdi, el del hotel que acabamos de pasar, estrenó aquí su primer gran éxito, Nabucco, en 1842. La temporada siempre abre el siete de diciembre, día del santo patrono de Milán. A la izquierda, en la placita, hay una estatua de Leonardo da Vinci con cuatro de sus alumnos, y detrás el Palazzo Marino, la alcaldía. Un poco más allá, el arco alto es la entrada trasera de la Galería, el pasaje comercial con techo de vidrio. Si quieres ver el Duomo, la Galería te lleva directo, a cinco minutos a pie de aquí.",
+      "via": [],
+      "photo": "photos/milan-tram1/4.jpg",
+      "credit": "dconvertini, CC BY-SA 2.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Teatro_alla_Scala_-_52894556808.jpg",
+      "place": "Teatro alla Scala"
+    },
+    {
+      "name": "Piazza Cordusio",
+      "kind": "stop",
+      "lat": 45.46563,
+      "lng": 9.18712,
+      "text": "Esta es la Piazza Cordusio. El nombre tiene más de mil doscientos años y viene de los lombardos, el pueblo germánico que gobernó el norte de Italia: cors ducis, la corte del duque. Hacia 1900 se volvió la plaza del dinero de Milán, rodeada de bancos y aseguradoras. El edificio curvo del lado izquierdo de la plaza fue la bolsa y el correo central; desde 2018 es un enorme Starbucks Reserve Roastery, el primer Starbucks que abrió en Italia, en la tierra del espresso. El Duomo está a solo cinco minutos a pie, por la Via Orefici. Agárrate, que el tranvía ahora gira hacia el norte.",
+      "via": [
+        [
+          45.466852,
+          9.189241
+        ],
+        [
+          45.4657,
+          9.188202
+        ],
+        [
+          45.465628,
+          9.187966
+        ]
+      ],
+      "photo": "photos/milan-tram1/5.jpg",
+      "credit": "Paolobon140, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Piazza_Cordusio_a_Milano,_veduta_generale.jpg",
+      "place": "Piazza Cordusio Milano"
+    },
+    {
+      "name": "Largo Cairoli y el castillo",
+      "kind": "stop",
+      "lat": 45.46817,
+      "lng": 9.182,
+      "text": "A tu izquierda, junto a los rieles, Giuseppe Garibaldi a caballo, el general que más hizo por unificar Italia en la década de 1860. Ahora mira a la derecha, al fondo de la avenida: esa fortaleza de ladrillo rojo con la torre alta es el Castello Sforzesco, el castillo de los duques Sforza, construido desde 1450. Leonardo da Vinci trabajó para ellos, y adentro está la última escultura de Miguel Ángel. El tranvía va ahora por el Foro Buonaparte. Esa curva es lo único que quedó del plan de Napoleón de un foro inmenso alrededor del castillo, que nunca se construyó.",
+      "via": [
+        [
+          45.465656,
+          9.186608
+        ],
+        [
+          45.465795,
+          9.186416
+        ],
+        [
+          45.468898,
+          9.185294
+        ],
+        [
+          45.468929,
+          9.185072
+        ],
+        [
+          45.4687,
+          9.184006
+        ],
+        [
+          45.468576,
+          9.182755
+        ],
+        [
+          45.468353,
+          9.182159
+        ]
+      ],
+      "photo": "photos/milan-tram1/6.jpg",
+      "credit": "G.dallorto, Attribution, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano,_largo_Cairoli_-_Monumento_a_Giuseppe_Garibaldi._Foto_Giovanni_Dall%27Orto_6-gen-2007_-_02.jpg",
+      "place": "Largo Cairoli Milano"
+    },
+    {
+      "name": "Cadorna",
+      "kind": "stop",
+      "lat": 45.468,
+      "lng": 9.17601,
+      "text": "Esta es Cadorna, un cruce con mucho movimiento: dos líneas de metro, y la estación de tren hacia el lago de Como y el aeropuerto de Malpensa. Busca en la plaza una escultura gigante: una aguja enorme con un hilo de colores que entra y sale del suelo. Se llama Aguja, hilo y nudo, de los artistas estadounidenses Claes Oldenburg y Coosje van Bruggen, del año 2000. La aguja es un homenaje a la moda y los textiles de Milán, y el hilo es rojo, verde y amarillo, los colores de las tres primeras líneas de metro. En la próxima parada, la Piazza Virgilio, puedes bajarte para ver la Última Cena de Leonardo, a unos cinco minutos a pie hacia la izquierda, si reservaste la entrada.",
+      "via": [
+        [
+          45.468002,
+          9.181855
+        ],
+        [
+          45.467746,
+          9.18111
+        ],
+        [
+          45.467592,
+          9.179958
+        ],
+        [
+          45.46767,
+          9.178999
+        ],
+        [
+          45.468057,
+          9.177651
+        ]
+      ],
+      "photo": "photos/milan-tram1/7.jpg",
+      "credit": "Paolobon140, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Veduta_generale_estiva_di_piazzale_Cadorna,_Milano.jpg",
+      "place": "Ago filo e nodo Milano"
+    },
+    {
+      "name": "El tranvía mismo",
+      "kind": "stop",
+      "lat": 45.4698,
+      "lng": 9.17068,
+      "text": "Mientras pasamos por estas calles más tranquilas, hablemos del tranvía en el que vas sentado. Si es un tranvía corto, naranja o amarillo y con bancas de madera, es un Ventotto, un veintiocho, por 1928, el año en que entraron en servicio los primeros. Milán copió el diseño de un tranvía estadounidense, creado en Cleveland por un hombre llamado Peter Witt. Se construyeron más de quinientos. Unos ciento veinticinco todavía llevan pasajeros todos los días, casi un siglo después, lo que los vuelve de los tranvías más viejos en servicio regular del mundo. Algunos se fueron al extranjero: unos diez recorren la línea histórica F de San Francisco, varios todavía con los colores de Milán. Y en febrero de 2026, para la inauguración de los Juegos Olímpicos de Invierno, el presidente de Italia llegó al estadio en un tranvía histórico, conducido por el campeón de motociclismo Valentino Rossi.",
+      "via": [
+        [
+          45.46785,
+          9.175415
+        ],
+        [
+          45.467786,
+          9.173783
+        ],
+        [
+          45.467867,
+          9.173297
+        ]
+      ],
+      "photo": "photos/milan-tram1/8.jpg",
+      "credit": "Nick shul, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:ATM_Class_1500_1661.jpg",
+      "place": "Tram 1 Milano"
+    },
+    {
+      "name": "Prepárate para bajar",
+      "kind": "walk",
+      "lat": 45.47354,
+      "lng": 9.16916,
+      "text": "Prepárate: la próxima parada es Arco della Pace, y ahí nos bajamos. Oprime el botón de parada, y en un momento mira a la derecha: al final de la avenida aparecerá un enorme arco de triunfo blanco.",
+      "via": [
+        [
+          45.4723,
+          9.16746
+        ],
+        [
+          45.472475,
+          9.167533
+        ]
+      ]
+    },
+    {
+      "name": "Arco della Pace",
+      "kind": "stop",
+      "lat": 45.47698,
+      "lng": 9.17077,
+      "text": "Llegamos. Bájate y camina hasta el arco. Este es el Arco della Pace, el Arco de la Paz, empezado en 1807 para Napoleón, donde su nueva carretera por los Alpes hacia París entraba a la ciudad. Detrás de ti, esa avenida larga y recta, el Corso Sempione, es esa carretera. Napoleón cayó antes de que se terminara, y los austriacos lo completaron en 1838 y lo dedicaron a la paz. Arriba, seis caballos de bronce tiran del carro de la diosa de la Paz. Puede que te cuenten que los voltearon para mostrarle el trasero a Francia. Es una buena historia, pero no es cierta. Detrás del arco está el Parco Sempione, el gran parque central de Milán. Crúzalo derecho y llegarás al castillo que viste desde el tranvía. Aquí termina nuestro viaje. Gracias por viajar conmigo. Grazie, y disfruta Milán. Si te gustó, prueba nuestros recorridos a pie: uno del Duomo hasta este mismo arco, y otro de la Última Cena de Leonardo a los canales.",
+      "via": [
+        [
+          45.475216,
+          9.171674
+        ],
+        [
+          45.475689,
+          9.171548
+        ],
+        [
+          45.476227,
+          9.1717
+        ]
+      ],
+      "photo": "photos/milan-tram1/10.jpg",
+      "credit": "Oleksandr Dede, CC BY-SA 4.0, Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Milano,_Peter_Witt_1990_and_1661_and_Arco_della_Pace.jpg",
+      "place": "Arco della Pace Milano"
+    }
+  ]
+}
