@@ -28,7 +28,29 @@
       "photo": "photos/medellin-centro/1.jpg",
       "credit": "Gonzalo Escovar Gaviria, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Carrera_Jun%C3%ADn._Medell%C3%ADn,_1923.jpg",
-      "place": "Pasaje Junín, Medellín"
+      "place": "Pasaje Junín, Medellín",
+      "via": [
+        [
+          6.253952,
+          -75.564334
+        ],
+        [
+          6.253663,
+          -75.564518
+        ],
+        [
+          6.253589,
+          -75.564393
+        ],
+        [
+          6.253347,
+          -75.564554
+        ],
+        [
+          6.253261,
+          -75.564415
+        ]
+      ]
     },
     {
       "name": "Edificio Coltejer",
@@ -39,7 +61,17 @@
       "photo": "photos/medellin-centro/2.jpg",
       "credit": "laloking97 [2], CC BY-SA 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Coltejer-Medellin.jpg",
-      "place": "Edificio Coltejer Medellín"
+      "place": "Edificio Coltejer Medellín",
+      "via": [
+        [
+          6.250048,
+          -75.566396
+        ],
+        [
+          6.250083,
+          -75.566461
+        ]
+      ]
     },
     {
       "name": "Parque Berrío",
@@ -50,7 +82,17 @@
       "photo": "photos/medellin-centro/3.jpg",
       "credit": "José Luiz, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Statue_of_Pedro_Justo_Berrio_-_Parque_Berr%C3%ADo_-_Medell%C3%ADn_-_Colombia_2024.jpg",
-      "place": "Parque Berrío Medellín"
+      "place": "Parque Berrío Medellín",
+      "via": [
+        [
+          6.249701,
+          -75.566541
+        ],
+        [
+          6.249944,
+          -75.56703
+        ]
+      ]
     },
     {
       "name": "Palacio de la Cultura",
@@ -61,7 +103,13 @@
       "photo": "photos/medellin-centro/4.jpg",
       "credit": "Kamilokardona, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Palacio_de_la_Cultura_Rafael_Uribe_Uribe,_vista_desde_estaci%C3%B3n_del_metro_Parque_Berr%C3%ADo..jpg",
-      "place": "Palacio de la Cultura Rafael Uribe Uribe"
+      "place": "Palacio de la Cultura Rafael Uribe Uribe",
+      "via": [
+        [
+          6.25049,
+          -75.56828
+        ]
+      ]
     },
     {
       "name": "Plaza Botero",
@@ -72,7 +120,13 @@
       "photo": "photos/medellin-centro/5.jpg",
       "credit": "Steffen Schmitz (more photos), CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Medell%C3%ADn,_Plaza_Botero,_2023-07_CN-01.jpg",
-      "place": "Plaza Botero Medellín"
+      "place": "Plaza Botero Medellín",
+      "via": [
+        [
+          6.251366,
+          -75.568228
+        ]
+      ]
     },
     {
       "name": "Hacia Carabobo",
@@ -116,14 +170,30 @@
       "photo": "photos/medellin-centro/10.jpg",
       "credit": "SajoR, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_EPM-Ventanal-Medellin.JPG",
-      "place": "Biblioteca EPM Medellín"
+      "place": "Biblioteca EPM Medellín",
+      "via": [
+        [
+          6.246318,
+          -75.572751
+        ]
+      ]
     },
     {
       "name": "Al otro lado de San Juan",
       "kind": "walk",
       "lat": 6.24514,
       "lng": -75.57282,
-      "text": "Ya cruzaste la Avenida San Juan. Gira a la izquierda y camina unos pasos por esta acera. El edificio elegante y antiguo, con un vagón de tren al frente, es nuestra próxima parada."
+      "text": "Ya cruzaste la Avenida San Juan. Gira a la izquierda y camina unos pasos por esta acera. El edificio elegante y antiguo, con un vagón de tren al frente, es nuestra próxima parada.",
+      "via": [
+        [
+          6.246318,
+          -75.572751
+        ],
+        [
+          6.245775,
+          -75.572637
+        ]
+      ]
     },
     {
       "name": "Antigua estación del Ferrocarril",
@@ -134,14 +204,26 @@
       "photo": "photos/medellin-centro/12.jpg",
       "credit": "Kamilokardona, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Vag%C3%B3n_del_ferrocarril_de_antioquia_en_la_Estaci%C3%B3n_del_Ferrocarril_Medell%C3%ADn_-Cisneros.JPG",
-      "place": "Estación Medellín Ferrocarril de Antioquia"
+      "place": "Estación Medellín Ferrocarril de Antioquia",
+      "via": [
+        [
+          6.24512,
+          -75.572506
+        ]
+      ]
     },
     {
       "name": "Esquina de Palacé",
       "kind": "walk",
       "lat": 6.2442,
       "lng": -75.5701,
-      "text": "Mientras caminas, unas palabras sobre los paisas, la gente de esta región. En toda Colombia son conocidos por emprendedores, conversadores y muy orgullosos de su tierra. Vas a oír palabras como parce, que significa amigo, y qué más, que significa cómo estás. Si alguien te ayuda, di muchas gracias, y seguro te responderán con mucho gusto. Ahora gira a la izquierda aquí, en Palacé, y cruza la Avenida San Juan por el paso peatonal."
+      "text": "Mientras caminas, unas palabras sobre los paisas, la gente de esta región. En toda Colombia son conocidos por emprendedores, conversadores y muy orgullosos de su tierra. Vas a oír palabras como parce, que significa amigo, y qué más, que significa cómo estás. Si alguien te ayuda, di muchas gracias, y seguro te responderán con mucho gusto. Ahora gira a la izquierda aquí, en Palacé, y cruza la Avenida San Juan por el paso peatonal.",
+      "via": [
+        [
+          6.244831,
+          -75.571642
+        ]
+      ]
     },
     {
       "name": "Por la Carrera 49",
@@ -155,7 +237,13 @@
       "kind": "walk",
       "lat": 6.24544,
       "lng": -75.56914,
-      "text": "Este es el Parque San Antonio. Entra al parque y camina derecho hacia el oriente, hacia dos pájaros de bronce, uno al lado del otro."
+      "text": "Este es el Parque San Antonio. Entra al parque y camina derecho hacia el oriente, hacia dos pájaros de bronce, uno al lado del otro.",
+      "via": [
+        [
+          6.244505,
+          -75.569766
+        ]
+      ]
     },
     {
       "name": "Parque San Antonio y los pájaros",
@@ -166,7 +254,17 @@
       "photo": "photos/medellin-centro/16.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:2018_Medell%C3%ADn,_parque_San_Antonio,_El_P%C3%A1jaro_de_Fernando_Botero.jpg",
-      "place": "Parque San Antonio Medellín"
+      "place": "Parque San Antonio Medellín",
+      "via": [
+        [
+          6.24528,
+          -75.568698
+        ],
+        [
+          6.245579,
+          -75.568494
+        ]
+      ]
     }
   ]
 }

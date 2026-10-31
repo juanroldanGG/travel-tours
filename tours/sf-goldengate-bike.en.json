@@ -25,7 +25,33 @@
       "kind": "walk",
       "lat": 37.80795,
       "lng": -122.42651,
-      "text": "This long curving pier is the Municipal Pier. It wraps around the cove like an arm and shelters the swimmers from the open bay. Locals come out here to fish and to watch the sunset. From here, get back on your bike and follow the bike path uphill into Fort Mason. It's a short climb, and it's fine to walk if you need to."
+      "text": "This long curving pier is the Municipal Pier. It wraps around the cove like an arm and shelters the swimmers from the open bay. Locals come out here to fish and to watch the sunset. From here, get back on your bike and follow the bike path uphill into Fort Mason. It's a short climb, and it's fine to walk if you need to.",
+      "via": [
+        [
+          37.806386,
+          -122.423306
+        ],
+        [
+          37.806288,
+          -122.424359
+        ],
+        [
+          37.806503,
+          -122.424826
+        ],
+        [
+          37.806651,
+          -122.424815
+        ],
+        [
+          37.8071,
+          -122.425869
+        ],
+        [
+          37.807499,
+          -122.426379
+        ]
+      ]
     },
     {
       "name": "Fort Mason",
@@ -36,7 +62,25 @@
       "photo": "photos/sf-goldengate-bike/2.jpg",
       "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Fort_Mason_Center_and_Downtown_San_Francisco.jpg",
-      "place": "Fort Mason San Francisco"
+      "place": "Fort Mason San Francisco",
+      "via": [
+        [
+          37.808188,
+          -122.426553
+        ],
+        [
+          37.808076,
+          -122.426837
+        ],
+        [
+          37.808112,
+          -122.428305
+        ],
+        [
+          37.807296,
+          -122.429385
+        ]
+      ]
     },
     {
       "name": "Marina Green",
@@ -47,7 +91,33 @@
       "photo": "photos/sf-goldengate-bike/3.jpg",
       "credit": "Guillaume Paumier, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Children_soccer_competition_at_Marina_Green,_San_Francisco_2.jpg",
-      "place": "Marina Green San Francisco"
+      "place": "Marina Green San Francisco",
+      "via": [
+        [
+          37.805594,
+          -122.43008
+        ],
+        [
+          37.804877,
+          -122.431449
+        ],
+        [
+          37.805305,
+          -122.432141
+        ],
+        [
+          37.80519,
+          -122.433894
+        ],
+        [
+          37.806495,
+          -122.435942
+        ],
+        [
+          37.806625,
+          -122.436371
+        ]
+      ]
     },
     {
       "name": "Palace of Fine Arts",
@@ -58,14 +128,46 @@
       "photo": "photos/sf-goldengate-bike/4.jpg",
       "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Fine_Arts_(16794p).jpg",
-      "place": "Palace of Fine Arts"
+      "place": "Palace of Fine Arts",
+      "via": [
+        [
+          37.805245,
+          -122.447347
+        ]
+      ]
     },
     {
       "name": "Into Crissy Field",
       "kind": "walk",
       "lat": 37.8063,
       "lng": -122.44958,
-      "text": "You're now entering Crissy Field. Stay on the wide gravel and paved path along the beach, and keep to the right, because this path is shared with walkers, runners and dogs. The bridge is straight ahead of you now, getting bigger with every minute. The bay is often windy here, so you may see kite surfers and windsurfers out on the water."
+      "text": "You're now entering Crissy Field. Stay on the wide gravel and paved path along the beach, and keep to the right, because this path is shared with walkers, runners and dogs. The bridge is straight ahead of you now, getting bigger with every minute. The bay is often windy here, so you may see kite surfers and windsurfers out on the water.",
+      "via": [
+        [
+          37.805245,
+          -122.447347
+        ],
+        [
+          37.805141,
+          -122.448352
+        ],
+        [
+          37.806042,
+          -122.44849
+        ],
+        [
+          37.806377,
+          -122.448121
+        ],
+        [
+          37.806533,
+          -122.448319
+        ],
+        [
+          37.80651,
+          -122.448764
+        ]
+      ]
     },
     {
       "name": "Crissy Field",
@@ -76,14 +178,42 @@
       "photo": "photos/sf-goldengate-bike/6.jpg",
       "credit": "Frank Schulenburg, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Old_Crissy_Field_Coast_Guard_Station_in_the_fog_(December_2015).jpg",
-      "place": "Crissy Field"
+      "place": "Crissy Field",
+      "via": [
+        [
+          37.80592,
+          -122.452671
+        ],
+        [
+          37.805613,
+          -122.453613
+        ],
+        [
+          37.804652,
+          -122.460971
+        ],
+        [
+          37.804584,
+          -122.464368
+        ]
+      ]
     },
     {
       "name": "Past the Warming Hut",
       "kind": "walk",
       "lat": 37.80847,
       "lng": -122.47068,
-      "text": "That small building on your left is the Warming Hut, a café and shop, and the last easy stop for a coffee or a snack before the bridge. Across from it, on the water side, is a fishing pier. Keep going straight along the water to the very end of the road, right under the bridge. On big swell days you may spot surfers riding waves near the old fort."
+      "text": "That small building on your left is the Warming Hut, a café and shop, and the last easy stop for a coffee or a snack before the bridge. Across from it, on the water side, is a fishing pier. Keep going straight along the water to the very end of the road, right under the bridge. On big swell days you may spot surfers riding waves near the old fort.",
+      "via": [
+        [
+          37.806319,
+          -122.468751
+        ],
+        [
+          37.807392,
+          -122.469314
+        ]
+      ]
     },
     {
       "name": "Fort Point",
@@ -94,7 +224,25 @@
       "photo": "photos/sf-goldengate-bike/8.jpg",
       "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Fort_Point_National_Historic_Site_and_Golden_Gate_Bridge.jpg",
-      "place": "Fort Point National Historic Site"
+      "place": "Fort Point National Historic Site",
+      "via": [
+        [
+          37.808742,
+          -122.471476
+        ],
+        [
+          37.809248,
+          -122.47567
+        ],
+        [
+          37.809511,
+          -122.476163
+        ],
+        [
+          37.810516,
+          -122.476553
+        ]
+      ]
     },
     {
       "name": "Golden Gate Bridge Welcome Center",
@@ -105,14 +253,94 @@
       "photo": "photos/sf-goldengate-bike/9.jpg",
       "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_at_sunset_1.jpg",
-      "place": "Golden Gate Bridge Welcome Center"
+      "place": "Golden Gate Bridge Welcome Center",
+      "via": [
+        [
+          37.809511,
+          -122.476163
+        ],
+        [
+          37.809312,
+          -122.475852
+        ],
+        [
+          37.809063,
+          -122.474864
+        ],
+        [
+          37.808877,
+          -122.472486
+        ],
+        [
+          37.808562,
+          -122.471584
+        ],
+        [
+          37.808156,
+          -122.471187
+        ],
+        [
+          37.807156,
+          -122.47089
+        ],
+        [
+          37.80651,
+          -122.470157
+        ],
+        [
+          37.805996,
+          -122.469955
+        ],
+        [
+          37.805867,
+          -122.470106
+        ],
+        [
+          37.806904,
+          -122.472365
+        ],
+        [
+          37.806807,
+          -122.47339
+        ],
+        [
+          37.807645,
+          -122.474398
+        ],
+        [
+          37.807699,
+          -122.474689
+        ],
+        [
+          37.807486,
+          -122.475021
+        ]
+      ]
     },
     {
       "name": "Onto the bridge",
       "kind": "walk",
       "lat": 37.8112,
       "lng": -122.47755,
-      "text": "You're on the bridge now. Stay on the bike side, keep your speed down and both hands on the handlebars. The wind can push you hard here, so hold your line. Ahead of you is the south tower. It rises about two hundred and twenty seven meters above the water, as tall as a sixty or seventy story building. Ride on, and I'll tell you the bridge's story along the way."
+      "text": "You're on the bridge now. Stay on the bike side, keep your speed down and both hands on the handlebars. The wind can push you hard here, so hold your line. Ahead of you is the south tower. It rises about two hundred and twenty seven meters above the water, as tall as a sixty or seventy story building. Ride on, and I'll tell you the bridge's story along the way.",
+      "via": [
+        [
+          37.808018,
+          -122.476229
+        ],
+        [
+          37.808807,
+          -122.476942
+        ],
+        [
+          37.809552,
+          -122.477228
+        ],
+        [
+          37.81121,
+          -122.477416
+        ]
+      ]
     },
     {
       "name": "Middle of the bridge",
@@ -120,7 +348,21 @@
       "lat": 37.8183,
       "lng": -122.47839,
       "text": "Keep rolling and listen. If you want to look, stop only where you're fully out of the way. Building this bridge was a huge risk. Many experts said the strait was too deep, too windy and too foggy. Work started in January nineteen thirty three, and the bridge opened in May nineteen thirty seven, when about two hundred thousand people walked across on opening day. For more than twenty five years, it had the longest main span of any suspension bridge in the world. A safety net under the deck saved the lives of nineteen workers, who called themselves the Halfway to Hell Club, but eleven men died. And the color? It's called International Orange. It was chosen because it blends with the hills and stands out in the fog. Keep riding to the north end, then follow the signs to Vista Point.",
-      "place": "Golden Gate Bridge"
+      "place": "Golden Gate Bridge",
+      "via": [
+        [
+          37.81121,
+          -122.477416
+        ],
+        [
+          37.814043,
+          -122.477671
+        ],
+        [
+          37.81831,
+          -122.478256
+        ]
+      ]
     },
     {
       "name": "Vista Point",
@@ -131,14 +373,106 @@
       "photo": "photos/sf-goldengate-bike/12.jpg",
       "credit": "Sebring12Hrs, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Golden_Gate_bridge_3.jpg",
-      "place": "Golden Gate Bridge Vista Point"
+      "place": "Golden Gate Bridge Vista Point",
+      "via": [
+        [
+          37.81831,
+          -122.478256
+        ],
+        [
+          37.8255,
+          -122.479003
+        ],
+        [
+          37.830742,
+          -122.479718
+        ],
+        [
+          37.831668,
+          -122.480062
+        ],
+        [
+          37.832565,
+          -122.480785
+        ],
+        [
+          37.832696,
+          -122.480629
+        ],
+        [
+          37.832414,
+          -122.479975
+        ],
+        [
+          37.832529,
+          -122.479657
+        ]
+      ]
     },
     {
       "name": "Down Alexander Avenue",
       "kind": "walk",
       "lat": 37.84031,
       "lng": -122.47801,
-      "text": "This is a long, fast downhill, so control your speed and keep your hands near the brakes. Stay to the right, because cars use this road too. Below you, down by the water, is Fort Baker, another old army post. Today its old officers' homes are a hotel and a park. At the bottom, follow the road into Sausalito."
+      "text": "This is a long, fast downhill, so control your speed and keep your hands near the brakes. Stay to the right, because cars use this road too. Below you, down by the water, is Fort Baker, another old army post. Today its old officers' homes are a hotel and a park. At the bottom, follow the road into Sausalito.",
+      "via": [
+        [
+          37.832976,
+          -122.480039
+        ],
+        [
+          37.833328,
+          -122.480873
+        ],
+        [
+          37.833278,
+          -122.481933
+        ],
+        [
+          37.83405,
+          -122.48321
+        ],
+        [
+          37.834792,
+          -122.483785
+        ],
+        [
+          37.835306,
+          -122.483873
+        ],
+        [
+          37.835853,
+          -122.483706
+        ],
+        [
+          37.836079,
+          -122.483904
+        ],
+        [
+          37.836403,
+          -122.48342
+        ],
+        [
+          37.836929,
+          -122.483065
+        ],
+        [
+          37.838669,
+          -122.483022
+        ],
+        [
+          37.8395,
+          -122.482397
+        ],
+        [
+          37.839887,
+          -122.481413
+        ],
+        [
+          37.839881,
+          -122.478905
+        ]
+      ]
     },
     {
       "name": "Sausalito waterfront",
@@ -149,7 +483,45 @@
       "photo": "photos/sf-goldengate-bike/14.jpg",
       "credit": "Daderot, CC0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Waterfront_-_Sausalito,_CA_-_DSC03344.jpg",
-      "place": "Sausalito"
+      "place": "Sausalito",
+      "via": [
+        [
+          37.841196,
+          -122.477581
+        ],
+        [
+          37.843173,
+          -122.478323
+        ],
+        [
+          37.844872,
+          -122.477867
+        ],
+        [
+          37.846174,
+          -122.478142
+        ],
+        [
+          37.846956,
+          -122.478961
+        ],
+        [
+          37.846996,
+          -122.480621
+        ],
+        [
+          37.847124,
+          -122.480789
+        ],
+        [
+          37.849877,
+          -122.480764
+        ],
+        [
+          37.849927,
+          -122.479883
+        ]
+      ]
     },
     {
       "name": "Sausalito ferry terminal",
@@ -160,7 +532,37 @@
       "photo": "photos/sf-goldengate-bike/15.jpg",
       "credit": "No machine-readable author provided. Jiang assumed (based on, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Sausalito_(5882).JPG",
-      "place": "Sausalito ferry terminal"
+      "place": "Sausalito ferry terminal",
+      "via": [
+        [
+          37.851599,
+          -122.47895
+        ],
+        [
+          37.85481,
+          -122.47895
+        ],
+        [
+          37.855915,
+          -122.479554
+        ],
+        [
+          37.855948,
+          -122.47914
+        ],
+        [
+          37.856094,
+          -122.478983
+        ],
+        [
+          37.855926,
+          -122.478686
+        ],
+        [
+          37.856425,
+          -122.478606
+        ]
+      ]
     }
   ]
 }

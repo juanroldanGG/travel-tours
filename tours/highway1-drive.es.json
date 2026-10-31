@@ -22,14 +22,50 @@
       "lat": 36.96222,
       "lng": -122.08195,
       "text": "Más adelante, a tu izquierda, está la entrada al Parque Estatal Wilder Ranch. Durante miles de años, esta tierra fue el hogar del pueblo ohlone. Después la usó la misión española de Santa Cruz, y luego, durante casi un siglo, fue un rancho lechero de la familia Wilder. Hoy es un parque estatal, y las viejas casas, los establos y los talleres siguen en pie, como una pequeña cápsula del tiempo de la vida de rancho en la costa. Al otro lado de la carretera, los senderos suben a los cerros y son muy populares entre caminantes y ciclistas de montaña. Del lado del mar, un camino fácil recorre lo alto de los acantilados, junto a pequeñas caletas y arcos tallados por las olas. Si quieres estirar las piernas temprano, hay un estacionamiento al final del camino de entrada. Si no, sigue adelante. Nos queda mucha costa.",
-      "place": "Wilder Ranch State Park"
+      "place": "Wilder Ranch State Park",
+      "via": [
+        [
+          36.962045,
+          -122.071684
+        ]
+      ]
     },
     {
       "name": "Granjas en las terrazas de la costa",
       "kind": "walk",
       "lat": 36.98419,
       "lng": -122.14812,
-      "text": "Mira la tierra a tu alrededor. Es plana, como escalones gigantes entre las montañas y el mar. Son terrazas marinas, antiguas playas que fueron saliendo del agua a lo largo de miles de años. El clima fresco y con neblina es perfecto para cultivos como coles de Bruselas, alcachofas y fresas. En temporada, vas a ver pequeños puestos de granja junto al camino."
+      "text": "Mira la tierra a tu alrededor. Es plana, como escalones gigantes entre las montañas y el mar. Son terrazas marinas, antiguas playas que fueron saliendo del agua a lo largo de miles de años. El clima fresco y con neblina es perfecto para cultivos como coles de Bruselas, alcachofas y fresas. En temporada, vas a ver pequeños puestos de granja junto al camino.",
+      "via": [
+        [
+          36.96133,
+          -122.093355
+        ],
+        [
+          36.963055,
+          -122.101956
+        ],
+        [
+          36.965248,
+          -122.106165
+        ],
+        [
+          36.969886,
+          -122.118123
+        ],
+        [
+          36.971046,
+          -122.125219
+        ],
+        [
+          36.978846,
+          -122.136203
+        ],
+        [
+          36.98357,
+          -122.145293
+        ]
+      ]
     },
     {
       "name": "Davenport",
@@ -40,7 +76,21 @@
       "photo": "photos/highway1-drive/3.jpg",
       "credit": "the_tahoe_guy from San Jose, California, USA, CC BY 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Davenport_Beach_-_California_Coast_Panorama.jpg",
-      "place": "Davenport, California"
+      "place": "Davenport, California",
+      "via": [
+        [
+          36.984708,
+          -122.150321
+        ],
+        [
+          36.990955,
+          -122.163932
+        ],
+        [
+          36.997864,
+          -122.176592
+        ]
+      ]
     },
     {
       "name": "Waddell Creek y Big Basin",
@@ -51,7 +101,49 @@
       "photo": "photos/highway1-drive/4.jpg",
       "credit": "Pink Floyd Fan 101, CC0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Big_Basin_Redwoods_State_Park_three_days_before_the_fire.jpg",
-      "place": "Waddell Beach"
+      "place": "Waddell Beach",
+      "via": [
+        [
+          37.01414,
+          -122.200485
+        ],
+        [
+          37.027198,
+          -122.214436
+        ],
+        [
+          37.034049,
+          -122.224948
+        ],
+        [
+          37.039737,
+          -122.22807
+        ],
+        [
+          37.052512,
+          -122.242458
+        ],
+        [
+          37.061678,
+          -122.251679
+        ],
+        [
+          37.074966,
+          -122.261431
+        ],
+        [
+          37.079103,
+          -122.263756
+        ],
+        [
+          37.084528,
+          -122.268387
+        ],
+        [
+          37.088021,
+          -122.272631
+        ]
+      ]
     },
     {
       "name": "Parque Estatal Año Nuevo",
@@ -62,7 +154,33 @@
       "photo": "photos/highway1-drive/5.jpg",
       "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Elephant_seals_at_Ano_Nuevo_(91604).jpg",
-      "place": "Año Nuevo State Park"
+      "place": "Año Nuevo State Park",
+      "via": [
+        [
+          37.093055,
+          -122.274659
+        ],
+        [
+          37.095598,
+          -122.277072
+        ],
+        [
+          37.098442,
+          -122.28181
+        ],
+        [
+          37.102886,
+          -122.285777
+        ],
+        [
+          37.108376,
+          -122.293569
+        ],
+        [
+          37.111657,
+          -122.296898
+        ]
+      ]
     },
     {
       "name": "Faro de Pigeon Point",
@@ -73,7 +191,41 @@
       "photo": "photos/highway1-drive/6.jpg",
       "credit": "Frank Schulenburg, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Pigeon_Point_Lighthouse_(2016).jpg",
-      "place": "Pigeon Point Lighthouse"
+      "place": "Pigeon Point Lighthouse",
+      "via": [
+        [
+          37.128314,
+          -122.310509
+        ],
+        [
+          37.139828,
+          -122.320966
+        ],
+        [
+          37.141199,
+          -122.323225
+        ],
+        [
+          37.148675,
+          -122.345743
+        ],
+        [
+          37.15022,
+          -122.34876
+        ],
+        [
+          37.156417,
+          -122.354724
+        ],
+        [
+          37.163436,
+          -122.359656
+        ],
+        [
+          37.173895,
+          -122.364243
+        ]
+      ]
     },
     {
       "name": "Pescadero",
@@ -84,21 +236,179 @@
       "photo": "photos/highway1-drive/7.jpg",
       "credit": "Rhododendrites, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Pescadero_Marsh_(91775).jpg",
-      "place": "Pescadero, California"
+      "place": "Pescadero, California",
+      "via": [
+        [
+          37.183092,
+          -122.380822
+        ],
+        [
+          37.184215,
+          -122.389095
+        ],
+        [
+          37.184966,
+          -122.391198
+        ],
+        [
+          37.195943,
+          -122.399832
+        ],
+        [
+          37.202824,
+          -122.401091
+        ],
+        [
+          37.213819,
+          -122.406035
+        ],
+        [
+          37.222972,
+          -122.406493
+        ],
+        [
+          37.232766,
+          -122.414287
+        ],
+        [
+          37.237427,
+          -122.415661
+        ],
+        [
+          37.24099,
+          -122.417856
+        ],
+        [
+          37.247606,
+          -122.417466
+        ]
+      ]
     },
     {
       "name": "San Gregorio",
       "kind": "walk",
       "lat": 37.31954,
       "lng": -122.40252,
-      "text": "Más adelante, a tu derecha, la Carretera 84 se va tierra adentro, hacia el pueblito de San Gregorio y su vieja tienda general, abierta desde hace más de cien años. En mil setecientos sesenta y nueve, la expedición española de Gaspar de Portolá pasó por este valle rumbo al norte. A tu izquierda, la playa de San Gregorio está al pie de altos acantilados de arenisca."
+      "text": "Más adelante, a tu derecha, la Carretera 84 se va tierra adentro, hacia el pueblito de San Gregorio y su vieja tienda general, abierta desde hace más de cien años. En mil setecientos sesenta y nueve, la expedición española de Gaspar de Portolá pasó por este valle rumbo al norte. A tu izquierda, la playa de San Gregorio está al pie de altos acantilados de arenisca.",
+      "via": [
+        [
+          37.265068,
+          -122.412004
+        ],
+        [
+          37.269094,
+          -122.409965
+        ],
+        [
+          37.275271,
+          -122.40833
+        ],
+        [
+          37.281085,
+          -122.407975
+        ],
+        [
+          37.287079,
+          -122.404722
+        ],
+        [
+          37.294393,
+          -122.406394
+        ],
+        [
+          37.298661,
+          -122.404706
+        ],
+        [
+          37.307028,
+          -122.404573
+        ]
+      ]
     },
     {
       "name": "Rumbo a Half Moon Bay",
       "kind": "walk",
       "lat": 37.39695,
       "lng": -122.41582,
-      "text": "Durante los próximos kilómetros, disfruta uno de los tramos más solitarios del viaje. Cerros suaves a tu derecha, acantilados altos y playas anchas a tu izquierda. Pronto las granjas dan paso a viveros de flores e invernaderos, y hay un poco más de tráfico a medida que nos acercamos a Half Moon Bay. Ojo con los ciclistas en el acotamiento."
+      "text": "Durante los próximos kilómetros, disfruta uno de los tramos más solitarios del viaje. Cerros suaves a tu derecha, acantilados altos y playas anchas a tu izquierda. Pronto las granjas dan paso a viveros de flores e invernaderos, y hay un poco más de tráfico a medida que nos acercamos a Half Moon Bay. Ojo con los ciclistas en el acotamiento.",
+      "via": [
+        [
+          37.328298,
+          -122.397203
+        ],
+        [
+          37.329037,
+          -122.395584
+        ],
+        [
+          37.329068,
+          -122.392361
+        ],
+        [
+          37.330785,
+          -122.391214
+        ],
+        [
+          37.333075,
+          -122.392829
+        ],
+        [
+          37.34003,
+          -122.394876
+        ],
+        [
+          37.34382,
+          -122.394749
+        ],
+        [
+          37.346409,
+          -122.39669
+        ],
+        [
+          37.351143,
+          -122.398616
+        ],
+        [
+          37.35345,
+          -122.398669
+        ],
+        [
+          37.356142,
+          -122.397131
+        ],
+        [
+          37.358,
+          -122.397157
+        ],
+        [
+          37.364269,
+          -122.403565
+        ],
+        [
+          37.3664,
+          -122.404716
+        ],
+        [
+          37.370705,
+          -122.404883
+        ],
+        [
+          37.37434,
+          -122.403763
+        ],
+        [
+          37.38298,
+          -122.404528
+        ],
+        [
+          37.386893,
+          -122.405548
+        ],
+        [
+          37.389252,
+          -122.407155
+        ]
+      ]
     },
     {
       "name": "Half Moon Bay",
@@ -109,7 +419,25 @@
       "photo": "photos/highway1-drive/10.jpg",
       "credit": "Alecprofit, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:The_gorgeous_California_Coastline_at_Halfmoon_Bay.jpg",
-      "place": "Half Moon Bay State Beach"
+      "place": "Half Moon Bay State Beach",
+      "via": [
+        [
+          37.400789,
+          -122.418965
+        ],
+        [
+          37.422378,
+          -122.425993
+        ],
+        [
+          37.448559,
+          -122.428906
+        ],
+        [
+          37.458524,
+          -122.434238
+        ]
+      ]
     },
     {
       "name": "Pillar Point Harbor y Mavericks",
@@ -120,7 +448,29 @@
       "photo": "photos/highway1-drive/11.jpg",
       "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Pillar_Point_Harbor.jpg",
-      "place": "Pillar Point Harbor"
+      "place": "Pillar Point Harbor",
+      "via": [
+        [
+          37.468605,
+          -122.433379
+        ],
+        [
+          37.470813,
+          -122.433995
+        ],
+        [
+          37.482021,
+          -122.445349
+        ],
+        [
+          37.493796,
+          -122.453608
+        ],
+        [
+          37.49524,
+          -122.455676
+        ]
+      ]
     },
     {
       "name": "Devil's Slide y los túneles Tom Lantos",
@@ -131,7 +481,53 @@
       "photo": "photos/highway1-drive/12.jpg",
       "credit": "Tony Webster from Minneapolis, Minnesota, CC BY-SA 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Tom_Lantos_-_Devil%27s_Slide_Tunnel_(29286074836).jpg",
-      "place": "Tom Lantos Tunnels Devil's Slide"
+      "place": "Tom Lantos Tunnels Devil's Slide",
+      "via": [
+        [
+          37.506006,
+          -122.482748
+        ],
+        [
+          37.514492,
+          -122.494473
+        ],
+        [
+          37.521182,
+          -122.506727
+        ],
+        [
+          37.530854,
+          -122.516585
+        ],
+        [
+          37.53371,
+          -122.517795
+        ],
+        [
+          37.536568,
+          -122.517714
+        ],
+        [
+          37.542589,
+          -122.51596
+        ],
+        [
+          37.549705,
+          -122.511907
+        ],
+        [
+          37.556363,
+          -122.512983
+        ],
+        [
+          37.558336,
+          -122.514615
+        ],
+        [
+          37.560178,
+          -122.513126
+        ]
+      ]
     },
     {
       "name": "Pacifica",
@@ -142,14 +538,70 @@
       "photo": "photos/highway1-drive/13.jpg",
       "credit": "Екатериниа Владинакова, CC0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Pacifica_Pier,_California.jpg",
-      "place": "Pacifica Municipal Pier"
+      "place": "Pacifica Municipal Pier",
+      "via": [
+        [
+          37.564554,
+          -122.512601
+        ],
+        [
+          37.570033,
+          -122.515651
+        ],
+        [
+          37.571328,
+          -122.515702
+        ],
+        [
+          37.583974,
+          -122.508772
+        ],
+        [
+          37.585954,
+          -122.504324
+        ],
+        [
+          37.588319,
+          -122.505368
+        ]
+      ]
     },
     {
       "name": "Entrando a la ciudad",
       "kind": "walk",
       "lat": 37.64027,
       "lng": -122.49039,
-      "text": "Ya estamos cerca de San Francisco. Pronto la Carretera 1 se va tierra adentro, hacia el centro de la ciudad. Para terminar junto al mar, la vamos a dejar y seguir la Carretera 35, Skyline Boulevard, hacia la Great Highway y Ocean Beach. Deja que la voz de tu aplicación de navegación te guíe. Y no te sorprendas si llega la neblina. Por aquí, pasa seguido."
+      "text": "Ya estamos cerca de San Francisco. Pronto la Carretera 1 se va tierra adentro, hacia el centro de la ciudad. Para terminar junto al mar, la vamos a dejar y seguir la Carretera 35, Skyline Boulevard, hacia la Great Highway y Ocean Beach. Deja que la voz de tu aplicación de navegación te guíe. Y no te sorprendas si llega la neblina. Por aquí, pasa seguido.",
+      "via": [
+        [
+          37.593868,
+          -122.505835
+        ],
+        [
+          37.600982,
+          -122.498626
+        ],
+        [
+          37.606739,
+          -122.497814
+        ],
+        [
+          37.613802,
+          -122.487072
+        ],
+        [
+          37.616202,
+          -122.485372
+        ],
+        [
+          37.622394,
+          -122.484992
+        ],
+        [
+          37.62812,
+          -122.489096
+        ]
+      ]
     },
     {
       "name": "Fort Funston y Ocean Beach",
@@ -160,7 +612,109 @@
       "photo": "photos/highway1-drive/15.jpg",
       "credit": "Radomianin, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Seal_Rocks,_Ocean_Beach,_San_Francisco.jpg",
-      "place": "Ocean Beach San Francisco"
+      "place": "Ocean Beach San Francisco",
+      "via": [
+        [
+          37.64414,
+          -122.491938
+        ],
+        [
+          37.65228,
+          -122.490085
+        ],
+        [
+          37.656364,
+          -122.491229
+        ],
+        [
+          37.657806,
+          -122.489814
+        ],
+        [
+          37.6578,
+          -122.485927
+        ],
+        [
+          37.659011,
+          -122.484177
+        ],
+        [
+          37.661241,
+          -122.483732
+        ],
+        [
+          37.665502,
+          -122.485294
+        ],
+        [
+          37.668167,
+          -122.484919
+        ],
+        [
+          37.668864,
+          -122.484302
+        ],
+        [
+          37.668626,
+          -122.483744
+        ],
+        [
+          37.668556,
+          -122.484969
+        ],
+        [
+          37.669893,
+          -122.486366
+        ],
+        [
+          37.676283,
+          -122.48979
+        ],
+        [
+          37.678816,
+          -122.490065
+        ],
+        [
+          37.686154,
+          -122.488947
+        ],
+        [
+          37.688132,
+          -122.489905
+        ],
+        [
+          37.691255,
+          -122.493319
+        ],
+        [
+          37.693073,
+          -122.494347
+        ],
+        [
+          37.698619,
+          -122.494912
+        ],
+        [
+          37.705793,
+          -122.498194
+        ],
+        [
+          37.715077,
+          -122.498261
+        ],
+        [
+          37.7178,
+          -122.499966
+        ],
+        [
+          37.720748,
+          -122.500472
+        ],
+        [
+          37.724204,
+          -122.5029
+        ]
+      ]
     }
   ]
 }
