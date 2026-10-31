@@ -23,12 +23,13 @@ self.addEventListener('fetch', e => {
 });
 
 async function networkFirst(req) {
+  const key = req.url.split(/[?#]/)[0]; // one saved copy per page, always the newest (tour.html?tour=a and ?tour=b are the same page)
   try {
     const res = await fetch(req);
-    if (res.ok) (await caches.open(CACHE)).put(req, res.clone());
+    if (res.ok) (await caches.open(CACHE)).put(key, res.clone());
     return res;
   } catch {
-    return (await caches.match(req, { ignoreSearch: true })) || Response.error();
+    return (await caches.match(key)) || Response.error();
   }
 }
 

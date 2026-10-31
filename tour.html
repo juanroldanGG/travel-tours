@@ -177,6 +177,7 @@ function play(i) { // i = -1 is the intro
 }
 
 const nextIndex = () => tour.stops.findIndex((_, i) => !played.has(i));
+const heard = () => [nums.filter((n, i) => n && played.has(i)).length, Math.max(...nums)]; // stories heard, of all stories (directions don't count)
 
 function updateStatus() {
   if (onBreak) return $('status').textContent = t.onBreak;
@@ -203,7 +204,7 @@ async function start(home) {
   $('startSheet').hidden = true; $('playSheet').hidden = false;
   if (!played.size) play(-1); // first play inside a tap, so phones allow audio later
   else if (home) play(nextIndex());
-  else { audio.src = ''; $('now').textContent = t.back(played.size, tour.stops.length); $('btn').textContent = t.play; }
+  else { audio.src = ''; $('now').textContent = t.back(...heard()); $('btn').textContent = t.play; }
   try { await navigator.wakeLock?.request('screen'); } catch {} // GPS stops when the screen locks
   if (!home && !demo) navigator.geolocation.watchPosition(
     p => onMove({ lat: p.coords.latitude, lng: p.coords.longitude }),
@@ -286,7 +287,7 @@ fetch(`tours/${tourId}.${lang}.json`).then(r => r.json()).then(tr => {
   $('directions').href = `https://www.google.com/maps/dir/?api=1&destination=${s0.lat},${s0.lng}&travelmode=${M.maps}`;
   (recall('played') || []).forEach(i => played.add(i)); // pick up where you left off
   if (played.size) {
-    $('facts').innerHTML += `<br>${t.back(played.size, tour.stops.length)} <button id="reset" class="small">${t.over}</button>`;
+    $('facts').innerHTML += `<br>${t.back(...heard())} <button id="reset" class="small">${t.over}</button>`;
     $('reset').onclick = () => { played.clear(); save(); location.reload(); };
     $('walk').textContent = t.goBack[tour.mode || 'walk']; $('home').textContent = t.homeBack;
   }
