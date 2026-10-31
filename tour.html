@@ -98,7 +98,7 @@ let M = MODES.walk;
 const dur = m => [m >= 60 && Math.floor(m / 60) + ' h', m % 60 && m % 60 + ' min'].filter(Boolean).join(' '); // 150 -> 2 h 30 min, 40 -> 40 min
 const T = { // screen text per language; the tour text itself lives in tours/<tour>.<lang>.json
   en: { all: '← All tours', hint: 'Walk the route, or listen from home.', go: { walk: '▶ Start walking', bike: '▶ Start riding', drive: '▶ Start driving', tram: '▶ Start riding' }, home: '🏠 Play at home',
-        safe: { bike: 'Use one earbud so you hear traffic, and never touch the phone while riding.', drive: 'Driver: never touch the phone. Set it up before you leave; a passenger can control it.', tram: 'Have your ticket before you board, and keep your bag in front of you on busy trams.' }, dir: '📍 Directions to start',
+        safe: { bike: 'Use one earbud so you hear traffic, and never touch the phone while riding.', drive: 'Driver: never touch the phone. Set it up before you leave; a passenger can control it.', tram: 'Have your bank card, phone or ticket ready as you board, and keep your bag in front of you on busy trams.' }, dir: '📍 Directions to start',
         dl: '⬇ Download for offline', dling: 'Downloading…', dled: '✓ Saved on this phone', dlfail: 'Download failed, try again',
         pause: 'Pause', play: 'Play', next: 'Next stop ▶', brk: '☕ Take a break', resume: '▶ Resume tour',
         onBreak: 'On a break. Your place is saved, come back any time.', look: '🗺️ See on Google Maps',
@@ -108,7 +108,7 @@ const T = { // screen text per language; the tour text itself lives in tours/<to
         facts: (m, k, n) => `${dur(m)} · ${k} km · ${n} stops`,
         back: (a, b) => `Welcome back: ${a} of ${b} heard.`, over: 'Start over', goBack: { walk: '▶ Resume walking', bike: '▶ Resume riding', drive: '▶ Resume driving', tram: '▶ Resume riding' }, homeBack: '🏠 Resume at home' },
   es: { all: '← Todos los recorridos', hint: 'Camina la ruta, o escúchala desde casa.', go: { walk: '▶ Empezar a caminar', bike: '▶ Empezar a pedalear', drive: '▶ Empezar a manejar', tram: '▶ Empezar el viaje' }, home: '🏠 Escuchar en casa',
-        safe: { bike: 'Usa un solo audífono para oír el tráfico, y nunca toques el celular mientras pedaleas.', drive: 'Conductor: nunca toques el celular. Déjalo listo antes de salir; un pasajero puede manejarlo.', tram: 'Ten tu tiquete antes de subir, y lleva el bolso al frente en los tranvías llenos.' }, dir: '📍 Cómo llegar al inicio',
+        safe: { bike: 'Usa un solo audífono para oír el tráfico, y nunca toques el celular mientras pedaleas.', drive: 'Conductor: nunca toques el celular. Déjalo listo antes de salir; un pasajero puede manejarlo.', tram: 'Ten lista tu tarjeta, tu celular o tu tiquete al subir, y lleva el bolso al frente en los tranvías llenos.' }, dir: '📍 Cómo llegar al inicio',
         dl: '⬇ Descargar sin internet', dling: 'Descargando…', dled: '✓ Guardado en este celular', dlfail: 'Falló la descarga, intenta otra vez',
         pause: 'Pausa', play: 'Seguir', next: 'Siguiente ▶', brk: '☕ Tomar un descanso', resume: '▶ Seguir el recorrido',
         onBreak: 'En descanso. Tu lugar quedó guardado, vuelve cuando quieras.', look: '🗺️ Ver en Google Maps',
