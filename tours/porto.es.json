@@ -28,14 +28,58 @@
       "photo": "photos/porto/1.jpg",
       "credit": "Jakub Hałun, CC BY 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:O_Porto_sculpture_from_1818,_Terreiro_da_S%C3%A9,_Porto,_20250605_1347_9694.jpg",
-      "place": "Terreiro da Sé Porto"
+      "place": "Terreiro da Sé Porto",
+      "via": [
+        [
+          41.14279,
+          -8.611635
+        ]
+      ]
     },
     {
       "name": "Bajando a la estación",
       "kind": "walk",
       "lat": 41.1442,
       "lng": -8.6109,
-      "text": "Con la catedral a tus espaldas, baja por las escaleras y la calle hacia la avenida con tráfico. En el camino verás una enorme roca de granito. El granito está por todas partes en Oporto: es la piedra del norte de Portugal, y le da a la ciudad su cara gris y seria. Abajo, cruza con cuidado por el paso peatonal y gira a la izquierda. El gran edificio de enfrente es la estación de São Bento."
+      "text": "Con la catedral a tus espaldas, baja por las escaleras y la calle hacia la avenida con tráfico. En el camino verás una enorme roca de granito. El granito está por todas partes en Oporto: es la piedra del norte de Portugal, y le da a la ciudad su cara gris y seria. Abajo, cruza con cuidado por el paso peatonal y gira a la izquierda. El gran edificio de enfrente es la estación de São Bento.",
+      "via": [
+        [
+          41.142907,
+          -8.611764
+        ],
+        [
+          41.142956,
+          -8.611532
+        ],
+        [
+          41.14306,
+          -8.611529
+        ],
+        [
+          41.143188,
+          -8.611267
+        ],
+        [
+          41.143313,
+          -8.611265
+        ],
+        [
+          41.143326,
+          -8.611165
+        ],
+        [
+          41.143524,
+          -8.611149
+        ],
+        [
+          41.14385,
+          -8.610867
+        ],
+        [
+          41.144153,
+          -8.610947
+        ]
+      ]
     },
     {
       "name": "Estación de São Bento",
@@ -46,7 +90,29 @@
       "photo": "photos/porto/3.jpg",
       "credit": "Michael Gaylard from Horsham, UK, CC BY 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Exploring_the_Azulejo-Adorned_Grand_Hall_of_S%C3%A3o_Bento_Station_(55248917165).jpg",
-      "place": "Estação de São Bento"
+      "place": "Estação de São Bento",
+      "via": [
+        [
+          41.144222,
+          -8.610751
+        ],
+        [
+          41.144911,
+          -8.610945
+        ],
+        [
+          41.144945,
+          -8.610741
+        ],
+        [
+          41.145433,
+          -8.610673
+        ],
+        [
+          41.145425,
+          -8.610577
+        ]
+      ]
     },
     {
       "name": "Subiendo por Sá da Bandeira",
@@ -57,7 +123,53 @@
       "photo": "photos/porto/4.jpg",
       "credit": "Afsalgado, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:1_Mercado_do_Bolh%C3%A3o.jpg",
-      "place": "Mercado do Bolhão"
+      "place": "Mercado do Bolhão",
+      "via": [
+        [
+          41.14562,
+          -8.610649
+        ],
+        [
+          41.145835,
+          -8.610622
+        ],
+        [
+          41.145968,
+          -8.610608
+        ],
+        [
+          41.146043,
+          -8.610601
+        ],
+        [
+          41.146063,
+          -8.610291
+        ],
+        [
+          41.146068,
+          -8.610181
+        ],
+        [
+          41.146136,
+          -8.610181
+        ],
+        [
+          41.146138,
+          -8.610252
+        ],
+        [
+          41.146174,
+          -8.610288
+        ],
+        [
+          41.146219,
+          -8.610253
+        ],
+        [
+          41.146425,
+          -8.609932
+        ]
+      ]
     },
     {
       "name": "Café A Brasileira",
@@ -68,29 +180,71 @@
       "photo": "photos/porto/5.jpg",
       "credit": "Manuel de Sousa, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Cafe_Brasileira_1_(Porto).jpg",
-      "place": "Café A Brasileira Porto"
+      "place": "Café A Brasileira Porto",
+      "via": [
+        [
+          41.146425,
+          -8.609932
+        ],
+        [
+          41.146555,
+          -8.609728
+        ],
+        [
+          41.146624,
+          -8.609796
+        ],
+        [
+          41.146844,
+          -8.609519
+        ],
+        [
+          41.146871,
+          -8.6093
+        ]
+      ]
     },
     {
       "name": "A Regaleira y la francesinha",
       "kind": "stop",
-      "lat": 41.1472,
-      "lng": -8.60965,
+      "lat": 41.14721,
+      "lng": -8.60951,
       "text": "Pasa a la calle de al lado, la Rua do Bonjardim. El restaurante A Regaleira dice ser el lugar donde nació el plato más famoso de Oporto, la francesinha, que significa francesita. La historia cuenta que un hombre que había vivido en Francia volvió en los años cincuenta e hizo su propia versión del croque monsieur. Es un sánduche gigante, con pan, carne de res, jamón y salchicha, todo cubierto de queso derretido y una salsa caliente y picante de cerveza y tomate, casi siempre con un huevo encima y papas fritas al lado. No es un almuerzo liviano. Pero si solo comes una cosa en Oporto, muchos locales te dirán que sea esta.",
       "photo": "photos/porto/6.jpg",
       "credit": "Ih8connecticut, CC0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Francesinha_encaixados_porto_portugal.jpg",
-      "place": "A Regaleira Porto"
+      "place": "A Regaleira Porto",
+      "via": [
+        [
+          41.146871,
+          -8.6093
+        ],
+        [
+          41.146844,
+          -8.609519
+        ],
+        [
+          41.146791,
+          -8.609655
+        ]
+      ]
     },
     {
       "name": "Teatro Rivoli",
       "kind": "stop",
-      "lat": 41.14782,
-      "lng": -8.60994,
+      "lat": 41.14774,
+      "lng": -8.60944,
       "text": "Sigue hasta la plaza que está justo adelante, la Praça Dom João Primero, y mira el elegante teatro blanco. Es el Rivoli, el teatro municipal de Oporto. Abrió por primera vez en 1913, y se reconstruyó en estilo Art Déco en los años treinta, con esas líneas limpias y ventanas altas. El Art Déco era el estilo de moda en esa época, y vas a ver más en este recorrido. Hoy el Rivoli presenta danza, teatro y festivales de cine, y su café es un buen lugar para sentarse. Ahora camina hacia el oeste, bajando, hasta la avenida muy ancha que está justo detrás del teatro.",
       "photo": "photos/porto/7.jpg",
       "credit": "(AntoniusJ), Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Porto_Teatro_Rivoli_4.JPG",
-      "place": "Teatro Rivoli Porto"
+      "place": "Teatro Rivoli Porto",
+      "via": [
+        [
+          41.147525,
+          -8.609423
+        ]
+      ]
     },
     {
       "name": "Avenida dos Aliados",
@@ -101,7 +255,49 @@
       "photo": "photos/porto/8.jpg",
       "credit": "Krzysztof Golik, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Avenida_dos_Aliados_in_Porto_(1).jpg",
-      "place": "Avenida dos Aliados"
+      "place": "Avenida dos Aliados",
+      "via": [
+        [
+          41.147625,
+          -8.60952
+        ],
+        [
+          41.1478,
+          -8.61048
+        ],
+        [
+          41.147857,
+          -8.610682
+        ],
+        [
+          41.147843,
+          -8.610781
+        ],
+        [
+          41.147789,
+          -8.61079
+        ],
+        [
+          41.147767,
+          -8.610878
+        ],
+        [
+          41.147796,
+          -8.611127
+        ],
+        [
+          41.147904,
+          -8.611104
+        ],
+        [
+          41.148007,
+          -8.611154
+        ],
+        [
+          41.148132,
+          -8.611129
+        ]
+      ]
     },
     {
       "name": "Alcaldía de Oporto",
@@ -112,7 +308,21 @@
       "photo": "photos/porto/9.jpg",
       "credit": "Ken &amp; Nyetta, CC BY 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Porto_City_Hall_-_Apr_2011.jpg",
-      "place": "Câmara Municipal do Porto"
+      "place": "Câmara Municipal do Porto",
+      "via": [
+        [
+          41.148675,
+          -8.610949
+        ],
+        [
+          41.149304,
+          -8.611017
+        ],
+        [
+          41.14973,
+          -8.610883
+        ]
+      ]
     },
     {
       "name": "Plaza de la Libertad",
@@ -123,7 +333,69 @@
       "photo": "photos/porto/10.jpg",
       "credit": "Diego Delso, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_da_Liberdade,_Oporto,_Portugal,_2012-05-09,_DD_01.JPG",
-      "place": "Praça da Liberdade Porto"
+      "place": "Praça da Liberdade Porto",
+      "via": [
+        [
+          41.14973,
+          -8.610883
+        ],
+        [
+          41.149304,
+          -8.611017
+        ],
+        [
+          41.148675,
+          -8.610949
+        ],
+        [
+          41.148179,
+          -8.611053
+        ],
+        [
+          41.148132,
+          -8.611129
+        ],
+        [
+          41.148007,
+          -8.611154
+        ],
+        [
+          41.147904,
+          -8.611104
+        ],
+        [
+          41.147833,
+          -8.611121
+        ],
+        [
+          41.147663,
+          -8.611154
+        ],
+        [
+          41.147622,
+          -8.611227
+        ],
+        [
+          41.147143,
+          -8.611189
+        ],
+        [
+          41.147102,
+          -8.611262
+        ],
+        [
+          41.146529,
+          -8.611375
+        ],
+        [
+          41.146481,
+          -8.611305
+        ],
+        [
+          41.146227,
+          -8.611355
+        ]
+      ]
     },
     {
       "name": "Hotel Infante Sagres",
@@ -134,7 +406,45 @@
       "photo": "photos/porto/11.jpg",
       "credit": "Manuel de Sousa, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Hotel_Infante_Sagres_(Porto).jpg",
-      "place": "Hotel Infante Sagres Porto"
+      "place": "Hotel Infante Sagres Porto",
+      "via": [
+        [
+          41.146227,
+          -8.611355
+        ],
+        [
+          41.146271,
+          -8.611654
+        ],
+        [
+          41.146898,
+          -8.611601
+        ],
+        [
+          41.147845,
+          -8.611427
+        ],
+        [
+          41.147864,
+          -8.611518
+        ],
+        [
+          41.147896,
+          -8.612084
+        ],
+        [
+          41.147889,
+          -8.612172
+        ],
+        [
+          41.14793,
+          -8.612243
+        ],
+        [
+          41.147985,
+          -8.61293
+        ]
+      ]
     },
     {
       "name": "Librería Lello",
@@ -145,7 +455,41 @@
       "photo": "photos/porto/12.jpg",
       "credit": "John Samuel, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Livraria_Lello_02.jpg",
-      "place": "Livraria Lello"
+      "place": "Livraria Lello",
+      "via": [
+        [
+          41.147985,
+          -8.61293
+        ],
+        [
+          41.148003,
+          -8.613154
+        ],
+        [
+          41.147548,
+          -8.613368
+        ],
+        [
+          41.147722,
+          -8.614052
+        ],
+        [
+          41.147674,
+          -8.614076
+        ],
+        [
+          41.146668,
+          -8.614655
+        ],
+        [
+          41.146681,
+          -8.61472
+        ],
+        [
+          41.146787,
+          -8.614897
+        ]
+      ]
     },
     {
       "name": "Iglesias del Carmo y Carmelitas",
@@ -156,7 +500,53 @@
       "photo": "photos/porto/13.jpg",
       "credit": "T meltzer, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Igreja_do_Carmo_(Porto)_2.jpg",
-      "place": "Igreja do Carmo Porto"
+      "place": "Igreja do Carmo Porto",
+      "via": [
+        [
+          41.146787,
+          -8.614897
+        ],
+        [
+          41.146943,
+          -8.615174
+        ],
+        [
+          41.147102,
+          -8.615133
+        ],
+        [
+          41.147112,
+          -8.615235
+        ],
+        [
+          41.147158,
+          -8.615255
+        ],
+        [
+          41.147238,
+          -8.615942
+        ],
+        [
+          41.147325,
+          -8.615931
+        ],
+        [
+          41.147394,
+          -8.616043
+        ],
+        [
+          41.147395,
+          -8.616144
+        ],
+        [
+          41.147301,
+          -8.616158
+        ],
+        [
+          41.147278,
+          -8.61636
+        ]
+      ]
     },
     {
       "name": "Jardín de la Cordoaria",
@@ -167,29 +557,119 @@
       "photo": "photos/porto/14.jpg",
       "credit": "Reis Quarteu, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Arauc%C3%A1ria_no_Jardim_da_Cordoaria_-_Porto_-_03.jpg",
-      "place": "Jardim da Cordoaria"
+      "place": "Jardim da Cordoaria",
+      "via": [
+        [
+          41.147278,
+          -8.61636
+        ],
+        [
+          41.147264,
+          -8.616625
+        ],
+        [
+          41.147151,
+          -8.616643
+        ],
+        [
+          41.14712,
+          -8.616481
+        ],
+        [
+          41.146444,
+          -8.616512
+        ],
+        [
+          41.146026,
+          -8.616563
+        ],
+        [
+          41.145963,
+          -8.616647
+        ],
+        [
+          41.145848,
+          -8.61659
+        ],
+        [
+          41.145666,
+          -8.616578
+        ]
+      ]
     },
     {
       "name": "La antigua cárcel",
       "kind": "stop",
-      "lat": 41.1446,
-      "lng": -8.6158,
+      "lat": 41.144741,
+      "lng": -8.615994,
       "text": "Este edificio enorme era la Relação, el tribunal y la cárcel de Oporto, terminado a finales del siglo dieciocho. Aquí hubo presos durante casi doscientos años. Su preso más famoso fue el escritor Camilo Castelo Branco, encarcelado en los años sesenta del siglo diecinueve por un romance con una mujer casada. Mientras estaba encerrado aquí, escribió una de las grandes novelas portuguesas, Amor de perdición. Hoy la cárcel es el Centro Portugués de Fotografía. La entrada suele ser gratis, y puedes recorrer las viejas celdas y ver los gruesos barrotes de las ventanas. Desde el frente del edificio, mira hacia el este, y verás la torre alta que es nuestra última parada.",
       "photo": "photos/porto/15.jpg",
       "credit": "Diego Delso, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Centro_Portugu%C3%A9s_de_Fotograf%C3%ADa,_Oporto,_Portugal,_2012-05-09,_DD_01.JPG",
-      "place": "Centro Português de Fotografia"
+      "place": "Centro Português de Fotografia",
+      "via": [
+        [
+          41.145666,
+          -8.616578
+        ],
+        [
+          41.145848,
+          -8.61659
+        ],
+        [
+          41.145785,
+          -8.616315
+        ],
+        [
+          41.145635,
+          -8.616207
+        ],
+        [
+          41.145609,
+          -8.615793
+        ],
+        [
+          41.14547,
+          -8.615739
+        ],
+        [
+          41.14538,
+          -8.615664
+        ]
+      ]
     },
     {
       "name": "Torre de los Clérigos",
       "kind": "stop",
-      "lat": 41.14575,
-      "lng": -8.61395,
+      "lat": 41.14574,
+      "lng": -8.61466,
       "text": "Esta es la Torre dos Clérigos, el símbolo de Oporto. La diseñó Nicolau Nasoni, un pintor y arquitecto italiano que llegó a Oporto a los treinta y tantos años y se quedó el resto de su vida. Le dio a la ciudad su estilo barroco, y pidió ser enterrado en esta iglesia, que también diseñó. La torre se terminó en 1763, y durante mucho tiempo fue el edificio más alto de Portugal, con unos setenta y cinco metros. Los marineros la usaban como referencia para encontrar la desembocadura del río. Si las piernas todavía te responden, puedes subir sus doscientos cuarenta escalones para tener la mejor vista de la ciudad. Gracias por caminar conmigo. Obrigado, y disfruta Oporto.",
       "photo": "photos/porto/16.jpg",
       "credit": "Diego Delso, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Torre_de_los_Cl%C3%A9rigos,_Oporto,_Portugal,_2012-05-09,_DD_01.JPG",
-      "place": "Torre dos Clérigos"
+      "place": "Torre dos Clérigos",
+      "via": [
+        [
+          41.144973,
+          -8.615684
+        ],
+        [
+          41.145379,
+          -8.615595
+        ],
+        [
+          41.14556,
+          -8.615146
+        ],
+        [
+          41.145626,
+          -8.614809
+        ],
+        [
+          41.145702,
+          -8.614776
+        ]
+      ]
     }
   ]
 }

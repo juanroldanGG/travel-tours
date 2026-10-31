@@ -23,20 +23,48 @@
     {
       "name": "La Giant Dipper",
       "kind": "stop",
-      "lat": 36.96471,
-      "lng": -122.01533,
+      "lat": 36.964678,
+      "lng": -122.014924,
       "text": "Esta es la Giant Dipper, una de las montañas rusas de madera más famosas del mundo. Se inauguró en 1924, y la construyó en apenas unas siete semanas Arthur Looff, hijo de un gran fabricante de carruseles. El recorrido empieza en un túnel totalmente oscuro, y luego sube y baja junto a la playa. Su estructura de madera se revisa y se repara todo el tiempo, pieza por pieza, y por eso sigue funcionando después de cien años. En 1987, la Giant Dipper y el carrusel que vamos a ver fueron declarados Monumentos Históricos Nacionales, un honor muy raro para un juego mecánico. Quizás reconozcas este lugar de alguna película. Aquí se filmó la película de vampiros Los muchachos perdidos, en los años ochenta. Ahora gira hacia el mar y camina hacia el oeste por el paseo junto a la playa.",
       "photo": "photos/santacruz-westcliff/1.jpg",
       "credit": "Larry Pieniazek, User:Lar,  (primary), CC BY 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:SantaCruz_BeachBoardwalk_GiantDipper_trackDSCN9382.JPG",
-      "place": "Giant Dipper Santa Cruz"
+      "place": "Giant Dipper Santa Cruz",
+      "via": [
+        [
+          36.965256,
+          -122.014513
+        ],
+        [
+          36.964909,
+          -122.014868
+        ],
+        [
+          36.964735,
+          -122.014833
+        ],
+        [
+          36.964693,
+          -122.014826
+        ]
+      ]
     },
     {
       "name": "Por el paseo",
       "kind": "walk",
-      "lat": 36.9641,
-      "lng": -122.0163,
-      "text": "Con la playa a tu izquierda, camina hacia el oeste por el paseo, entre los juegos y los puestos de comida. Ahí enfrente está la bahía de Monterey, una de las zonas de océano más ricas del mundo. Es un santuario marino protegido, hogar de ballenas, delfines y nutrias marinas. En un día despejado se ve el otro lado de la bahía. Sigue caminando hasta que escuches música de órgano. Esa es nuestra siguiente parada."
+      "lat": 36.964342,
+      "lng": -122.01631,
+      "text": "Con la playa a tu izquierda, camina hacia el oeste por el paseo, entre los juegos y los puestos de comida. Ahí enfrente está la bahía de Monterey, una de las zonas de océano más ricas del mundo. Es un santuario marino protegido, hogar de ballenas, delfines y nutrias marinas. En un día despejado se ve el otro lado de la bahía. Sigue caminando hasta que escuches música de órgano. Esa es nuestra siguiente parada.",
+      "via": [
+        [
+          36.964648,
+          -122.015134
+        ],
+        [
+          36.964493,
+          -122.015141
+        ]
+      ]
     },
     {
       "name": "El carrusel Looff",
@@ -47,14 +75,46 @@
       "photo": "photos/santacruz-westcliff/3.jpg",
       "credit": "Mliu92, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Looff_Carousel_2.jpg",
-      "place": "Looff Carousel Santa Cruz"
+      "place": "Looff Carousel Santa Cruz",
+      "via": [
+        [
+          36.964224,
+          -122.01744
+        ]
+      ]
     },
     {
       "name": "Por Beach Street",
       "kind": "walk",
       "lat": 36.96385,
       "lng": -122.02108,
-      "text": "Camina hacia el oeste por Beach Street, con el Boardwalk a tu izquierda. El largo muelle que ves enfrente es el muelle de Santa Cruz. Fíjate en los surfistas que están en el agua a su derecha. Esa es Cowell Beach, y vamos a volver ahí. Cuidado con las bicicletas en el camino, y cruza la calle con atención en la glorieta. Ve hacia la entrada del muelle."
+      "text": "Camina hacia el oeste por Beach Street, con el Boardwalk a tu izquierda. El largo muelle que ves enfrente es el muelle de Santa Cruz. Fíjate en los surfistas que están en el agua a su derecha. Esa es Cowell Beach, y vamos a volver ahí. Cuidado con las bicicletas en el camino, y cruza la calle con atención en la glorieta. Ve hacia la entrada del muelle.",
+      "via": [
+        [
+          36.964224,
+          -122.01744
+        ],
+        [
+          36.96419,
+          -122.01767
+        ],
+        [
+          36.964474,
+          -122.017698
+        ],
+        [
+          36.964241,
+          -122.019573
+        ],
+        [
+          36.964011,
+          -122.020455
+        ],
+        [
+          36.963754,
+          -122.021021
+        ]
+      ]
     },
     {
       "name": "El muelle de Santa Cruz",
@@ -65,14 +125,50 @@
       "photo": "photos/santacruz-westcliff/5.jpg",
       "credit": "Intothewoods29 (talk), CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Under_the_Santa_Cruz_Wharf.JPG",
-      "place": "Santa Cruz Wharf"
+      "place": "Santa Cruz Wharf",
+      "via": [
+        [
+          36.963754,
+          -122.021021
+        ],
+        [
+          36.962783,
+          -122.023475
+        ],
+        [
+          36.962703,
+          -122.023486
+        ],
+        [
+          36.962621,
+          -122.023633
+        ]
+      ]
     },
     {
       "name": "Por el muelle",
       "kind": "walk",
       "lat": 36.9603,
       "lng": -122.0206,
-      "text": "Sigue caminando hacia el final del muelle. Mira hacia atrás, porque desde aquí tienes una de las mejores vistas del Boardwalk y de la Giant Dipper. Vas a pasar junto a gente que pesca desde la baranda. Busca a los pelícanos que planean justo encima del agua, y a las gaviotas que vigilan tu comida. ¿Escuchas esos ladridos fuertes? Síguelos."
+      "text": "Sigue caminando hacia el final del muelle. Mira hacia atrás, porque desde aquí tienes una de las mejores vistas del Boardwalk y de la Giant Dipper. Vas a pasar junto a gente que pesca desde la baranda. Busca a los pelícanos que planean justo encima del agua, y a las gaviotas que vigilan tu comida. ¿Escuchas esos ladridos fuertes? Síguelos.",
+      "via": [
+        [
+          36.962511,
+          -122.023668
+        ],
+        [
+          36.96247,
+          -122.023445
+        ],
+        [
+          36.960631,
+          -122.020751
+        ],
+        [
+          36.960504,
+          -122.020865
+        ]
+      ]
     },
     {
       "name": "Leones marinos bajo el muelle",
@@ -83,7 +179,17 @@
       "photo": "photos/santacruz-westcliff/7.jpg",
       "credit": "Intothewoods29 (talk), CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Sea_Lions_next_to_Santa_Cruz_Wharf.JPG",
-      "place": "Santa Cruz Wharf"
+      "place": "Santa Cruz Wharf",
+      "via": [
+        [
+          36.960374,
+          -122.020376
+        ],
+        [
+          36.958835,
+          -122.018087
+        ]
+      ]
     },
     {
       "name": "Cowell Beach",
@@ -94,14 +200,46 @@
       "photo": "photos/santacruz-westcliff/8.jpg",
       "credit": "Pimlico27, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_387.JPG",
-      "place": "Cowell Beach Santa Cruz"
+      "place": "Cowell Beach Santa Cruz",
+      "via": [
+        [
+          36.958835,
+          -122.018087
+        ],
+        [
+          36.96247,
+          -122.023445
+        ],
+        [
+          36.962633,
+          -122.024161
+        ],
+        [
+          36.962404,
+          -122.024823
+        ],
+        [
+          36.962062,
+          -122.025167
+        ]
+      ]
     },
     {
       "name": "Subiendo por West Cliff Drive",
       "kind": "walk",
-      "lat": 36.958,
-      "lng": -122.0254,
-      "text": "Sigue por el camino ancho en lo alto del acantilado, con el mar a tu izquierda. Este camino lo comparten peatones, corredores, patinadores y ciclistas, así que mantente a un lado. Mira hacia las rocas. Quizás veas nutrias marinas flotando boca arriba entre las algas, o cormoranes secando sus alas. Más adelante, al borde del acantilado, te espera un surfista de bronce."
+      "lat": 36.958011,
+      "lng": -122.02601,
+      "text": "Sigue por el camino ancho en lo alto del acantilado, con el mar a tu izquierda. Este camino lo comparten peatones, corredores, patinadores y ciclistas, así que mantente a un lado. Mira hacia las rocas. Quizás veas nutrias marinas flotando boca arriba entre las algas, o cormoranes secando sus alas. Más adelante, al borde del acantilado, te espera un surfista de bronce.",
+      "via": [
+        [
+          36.960184,
+          -122.025719
+        ],
+        [
+          36.95962,
+          -122.025663
+        ]
+      ]
     },
     {
       "name": "La estatua del surfista",
@@ -112,18 +250,66 @@
       "photo": "photos/santacruz-westcliff/10.jpg",
       "credit": "Noah_Loverbear, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Surfing_Monument_In_Santa_Cruz_California_-_panoramio_(1).jpg",
-      "place": "To Honor Surfing statue"
+      "place": "To Honor Surfing statue",
+      "via": [
+        [
+          36.957734,
+          -122.025954
+        ],
+        [
+          36.957315,
+          -122.02549
+        ],
+        [
+          36.956188,
+          -122.024715
+        ],
+        [
+          36.955621,
+          -122.024569
+        ],
+        [
+          36.954821,
+          -122.024891
+        ]
+      ]
     },
     {
       "name": "Steamer Lane",
       "kind": "stop",
-      "lat": 36.953,
-      "lng": -122.0259,
+      "lat": 36.952825,
+      "lng": -122.02564,
       "text": "Ahora mira el agua entre la punta y los acantilados. Esto es Steamer Lane, uno de los lugares de surf más conocidos del mundo. Su nombre, que significa el carril de los vapores, viene de los barcos de vapor que pasaban cerca de esta punta al entrar y salir de la bahía. Cuando llega un oleaje grande, las olas rodean la punta y rompen en líneas largas, y los surfistas se acomodan en distintos puntos a lo largo de ella. Aquí se han hecho grandes competencias de surf durante décadas. Observa unos minutos. Vas a ver surfistas remando con fuerza, esperando su turno y deslizándose justo debajo del acantilado. Frente al faro está Seal Rock, una roca que suele estar cubierta de leones marinos y aves. Ahora camina hasta el faro. Es nuestra última parada.",
       "photo": "photos/santacruz-westcliff/11.jpg",
       "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Surfer_in_Santa_cruz_11-8-9_-1.jpg",
-      "place": "Steamer Lane"
+      "place": "Steamer Lane",
+      "via": [
+        [
+          36.954667,
+          -122.024949
+        ],
+        [
+          36.95374,
+          -122.025278
+        ],
+        [
+          36.953517,
+          -122.025182
+        ],
+        [
+          36.953271,
+          -122.025277
+        ],
+        [
+          36.953146,
+          -122.025479
+        ],
+        [
+          36.95287,
+          -122.025656
+        ]
+      ]
     },
     {
       "name": "Faro y Museo del Surf",
@@ -134,7 +320,33 @@
       "photo": "photos/santacruz-westcliff/12.jpg",
       "credit": "MC BSU, CC0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Surfing_Museum.jpg",
-      "place": "Mark Abbott Memorial Lighthouse"
+      "place": "Mark Abbott Memorial Lighthouse",
+      "via": [
+        [
+          36.952735,
+          -122.025762
+        ],
+        [
+          36.952439,
+          -122.026032
+        ],
+        [
+          36.952073,
+          -122.026205
+        ],
+        [
+          36.951908,
+          -122.026442
+        ],
+        [
+          36.95177,
+          -122.026415
+        ],
+        [
+          36.951577,
+          -122.02677
+        ]
+      ]
     }
   ]
 }

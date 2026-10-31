@@ -25,7 +25,13 @@
       "kind": "walk",
       "lat": 37.79164,
       "lng": -122.40562,
-      "text": "Keep walking straight up Grant Avenue. Notice the street lamps with little dragons wrapped around them, and the shop signs in Chinese and English. Its old name was Dupont Street, until the city renamed it after President Ulysses Grant. At the next big corner, California Street, look for a red brick church with a clock tower. That's our next stop. Watch out for the cable car tracks as you cross."
+      "text": "Keep walking straight up Grant Avenue. Notice the street lamps with little dragons wrapped around them, and the shop signs in Chinese and English. Its old name was Dupont Street, until the city renamed it after President Ulysses Grant. At the next big corner, California Street, look for a red brick church with a clock tower. That's our next stop. Watch out for the cable car tracks as you cross.",
+      "via": [
+        [
+          37.79164,
+          -122.405787
+        ]
+      ]
     },
     {
       "name": "Old St. Mary's Cathedral",
@@ -36,7 +42,29 @@
       "photo": "photos/sf-chinatown/2.jpg",
       "credit": "Kingofthedead, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Old_Saint_Mary%27s_Cathedral_-_San_Francisco,_California.jpg",
-      "place": "Old Saint Mary's Cathedral San Francisco"
+      "place": "Old Saint Mary's Cathedral San Francisco",
+      "via": [
+        [
+          37.79164,
+          -122.405787
+        ],
+        [
+          37.79237,
+          -122.405935
+        ],
+        [
+          37.792378,
+          -122.40587
+        ],
+        [
+          37.792571,
+          -122.405909
+        ],
+        [
+          37.79279,
+          -122.40597
+        ]
+      ]
     },
     {
       "name": "Waverly Place and Tin How Temple",
@@ -47,7 +75,37 @@
       "photo": "photos/sf-chinatown/3.jpg",
       "credit": "Tim Olson, CC BY-SA 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Tin_How_Temple_(2818561789).jpg",
-      "place": "Tin How Temple Waverly Place"
+      "place": "Tin How Temple Waverly Place",
+      "via": [
+        [
+          37.79279,
+          -122.40597
+        ],
+        [
+          37.793345,
+          -122.406066
+        ],
+        [
+          37.793433,
+          -122.406075
+        ],
+        [
+          37.793439,
+          -122.406193
+        ],
+        [
+          37.793383,
+          -122.406675
+        ],
+        [
+          37.794255,
+          -122.406888
+        ],
+        [
+          37.79451,
+          -122.406939
+        ]
+      ]
     },
     {
       "name": "Ross Alley",
@@ -58,25 +116,75 @@
       "photo": "photos/sf-chinatown/4.jpg",
       "credit": "gregpoo, CC BY-SA 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:15_Golden_Gate_Fortune_Cookie_Factory.jpg",
-      "place": "Golden Gate Fortune Cookie Factory"
+      "place": "Golden Gate Fortune Cookie Factory",
+      "via": [
+        [
+          37.79461,
+          -122.40696
+        ],
+        [
+          37.795026,
+          -122.407043
+        ],
+        [
+          37.795122,
+          -122.40705
+        ],
+        [
+          37.795094,
+          -122.407292
+        ],
+        [
+          37.79565,
+          -122.407397
+        ]
+      ]
     },
     {
       "name": "Back down Grant Avenue",
       "kind": "walk",
-      "lat": 37.79616,
-      "lng": -122.40657,
-      "text": "You're back on Grant Avenue. Walk one block down to Washington Street and turn left. This part of Grant is where locals shop, with bakeries, herb shops and roast ducks hanging in the windows. If you're hungry, now is a good time for a pork bun or an egg tart. Follow Washington Street downhill for a block. The open plaza on your right is Portsmouth Square."
+      "lat": 37.795976,
+      "lng": -122.406606,
+      "text": "You're back on Grant Avenue. Walk one block down to Washington Street and turn left. This part of Grant is where locals shop, with bakeries, herb shops and roast ducks hanging in the windows. If you're hungry, now is a good time for a pork bun or an egg tart. Follow Washington Street downhill for a block. The open plaza on your right is Portsmouth Square.",
+      "via": [
+        [
+          37.79575,
+          -122.407416
+        ],
+        [
+          37.795883,
+          -122.40742
+        ],
+        [
+          37.795979,
+          -122.406729
+        ]
+      ]
     },
     {
       "name": "Portsmouth Square",
       "kind": "stop",
-      "lat": 37.79483,
-      "lng": -122.40543,
+      "lat": 37.795224,
+      "lng": -122.40548,
       "text": "Portsmouth Square is where San Francisco began. Before the Gold Rush, this was the plaza of a small village called Yerba Buena, and the water came almost up to this spot. In July 1846, during the war between the United States and Mexico, a United States Navy captain landed here from the ship Portsmouth and raised the American flag. That's where the name comes from. Two years later, the story goes, a merchant named Sam Brannan walked through here waving a bottle of gold dust and shouting about gold in the hills. The rush that followed turned the village into a city almost overnight. Today this is Chinatown's living room. Look for older men playing cards and Chinese chess. When you're ready, walk to the corner of Kearny and Washington Streets, at the top end of the square, and look for a narrow green building.",
       "photo": "photos/sf-chinatown/6.jpg",
       "credit": "Unknown authorUnknown author, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:SanFrancisco1851a.jpg",
-      "place": "Portsmouth Square San Francisco"
+      "place": "Portsmouth Square San Francisco",
+      "via": [
+        [
+          37.795212,
+          -122.406448
+        ],
+        [
+          37.795112,
+          -122.406418
+        ],
+        [
+          37.79517,
+          -122.405914
+        ]
+      ]
     },
     {
       "name": "Sentinel Building",
@@ -87,14 +195,62 @@
       "photo": "photos/sf-chinatown/7.jpg",
       "credit": "Dllu, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Sentinel_Building_San_Francisco_at_night.jpg",
-      "place": "Sentinel Building San Francisco"
+      "place": "Sentinel Building San Francisco",
+      "via": [
+        [
+          37.795272,
+          -122.405101
+        ],
+        [
+          37.795389,
+          -122.405107
+        ],
+        [
+          37.796153,
+          -122.405256
+        ],
+        [
+          37.796262,
+          -122.405277
+        ],
+        [
+          37.796288,
+          -122.405065
+        ],
+        [
+          37.7965,
+          -122.40513
+        ]
+      ]
     },
     {
       "name": "Up Columbus Avenue",
       "kind": "walk",
       "lat": 37.79718,
       "lng": -122.40591,
-      "text": "Keep walking up Columbus Avenue. This diagonal street is the border where Chinatown meets North Beach, the old Italian neighborhood. Soon you'll start to see Italian flags, cafés and restaurants. Keep to the left side of the street. In about a block, just before Broadway, look for a bar called Vesuvio, a small alley, and a bookstore with big windows. That's our next stop."
+      "text": "Keep walking up Columbus Avenue. This diagonal street is the border where Chinatown meets North Beach, the old Italian neighborhood. Soon you'll start to see Italian flags, cafés and restaurants. Keep to the left side of the street. In about a block, just before Broadway, look for a bar called Vesuvio, a small alley, and a bookstore with big windows. That's our next stop.",
+      "via": [
+        [
+          37.79659,
+          -122.40512
+        ],
+        [
+          37.796645,
+          -122.405141
+        ],
+        [
+          37.796806,
+          -122.405369
+        ],
+        [
+          37.797024,
+          -122.405661
+        ],
+        [
+          37.797112,
+          -122.405785
+        ]
+      ]
     },
     {
       "name": "City Lights, Jack Kerouac Alley and Vesuvio",
@@ -105,43 +261,133 @@
       "photo": "photos/sf-chinatown/9.jpg",
       "credit": "DiodeAdvocate, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:City_Lights_Booksellers_%26_Publishers.jpg",
-      "place": "City Lights Bookstore"
+      "place": "City Lights Bookstore",
+      "via": [
+        [
+          37.797553,
+          -122.406411
+        ]
+      ]
     },
     {
       "name": "Into North Beach",
       "kind": "walk",
       "lat": 37.79979,
       "lng": -122.40923,
-      "text": "You're walking through North Beach. There's no beach here anymore. There once was a shoreline nearby, but it was filled in long ago as the city grew. Italian immigrants made this their neighborhood in the late eighteen hundreds, and you can still smell the espresso. Keep going up Columbus Avenue. When you see a big green park on your right with a white church behind it, you've arrived."
+      "text": "You're walking through North Beach. There's no beach here anymore. There once was a shoreline nearby, but it was filled in long ago as the city grew. Italian immigrants made this their neighborhood in the late eighteen hundreds, and you can still smell the espresso. Keep going up Columbus Avenue. When you see a big green park on your right with a white church behind it, you've arrived.",
+      "via": [
+        [
+          37.797553,
+          -122.406411
+        ],
+        [
+          37.79778,
+          -122.40674
+        ],
+        [
+          37.797932,
+          -122.406999
+        ],
+        [
+          37.798618,
+          -122.407912
+        ],
+        [
+          37.798751,
+          -122.408158
+        ],
+        [
+          37.799241,
+          -122.408849
+        ],
+        [
+          37.799453,
+          -122.408777
+        ],
+        [
+          37.799622,
+          -122.40899
+        ],
+        [
+          37.799717,
+          -122.409145
+        ]
+      ]
     },
     {
       "name": "Washington Square",
       "kind": "stop",
-      "lat": 37.80086,
-      "lng": -122.4101,
+      "lat": 37.800525,
+      "lng": -122.410327,
       "text": "This is Washington Square, the front lawn of North Beach. Here's a funny detail: it isn't really a square. Columbus Avenue cuts off one corner, so it has five sides. And despite the name, the statue here isn't George Washington. It's Benjamin Franklin, given to the city in the eighteen hundreds. In the early morning, you'll often see neighbors practicing tai chi on the grass, many of them from nearby Chinatown. Later in the day, it fills with people on picnic blankets, dogs and friends meeting for coffee. Take a moment to look around. Chinatown, Italian North Beach and Telegraph Hill all meet around this green. When you're ready, walk across the park toward the big white church with two spires, on Filbert Street.",
       "photo": "photos/sf-chinatown/11.jpg",
       "credit": "InSapphoWeTrust from Los Angeles, California, USA, CC BY-SA 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Washington_Square,_North_Beach_(6017075090).jpg",
-      "place": "Washington Square Park North Beach"
+      "place": "Washington Square Park North Beach",
+      "via": [
+        [
+          37.79983,
+          -122.409337
+        ],
+        [
+          37.800273,
+          -122.409959
+        ],
+        [
+          37.800393,
+          -122.410137
+        ]
+      ]
     },
     {
       "name": "Saints Peter and Paul Church",
       "kind": "stop",
-      "lat": 37.80163,
-      "lng": -122.41023,
+      "lat": 37.80136,
+      "lng": -122.41019,
       "text": "This is Saints Peter and Paul Church, finished in 1924. Its two white spires are a landmark you can see from all over the neighborhood. Locals sometimes call it the Italian cathedral, because for a century it has been the spiritual home of North Beach's Italian families. Masses are still held in Italian, along with English and Chinese. The church is famous for one wedding that didn't happen inside. In 1954, baseball star Joe DiMaggio, who grew up in North Beach, married Marilyn Monroe at City Hall. Because he had been divorced, they couldn't marry in the church, but they came here afterwards to take photos on these steps. Now stand with the church behind you and turn left onto Filbert Street. We're heading uphill, toward the tower you can see on top of the hill.",
       "photo": "photos/sf-chinatown/12.jpg",
       "credit": "Photo: Mr. Kjetil Ree., CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Saints_Peter_and_Paul_Church.JPG",
-      "place": "Saints Peter and Paul Church San Francisco"
+      "place": "Saints Peter and Paul Church San Francisco",
+      "via": [
+        [
+          37.800916,
+          -122.410886
+        ],
+        [
+          37.801113,
+          -122.410923
+        ],
+        [
+          37.801272,
+          -122.410953
+        ]
+      ]
     },
     {
       "name": "Up Telegraph Hill",
       "kind": "walk",
       "lat": 37.80174,
       "lng": -122.40716,
-      "text": "Keep climbing Filbert Street. This is Telegraph Hill. In 1849, a signal station on top used a tall pole with moving arms to tell the town when ships were coming through the Golden Gate. Listen for squawking above you. A wild flock of green parrots lives around this hill. Past Kearny Street, Filbert gets too steep for cars and becomes steps. At the top, follow the road and the path up to the tower. Take your time."
+      "text": "Keep climbing Filbert Street. This is Telegraph Hill. In 1849, a signal station on top used a tall pole with moving arms to tell the town when ships were coming through the Golden Gate. Listen for squawking above you. A wild flock of green parrots lives around this hill. Past Kearny Street, Filbert gets too steep for cars and becomes steps. At the top, follow the road and the path up to the tower. Take your time.",
+      "via": [
+        [
+          37.801444,
+          -122.409497
+        ],
+        [
+          37.801467,
+          -122.409321
+        ],
+        [
+          37.801647,
+          -122.407869
+        ],
+        [
+          37.801666,
+          -122.407761
+        ]
+      ]
     },
     {
       "name": "Coit Tower",
@@ -152,7 +398,61 @@
       "photo": "photos/sf-chinatown/14.jpg",
       "credit": "Dietmar Rabich, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:San_Francisco_(CA,_USA),_Coit_Tower_--_2022_--_3082.jpg",
-      "place": "Coit Tower"
+      "place": "Coit Tower",
+      "via": [
+        [
+          37.801753,
+          -122.407032
+        ],
+        [
+          37.801817,
+          -122.406537
+        ],
+        [
+          37.801843,
+          -122.406341
+        ],
+        [
+          37.80179,
+          -122.406208
+        ],
+        [
+          37.801707,
+          -122.406166
+        ],
+        [
+          37.801771,
+          -122.405638
+        ],
+        [
+          37.801825,
+          -122.405449
+        ],
+        [
+          37.802054,
+          -122.405335
+        ],
+        [
+          37.80226,
+          -122.405378
+        ],
+        [
+          37.802681,
+          -122.405663
+        ],
+        [
+          37.802641,
+          -122.405805
+        ],
+        [
+          37.80262,
+          -122.405914
+        ],
+        [
+          37.802482,
+          -122.40587
+        ]
+      ]
     }
   ]
 }

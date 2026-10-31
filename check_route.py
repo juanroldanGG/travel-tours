@@ -8,7 +8,7 @@ import json, math, pathlib, sys, time, urllib.request
 tid = sys.argv[1]; here = pathlib.Path(__file__).parent
 T = json.loads((here / "tours" / f"{tid}.en.json").read_text(encoding="utf-8")); S = T["stops"]
 R = {"bike": 60, "drive": 500, "tram": 80}.get(T.get("mode"), 30)  # same radius as tour.html
-xy = lambda p: (p[1]*78400, p[0]*111200)
+xy = lambda p: (p[1]*111200*math.cos(math.radians(p[0])), p[0]*111200)  # metres; a degree of longitude shrinks away from the equator
 def segd(p, a, b):
     p, a, b = xy(p), xy(a), xy(b); dx, dy = b[0]-a[0], b[1]-a[1]; n = dx*dx + dy*dy
     t = 0 if n == 0 else max(0, min(1, ((p[0]-a[0])*dx + (p[1]-a[1])*dy) / n)); return math.dist(p, (a[0]+t*dx, a[1]+t*dy))

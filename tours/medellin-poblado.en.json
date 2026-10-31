@@ -36,14 +36,26 @@
       "lat": 6.2117,
       "lng": -75.57168,
       "text": "This little street, Carrera 43C, has two places we really like, almost side by side: Siete Pulgadas, a listening bar, and Mad Records Café. Both names point to music: seven inches, siete pulgadas, is the size of a vinyl single. A listening bar is a place built around a great sound system, where people come to really listen to the music while they have a drink. If it's evening, this is a great place to come back to. For now, keep walking down Carrera 43C to Calle 10.",
-      "place": "Siete Pulgadas Listening Bar Medellín"
+      "place": "Siete Pulgadas Listening Bar Medellín",
+      "via": [
+        [
+          6.211725,
+          -75.571751
+        ]
+      ]
     },
     {
       "name": "Left onto Calle 10",
       "kind": "walk",
       "lat": 6.21126,
       "lng": -75.57192,
-      "text": "At the bottom, turn left onto Calle 10 and walk one block east."
+      "text": "At the bottom, turn left onto Calle 10 and walk one block east.",
+      "via": [
+        [
+          6.211725,
+          -75.571751
+        ]
+      ]
     },
     {
       "name": "Milla de Oro",
@@ -54,7 +66,13 @@
       "photo": "photos/medellin-poblado/5.jpg",
       "credit": "SajoR, CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Edificio_Bancaf%C3%A9,_Avenida_El_Poblado-Medell%C3%ADn.jpg",
-      "place": "Avenida El Poblado Medellín"
+      "place": "Avenida El Poblado Medellín",
+      "via": [
+        [
+          6.211189,
+          -75.571895
+        ]
+      ]
     },
     {
       "name": "El Poblado Park",
@@ -62,7 +80,25 @@
       "lat": 6.21013,
       "lng": -75.57142,
       "text": "You're standing where Medellín began. In 1616, a Spanish colonial official, Francisco de Herrera Campuzano, set up a settlement for the indigenous people of the valley right here, called San Lorenzo de Aburrá. That's why this neighbourhood is called El Poblado, the settlement. The town of Medellín itself grew up later, further north, where the Centro is today. Look around at the mountains on every side. Medellín sits in a long, narrow valley, at about fifteen hundred metres, and the temperature stays pleasant all year. That's why it's called the City of Eternal Spring. From this lower corner, look down Carrera 43B: a pedestrian street full of bars and restaurants, busy from lunchtime until late at night. And right on the park is Alambique, a restaurant we love. Ask for the ceviche de chicharrón, a new fusion version of ceviche made with crispy pork. When you're ready, walk east along Calle 9, along the bottom of the park, to Carrera 43A.",
-      "place": "Parque El Poblado Medellín"
+      "place": "Parque El Poblado Medellín",
+      "via": [
+        [
+          6.210942,
+          -75.571231
+        ],
+        [
+          6.210847,
+          -75.571268
+        ],
+        [
+          6.210751,
+          -75.571116
+        ],
+        [
+          6.210166,
+          -75.571303
+        ]
+      ]
     },
     {
       "name": "Cross at the light",
@@ -76,7 +112,13 @@
       "kind": "walk",
       "lat": 6.20989,
       "lng": -75.57062,
-      "text": "Once across, turn left and walk a few steps up to the church."
+      "text": "Once across, turn left and walk a few steps up to the church.",
+      "via": [
+        [
+          6.209983,
+          -75.570855
+        ]
+      ]
     },
     {
       "name": "San José del Poblado Church",
@@ -92,8 +134,8 @@
     {
       "name": "South on Carrera 43A",
       "kind": "walk",
-      "lat": 6.20857,
-      "lng": -75.571,
+      "lat": 6.208566,
+      "lng": -75.571132,
       "text": "Walk south along the sidewalk of Carrera 43A, Avenida El Poblado, for about two blocks, then turn left onto Calle 8."
     },
     {
@@ -102,7 +144,13 @@
       "lat": 6.2084,
       "lng": -75.57063,
       "text": "Here on Calle 8, right by the park, is Café Zorba, one of our favourite spots in El Poblado. It's a vegetarian place, and they make very good pizza: a great stop for a coffee or a bite before the green part of the walk. When you're ready, keep following Calle 8 as it turns into a path and goes down into the park.",
-      "place": "Café Zorba Medellín"
+      "place": "Café Zorba Medellín",
+      "via": [
+        [
+          6.20844,
+          -75.570999
+        ]
+      ]
     },
     {
       "name": "Down into the park",
@@ -121,8 +169,8 @@
     {
       "name": "La Presidenta Linear Park",
       "kind": "stop",
-      "lat": 6.20782,
-      "lng": -75.56996,
+      "lat": 6.207715,
+      "lng": -75.569903,
       "text": "This green strip follows the La Presidenta stream down the hill, the same stream you crossed near the metro. Medellín is crossed by hundreds of streams like this one, all flowing into the river at the bottom of the valley. In recent years the city has been turning streets and streams into green corridors, planting thousands of trees and plants to cool the city down, and it won international awards for it. Listen for the birds. You might see bright green parakeets, or the noisy, yellow-chested bird locals call the bichofué. Now follow the path east, along the stream.",
       "photo": "photos/medellin-poblado/14.jpg",
       "credit": "Felipe Restrepo Acosta, CC BY-SA 4.0, Wikimedia Commons",
@@ -175,9 +223,15 @@
     {
       "name": "Up Carrera 38",
       "kind": "walk",
-      "lat": 6.20873,
-      "lng": -75.56773,
-      "text": "Walk up Carrera 38 to Calle 9; the park is right ahead. We're in the Zona Rosa, the nightlife district: calm by day, packed by night. A few honest tips for going out in Medellín. Use ride apps, or taxis that a restaurant or bar calls for you. Don't accept drinks from strangers. And be careful when meeting people from dating apps."
+      "lat": 6.208137,
+      "lng": -75.567923,
+      "text": "Walk up Carrera 38 to Calle 9; the park is right ahead. We're in the Zona Rosa, the nightlife district: calm by day, packed by night. A few honest tips for going out in Medellín. Use ride apps, or taxis that a restaurant or bar calls for you. Don't accept drinks from strangers. And be careful when meeting people from dating apps.",
+      "via": [
+        [
+          6.207576,
+          -75.568118
+        ]
+      ]
     },
     {
       "name": "Parque Lleras",
@@ -188,7 +242,13 @@
       "photo": "photos/medellin-poblado/22.jpg",
       "credit": "Scabredon, Public domain, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:ParqueLleras1.jpg",
-      "place": "Parque Lleras Medellín"
+      "place": "Parque Lleras Medellín",
+      "via": [
+        [
+          6.20873,
+          -75.56773
+        ]
+      ]
     },
     {
       "name": "Right onto Calle 10",
@@ -213,7 +273,13 @@
       "photo": "photos/medellin-poblado/25.jpg",
       "credit": "Xemenendura, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Provenza,_Medell%C3%ADn_1.jpg",
-      "place": "El Social Tienda Mixta Medellín"
+      "place": "El Social Tienda Mixta Medellín",
+      "via": [
+        [
+          6.207805,
+          -75.565904
+        ]
+      ]
     },
     {
       "name": "Carolina and 903",
@@ -221,7 +287,13 @@
       "lat": 6.20733,
       "lng": -75.56576,
       "text": "From this corner, look one block further down Carrera 35. Almost side by side are two places from Medellín's biggest music stars. Carolina is Karol G's restaurant, named after her real name, Carolina Giraldo; she opened it in December 2024, and the menu mixes Colombian cooking and seafood with flavours from across Latin America. Right next to it is 903, Nueve Cero Tres, the nightclub Maluma opened in March 2025, designed to feel like an apartment from the early nineties. Medellín is often called the capital of reggaetón: Karol G, Maluma and J Balvin all come from this city. If you want a closer look, walk down and come back to this corner. Then follow Calle 8 west, toward 37 Park.",
-      "place": "Restaurante Carolina Medellín"
+      "place": "Restaurante Carolina Medellín",
+      "via": [
+        [
+          6.207742,
+          -75.565904
+        ]
+      ]
     },
     {
       "name": "Along Calle 8",
@@ -258,7 +330,13 @@
       "lat": 6.2083,
       "lng": -75.56705,
       "text": "Carrera 37, Vía Primavera, is the perfect end to our walk. It's lined with small speciality shops, many run by local Colombian designers: clothes, shoes, jewellery and accessories you won't find anywhere else. Medellín is a fashion city, built on the textile industry you hear about on the downtown tour, and every July it hosts Colombiamoda, one of the biggest fashion fairs in Latin America. And right here is Pergamino, one of Medellín's best-known speciality coffee shops. Colombia is one of the world's great coffee countries, and the mountains around Medellín are coffee country too. Sit down, order a coffee, or a tinto, the small black coffee Colombians drink all day long, and rest your feet. In a couple of hours you've gone from the old streets of Manila to the square where El Poblado was born four hundred years ago, and up to the streets where Medellín eats, shops and dances today. If you haven't done it yet, the downtown tour tells the other half of the story: how Medellín went from one of the most dangerous cities in the world to one of the most innovative. Thank you for walking with me. Enjoy your coffee, and enjoy Medellín. Gracias, parce.",
-      "place": "Pergamino Coffee Via Primavera Medellín"
+      "place": "Pergamino Coffee Via Primavera Medellín",
+      "via": [
+        [
+          6.207859,
+          -75.56716
+        ]
+      ]
     }
   ]
 }

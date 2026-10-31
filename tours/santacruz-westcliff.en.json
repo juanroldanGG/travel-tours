@@ -23,20 +23,48 @@
     {
       "name": "The Giant Dipper",
       "kind": "stop",
-      "lat": 36.96471,
-      "lng": -122.01533,
+      "lat": 36.964678,
+      "lng": -122.014924,
       "text": "This is the Giant Dipper, one of the most famous wooden roller coasters in the world. It opened in 1924, and it was built in only about seven weeks by Arthur Looff, the son of a master carousel maker. The ride starts in a pitch dark tunnel, then climbs and drops along the edge of the beach. Its wooden frame is checked and repaired constantly, piece by piece, which is why it still runs after a hundred years. In 1987, the Giant Dipper and the carousel we're about to see were named National Historic Landmarks, a rare honour for amusement rides. You might recognise this place from movies too. The vampire film The Lost Boys was shot here in the eighties. Next, turn toward the ocean and walk west along the beachfront promenade.",
       "photo": "photos/santacruz-westcliff/1.jpg",
       "credit": "Larry Pieniazek, User:Lar,  (primary), CC BY 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:SantaCruz_BeachBoardwalk_GiantDipper_trackDSCN9382.JPG",
-      "place": "Giant Dipper Santa Cruz"
+      "place": "Giant Dipper Santa Cruz",
+      "via": [
+        [
+          36.965256,
+          -122.014513
+        ],
+        [
+          36.964909,
+          -122.014868
+        ],
+        [
+          36.964735,
+          -122.014833
+        ],
+        [
+          36.964693,
+          -122.014826
+        ]
+      ]
     },
     {
       "name": "Along the promenade",
       "kind": "walk",
-      "lat": 36.9641,
-      "lng": -122.0163,
-      "text": "Keep the beach on your left and walk west along the promenade, past the games and food stands. Out there is Monterey Bay, one of the richest stretches of ocean in the world. It's a protected marine sanctuary, home to whales, dolphins and sea otters. On a clear day you can see the far side of the bay. Keep walking until you hear organ music. That's our next stop."
+      "lat": 36.964342,
+      "lng": -122.01631,
+      "text": "Keep the beach on your left and walk west along the promenade, past the games and food stands. Out there is Monterey Bay, one of the richest stretches of ocean in the world. It's a protected marine sanctuary, home to whales, dolphins and sea otters. On a clear day you can see the far side of the bay. Keep walking until you hear organ music. That's our next stop.",
+      "via": [
+        [
+          36.964648,
+          -122.015134
+        ],
+        [
+          36.964493,
+          -122.015141
+        ]
+      ]
     },
     {
       "name": "The Looff Carousel",
@@ -47,14 +75,46 @@
       "photo": "photos/santacruz-westcliff/3.jpg",
       "credit": "Mliu92, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Looff_Carousel_2.jpg",
-      "place": "Looff Carousel Santa Cruz"
+      "place": "Looff Carousel Santa Cruz",
+      "via": [
+        [
+          36.964224,
+          -122.01744
+        ]
+      ]
     },
     {
       "name": "Down Beach Street",
       "kind": "walk",
       "lat": 36.96385,
       "lng": -122.02108,
-      "text": "Walk west along Beach Street with the Boardwalk on your left. The long pier ahead of you is the Santa Cruz Wharf. Notice the surfers in the water to its right. That's Cowell Beach, and we'll come back to it. Watch for bikes on the path, and cross the street carefully at the roundabout. Head for the start of the wharf."
+      "text": "Walk west along Beach Street with the Boardwalk on your left. The long pier ahead of you is the Santa Cruz Wharf. Notice the surfers in the water to its right. That's Cowell Beach, and we'll come back to it. Watch for bikes on the path, and cross the street carefully at the roundabout. Head for the start of the wharf.",
+      "via": [
+        [
+          36.964224,
+          -122.01744
+        ],
+        [
+          36.96419,
+          -122.01767
+        ],
+        [
+          36.964474,
+          -122.017698
+        ],
+        [
+          36.964241,
+          -122.019573
+        ],
+        [
+          36.964011,
+          -122.020455
+        ],
+        [
+          36.963754,
+          -122.021021
+        ]
+      ]
     },
     {
       "name": "The Santa Cruz Wharf",
@@ -65,14 +125,50 @@
       "photo": "photos/santacruz-westcliff/5.jpg",
       "credit": "Intothewoods29 (talk), CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Under_the_Santa_Cruz_Wharf.JPG",
-      "place": "Santa Cruz Wharf"
+      "place": "Santa Cruz Wharf",
+      "via": [
+        [
+          36.963754,
+          -122.021021
+        ],
+        [
+          36.962783,
+          -122.023475
+        ],
+        [
+          36.962703,
+          -122.023486
+        ],
+        [
+          36.962621,
+          -122.023633
+        ]
+      ]
     },
     {
       "name": "Out on the wharf",
       "kind": "walk",
       "lat": 36.9603,
       "lng": -122.0206,
-      "text": "Keep walking toward the end of the wharf. Look back over your shoulder for one of the best views of the Boardwalk and the Giant Dipper. You'll pass people fishing over the rail. Watch for pelicans gliding just above the water, and for gulls with an eye on your snack. Hear that loud barking? Follow it."
+      "text": "Keep walking toward the end of the wharf. Look back over your shoulder for one of the best views of the Boardwalk and the Giant Dipper. You'll pass people fishing over the rail. Watch for pelicans gliding just above the water, and for gulls with an eye on your snack. Hear that loud barking? Follow it.",
+      "via": [
+        [
+          36.962511,
+          -122.023668
+        ],
+        [
+          36.96247,
+          -122.023445
+        ],
+        [
+          36.960631,
+          -122.020751
+        ],
+        [
+          36.960504,
+          -122.020865
+        ]
+      ]
     },
     {
       "name": "Sea lions under the wharf",
@@ -83,7 +179,17 @@
       "photo": "photos/santacruz-westcliff/7.jpg",
       "credit": "Intothewoods29 (talk), CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Sea_Lions_next_to_Santa_Cruz_Wharf.JPG",
-      "place": "Santa Cruz Wharf"
+      "place": "Santa Cruz Wharf",
+      "via": [
+        [
+          36.960374,
+          -122.020376
+        ],
+        [
+          36.958835,
+          -122.018087
+        ]
+      ]
     },
     {
       "name": "Cowell Beach",
@@ -94,14 +200,46 @@
       "photo": "photos/santacruz-westcliff/8.jpg",
       "credit": "Pimlico27, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_387.JPG",
-      "place": "Cowell Beach Santa Cruz"
+      "place": "Cowell Beach Santa Cruz",
+      "via": [
+        [
+          36.958835,
+          -122.018087
+        ],
+        [
+          36.96247,
+          -122.023445
+        ],
+        [
+          36.962633,
+          -122.024161
+        ],
+        [
+          36.962404,
+          -122.024823
+        ],
+        [
+          36.962062,
+          -122.025167
+        ]
+      ]
     },
     {
       "name": "Up West Cliff Drive",
       "kind": "walk",
-      "lat": 36.958,
-      "lng": -122.0254,
-      "text": "Stay on the wide path along the cliff top, with the ocean on your left. This path is shared by walkers, runners, skaters and cyclists, so keep to one side. Look down at the rocks. You might spot sea otters floating on their backs in the kelp, or cormorants drying their wings. Ahead of you, on the cliff edge, a bronze surfer is waiting."
+      "lat": 36.958011,
+      "lng": -122.02601,
+      "text": "Stay on the wide path along the cliff top, with the ocean on your left. This path is shared by walkers, runners, skaters and cyclists, so keep to one side. Look down at the rocks. You might spot sea otters floating on their backs in the kelp, or cormorants drying their wings. Ahead of you, on the cliff edge, a bronze surfer is waiting.",
+      "via": [
+        [
+          36.960184,
+          -122.025719
+        ],
+        [
+          36.95962,
+          -122.025663
+        ]
+      ]
     },
     {
       "name": "The surfer statue",
@@ -112,18 +250,66 @@
       "photo": "photos/santacruz-westcliff/10.jpg",
       "credit": "Noah_Loverbear, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Surfing_Monument_In_Santa_Cruz_California_-_panoramio_(1).jpg",
-      "place": "To Honor Surfing statue"
+      "place": "To Honor Surfing statue",
+      "via": [
+        [
+          36.957734,
+          -122.025954
+        ],
+        [
+          36.957315,
+          -122.02549
+        ],
+        [
+          36.956188,
+          -122.024715
+        ],
+        [
+          36.955621,
+          -122.024569
+        ],
+        [
+          36.954821,
+          -122.024891
+        ]
+      ]
     },
     {
       "name": "Steamer Lane",
       "kind": "stop",
-      "lat": 36.953,
-      "lng": -122.0259,
+      "lat": 36.952825,
+      "lng": -122.02564,
       "text": "Now look at the water between the point and the cliffs. This is Steamer Lane, one of the best known surf spots in the world. Its name comes from the steam ships that once passed close to this point on their way in and out of the bay. When a big swell rolls in, waves wrap around the point and break in long lines, and surfers line up at different spots along it. Big surf contests have been held here for decades. Watch for a few minutes. You'll see surfers paddling hard, waiting their turn, and riding right below the cliff. Out by the lighthouse is Seal Rock, often covered with sea lions and birds. Walk out to the lighthouse now. It's our last stop.",
       "photo": "photos/santacruz-westcliff/11.jpg",
       "credit": "Brocken Inaglory, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Surfer_in_Santa_cruz_11-8-9_-1.jpg",
-      "place": "Steamer Lane"
+      "place": "Steamer Lane",
+      "via": [
+        [
+          36.954667,
+          -122.024949
+        ],
+        [
+          36.95374,
+          -122.025278
+        ],
+        [
+          36.953517,
+          -122.025182
+        ],
+        [
+          36.953271,
+          -122.025277
+        ],
+        [
+          36.953146,
+          -122.025479
+        ],
+        [
+          36.95287,
+          -122.025656
+        ]
+      ]
     },
     {
       "name": "Lighthouse and Surfing Museum",
@@ -134,7 +320,33 @@
       "photo": "photos/santacruz-westcliff/12.jpg",
       "credit": "MC BSU, CC0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Santa_Cruz_Surfing_Museum.jpg",
-      "place": "Mark Abbott Memorial Lighthouse"
+      "place": "Mark Abbott Memorial Lighthouse",
+      "via": [
+        [
+          36.952735,
+          -122.025762
+        ],
+        [
+          36.952439,
+          -122.026032
+        ],
+        [
+          36.952073,
+          -122.026205
+        ],
+        [
+          36.951908,
+          -122.026442
+        ],
+        [
+          36.95177,
+          -122.026415
+        ],
+        [
+          36.951577,
+          -122.02677
+        ]
+      ]
     }
   ]
 }

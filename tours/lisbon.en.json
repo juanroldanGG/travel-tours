@@ -24,7 +24,13 @@
       "kind": "walk",
       "lat": 38.7132,
       "lng": -9.13925,
-      "text": "Now leave the square from its south side, the end away from the theatre, and walk down Rua do Ouro. Keep the square behind you and look out for a tall iron tower on your right, at the end of a side street. That's where we're going."
+      "text": "Now leave the square from its south side, the end away from the theatre, and walk down Rua do Ouro. Keep the square behind you and look out for a tall iron tower on your right, at the end of a side street. That's where we're going.",
+      "via": [
+        [
+          38.713807,
+          -9.139498
+        ]
+      ]
     },
     {
       "name": "Santa Justa Lift",
@@ -35,13 +41,35 @@
       "photo": "photos/lisbon/2.jpg",
       "credit": "Luca Galuzzi (Lucag), CC BY-SA 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lisbon_(Lisboa)_historic_elevator_Santa_Justa_Luca_Galuzzi_2006.jpg",
-      "place": "Elevador de Santa Justa"
+      "place": "Elevador de Santa Justa",
+      "via": [
+        [
+          38.713324,
+          -9.139061
+        ],
+        [
+          38.713094,
+          -9.138881
+        ],
+        [
+          38.712978,
+          -9.139351
+        ],
+        [
+          38.712855,
+          -9.139464
+        ],
+        [
+          38.712162,
+          -9.139193
+        ]
+      ]
     },
     {
       "name": "Turn onto Rua Augusta",
       "kind": "walk",
-      "lat": 38.7119,
-      "lng": -9.1379,
+      "lat": 38.71229,
+      "lng": -9.13866,
       "text": "With the lift behind you, walk along Rua de Santa Justa, away from the tower. After two blocks you'll reach a wide pedestrian street full of shops and cafés. That's Rua Augusta. Turn right onto it, toward the river. Watch out for street performers, and keep your bag in front of you in the crowds."
     },
     {
@@ -53,13 +81,19 @@
       "photo": "photos/lisbon/4.jpg",
       "credit": "Concierge.2C, CC BY-SA 3.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lisboa_-_Baixa_Pombalina_-_Rua_de_Santa_Justa.jpg",
-      "place": "Rua Augusta Lisboa"
+      "place": "Rua Augusta Lisboa",
+      "via": [
+        [
+          38.712367,
+          -9.138345
+        ]
+      ]
     },
     {
       "name": "The Roman tunnels below you",
       "kind": "walk",
-      "lat": 38.70975,
-      "lng": -9.1372,
+      "lat": 38.709745,
+      "lng": -9.137285,
       "text": "Keep walking toward the arch. Here's something most visitors never find out. A few metres under your feet, below Rua da Prata, are Roman galleries, nearly two thousand years old, from when this city was called Olisipo. They're usually flooded, so they only open to the public a few days a year, through a hatch in the middle of the street. If you ever see a queue around a hole in the road, now you know why.",
       "photo": "photos/lisbon/5.jpg",
       "credit": "TeWeBs, CC BY-SA 4.0, Wikimedia Commons",
@@ -69,8 +103,8 @@
     {
       "name": "Rua Augusta Arch",
       "kind": "stop",
-      "lat": 38.7088,
-      "lng": -9.1366,
+      "lat": 38.7086,
+      "lng": -9.13687,
       "text": "This is the Rua Augusta Arch, the grand gateway between the city and the river. It was planned right after the earthquake, but it was only finished in 1873, more than a hundred years later. On top, a figure of Glory crowns Genius and Valour. Below them stand Portuguese heroes, including the explorer Vasco da Gama, who reached India by sea, and the Marquis of Pombal himself. The Latin words say, roughly, to the virtues of our ancestors. For a few euros you can take a lift and some stairs to the top, and the view straight down Rua Augusta is worth it. Now walk through the arch and into the huge square on the other side.",
       "photo": "photos/lisbon/6.jpg",
       "credit": "Diego Delso, CC BY-SA 3.0, Wikimedia Commons",
@@ -97,14 +131,54 @@
       "photo": "photos/lisbon/8.jpg",
       "credit": "Kritzolina, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Cais_das_Colunas_at_Pra%C3%A7a_do_Com%C3%A9rcio_01.jpg",
-      "place": "Cais das Colunas"
+      "place": "Cais das Colunas",
+      "via": [
+        [
+          38.706809,
+          -9.136177
+        ],
+        [
+          38.70674,
+          -9.136432
+        ],
+        [
+          38.706575,
+          -9.13629
+        ]
+      ]
     },
     {
       "name": "Walk to Casa dos Bicos",
       "kind": "walk",
-      "lat": 38.7086,
-      "lng": -9.1346,
-      "text": "Leave the square at its far corner, the one closest to the hill with the castle. Keep the river on your right and walk along Rua da Alfândega for about two hundred metres. Look out for a strange building on your left, covered in pointed stones, like a giant cheese grater."
+      "lat": 38.70855,
+      "lng": -9.13571,
+      "text": "Leave the square at its far corner, the one closest to the hill with the castle. Keep the river on your right and walk along Rua da Alfândega for about two hundred metres. Look out for a strange building on your left, covered in pointed stones, like a giant cheese grater.",
+      "via": [
+        [
+          38.706575,
+          -9.13629
+        ],
+        [
+          38.70674,
+          -9.136432
+        ],
+        [
+          38.706809,
+          -9.136177
+        ],
+        [
+          38.707279,
+          -9.136362
+        ],
+        [
+          38.708243,
+          -9.136086
+        ],
+        [
+          38.7083,
+          -9.13585
+        ]
+      ]
     },
     {
       "name": "Casa dos Bicos",
@@ -115,14 +189,30 @@
       "photo": "photos/lisbon/10.jpg",
       "credit": "Ingo Mehling, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lissabon_-_Casa_dos_Bicos.jpg",
-      "place": "Casa dos Bicos"
+      "place": "Casa dos Bicos",
+      "via": [
+        [
+          38.70871,
+          -9.135228
+        ],
+        [
+          38.70872,
+          -9.134604
+        ]
+      ]
     },
     {
       "name": "Climb to the cathedral",
       "kind": "walk",
       "lat": 38.70925,
       "lng": -9.1331,
-      "text": "This is where the climbing starts. Take it slowly. The narrow streets here follow the lines of the old medieval city, so they twist and turn. Just keep going uphill. In a minute you'll see two big stone towers in front of you."
+      "text": "This is where the climbing starts. Take it slowly. The narrow streets here follow the lines of the old medieval city, so they twist and turn. Just keep going uphill. In a minute you'll see two big stone towers in front of you.",
+      "via": [
+        [
+          38.708748,
+          -9.133223
+        ]
+      ]
     },
     {
       "name": "Lisbon Cathedral",
@@ -133,7 +223,25 @@
       "photo": "photos/lisbon/12.jpg",
       "credit": "Singa Hitam, CC BY 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lisboa,_S%C3%A9_de_Lisboa,_fachada_ocidental_(09).jpg",
-      "place": "Sé de Lisboa"
+      "place": "Sé de Lisboa",
+      "via": [
+        [
+          38.709377,
+          -9.133101
+        ],
+        [
+          38.709512,
+          -9.133064
+        ],
+        [
+          38.709578,
+          -9.133296
+        ],
+        [
+          38.709653,
+          -9.133263
+        ]
+      ]
     },
     {
       "name": "Church of Saint Anthony",
@@ -144,29 +252,103 @@
       "photo": "photos/lisbon/13.jpg",
       "credit": "Georges Jansoone, CC BY 2.5, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lisboa,_Igreja_de_Santo_Ant%C3%B3nio_de_Lisboa,_fachada_ocidental_(5).jpg",
-      "place": "Igreja de Santo António Lisboa"
+      "place": "Igreja de Santo António Lisboa",
+      "via": [
+        [
+          38.709653,
+          -9.133263
+        ],
+        [
+          38.709578,
+          -9.133296
+        ],
+        [
+          38.709825,
+          -9.133928
+        ],
+        [
+          38.709917,
+          -9.133888
+        ]
+      ]
     },
     {
       "name": "The Aljube prison",
       "kind": "stop",
-      "lat": 38.7103,
-      "lng": -9.1329,
+      "lat": 38.71012,
+      "lng": -9.13255,
       "text": "On your left, just past the cathedral, is a building that looks ordinary but has a dark past. This was the Aljube, a prison used by Portugal's dictatorship to hold political prisoners, people arrested simply for disagreeing with the government. Some were kept in tiny cells barely bigger than a cupboard. Today it's the Museum of Resistance and Freedom. It tells the story of the dictatorship and the Carnation Revolution of 1974, when soldiers put red carnations in their rifles and the regime fell almost without a shot.",
       "photo": "photos/lisbon/14.jpg",
       "credit": "Ardfern, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Museu_do_Aljube,_Lisbon,_May_2017_(01).JPG",
-      "place": "Museu do Aljube"
+      "place": "Museu do Aljube",
+      "via": [
+        [
+          38.709917,
+          -9.133888
+        ],
+        [
+          38.709825,
+          -9.133928
+        ],
+        [
+          38.709578,
+          -9.133296
+        ],
+        [
+          38.709653,
+          -9.133263
+        ],
+        [
+          38.709806,
+          -9.133376
+        ],
+        [
+          38.709953,
+          -9.133283
+        ],
+        [
+          38.710002,
+          -9.133182
+        ],
+        [
+          38.710014,
+          -9.133062
+        ],
+        [
+          38.710082,
+          -9.133073
+        ]
+      ]
     },
     {
       "name": "Tram 28",
       "kind": "walk",
-      "lat": 38.711,
-      "lng": -9.1317,
+      "lat": 38.7109,
+      "lng": -9.13069,
       "text": "Keep going uphill, and stay on the pavement, because the yellow number 28 tram squeezes through here with barely centimetres to spare. These little wooden trams have been climbing Lisbon's hills for about a century. It's a great ride, but it gets very crowded, and pickpockets love it. Tip: ride it early in the morning or late in the evening. The viewpoint is just ahead, on your right.",
       "photo": "photos/lisbon/15.jpg",
       "credit": "Jakub Hałun, CC BY 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Tram_of_line_28E_on_Rua_Augusto_Rosa_in_Lisbon,_20250603_2011_9033.jpg",
-      "place": "Elétrico 28"
+      "place": "Elétrico 28",
+      "via": [
+        [
+          38.710185,
+          -9.13228
+        ],
+        [
+          38.710533,
+          -9.131204
+        ],
+        [
+          38.71071,
+          -9.13094
+        ],
+        [
+          38.710741,
+          -9.130829
+        ]
+      ]
     },
     {
       "name": "Santa Luzia Viewpoint",
@@ -177,36 +359,120 @@
       "photo": "photos/lisbon/16.jpg",
       "credit": "Jakub Hałun, CC BY 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg",
-      "place": "Miradouro de Santa Luzia"
+      "place": "Miradouro de Santa Luzia",
+      "via": [
+        [
+          38.71114,
+          -9.130563
+        ],
+        [
+          38.711628,
+          -9.130526
+        ],
+        [
+          38.711639,
+          -9.130436
+        ]
+      ]
     },
     {
       "name": "Portas do Sol",
       "kind": "stop",
-      "lat": 38.7124,
-      "lng": -9.1297,
+      "lat": 38.712229,
+      "lng": -9.130221,
       "text": "Portas do Sol means Gates of the Sun. One of the gates of the old Moorish city walls stood here. Find the statue of Saint Vincent, Lisbon's patron saint, holding a little boat with two ravens. The legend says that when his body was carried to Lisbon by ship, two ravens guarded it the whole way. That boat and those ravens are still on the city's coat of arms today, and you'll spot them on lamp posts and rubbish bins around town. Across the rooftops you'll see a big white dome. That's the National Pantheon. It took so long to finish, almost three hundred years, that the Portuguese still say a never-ending job is like the works of Santa Engrácia.",
       "photo": "photos/lisbon/17.jpg",
       "credit": "Jakub Hałun, CC BY 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Igreja_de_Santo_Est%C3%AAv%C3%A3o_from_Miradouro_das_Portas_do_Sol,_Lisbon,_20250606_1958_0420.jpg",
-      "place": "Miradouro das Portas do Sol"
+      "place": "Miradouro das Portas do Sol",
+      "via": [
+        [
+          38.711734,
+          -9.130239
+        ],
+        [
+          38.711735,
+          -9.130324
+        ],
+        [
+          38.711749,
+          -9.130413
+        ],
+        [
+          38.711779,
+          -9.130484
+        ],
+        [
+          38.711887,
+          -9.130442
+        ],
+        [
+          38.712068,
+          -9.130239
+        ]
+      ]
     },
     {
       "name": "Up through Alfama",
       "kind": "walk",
-      "lat": 38.7129,
-      "lng": -9.1309,
+      "lat": 38.712558,
+      "lng": -9.130716,
       "text": "Last climb now. Look for the brown signs that say Castelo and follow them uphill, away from the viewpoint. The name Alfama probably comes from Arabic, from a word for baths or springs, because of the warm water springs the Moors found here. Listen as you walk: in the evenings, you may hear fado, Lisbon's sad and beautiful folk song, drifting out of small restaurants.",
       "photo": "photos/lisbon/18.jpg",
       "credit": "dirk.olbertz, CC BY 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Alfama,_Lisboa_-_2010-09-09.jpg",
-      "place": "Alfama Lisboa"
+      "place": "Alfama Lisboa",
+      "via": [
+        [
+          38.712198,
+          -9.130409
+        ],
+        [
+          38.712261,
+          -9.130488
+        ],
+        [
+          38.712439,
+          -9.130672
+        ]
+      ]
     },
     {
       "name": "Inside the old walls",
       "kind": "walk",
-      "lat": 38.7131,
-      "lng": -9.1324,
-      "text": "You've just walked through the outer walls into Bairro do Castelo, a tiny neighbourhood that lives inside the castle's defences. People still live here, so keep your voice down in the little lanes. The castle entrance and ticket office are just ahead."
+      "lat": 38.71244,
+      "lng": -9.133033,
+      "text": "You've just walked through the outer walls into Bairro do Castelo, a tiny neighbourhood that lives inside the castle's defences. People still live here, so keep your voice down in the little lanes. The castle entrance and ticket office are just ahead.",
+      "via": [
+        [
+          38.712603,
+          -9.130769
+        ],
+        [
+          38.712684,
+          -9.130908
+        ],
+        [
+          38.712774,
+          -9.131035
+        ],
+        [
+          38.712916,
+          -9.131022
+        ],
+        [
+          38.712441,
+          -9.131657
+        ],
+        [
+          38.712353,
+          -9.131862
+        ],
+        [
+          38.712175,
+          -9.132974
+        ]
+      ]
     },
     {
       "name": "São Jorge Castle",
@@ -217,7 +483,45 @@
       "photo": "photos/lisbon/20.jpg",
       "credit": "Ingo Mehling, CC BY-SA 4.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lissabon_-_Castle_-_Ramparts_-_1.jpg",
-      "place": "Castelo de São Jorge"
+      "place": "Castelo de São Jorge",
+      "via": [
+        [
+          38.712554,
+          -9.133022
+        ],
+        [
+          38.712616,
+          -9.133093
+        ],
+        [
+          38.712514,
+          -9.133266
+        ],
+        [
+          38.712509,
+          -9.133633
+        ],
+        [
+          38.713091,
+          -9.133682
+        ],
+        [
+          38.713396,
+          -9.133431
+        ],
+        [
+          38.713435,
+          -9.13337
+        ],
+        [
+          38.713737,
+          -9.133458
+        ],
+        [
+          38.713765,
+          -9.133556
+        ]
+      ]
     },
     {
       "name": "The end of the walk",
@@ -228,7 +532,33 @@
       "photo": "photos/lisbon/21.jpg",
       "credit": "Vitor Oliveira from Torres Vedras, PORTUGAL, CC BY-SA 2.0, Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Lisboa_vista_do_castelo_de_S._Jorge_-_Portugal_(6355836535).jpg",
-      "place": "Castelo de São Jorge"
+      "place": "Castelo de São Jorge",
+      "via": [
+        [
+          38.713765,
+          -9.133556
+        ],
+        [
+          38.713737,
+          -9.133458
+        ],
+        [
+          38.713435,
+          -9.13337
+        ],
+        [
+          38.713435,
+          -9.133725
+        ],
+        [
+          38.713298,
+          -9.133732
+        ],
+        [
+          38.713337,
+          -9.134179
+        ]
+      ]
     }
   ]
 }
