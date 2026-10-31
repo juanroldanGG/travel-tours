@@ -132,18 +132,18 @@
       "place": "Parroquia San José del Poblado Medellín"
     },
     {
-      "name": "South on Carrera 43A",
+      "name": "Left onto the park path",
       "kind": "walk",
       "lat": 6.208566,
       "lng": -75.571132,
-      "text": "Walk south along the sidewalk of Carrera 43A, Avenida El Poblado, for about two blocks, then turn left onto Calle 8."
+      "text": "At the corner of the park, just ahead, turn left onto the path that runs along the top of the park."
     },
     {
       "name": "Café Zorba",
       "kind": "stop",
       "lat": 6.2084,
       "lng": -75.57063,
-      "text": "Here on Calle 8, right by the park, is Café Zorba, one of our favourite spots in El Poblado. It's a vegetarian place, and they make very good pizza: a great stop for a coffee or a bite before the green part of the walk. When you're ready, keep following Calle 8 as it turns into a path and goes down into the park.",
+      "text": "Right here, between Calle 8 and the park, is Café Zorba, one of our favourite spots in El Poblado. It's a vegetarian place, and they make very good pizza: a great stop for a coffee or a bite before the green part of the walk. When you're ready, follow this path down into the park.",
       "place": "Café Zorba Medellín",
       "via": [
         [
@@ -296,25 +296,25 @@
       ]
     },
     {
-      "name": "Along Calle 8",
+      "name": "Right onto Carrera 36",
       "kind": "walk",
       "lat": 6.20701,
       "lng": -75.56631,
-      "text": "Follow Calle 8 as it bends to the right."
+      "text": "At the end of Calle 8, turn right onto Carrera 36."
     },
     {
-      "name": "Calle 8 at Carrera 36",
+      "name": "Across Carrera 36",
       "kind": "walk",
       "lat": 6.20761,
       "lng": -75.56653,
-      "text": "At Carrera 36, keep going west along Calle 8. 37 Park is just ahead."
+      "text": "Turn left here and cross Carrera 36 at the crossing, then take the path into the little park. 37 Park is just ahead."
     },
     {
       "name": "37 Park",
       "kind": "stop",
       "lat": 6.20755,
       "lng": -75.56691,
-      "text": "This is 37 Park, a restaurant and bar here on Calle 8, and another of our recommendations: a good place for a drink or a bite before the last stretch of the walk. Then keep going west along Calle 8 to Carrera 37.",
+      "text": "This is 37 Park, a restaurant and bar here by the little park, and another of our recommendations: a good place for a drink or a bite before the last stretch of the walk. Then keep going along the path to Carrera 37.",
       "place": "37 Park Medellín Restaurante Bar"
     },
     {

@@ -132,18 +132,18 @@
       "place": "Parroquia San José del Poblado Medellín"
     },
     {
-      "name": "Al sur por la Carrera 43A",
+      "name": "A la izquierda por el sendero del parque",
       "kind": "walk",
       "lat": 6.208566,
       "lng": -75.571132,
-      "text": "Camina hacia el sur por el andén de la Carrera 43A, la Avenida El Poblado, unas dos cuadras, y gira a la izquierda por la Calle 8."
+      "text": "En la esquina del parque, aquí adelante, gira a la izquierda por el sendero que va por la parte de arriba del parque."
     },
     {
       "name": "Café Zorba",
       "kind": "stop",
       "lat": 6.2084,
       "lng": -75.57063,
-      "text": "Aquí en la Calle 8, junto al parque, está Café Zorba, uno de nuestros lugares favoritos de El Poblado. Es un lugar vegetariano y hacen muy buena pizza: perfecto para un café o algo de comer antes de la parte verde del paseo. Cuando estés listo, sigue la Calle 8, que se vuelve un sendero y baja hacia el parque.",
+      "text": "Aquí mismo, entre la Calle 8 y el parque, está Café Zorba, uno de nuestros lugares favoritos de El Poblado. Es un lugar vegetariano y hacen muy buena pizza: perfecto para un café o algo de comer antes de la parte verde del paseo. Cuando estés listo, sigue este sendero, que baja hacia el parque.",
       "place": "Café Zorba Medellín",
       "via": [
         [
@@ -296,25 +296,25 @@
       ]
     },
     {
-      "name": "Por la Calle 8",
+      "name": "A la derecha por la Carrera 36",
       "kind": "walk",
       "lat": 6.20701,
       "lng": -75.56631,
-      "text": "Sigue la Calle 8, que dobla a la derecha."
+      "text": "Al final de la Calle 8, gira a la derecha por la Carrera 36."
     },
     {
-      "name": "Calle 8 con Carrera 36",
+      "name": "Cruzando la Carrera 36",
       "kind": "walk",
       "lat": 6.20761,
       "lng": -75.56653,
-      "text": "En la Carrera 36, sigue hacia el occidente por la Calle 8. 37 Park está ahí adelante."
+      "text": "Gira a la izquierda aquí y cruza la Carrera 36 por el paso peatonal, y luego toma el sendero que entra al parquecito. 37 Park está ahí adelante."
     },
     {
       "name": "37 Park",
       "kind": "stop",
       "lat": 6.20755,
       "lng": -75.56691,
-      "text": "Este es 37 Park, un restaurante y bar aquí en la Calle 8, y otra de nuestras recomendaciones: un buen lugar para tomarse algo o comer antes del último tramo del paseo. Después sigue hacia el occidente por la Calle 8 hasta la Carrera 37.",
+      "text": "Este es 37 Park, un restaurante y bar aquí junto al parquecito, y otra de nuestras recomendaciones: un buen lugar para tomarse algo o comer antes del último tramo del paseo. Después sigue por el sendero hasta la Carrera 37.",
       "place": "37 Park Medellín Restaurante Bar"
     },
     {
